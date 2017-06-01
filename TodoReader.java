@@ -2,9 +2,11 @@ package todoReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-import javax.json.Json;
+import javax.swing.JOptionPane;	
+import javax.swing.JPasswordField;
 
 import com.jcabi.github.*;
+
 public class TodoReader 
 {
 	
@@ -16,7 +18,6 @@ public class TodoReader
 			for(Content co: cont.iterate(path, ref))
 			{
 				Content.Smart c = new Content.Smart(co);
-				//System.out.println(c.path());
 				try 
 				{
 					c.json();
@@ -25,13 +26,11 @@ public class TodoReader
 				{
 					if(c.path().contains("/"))
 					{
-						//System.out.println(path + "/" + c.path().substring((c.path().lastIndexOf("/") + 1)));
 						printContents(cont, path + "/" + c.path().substring((c.path().lastIndexOf("/")) + 1), "master");
 					}
 					
 					else
 					{
-						//System.out.println(path + "/" + c.path());
 						printContents(cont, path + "/" + c.path(), "master");
 					}
 					
@@ -65,20 +64,58 @@ public class TodoReader
 	
 	public static void main(String[] args) throws IOException 
 	{
-		//read in Todo.txt file from given GitHub repository and give pertinent information
+		//read in Todo.txt file and Todo comments from given GitHub repository and give pertinent information
 		//v1: list total number of tasks
 		//TODO use this as a test
 		int TODO = 0;	//use this as a test
 		
-		Github gh = new RtGithub();
 		Scanner kb = new Scanner(System.in);
-		System.out.println("Enter username/repository:");
-		String repoName = kb.nextLine();
-		//iarhbahsir/GitHub-Data-Collection
-		Repo rp = gh.repos().get(new Coordinates.Simple(repoName));
-		Contents repoCont = rp.contents();
-		printContents(repoCont, "", "master");
-		System.out.println("\nTotal number of tasks: " + numTasks);
+		//usage of basic authentication allows for a much higher rate limit
+		System.out.println("Enter your username:");
+		String user = kb.nextLine();
+		
+		String pwd;
+		String message = "Enter your password for a higher rate limit";
+		
+		//Use of JPasswordField allows code to work in IDE console
+		if(System.console() == null) 
+		{ 
+		  JPasswordField pf = new JPasswordField();
+		  pf.requestFocusInWindow();
+		  pwd = JOptionPane.showConfirmDialog(null, pf, message, JOptionPane.OK_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE) == JOptionPane.OK_OPTION ? new String(pf.getPassword()) : "";
+		}
+		else
+		{
+			pwd = new String(System.console().readPassword("%s> ", message));
+		}
+		
+		Github gh;
+		
+		if(!pwd.equals(""))
+		{
+			gh = new RtGithub(user, pwd);
+		}
+		else
+		{
+			gh = new RtGithub();
+		}
+		
+		while(true)
+		{
+			System.out.println("\nEnter username/repository to get the number of TODO items or q to quit:");
+			String repoName = kb.nextLine();
+			if(repoName.equals("q"))
+			{
+				break;
+			}
+			Repo rp = gh.repos().get(new Coordinates.Simple(repoName));
+			Contents repoCont = rp.contents();
+			printContents(repoCont, "", "master");
+			System.out.println("\nTotal number of tasks: " + numTasks);
+			numTasks = 0;
+		}
+		
+		System.out.println("Exited.");
 	}
 
 }
