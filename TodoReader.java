@@ -11,6 +11,30 @@ public class TodoReader {
 	
 	private static int numTasks = 0;
 	
+	private static boolean checkIfString(String toCheck, String line) {
+		int quoteMark1 = line.indexOf("\"");
+		
+		while(quoteMark1 != -1) {
+			int quoteMark2 = line.indexOf("\"", quoteMark1 + 1);
+			
+			if(quoteMark2 != -1 && line.substring(quoteMark1 + 1, quoteMark2).contains(toCheck)) {
+				return true;
+			}
+			
+			if(quoteMark1 != -1) {
+				line = line.substring(quoteMark1 + 1);
+				quoteMark1 = line.indexOf("\"");
+			}
+			if(quoteMark1 != -1) {
+				line = line.substring(quoteMark1 + 1);
+				quoteMark1 = line.indexOf("\"");
+			}
+		}
+		
+		
+		return false;
+	}
+	
 	private static void readContents(Contents cont, String path, String ref) {
 		try {
 			for(Content co: cont.iterate(path, ref)) {
@@ -33,29 +57,41 @@ public class TodoReader {
 					
 				if(c.path().contains(".java")) {
 					Scanner fileScanner = new Scanner(c.raw());
+					boolean isComment = false;
 					boolean isMultiLineComment = false;
 					
 					while(fileScanner.hasNextLine()) {
 						
 						String nextLine = fileScanner.nextLine();
+						//change code so that only comment escapes outside of actual code are read
 						
-						if(nextLine.contains("/*")) {
-							isMultiLineComment = true;
+						//if contains // or /*, check if inside string literal
+						
+						if(nextLine.contains("//")) {
+							isComment = !checkIfString("//", nextLine);
+						}
+						if(nextLine.contains("/*") && !isMultiLineComment) {
+							if(!(isComment && nextLine.indexOf("/*") > nextLine.indexOf("//")))
+							{
+								isMultiLineComment = !checkIfString("/*", nextLine);
+							}
 						}
 						
-						if(nextLine.contains("//") || isMultiLineComment) {
-							if(nextLine.indexOf("TODO") > nextLine.indexOf("//")
-									|| (nextLine.contains("TODO") && isMultiLineComment)) {
+						if(isComment || isMultiLineComment) {
+							if(nextLine.substring(nextLine.indexOf(";") + 1).contains("TODO")) {
 								System.out.println(nextLine.substring(nextLine.indexOf("TODO")));
 								numTasks++;
 							}
-							if(nextLine.contains("*/")) {
+							
+							isComment = false;
+							
+							if(isMultiLineComment && nextLine.contains("*/") 
+									&& nextLine.indexOf("*/") > nextLine.indexOf("/*")) {
 								isMultiLineComment = false;
 							}
 						}
 					}
 				}
-				
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
