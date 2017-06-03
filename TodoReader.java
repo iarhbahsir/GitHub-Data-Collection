@@ -11,7 +11,7 @@ public class TodoReader {
 	
 	private static int numTasks = 0;
 	
-	private static boolean checkIfString(String toCheck, String line) {
+	public static boolean checkIfString(String toCheck, String line) {
 		int quoteMark1 = line.indexOf("\"");
 		
 		while(quoteMark1 != -1) {
@@ -35,7 +35,50 @@ public class TodoReader {
 		return false;
 	}
 	
-	private static void readContents(Contents cont, String path, String ref) {
+	public static int readContentForTodos(Content c, boolean print) throws IOException
+	{
+		int numTodosInFile = 0;
+		Scanner fileScanner = new Scanner(c.raw());
+		boolean isComment = false;
+		boolean isMultiLineComment = false;
+		
+		while(fileScanner.hasNextLine()) {
+			
+			String nextLine = fileScanner.nextLine();
+			
+			//if contains // or /*, check if inside string literal
+			
+			if(nextLine.contains("//")) {
+				isComment = !checkIfString("//", nextLine);
+			}
+			if(nextLine.contains("/*") && !isMultiLineComment) {
+				if(!(isComment && nextLine.indexOf("/*") > nextLine.indexOf("//")))
+				{
+					isMultiLineComment = !checkIfString("/*", nextLine);
+				}
+			}
+			
+			if(isComment || isMultiLineComment) {
+				if(nextLine.substring(nextLine.indexOf(";") + 1).contains("TODO")) {
+					if(print) {
+						System.out.println(nextLine.substring(nextLine.indexOf("TODO")));
+					}
+					numTodosInFile++;
+				}
+				
+				isComment = false;
+				
+				if(isMultiLineComment && nextLine.contains("*/") 
+						&& nextLine.indexOf("*/") > nextLine.indexOf("/*")) {
+					isMultiLineComment = false;
+				}
+			}
+		}
+		
+		return numTodosInFile;
+	}
+	
+	public static int readContents(Contents cont, String path, String ref, boolean print) {
 		try {
 			for(Content co: cont.iterate(path, ref)) {
 				
@@ -44,64 +87,37 @@ public class TodoReader {
 				try {
 					// check to see if JSON object (file) or array (directory)
 					// array throws exception
+					
 					c.json();
+					
 				} catch (javax.json.JsonException e) {
 					// go into directory if exception
 					if(c.path().contains("/")) {
 						readContents(cont, path + "/"
-								+ c.path().substring((c.path().lastIndexOf("/")) + 1), "master");
+								+ c.path().substring((c.path().lastIndexOf("/")) + 1), "master", print);
 					} else {
-						readContents(cont, path + "/" + c.path(), "master");
-					}
+						readContents(cont, path + "/" + c.path(), "master", print);
+					}	
+				} catch (java.lang.AssertionError err) {
+					// cannot currently handle files of size > 1MB, prints the paths of those files
+					System.out.println(c.path());
 				}
 					
 				if(c.path().contains(".java")) {
-					Scanner fileScanner = new Scanner(c.raw());
-					boolean isComment = false;
-					boolean isMultiLineComment = false;
-					
-					while(fileScanner.hasNextLine()) {
-						
-						String nextLine = fileScanner.nextLine();
-						//change code so that only comment escapes outside of actual code are read
-						
-						//if contains // or /*, check if inside string literal
-						
-						if(nextLine.contains("//")) {
-							isComment = !checkIfString("//", nextLine);
-						}
-						if(nextLine.contains("/*") && !isMultiLineComment) {
-							if(!(isComment && nextLine.indexOf("/*") > nextLine.indexOf("//")))
-							{
-								isMultiLineComment = !checkIfString("/*", nextLine);
-							}
-						}
-						
-						if(isComment || isMultiLineComment) {
-							if(nextLine.substring(nextLine.indexOf(";") + 1).contains("TODO")) {
-								System.out.println(nextLine.substring(nextLine.indexOf("TODO")));
-								numTasks++;
-							}
-							
-							isComment = false;
-							
-							if(isMultiLineComment && nextLine.contains("*/") 
-									&& nextLine.indexOf("*/") > nextLine.indexOf("/*")) {
-								isMultiLineComment = false;
-							}
-						}
-					}
+					numTasks += readContentForTodos(c, print);
 				}
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
-		}	
+		}
+		
+		return numTasks;
 	}
 	
 	public static void main(String[] args) throws IOException {
 		// read in Todo comments in .java files from given GitHub repository
 		
-		// TODO use this as a test blah
+		// TODO use this as a test
 		/*
 		 * TODO Multi-line test 1
 		 * */
@@ -143,7 +159,7 @@ public class TodoReader {
 			}
 			Repo rp = gh.repos().get(new Coordinates.Simple(repoName));
 			Contents repoCont = rp.contents();
-			readContents(repoCont, "", "master");
+			readContents(repoCont, "", "master", false);
 			System.out.println("\nTotal number of tasks: " + numTasks);
 			numTasks = 0;
 		}
