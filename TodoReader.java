@@ -69,7 +69,7 @@ public class TodoReader {
 				isComment = false;
 				
 				if(isMultiLineComment && nextLine.contains("*/") 
-						&& nextLine.indexOf("*/") > nextLine.indexOf("/*")) {
+					&& nextLine.indexOf("*/") > nextLine.indexOf("/*")) {
 					isMultiLineComment = false;
 				}
 			}
@@ -94,9 +94,9 @@ public class TodoReader {
 					// go into directory if exception
 					if(c.path().contains("/")) {
 						readContents(cont, path + "/"
-								+ c.path().substring((c.path().lastIndexOf("/")) + 1), "master", print);
+							+ c.path().substring((c.path().lastIndexOf("/")) + 1), ref, print);
 					} else {
-						readContents(cont, path + "/" + c.path(), "master", print);
+						readContents(cont, path + "/" + c.path(), ref, print);
 					}	
 				} catch (java.lang.AssertionError err) {
 					// cannot currently handle files of size > 1MB, prints the paths of those files
@@ -136,8 +136,8 @@ public class TodoReader {
 		  JPasswordField pf = new JPasswordField();
 		  pf.requestFocusInWindow();
 		  pwd = JOptionPane.showConfirmDialog(null, pf, message,
-				        JOptionPane.OK_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE) == JOptionPane.OK_OPTION
-				        		? new String(pf.getPassword()) : "";
+				    JOptionPane.OK_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE) == JOptionPane.OK_OPTION
+				        ? new String(pf.getPassword()) : "";
 		} else {
 			pwd = new String(System.console().readPassword("%s> ", message));
 		}
@@ -159,7 +159,15 @@ public class TodoReader {
 			}
 			Repo rp = gh.repos().get(new Coordinates.Simple(repoName));
 			Contents repoCont = rp.contents();
-			readContents(repoCont, "", "master", false);
+			System.out.println("\nEnter the default branch name (generally \"master\"):");
+			String branchName = kb.nextLine();
+			
+			try {
+				readContents(repoCont, "", branchName, false);
+			} catch(Error e) {
+				System.out.println(numTasks);
+			}
+			
 			System.out.println("\nTotal number of tasks: " + numTasks);
 			numTasks = 0;
 		}
