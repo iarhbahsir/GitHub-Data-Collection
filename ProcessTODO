@@ -1,0 +1,25 @@
+#!/bin/bash
+# take input for desired username/repo
+# git clone desired repo
+# find all .java files in cloned directory
+# output list of java files to a .txt file
+# run TodoReader java tool on the file of results to:
+# write all TODO tasks to a .txt file (name based on commit #, new file for every commit, new folder for every repo, create folder if doesn't exist)
+echo Enter username
+read USERNAME
+echo Enter repo name
+read REPONAME
+# USERNAME=iarhbahsir
+# REPONAME=GitHub-Data-Collection
+if test -d projects/$REPONAME; then
+rm -rf projects/$REPONAME
+echo deleted
+fi
+git clone https://github.com/$USERNAME/$REPONAME
+mv $REPONAME projects
+BASENAME=-JavaFiles.txt
+find projects/$REPONAME/ -name "*.java" > $REPONAME$BASENAME 
+echo finished
+cd projects/$REPONAME
+git log --pretty=format:"Abv. Hash: %h  Date: %cd"
+

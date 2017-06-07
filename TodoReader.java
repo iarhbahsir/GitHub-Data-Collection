@@ -1,4 +1,5 @@
 package todoReader;
+import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -33,6 +34,56 @@ public class TodoReader {
 		
 		
 		return false;
+	}
+	
+	public static void readFileForTodos(String filePath, File writeTo) {
+		
+		Scanner fileScanner = new Scanner(new File (filePath));
+		boolean isComment = false;
+		boolean isMultiLineComment = false;
+		
+		while(fileScanner.hasNextLine()) {
+					
+			String nextLine = fileScanner.nextLine();
+			
+			//if contains // or /*, check if inside string literal
+			
+			if(nextLine.contains("//")) {
+				isComment = !checkIfString("//", nextLine);
+			}
+			if(nextLine.contains("/*") && !isMultiLineComment) {
+				if(!(isComment && nextLine.indexOf("/*") > nextLine.indexOf("//")))
+				{
+					isMultiLineComment = !checkIfString("/*", nextLine);
+				}
+			}
+			
+			if(isComment || isMultiLineComment) {
+				if(nextLine.substring(nextLine.indexOf(";") + 1).contains("TODO")) {
+					//write to file
+					//substituted for test
+					System.out.println(nextLine);
+				}
+				
+				isComment = false;
+				
+				if(isMultiLineComment && nextLine.contains("*/") 
+					&& nextLine.indexOf("*/") > nextLine.indexOf("/*")) {
+					isMultiLineComment = false;
+				}
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		File javaFilePaths = new File(args[0]);
+		File writeTo = new File(args[1]);
+		Scanner jfpScanner = new Scanner(javaFilePaths);
+		
+		while(jfpScanner.hasNext()) {
+			String filePath = jfpScanner.nextLine();
+			readFileForTodos(filePath, writeTo);
+		}
 	}
 	
 	public static int readContentForTodos(Content c, boolean print) throws IOException
@@ -114,7 +165,7 @@ public class TodoReader {
 		return numTasks;
 	}
 	
-	public static void main(String[] args) throws IOException {
+	public static void main0(String[] args) throws IOException {
 		// read in Todo comments in .java files from given GitHub repository
 		
 		// TODO use this as a test
