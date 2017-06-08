@@ -6,20 +6,27 @@
 # run TodoReader java tool on the file of results to:
 # write all TODO tasks to a .txt file (name based on commit #, new file for every commit, new folder for every repo, create folder if doesn't exist)
 echo Enter username
-read USERNAME
+read userName
 echo Enter repo name
-read REPONAME
+read repoName
 # USERNAME=iarhbahsir
 # REPONAME=GitHub-Data-Collection
-if test -d projects/$REPONAME; then
-rm -rf projects/$REPONAME
+if test -d projects/$repoName; then
+rm -rf projects/$repoName
 echo deleted
 fi
-git clone https://github.com/$USERNAME/$REPONAME
-mv $REPONAME projects
-BASENAME=-JavaFiles.txt
-find projects/$REPONAME/ -name "*.java" > $REPONAME$BASENAME 
+git clone https://github.com/$userName/$repoName
+mv $repoName projects
+baseName=-JavaFiles.txt
+find projects/$repoName/ -name "*.java" > $repoName$baseName 
 echo finished
-cd projects/$REPONAME
-git log --pretty=format:"Abv. Hash: %h  Date: %cd"
-
+cd projects/$repoName
+# git log --pretty=format:"Abv. Hash: %h  Date: %cd"
+numCommits=$(git rev-list HEAD | wc -l)
+for((i=1; i<$numCommits; i++))
+do
+declare -i j=$i-1
+echo $j
+git log | sed -n '1p'
+git diff HEAD~$i..HEAD~$j
+done
