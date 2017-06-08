@@ -1,12 +1,14 @@
 package todoReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;	
 import javax.swing.JPasswordField;
 
-import com.jcabi.github.*;
+//import com.jcabi.github.*;
 
 public class TodoReader {
 	
@@ -36,9 +38,9 @@ public class TodoReader {
 		return false;
 	}
 	
-	public static void readFileForTodos(String filePath, File writeTo) {
+	public static void readFileForTodos(String basePath, String filePath, File writeTo) throws FileNotFoundException {
 		
-		Scanner fileScanner = new Scanner(new File (filePath));
+		Scanner fileScanner = new Scanner(new File (basePath + filePath));
 		boolean isComment = false;
 		boolean isMultiLineComment = false;
 		
@@ -75,154 +77,22 @@ public class TodoReader {
 		}
 	}
 	
-	public static void main(String[] args) {
-		File javaFilePaths = new File(args[0]);
-		File writeTo = new File(args[1]);
+	public static void main(String[] args) throws FileNotFoundException {
+		//File javaFilePaths = new File(args[0]);
+		//File writeTo = new File(args[1]);
+		Scanner kb = new Scanner(System.in);
+		System.out.println("Enter path of repo");
+		String basePath = kb.nextLine();
+		System.out.println("Enter path of .txt java file list:");
+		File javaFilePaths = new File(kb.nextLine());
+		System.out.println("Enter path of file to write to:");
+		File writeTo = new File(kb.nextLine());
+				
 		Scanner jfpScanner = new Scanner(javaFilePaths);
 		
 		while(jfpScanner.hasNext()) {
 			String filePath = jfpScanner.nextLine();
-			readFileForTodos(filePath, writeTo);
+			readFileForTodos(basePath, filePath, writeTo);
 		}
-	}
-	
-	public static int readContentForTodos(Content c, boolean print) throws IOException
-	{
-		int numTodosInFile = 0;
-		Scanner fileScanner = new Scanner(c.raw());
-		boolean isComment = false;
-		boolean isMultiLineComment = false;
-		
-		while(fileScanner.hasNextLine()) {
-			
-			String nextLine = fileScanner.nextLine();
-			
-			//if contains // or /*, check if inside string literal
-			
-			if(nextLine.contains("//")) {
-				isComment = !checkIfString("//", nextLine);
-			}
-			if(nextLine.contains("/*") && !isMultiLineComment) {
-				if(!(isComment && nextLine.indexOf("/*") > nextLine.indexOf("//")))
-				{
-					isMultiLineComment = !checkIfString("/*", nextLine);
-				}
-			}
-			
-			if(isComment || isMultiLineComment) {
-				if(nextLine.substring(nextLine.indexOf(";") + 1).contains("TODO")) {
-					if(print) {
-						System.out.println(nextLine.substring(nextLine.indexOf("TODO")));
-					}
-					numTodosInFile++;
-				}
-				
-				isComment = false;
-				
-				if(isMultiLineComment && nextLine.contains("*/") 
-					&& nextLine.indexOf("*/") > nextLine.indexOf("/*")) {
-					isMultiLineComment = false;
-				}
-			}
-		}
-		
-		return numTodosInFile;
-	}
-	
-	public static int readContents(Contents cont, String path, String ref, boolean print) {
-		try {
-			for(Content co: cont.iterate(path, ref)) {
-				
-				Content.Smart c = new Content.Smart(co);
-				
-				try {
-					// check to see if JSON object (file) or array (directory)
-					// array throws exception
-					
-					c.json();
-					
-				} catch (javax.json.JsonException e) {
-					// go into directory if exception
-					if(c.path().contains("/")) {
-						readContents(cont, path + "/"
-							+ c.path().substring((c.path().lastIndexOf("/")) + 1), ref, print);
-					} else {
-						readContents(cont, path + "/" + c.path(), ref, print);
-					}	
-				} catch (java.lang.AssertionError err) {
-					// cannot currently handle files of size > 1MB, prints the paths of those files
-					System.out.println(c.path());
-				}
-					
-				if(c.path().contains(".java")) {
-					numTasks += readContentForTodos(c, print);
-				}
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		
-		return numTasks;
-	}
-	
-	public static void main0(String[] args) throws IOException {
-		// read in Todo comments in .java files from given GitHub repository
-		
-		// TODO use this as a test
-		/*
-		 * TODO Multi-line test 1
-		 * */
-		/* TODO Multi-line test 2 */
-		int TODO = 0;	// use this as a test
-		
-		Scanner kb = new Scanner(System.in);
-		// usage of basic authentication allows for a much higher rate limit
-		System.out.println("Enter your username:");
-		String user = kb.nextLine();
-		
-		// use of JPasswordField allows code to work in IDE console
-		String pwd;
-		String message = "Enter your password for a higher rate limit";
-		if(System.console() == null) { 
-		  JPasswordField pf = new JPasswordField();
-		  pf.requestFocusInWindow();
-		  pwd = JOptionPane.showConfirmDialog(null, pf, message,
-				    JOptionPane.OK_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE) == JOptionPane.OK_OPTION
-				        ? new String(pf.getPassword()) : "";
-		} else {
-			pwd = new String(System.console().readPassword("%s> ", message));
-		}
-		
-		Github gh;
-		
-		// defaults to lower rate limit/anonymous login if password is not entered
-		if(!pwd.equals("")) {
-			gh = new RtGithub(user, pwd);
-		} else {
-			gh = new RtGithub();
-		}
-		
-		while(true) {
-			System.out.println("\nEnter username/repository to get the number of TODO items or q to quit:");
-			String repoName = kb.nextLine();
-			if(repoName.equals("q")) {
-				break;
-			}
-			Repo rp = gh.repos().get(new Coordinates.Simple(repoName));
-			Contents repoCont = rp.contents();
-			System.out.println("\nEnter the default branch name (generally \"master\"):");
-			String branchName = kb.nextLine();
-			
-			try {
-				readContents(repoCont, "", branchName, false);
-			} catch(Error e) {
-				System.out.println(numTasks);
-			}
-			
-			System.out.println("\nTotal number of tasks: " + numTasks);
-			numTasks = 0;
-		}
-		
-		System.out.println("Exited.");
 	}
 }
