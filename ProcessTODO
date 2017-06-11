@@ -23,10 +23,9 @@ echo finished
 cd projects/$repoName
 # git log --pretty=format:"Abv. Hash: %h  Date: %cd"
 numCommits=$(git rev-list HEAD | wc -l)
-for((i=1; i<$numCommits; i++))
-do
-declare -i j=$i-1
-echo $j
-git log | sed -n '1p'
-git diff HEAD~$i..HEAD~$j
+for((i=1; i<$numCommits; i++)); do
+    declare -i j=$i-1
+    echo $j
+    git log | sed -n '1p'
+    git diff HEAD~$i..HEAD~$j
 done
