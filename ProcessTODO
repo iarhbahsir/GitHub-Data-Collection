@@ -13,23 +13,35 @@ read repoName
 # USERNAME=iarhbahsir
 # REPONAME=GitHub-Data-Collection
 
-if test -d projects/$repoName; then
-    rm -rf projects/$repoName
+CLONED_DIR="_cloned"
+mkdir ${CLONED_DIR}
+
+if test -d ${CLONED_DIR}/$repoName; then
+    rm -rf ${CLONED_DIR}/$repoName
     echo deleted
 fi
 
-git clone https://github.com/$userName/$repoName
-mv $repoName projects
+git clone https://github.com/$userName/$repoName ${CLONED_DIR}/$repoName
+
+# Check if we successfully cloned.
+if [ ! -d ${CLONED_DIR}/$repoName ]; then
+    echo "There is not directory cloned $repoName"
+    exit 1
+fi
+
 baseName=-JavaFiles.txt
-find projects/$repoName/ -name "*.java" > $repoName$baseName 
+find ${CLONED_DIR}/$repoName/ -name "*.java" > $repoName$baseName 
 echo finished
 
-cd projects/$repoName
+cd ${CLONED_DIR}/$repoName
 # git log --pretty=format:"Abv. Hash: %h  Date: %cd"
+file="output.txt"
+rm -f ${file}
+
 numCommits=$(git rev-list HEAD | wc -l)
 for((i=1; i<$numCommits; i++)); do
     declare -i j=$i-1
     echo $j
-    git log | sed -n '1p'
-    git diff HEAD~$i..HEAD~$j
+    git log | sed -n '1p' >> ${file}
+    git diff HEAD~$i..HEAD~$j >> ${file}
 done
