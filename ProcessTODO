@@ -9,17 +9,21 @@ echo Enter username
 read userName
 echo Enter repo name
 read repoName
+
 # USERNAME=iarhbahsir
 # REPONAME=GitHub-Data-Collection
+
 if test -d projects/$repoName; then
-rm -rf projects/$repoName
-echo deleted
+    rm -rf projects/$repoName
+    echo deleted
 fi
+
 git clone https://github.com/$userName/$repoName
 mv $repoName projects
 baseName=-JavaFiles.txt
 find projects/$repoName/ -name "*.java" > $repoName$baseName 
 echo finished
+
 cd projects/$repoName
 # git log --pretty=format:"Abv. Hash: %h  Date: %cd"
 numCommits=$(git rev-list HEAD | wc -l)
