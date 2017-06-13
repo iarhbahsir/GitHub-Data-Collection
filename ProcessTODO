@@ -5,41 +5,73 @@
 # output list of java files to a .txt file
 # run TodoReader java tool on the file of results to:
 # write all TODO tasks to a .txt file (name based on commit #, new file for every commit, new folder for every repo, create folder if doesn't exist)
+
+cd
 echo Enter username
 userName=iarhbahsir
-#read userName
+# read userName
 echo Enter repo name
-#read repoName
+# read repoName
 repoName=GitHub-Data-Collection
 
 CLONED_DIR="Cloned"
-mkdir ${CLONED_DIR}
+mkdir ${CLONED_DIR} 
+cd ${CLONED_DIR}
 
-if test -d ${CLONED_DIR}/$repoName; then
-    rm -rf ${CLONED_DIR}/$repoName
+if test -d $repoName; then
+    rm -rf $repoName
     echo deleted
 fi
 
-git clone https://github.com/$userName/$repoName ${CLONED_DIR}/$repoName
+git clone https://github.com/$userName/$repoName $repoName
 
 # Check if we successfully cloned.
-if [ ! -d ${CLONED_DIR}/$repoName ]; then
+if [ ! -d $repoName ]; then
     echo "There is not directory cloned $repoName"
     exit 1
 fi
 
-baseName=-JavaFiles.txt
-find ${CLONED_DIR}/$repoName/ -name "*.java" > $repoName$baseName 
-echo finished
+# Create file listing all java files in repo
+INFO_SUF="-Info"
+JAVAFILE_SUF="-JavaFiles.txt"
 
-cd ${CLONED_DIR}/$repoName
+
+if test -d $repoName$INFO_SUF; then
+    rm -rf $repoName$INFO_SUF
+    echo "info deleted"
+fi
+
+mkdir $repoName$INFO_SUF
+cd $repoName
+cur=$(pwd)
+find -name "*.java" > $cur$INFO_SUF/$repoName$JAVAFILE_SUF 
+echo "created list of java files in directory $repoName$INFO_SUF"
+
+# Write each change log to a new file in -Info directory
 # git log --pretty=format:"Abv. Hash: %h  Date: %cd"
-file="output.txt"
-rm -f ${file}
 
+MAX_COMMITS=100
 numCommits=$(git rev-list HEAD | wc -l)
+if [ $numCommits -gt $MAX_COMMITS ]; then
+    numCommits=$MAX_COMMITS
+fi
+echo "Previous $numCommits commits read"
+
 for((i=1; i<$numCommits; i++)); do
     declare -i j=$i-1
-    git log | sed -n '1p' >> ${file}
+    declare -i fileNum=$numCommits-$i
+    file="${repoName}-Output-$fileNum.txt"
+    git rev-list HEAD | sed -n "${i}p" >> ${file}
     git diff HEAD~$i..HEAD~$j >> ${file}
+    mv $file ${cur}$INFO_SUF
 done
+
+file="${repoName}-Output-0.txt"
+oldestCommit=$(git rev-list HEAD | sed -n "${numCommits}p")
+while IFS='' read -r line || [[ -n "$line" ]]; do
+    git show $oldestCommit:$line >> $file
+done < "$cur-Info/$repoName$JAVAFILE_SUF"
+
+mv $file ${cur}-Info
+
+echo "Process completed"
