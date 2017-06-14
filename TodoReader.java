@@ -1,20 +1,18 @@
 package todoReader;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.util.HashMap;
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;	
-import javax.swing.JPasswordField;
-
-//import com.jcabi.github.*;
-
 public class TodoReader {
+
+	private HashMap<Todo, String> todoKeeper = new HashMap<Todo, String>();
 	
-	private static int numTasks = 0;
+	private enum ReadType {
+		INITIALIZE, UPDATE
+	}
 	
-	public static boolean checkIfString(String toCheck, String line) {
+	public boolean checkIfString(String toCheck, String line) {
 		int quoteMark1 = line.indexOf("\"");
 		
 		while(quoteMark1 != -1) {
@@ -34,21 +32,25 @@ public class TodoReader {
 			}
 		}
 		
-		
 		return false;
 	}
 	
-	public static void readFileForTodos(String basePath, String filePath, File writeTo) throws FileNotFoundException {
+	public void readFileForTodos(File toRead, ReadType howToRead) throws FileNotFoundException {
 		
-		Scanner fileScanner = new Scanner(new File (basePath + filePath));
+		Scanner fileScanner = new Scanner(toRead);
 		boolean isComment = false;
 		boolean isMultiLineComment = false;
+		
+		// first line is always the commit time (unimplemented), second is commit hash
+		String commitTime = fileScanner.nextLine();
+		String commitHash = fileScanner.nextLine();
 		
 		while(fileScanner.hasNextLine()) {
 					
 			String nextLine = fileScanner.nextLine();
+			// TODO check for file name
 			
-			//if contains // or /*, check if inside string literal
+			// if contains // or /*, check if inside string literal
 			
 			if(nextLine.contains("//")) {
 				isComment = !checkIfString("//", nextLine);
@@ -62,9 +64,37 @@ public class TodoReader {
 			
 			if(isComment || isMultiLineComment) {
 				if(nextLine.substring(nextLine.indexOf(";") + 1).contains("TODO")) {
-					//write to file
-					//substituted for test
-					System.out.println(nextLine);
+					// found Todo
+					if(howToRead == ReadType.INITIALIZE) {
+						// initialize todos for oldest examined commit (looking at all code, not just changes)
+						todoKeeper.put(new Todo(nextLine, "", commitHash, commitTime), "");
+					} else {
+						// update todos (looking only at changes in code)
+						if(nextLine.charAt(0) == '+' && nextLine.charAt(1) != '+') {
+							//update addition
+							nextLine = nextLine.substring(1);
+							nextLine.trim();
+							Todo toAdd = new Todo(nextLine, "");
+							if(!todoKeeper.containsKey(toAdd)) {
+								toAdd.setCreationCommitHash(commitHash);
+								toAdd.setTimeOfCreation(commitTime);
+								todoKeeper.put(toAdd, "");
+							}
+						}
+						else if(nextLine.charAt(0) == '-' && nextLine.charAt(1) != '-') {
+							//update deletion
+							nextLine = nextLine.substring(1);
+							nextLine.trim();
+							Todo toDelete = new Todo(nextLine, "");
+							if(todoKeeper.containsKey(toDelete)) {
+								String v = todoKeeper.get(toDelete);
+								todoKeeper.remove(toDelete, v);
+								toDelete.setDeletionCommitHash(commitHash);
+								toDelete.setTimeOfDeletion(commitTime);
+								todoKeeper.put(toDelete, v);
+							}
+						}
+					}
 				}
 				
 				isComment = false;
@@ -75,24 +105,31 @@ public class TodoReader {
 				}
 			}
 		}
+		fileScanner.close();
 	}
 	
 	public static void main(String[] args) throws FileNotFoundException {
-		//File javaFilePaths = new File(args[0]);
-		//File writeTo = new File(args[1]);
 		Scanner kb = new Scanner(System.in);
-		System.out.println("Enter path of repo");
-		String basePath = kb.nextLine();
-		System.out.println("Enter path of .txt java file list:");
-		File javaFilePaths = new File(kb.nextLine());
-		System.out.println("Enter path of file to write to:");
-		File writeTo = new File(kb.nextLine());
-				
-		Scanner jfpScanner = new Scanner(javaFilePaths);
+		System.out.println("Enter path to Cloned directory");
+		String clonedPath = kb.nextLine();
+		// while testing
+		String repoName = "GitHub-Data-Collection";
 		
-		while(jfpScanner.hasNext()) {
-			String filePath = jfpScanner.nextLine();
-			readFileForTodos(basePath, filePath, writeTo);
+		File infoDir = new File(clonedPath + "/" + repoName + "-Info");
+		String CommitInfoPath = infoDir.getAbsolutePath() + "/" + repoName + "-Output-";
+		File OldestCommitInfo = new File(CommitInfoPath + "0.txt");
+		TodoReader reader = new TodoReader();
+		
+		reader.readFileForTodos(OldestCommitInfo, ReadType.INITIALIZE);
+		
+		int count = 1;
+		File commitInfo = new File(CommitInfoPath + count + ".txt");
+		while(commitInfo.exists()) {
+			reader.readFileForTodos(commitInfo, ReadType.UPDATE);
+			commitInfo = new File(CommitInfoPath + count + ".txt");
 		}
+		
+		System.out.println("Done");
+		kb.close();
 	}
 }

@@ -48,7 +48,7 @@ find -name "*.java" > $cur$INFO_SUF/$repoName$JAVAFILE_SUF
 echo "created list of java files in directory $repoName$INFO_SUF"
 
 # Write each change log to a new file in -Info directory
-# git log --pretty=format:"Abv. Hash: %h  Date: %cd"
+# git log --pretty=format:"%cd"
 
 MAX_COMMITS=100
 numCommits=$(git rev-list HEAD | wc -l)
@@ -61,6 +61,8 @@ for((i=1; i<$numCommits; i++)); do
     declare -i j=$i-1
     declare -i fileNum=$numCommits-$i
     file="${repoName}-Output-$fileNum.txt"
+    date=$(git log --pretty=format:"%cd" | sed -n "${i}p")
+    echo $date >> $file
     git rev-list HEAD | sed -n "${i}p" >> ${file}
     git diff HEAD~$i..HEAD~$j >> ${file}
     mv $file ${cur}$INFO_SUF
@@ -68,8 +70,14 @@ done
 
 file="${repoName}-Output-0.txt"
 oldestCommit=$(git rev-list HEAD | sed -n "${numCommits}p")
+date=$(git log --pretty=format:"%cd" | sed -n "${numCommits}p")
+echo $date >> $file
+git rev-list HEAD | sed -n "${numCommits}p" >> ${file}
 while IFS='' read -r line || [[ -n "$line" ]]; do
-    git show $oldestCommit:$line >> $file
+    # place delimiter then file name
+    echo "!D@E#L\$I%M^I&T*E(R)" >> $file
+    echo $line >> $file
+git show $oldestCommit:$line >> $file
 done < "$cur-Info/$repoName$JAVAFILE_SUF"
 
 mv $file ${cur}-Info
