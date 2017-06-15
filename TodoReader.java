@@ -44,12 +44,21 @@ public class TodoReader {
 		// first line is always the commit time (unimplemented), second is commit hash
 		String commitTime = fileScanner.nextLine();
 		String commitHash = fileScanner.nextLine();
+		String fileName = "";
 		
 		while(fileScanner.hasNextLine()) {
 					
 			String nextLine = fileScanner.nextLine();
 			// TODO check for file name
-			
+			if(howToRead == ReadType.INITIALIZE && nextLine.equals("!D@E#L$I%M^I&T*E(R)")) {
+				fileName = new String(nextLine);
+			}
+			else if(howToRead == ReadType.UPDATE && nextLine.startsWith("--- ") && !nextLine.endsWith("/null")) {
+				fileName = new String(nextLine.substring(nextLine.indexOf("/")));
+			}
+			else if(howToRead == ReadType.UPDATE && nextLine.startsWith("+++ ") && !nextLine.endsWith("/null")) {
+				fileName = new String(nextLine.substring(nextLine.indexOf("/")));
+			}
 			// if contains // or /*, check if inside string literal
 			
 			if(nextLine.contains("//")) {
@@ -67,25 +76,28 @@ public class TodoReader {
 					// found Todo
 					if(howToRead == ReadType.INITIALIZE) {
 						// initialize todos for oldest examined commit (looking at all code, not just changes)
-						todoKeeper.put(new Todo(nextLine, "", commitHash, commitTime), "");
+						todoKeeper.put(new Todo(nextLine, fileName, commitHash, commitTime), "");
 					} else {
 						// update todos (looking only at changes in code)
 						if(nextLine.charAt(0) == '+' && nextLine.charAt(1) != '+') {
 							//update addition
 							nextLine = nextLine.substring(1);
-							nextLine.trim();
-							Todo toAdd = new Todo(nextLine, "");
+							nextLine = nextLine.trim();
+							Todo toAdd = new Todo(nextLine, fileName);
 							if(!todoKeeper.containsKey(toAdd)) {
 								toAdd.setCreationCommitHash(commitHash);
+								//System.out.println(toAdd.getCreationCommitHash());
 								toAdd.setTimeOfCreation(commitTime);
+								//System.out.println(toAdd);
+								//System.out.println(toAdd.getTimeOfCreation());
 								todoKeeper.put(toAdd, "");
 							}
 						}
 						else if(nextLine.charAt(0) == '-' && nextLine.charAt(1) != '-') {
 							//update deletion
 							nextLine = nextLine.substring(1);
-							nextLine.trim();
-							Todo toDelete = new Todo(nextLine, "");
+							nextLine = nextLine.trim();
+							Todo toDelete = new Todo(nextLine, fileName);
 							if(todoKeeper.containsKey(toDelete)) {
 								String v = todoKeeper.get(toDelete);
 								todoKeeper.remove(toDelete, v);
@@ -108,6 +120,11 @@ public class TodoReader {
 		fileScanner.close();
 	}
 	
+	public void showTodos()
+	{
+		System.out.println(todoKeeper.keySet());
+	}
+	
 	public static void main(String[] args) throws FileNotFoundException {
 		Scanner kb = new Scanner(System.in);
 		System.out.println("Enter path to Cloned directory");
@@ -127,9 +144,13 @@ public class TodoReader {
 		while(commitInfo.exists()) {
 			reader.readFileForTodos(commitInfo, ReadType.UPDATE);
 			commitInfo = new File(CommitInfoPath + count + ".txt");
+			count++;
 		}
 		
 		System.out.println("Done");
+		
+		reader.showTodos();
+		
 		kb.close();
 	}
 }

@@ -11,23 +11,29 @@ public class Todo {
 	
 	public Todo(String content, String fileName)
 	{
-		this.content = content;
-		this.fileName = fileName;
-		this.deletionCommitHash = "Todo is incomplete";
+		setContent(content);
+		setFileName(fileName);
+		setTimeOfCreation("Not Working");
+		setTimeOfDeletion("Todo Is Incomplete");
+		setCreationCommitHash("Not this either");
+		setDeletionCommitHash("Todo is incomplete");
 	}
 	
 	public Todo(String content, String fileName, String creationCommitHash, String timeOfCreation)
 	{
-		this.content = content;
-		this.fileName = fileName;
-		this.creationCommitHash = creationCommitHash;
-		this.timeOfCreation = timeOfCreation;
-		this.deletionCommitHash = "Todo is incomplete";
+		setContent(content);
+		setFileName(fileName);
+		setTimeOfCreation(timeOfCreation);
+		setTimeOfDeletion("Todo Is Incomplete");
+		setCreationCommitHash(creationCommitHash);
+		setDeletionCommitHash("Todo is incomplete");
 	}
 	
-	@Override
 	public String toString() {
-		return "Content: " + content + "  File Name: " + fileName;
+		return "Content: " + getContent() + "\nFile Name: " + getFileName()
+			+ "\nTime Of Creation: " + getTimeOfCreation() + "\nTime Of Deletion: " + getTimeOfDeletion()
+			+ "\nCreation Commit Hash: " + getCreationCommitHash() + "\nDeletion Commit Hash: " + getDeletionCommitHash()
+			+ "\n\n";
 	}
 
 	@Override
