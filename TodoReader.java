@@ -1,12 +1,16 @@
 package todoReader;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.HashMap;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.time.OffsetDateTime;
 import java.util.Scanner;
+import java.util.TreeSet;
+import todoReader.Todo;
 
 public class TodoReader {
 
-	private HashMap<Todo, String> todoKeeper = new HashMap<Todo, String>();
+	private TreeSet<Todo> todoKeeper = new TreeSet<Todo>();
 	
 	private enum ReadType {
 		INITIALIZE, UPDATE
@@ -41,7 +45,7 @@ public class TodoReader {
 		boolean isComment = false;
 		boolean isMultiLineComment = false;
 		
-		// first line is always the commit time (unimplemented), second is commit hash
+		// first line is always the commit time, second is commit hash
 		String commitTime = fileScanner.nextLine();
 		String commitHash = fileScanner.nextLine();
 		String fileName = "";
@@ -49,7 +53,7 @@ public class TodoReader {
 		while(fileScanner.hasNextLine()) {
 					
 			String nextLine = fileScanner.nextLine();
-			// TODO check for file name
+			// TODO implement in ProcessTODO, add elapsed time (change to localDate/Time), account for single line change of Todos
 			if(howToRead == ReadType.INITIALIZE && nextLine.equals("!D@E#L$I%M^I&T*E(R)")) {
 				fileName = new String(nextLine);
 			}
@@ -60,77 +64,90 @@ public class TodoReader {
 				fileName = new String(nextLine.substring(nextLine.indexOf("/")));
 			}
 			// if contains // or /*, check if inside string literal
-			
-			if(nextLine.contains("//")) {
-				isComment = !checkIfString("//", nextLine);
-			}
-			if(nextLine.contains("/*") && !isMultiLineComment) {
-				if(!(isComment && nextLine.indexOf("/*") > nextLine.indexOf("//")))
-				{
-					isMultiLineComment = !checkIfString("/*", nextLine);
+			if(fileName.endsWith(".java")) {
+				if(nextLine.contains("//")) {
+					isComment = !checkIfString("//", nextLine);
 				}
-			}
-			
-			if(isComment || isMultiLineComment) {
-				if(nextLine.substring(nextLine.indexOf(";") + 1).contains("TODO")) {
-					// found Todo
-					if(howToRead == ReadType.INITIALIZE) {
-						// initialize todos for oldest examined commit (looking at all code, not just changes)
-						todoKeeper.put(new Todo(nextLine, fileName, commitHash, commitTime), "");
-					} else {
-						// update todos (looking only at changes in code)
-						if(nextLine.charAt(0) == '+' && nextLine.charAt(1) != '+') {
-							//update addition
-							nextLine = nextLine.substring(1);
-							nextLine = nextLine.trim();
-							Todo toAdd = new Todo(nextLine, fileName);
-							if(!todoKeeper.containsKey(toAdd)) {
-								toAdd.setCreationCommitHash(commitHash);
-								//System.out.println(toAdd.getCreationCommitHash());
-								toAdd.setTimeOfCreation(commitTime);
-								//System.out.println(toAdd);
-								//System.out.println(toAdd.getTimeOfCreation());
-								todoKeeper.put(toAdd, "");
-							}
-						}
-						else if(nextLine.charAt(0) == '-' && nextLine.charAt(1) != '-') {
-							//update deletion
-							nextLine = nextLine.substring(1);
-							nextLine = nextLine.trim();
-							Todo toDelete = new Todo(nextLine, fileName);
-							if(todoKeeper.containsKey(toDelete)) {
-								String v = todoKeeper.get(toDelete);
-								todoKeeper.remove(toDelete, v);
-								toDelete.setDeletionCommitHash(commitHash);
-								toDelete.setTimeOfDeletion(commitTime);
-								todoKeeper.put(toDelete, v);
-							}
-						}
+				if(nextLine.contains("/*") && !isMultiLineComment) {
+					if(!(isComment && nextLine.indexOf("/*") > nextLine.indexOf("//")))
+					{
+						isMultiLineComment = !checkIfString("/*", nextLine);
 					}
 				}
 				
-				isComment = false;
-				
-				if(isMultiLineComment && nextLine.contains("*/") 
-					&& nextLine.indexOf("*/") > nextLine.indexOf("/*")) {
-					isMultiLineComment = false;
+				if(isComment || isMultiLineComment) {
+					if(nextLine.substring(nextLine.indexOf(";") + 1).contains("TODO")) {
+						// found Todo
+						if(howToRead == ReadType.INITIALIZE) {
+							// initialize todos for oldest examined commit (looking at all code, not just changes)
+							todoKeeper.add(new Todo(nextLine, fileName, commitHash, commitTime));
+						} else {
+							// update todos (looking only at changes in code)
+							if(nextLine.charAt(0) == '+' && nextLine.charAt(1) != '+') {
+								//update addition
+								nextLine = nextLine.substring(1);
+								nextLine = nextLine.trim();
+								Todo toAdd = new Todo(nextLine, fileName);
+								if(!todoKeeper.contains(toAdd)) {
+									toAdd.setCreationCommitHash(commitHash);
+									toAdd.setTimeOfCreation(commitTime);
+									todoKeeper.add(toAdd);
+								}
+							}
+							else if(nextLine.charAt(0) == '-' && nextLine.charAt(1) != '-') {
+								//update deletion
+								nextLine = nextLine.substring(1);
+								nextLine = nextLine.trim();
+								Todo toDelete = new Todo(nextLine, fileName);
+								if(todoKeeper.contains(toDelete)) {
+									String cHash = todoKeeper.ceiling(toDelete).getCreationCommitHash();
+									OffsetDateTime cTime = todoKeeper.ceiling(toDelete).getTimeOfCreation();
+									todoKeeper.remove(toDelete);
+									toDelete.setCreationCommitHash(cHash);
+									toDelete.setTimeOfCreation(cTime);
+									toDelete.setDeletionCommitHash(commitHash);
+									toDelete.setTimeOfDeletion(commitTime);
+									todoKeeper.add(toDelete);
+								}
+							}
+						}
+					}
+					
+					isComment = false;
+					
+					if(isMultiLineComment && nextLine.contains("*/") 
+						&& nextLine.indexOf("*/") > nextLine.indexOf("/*")) {
+						isMultiLineComment = false;
+					}
 				}
 			}
-		}
+		}	
 		fileScanner.close();
 	}
 	
-	public void showTodos()
+	public String showTodos()
 	{
-		System.out.println(todoKeeper.keySet());
+		String toReturn = "";
+		
+		if(todoKeeper.isEmpty()) {
+			return "No TODOs";
+		}
+		
+		for(Todo toAdd: todoKeeper) {
+			toReturn += toAdd.toString();
+		}
+		
+		return toReturn;
 	}
 	
-	public static void main(String[] args) throws FileNotFoundException {
-		Scanner kb = new Scanner(System.in);
-		System.out.println("Enter path to Cloned directory");
-		String clonedPath = kb.nextLine();
+	public static void main(String[] args) throws IOException {
+		//Scanner kb = new Scanner(System.in);
+		//System.out.println("Enter path to Cloned directory");
+		//String clonedPath = kb.nextLine();
+		String clonedPath = args[0];
 		// while testing
-		String repoName = "GitHub-Data-Collection";
+		//String repoName = "GitHub-Data-Collection";
+		String repoName = args[1];
 		
 		File infoDir = new File(clonedPath + "/" + repoName + "-Info");
 		String CommitInfoPath = infoDir.getAbsolutePath() + "/" + repoName + "-Output-";
@@ -147,10 +164,13 @@ public class TodoReader {
 			count++;
 		}
 		
-		System.out.println("Done");
+		File outputFile = new File(infoDir.getAbsolutePath() + "/" + repoName + "-TODO-Info.txt");
+		FileWriter output = new FileWriter(outputFile);
+		output.write(reader.showTodos());
 		
-		reader.showTodos();
+		System.out.println("Analysis done.");
 		
-		kb.close();
+		output.close();
+		//kb.close();
 	}
 }

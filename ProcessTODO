@@ -8,15 +8,14 @@
 
 cd
 echo Enter username
-userName=iarhbahsir
-# read userName
+read userName
 echo Enter repo name
-# read repoName
-repoName=GitHub-Data-Collection
+read repoName
 
 CLONED_DIR="Cloned"
 mkdir ${CLONED_DIR} 
 cd ${CLONED_DIR}
+pathInput=$(pwd)
 
 if test -d $repoName; then
     rm -rf $repoName
@@ -48,8 +47,6 @@ find -name "*.java" > $cur$INFO_SUF/$repoName$JAVAFILE_SUF
 echo "created list of java files in directory $repoName$INFO_SUF"
 
 # Write each change log to a new file in -Info directory
-# git log --pretty=format:"%cd"
-
 MAX_COMMITS=100
 numCommits=$(git rev-list HEAD | wc -l)
 if [ $numCommits -gt $MAX_COMMITS ]; then
@@ -61,7 +58,7 @@ for((i=1; i<$numCommits; i++)); do
     declare -i j=$i-1
     declare -i fileNum=$numCommits-$i
     file="${repoName}-Output-$fileNum.txt"
-    date=$(git log --pretty=format:"%cd" | sed -n "${i}p")
+    date=$(git log --date=iso-strict --pretty=format:"%cd" | sed -n "${i}p")
     echo $date >> $file
     git rev-list HEAD | sed -n "${i}p" >> ${file}
     git diff HEAD~$i..HEAD~$j >> ${file}
@@ -70,7 +67,7 @@ done
 
 file="${repoName}-Output-0.txt"
 oldestCommit=$(git rev-list HEAD | sed -n "${numCommits}p")
-date=$(git log --pretty=format:"%cd" | sed -n "${numCommits}p")
+date=$(git log --date=iso-strict --pretty=format:"%cd" | sed -n "${numCommits}p")
 echo $date >> $file
 git rev-list HEAD | sed -n "${numCommits}p" >> ${file}
 while IFS='' read -r line || [[ -n "$line" ]]; do
@@ -82,4 +79,15 @@ done < "$cur-Info/$repoName$JAVAFILE_SUF"
 
 mv $file ${cur}-Info
 
-echo "Process completed"
+echo "Setup done."
+
+# Run TodoReader java tool
+cd
+cd workspace/GitHub\ Data\ Collection/src
+javac -d ../bin -classpath ../bin todoReader/TodoReader.java
+cd ..
+cd bin
+java todoReader/TodoReader "$pathInput" "$repoName"
+
+
+echo "Process completed."

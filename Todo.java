@@ -1,22 +1,25 @@
 package todoReader;
 
-public class Todo {
+import java.time.Duration;
+import java.time.OffsetDateTime;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+
+public class Todo implements Comparable<Todo>{
 	
 	private String content;
 	private String fileName;
 	private String creationCommitHash;
 	private String deletionCommitHash;
-	private String timeOfCreation;
-	private String timeOfDeletion;
+	private OffsetDateTime timeOfCreation;
+	private OffsetDateTime timeOfDeletion;
+	
+	private static final DateTimeFormatter timeFormat = DateTimeFormatter.ISO_OFFSET_DATE_TIME;
 	
 	public Todo(String content, String fileName)
 	{
 		setContent(content);
 		setFileName(fileName);
-		setTimeOfCreation("Not Working");
-		setTimeOfDeletion("Todo Is Incomplete");
-		setCreationCommitHash("Not this either");
-		setDeletionCommitHash("Todo is incomplete");
 	}
 	
 	public Todo(String content, String fileName, String creationCommitHash, String timeOfCreation)
@@ -24,15 +27,47 @@ public class Todo {
 		setContent(content);
 		setFileName(fileName);
 		setTimeOfCreation(timeOfCreation);
-		setTimeOfDeletion("Todo Is Incomplete");
 		setCreationCommitHash(creationCommitHash);
-		setDeletionCommitHash("Todo is incomplete");
+	}
+
+	@Override
+	public int compareTo(Todo toCompare) {
+		
+		if(!(getContent().compareTo((toCompare).getContent()) == 0)) {
+			return getContent().compareTo((toCompare).getContent());
+		}
+		if(!(getFileName().compareTo((toCompare).getFileName()) == 0)) {
+			return getFileName().compareTo((toCompare).getFileName());
+		}
+		
+		if(getTimeOfDeletion() == null && toCompare.getTimeOfDeletion() == null) {
+			return 0;
+		}
+		
+		if(getTimeOfDeletion() == null) {
+			return -1;
+		}
+		
+		if(toCompare.getTimeOfDeletion() == null) {
+			return 1;
+		}
+		
+		return getTimeOfDeletion().compareTo((toCompare).getTimeOfDeletion());
+		
+	}
+	
+	private String elapsedTime(OffsetDateTime from, OffsetDateTime to) {
+		
+		Duration timeDur = Duration.between(from.toOffsetTime(), to.toOffsetTime());
+		Period timePer = Period.between(from.toLocalDate(), to.toLocalDate());
+		return timePer.toString() + "; " + timeDur.toString();
 	}
 	
 	public String toString() {
 		return "Content: " + getContent() + "\nFile Name: " + getFileName()
 			+ "\nTime Of Creation: " + getTimeOfCreation() + "\nTime Of Deletion: " + getTimeOfDeletion()
 			+ "\nCreation Commit Hash: " + getCreationCommitHash() + "\nDeletion Commit Hash: " + getDeletionCommitHash()
+			+ "\nTime To Complete: " + ((timeOfCreation == null || timeOfDeletion == null) ? "Incomplete":(elapsedTime(timeOfCreation, timeOfDeletion)))
 			+ "\n\n";
 	}
 
@@ -105,21 +140,24 @@ public class Todo {
 		this.deletionCommitHash = deletionCommitHash;
 	}
 
-	public String getTimeOfCreation() {
+	public OffsetDateTime getTimeOfCreation() {
 		return timeOfCreation;
 	}
 
 	public void setTimeOfCreation(String timeOfCreation) {
-		this.timeOfCreation = timeOfCreation;
+		this.timeOfCreation = OffsetDateTime.parse(timeOfCreation, timeFormat);
 	}
 
-	public String getTimeOfDeletion() {
+	public OffsetDateTime getTimeOfDeletion() {
 		return timeOfDeletion;
 	}
 
 	public void setTimeOfDeletion(String timeOfDeletion) {
-		this.timeOfDeletion = timeOfDeletion;
+		this.timeOfDeletion = OffsetDateTime.parse(timeOfDeletion, timeFormat);
 	}
-	
+
+	public void setTimeOfCreation(OffsetDateTime timeOfCreation) {
+		this.timeOfCreation = timeOfCreation;
+	}
 	
 }
