@@ -44,11 +44,20 @@ public class TodoReader {
 		Scanner fileScanner = new Scanner(toRead);
 		boolean isComment = false;
 		boolean isMultiLineComment = false;
+		boolean continueTODO = false;
+		Todo toContinue = new Todo("new", "todo");
 		
 		// first line is always the commit time, second is commit hash
-		String commitTime = fileScanner.nextLine();
-		String commitHash = fileScanner.nextLine();
+		String commitTime = "";
+		String commitHash = "";
 		String fileName = "";
+		try {
+			commitTime = fileScanner.nextLine();
+			commitHash = fileScanner.nextLine();
+		} catch (java.util.NoSuchElementException e) {
+			System.out.println(toRead.getAbsolutePath());
+			return;
+		}
 		
 		while(fileScanner.hasNextLine()) {
 					
@@ -80,7 +89,9 @@ public class TodoReader {
 						// found Todo
 						if(howToRead == ReadType.INITIALIZE) {
 							// initialize todos for oldest examined commit (looking at all code, not just changes)
-							todoKeeper.add(new Todo(nextLine, fileName, commitHash, commitTime));
+							toContinue = new Todo(nextLine, fileName, commitHash, commitTime);
+							todoKeeper.add(toContinue);
+							continueTODO = true;
 						} else {
 							// update todos (looking only at changes in code)
 							if(nextLine.charAt(0) == '+' && nextLine.charAt(1) != '+') {
@@ -92,8 +103,13 @@ public class TodoReader {
 									toAdd.setCreationCommitHash(commitHash);
 									toAdd.setTimeOfCreation(commitTime);
 									todoKeeper.add(toAdd);
+									toContinue = new Todo(nextLine, fileName, commitHash, commitTime);
+									continueTODO = true;
 								}
 							}
+							
+							// set new variable fullContent
+							
 							else if(nextLine.charAt(0) == '-' && nextLine.charAt(1) != '-') {
 								//update deletion
 								nextLine = nextLine.substring(1);
@@ -113,12 +129,23 @@ public class TodoReader {
 						}
 					}
 					
+					else if(continueTODO) {
+						//System.out.println("continue with: " + nextLine);
+						todoKeeper.remove(toContinue);
+						toContinue.setFullContent(toContinue.getFullContent() + "\n" + nextLine.substring(1).trim());
+						todoKeeper.add(toContinue);
+					}
+					
 					isComment = false;
 					
 					if(isMultiLineComment && nextLine.contains("*/") 
 						&& nextLine.indexOf("*/") > nextLine.indexOf("/*")) {
 						isMultiLineComment = false;
 					}
+				} 
+				else if(continueTODO) {
+					//System.out.println("stop with: " + nextLine);
+					continueTODO = false;
 				}
 			}
 		}	
@@ -160,8 +187,8 @@ public class TodoReader {
 		File commitInfo = new File(CommitInfoPath + count + ".txt");
 		while(commitInfo.exists()) {
 			reader.readFileForTodos(commitInfo, ReadType.UPDATE);
-			commitInfo = new File(CommitInfoPath + count + ".txt");
 			count++;
+			commitInfo = new File(CommitInfoPath + count + ".txt");
 		}
 		
 		File outputFile = new File(infoDir.getAbsolutePath() + "/" + repoName + "-TODO-Info.txt");

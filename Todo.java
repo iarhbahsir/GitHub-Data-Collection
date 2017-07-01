@@ -13,6 +13,7 @@ public class Todo implements Comparable<Todo>{
 	private String deletionCommitHash;
 	private OffsetDateTime timeOfCreation;
 	private OffsetDateTime timeOfDeletion;
+	private String fullContent;
 	
 	private static final DateTimeFormatter timeFormat = DateTimeFormatter.ISO_OFFSET_DATE_TIME;
 	
@@ -64,7 +65,7 @@ public class Todo implements Comparable<Todo>{
 	}
 	
 	public String toString() {
-		return "Content: " + getContent() + "\nFile Name: " + getFileName()
+		return "Content: " + getFullContent() + "\nFile Name: " + getFileName()
 			+ "\nTime Of Creation: " + getTimeOfCreation() + "\nTime Of Deletion: " + getTimeOfDeletion()
 			+ "\nCreation Commit Hash: " + getCreationCommitHash() + "\nDeletion Commit Hash: " + getDeletionCommitHash()
 			+ "\nTime To Complete: " + ((timeOfCreation == null || timeOfDeletion == null) ? "Incomplete":(elapsedTime(timeOfCreation, timeOfDeletion)))
@@ -114,6 +115,7 @@ public class Todo implements Comparable<Todo>{
 
 	public void setContent(String content) {
 		this.content = content;
+		this.fullContent = content;
 	}
 
 	public String getFileName() {
@@ -158,6 +160,14 @@ public class Todo implements Comparable<Todo>{
 
 	public void setTimeOfCreation(OffsetDateTime timeOfCreation) {
 		this.timeOfCreation = timeOfCreation;
+	}
+	
+	public String getFullContent() {
+		return fullContent;
+	}
+	
+	public void setFullContent(String fullContent) {
+		this.fullContent = fullContent;
 	}
 	
 }
