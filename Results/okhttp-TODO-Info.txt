@@ -1,0 +1,48 @@
+Content: // TODO(jwilson): make this public after the 3.7 release.
+File Name: /okhttp/src/main/java/okhttp3/EventListener.java
+Time Of Creation: 2017-05-12T09:10:38-05:00
+Time Of Deletion: 2017-06-04T22:14:24-04:00
+Creation Commit Hash: 29d3b73b89f18c1991cf52ab7a82a4e71acf07f7
+Deletion Commit Hash: 7f053b03c522ec5d5cc2a853cf3ab146eba25257
+Time To Complete: P23D; PT12H3M46S
+
+Content: // TODO(jwilson): make this public after the 3.7 release.
+File Name: /okhttp/src/main/java/okhttp3/OkHttpClient.java
+Time Of Creation: 2017-05-12T09:10:38-05:00
+Time Of Deletion: 2017-06-04T22:14:24-04:00
+Creation Commit Hash: 29d3b73b89f18c1991cf52ab7a82a4e71acf07f7
+Deletion Commit Hash: 7f053b03c522ec5d5cc2a853cf3ab146eba25257
+Time To Complete: P23D; PT12H3M46S
+
+Content: // TODO(jwilson): make this public after the 3.8 release.
+File Name: /okhttp/src/main/java/okhttp3/EventListener.java
+Time Of Creation: 2017-06-04T22:14:24-04:00
+Time Of Deletion: 2017-06-20T09:14:51-04:00
+Creation Commit Hash: 7f053b03c522ec5d5cc2a853cf3ab146eba25257
+Deletion Commit Hash: 5fb5ab50a77efc761489493d4a0b8b9de85feec7
+Time To Complete: P16D; PT-12H-59M-33S
+
+Content: // TODO(jwilson): make this public after the 3.8 release.
+File Name: /okhttp/src/main/java/okhttp3/OkHttpClient.java
+Time Of Creation: 2017-06-04T22:14:24-04:00
+Time Of Deletion: 2017-06-20T09:14:51-04:00
+Creation Commit Hash: 7f053b03c522ec5d5cc2a853cf3ab146eba25257
+Deletion Commit Hash: 5fb5ab50a77efc761489493d4a0b8b9de85feec7
+Time To Complete: P16D; PT-12H-59M-33S
+
+Content: // TODO(jwilson): this is unsafe publication and not threadsafe.
+File Name: /okhttp/src/main/java/okhttp3/RealCall.java
+Time Of Creation: 2017-05-12T09:10:38-05:00
+Time Of Deletion: 2017-06-20T09:14:51-04:00
+Creation Commit Hash: 29d3b73b89f18c1991cf52ab7a82a4e71acf07f7
+Deletion Commit Hash: 5fb5ab50a77efc761489493d4a0b8b9de85feec7
+Time To Complete: P1M8D; PT-55M-47S
+
+Content: // TODO: Domains that start with '.' will be null on JDK8, but not on JDK7.
+File Name: /okhttp/src/main/java/okhttp3/internal/publicsuffix/PublicSuffixDatabase.java
+Time Of Creation: 2017-05-05T22:45:08-04:00
+Time Of Deletion: 2017-05-06T11:57:06-04:00
+Creation Commit Hash: bf83abb01cf49fcf434cca3508899a9d819b3b3b
+Deletion Commit Hash: 29d56966c1ba932920b278467bb3d61f49709da9
+Time To Complete: P1D; PT-10H-48M-2S
+

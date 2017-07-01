@@ -1,0 +1,8 @@
+Content: // TODO: Schedule reconnect here
+File Name: /rt/rs/sse/src/main/java/org/apache/cxf/jaxrs/sse/client/SseEventSourceImpl.java
+Time Of Creation: 2017-06-23T17:37:23-04:00
+Time Of Deletion: null
+Creation Commit Hash: feba8045486cd910b238065cbb3ee4a741198d76
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+

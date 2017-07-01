@@ -1,0 +1,42 @@
+Content: // TODO(czhen): Make findObjectsWalk resume the walk instead
+// once RevWalk and ObjectWalk support that.
+File Name: /org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/pack/PackWriterBitmapWalker.java
+Time Of Creation: 2017-05-15T10:29:47+02:00
+Time Of Deletion: null
+Creation Commit Hash: f1dd61f646e1a217aeed58e2057b4a47c42077e9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(czhen): Resume the walk instead once RevWalk supports that.
+File Name: /org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/pack/PackWriterBitmapWalker.java
+Time Of Creation: 2017-05-12T08:30:45+09:00
+Time Of Deletion: 2017-05-15T10:29:47+02:00
+Creation Commit Hash: decb6d01cc5330092b7e0f0a5394baf3eee01074
+Deletion Commit Hash: f1dd61f646e1a217aeed58e2057b4a47c42077e9
+Time To Complete: P3D; PT8H59M2S
+
+Content: // TODO(hanwen): maybe (absolute, relative) should throw an exception.
+if (cur.startsWith("/") != dest.startsWith("/")) { //$NON-NLS-1$//$NON-NLS-2$
+File Name: /org.eclipse.jgit/src/org/eclipse/jgit/gitrepo/RepoCommand.java
+Time Of Creation: 2017-05-12T08:30:55+09:00
+Time Of Deletion: null
+Creation Commit Hash: 3f712aa9805940d3ea1dcafa9f4630d9c901d413
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(ms): in 5.0 change signature and return Future<Collection<PackFile>>
+File Name: /org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/file/GC.java
+Time Of Creation: 2017-06-11T16:39:41+02:00
+Time Of Deletion: null
+Creation Commit Hash: 03b8d1a202453e79fe5344149d020c775d662cd7
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(ms): in 5.0 change signature and return the Future
+File Name: /org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/file/GC.java
+Time Of Creation: 2017-06-11T16:39:41+02:00
+Time Of Deletion: null
+Creation Commit Hash: 03b8d1a202453e79fe5344149d020c775d662cd7
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+

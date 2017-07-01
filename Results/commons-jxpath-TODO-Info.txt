@@ -1,0 +1,65 @@
+Content: * TODO more iterator testing with maps
+*
+* @author Dmitri Plotnikov
+* @version $Revision$ $Date$
+*/
+File Name: /src/test/java/org/apache/commons/jxpath/ri/model/dynamic/DynamicPropertiesModelTest.java
+Time Of Creation: 2015-11-18T19:11:43Z
+Time Of Deletion: null
+Creation Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: //                // TODO Auto-generated catch block
+//                e.printStackTrace();
+//            }
+//            return
+//        }
+File Name: /src/main/java/org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java
+Time Of Creation: 2015-11-18T19:11:43Z
+Time Of Deletion: null
+Creation Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO: (work in progress) - trying to integrate with Xalan
+//        Object ctxNode = getNativeContextNode(expression);
+//        if (ctxNode != null) {
+//            System.err.println("WILL USE XALAN: " + xpath);
+//            CachedXPathAPI api = new CachedXPathAPI();
+//            try {
+//                if (expression instanceof Path) {
+//                    Node node = api.selectSingleNode((Node)ctxNode, xpath);
+//                    System.err.println("NODE: " + node);
+//                    if (node == null) {
+//                        return null;
+//                    }
+//                    return new DOMNodePointer(node, null).getValue();
+//                }
+//                else {
+//                    XObject object = api.eval((Node)ctxNode, xpath);
+//                    switch (object.getType()) {
+//                    case XObject.CLASS_STRING: return object.str();
+//                    case XObject.CLASS_NUMBER: return new Double(object.num());
+//                    case XObject.CLASS_BOOLEAN: return new Boolean(object.bool());
+//                    default:
+//                        System.err.println("OTHER TYPE: " + object.getTypeString());
+//                    }
+//                }
+//            }
+//            catch (TransformerException e) {
+File Name: /src/main/java/org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java
+Time Of Creation: 2015-11-18T19:11:43Z
+Time Of Deletion: null
+Creation Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO: what if this is a collection?
+File Name: /src/main/java/org/apache/commons/jxpath/ri/model/container/ContainerPointer.java
+Time Of Creation: 2015-11-18T19:11:43Z
+Time Of Deletion: null
+Creation Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+

@@ -1,0 +1,32 @@
+Content: // TODO process first Received: line to determine arrival date?
+File Name: /src/main/java/org/apache/commons/net/examples/mail/IMAPImportMbox.java
+Time Of Creation: 2017-04-21T16:30:03Z
+Time Of Deletion: null
+Creation Commit Hash: 7fabd00432b9974240f1df75e1e7fa63ba276589
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: System.err.println("NET-584: ignoring " + e.getMessage()); // TODO remove print before release!
+File Name: /src/main/java/org/apache/commons/net/ftp/FTPClient.java
+Time Of Creation: 2017-03-11T12:33:03Z
+Time Of Deletion: 2017-03-20T21:19:54Z
+Creation Commit Hash: ac37d8d64c3f5aeb0032f420ea976712947f2cc6
+Deletion Commit Hash: 1c95a2a5d9e40d1b7d8b4626890ff1babc4f8862
+Time To Complete: P9D; PT8H46M51S
+
+Content: final BufferedReader br = new BufferedReader(new FileReader(file)); // TODO charset?
+File Name: /src/main/java/org/apache/commons/net/examples/mail/IMAPImportMbox.java
+Time Of Creation: 2017-04-21T16:30:03Z
+Time Of Deletion: null
+Creation Commit Hash: 7fabd00432b9974240f1df75e1e7fa63ba276589
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: if (notAcked > 0) { // TODO remove this before next release!
+File Name: /src/main/java/org/apache/commons/net/ftp/FTPClient.java
+Time Of Creation: 2017-03-11T12:33:03Z
+Time Of Deletion: 2017-03-20T21:19:54Z
+Creation Commit Hash: ac37d8d64c3f5aeb0032f420ea976712947f2cc6
+Deletion Commit Hash: 1c95a2a5d9e40d1b7d8b4626890ff1babc4f8862
+Time To Complete: P9D; PT8H46M51S
+

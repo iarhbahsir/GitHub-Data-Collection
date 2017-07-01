@@ -1,0 +1,156 @@
+Content: // TODO (simranarora) What should we have as the intended behavior with block scoping?
+File Name: /test/com/google/javascript/jscomp/ExploitAssignsTest.java
+Time Of Creation: 2017-06-27T10:59:40-07:00
+Time Of Deletion: null
+Creation Commit Hash: 75101184744ce6e2dde8cc63037dcdff5a5896a0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(bangert): Delete this alias once it has been deprecated for 3 months.
+File Name: /src/com/google/javascript/jscomp/CompilerOptions.java
+Time Of Creation: 2017-06-27T11:00:08-07:00
+Time Of Deletion: 2017-06-29T11:52:25-07:00
+Creation Commit Hash: 931352f95a87823e17d12adbb2aa8ba6d7bb2ba6
+Deletion Commit Hash: af285b5a57c38fc6fc4af6f9eeff40cf81e65a94
+Time To Complete: P2D; PT52M17S
+
+Content: // TODO(bangert): Find a non-conflicting name.
+File Name: /src/com/google/javascript/refactoring/SuggestedFix.java
+Time Of Creation: 2017-06-27T11:00:08-07:00
+Time Of Deletion: 2017-06-29T11:52:25-07:00
+Creation Commit Hash: 931352f95a87823e17d12adbb2aa8ba6d7bb2ba6
+Deletion Commit Hash: af285b5a57c38fc6fc4af6f9eeff40cf81e65a94
+Time To Complete: P2D; PT52M17S
+
+Content: // TODO(bangert): Remove this -- we want to rewrite code before closure syntax is removed.
+File Name: /src/com/google/javascript/refactoring/RefactoringDriver.java
+Time Of Creation: 2017-06-27T11:00:08-07:00
+Time Of Deletion: 2017-06-29T11:52:25-07:00
+Creation Commit Hash: 931352f95a87823e17d12adbb2aa8ba6d7bb2ba6
+Deletion Commit Hash: af285b5a57c38fc6fc4af6f9eeff40cf81e65a94
+Time To Complete: P2D; PT52M17S
+
+Content: // TODO(bangert): make this compatible with preserveSugar. const B = goog.require('b') runs
+File Name: /src/com/google/javascript/jscomp/ClosureRewriteModule.java
+Time Of Creation: 2017-06-27T11:00:08-07:00
+Time Of Deletion: 2017-06-29T11:52:25-07:00
+Creation Commit Hash: 931352f95a87823e17d12adbb2aa8ba6d7bb2ba6
+Deletion Commit Hash: af285b5a57c38fc6fc4af6f9eeff40cf81e65a94
+Time To Complete: P2D; PT52M17S
+
+Content: // TODO(bellashim): Add a non-transpiling version of this test when InlineFunctions
+// can run in that mode.
+File Name: /test/com/google/javascript/jscomp/IntegrationTest.java
+Time Of Creation: 2017-06-26T10:13:08-07:00
+Time Of Deletion: null
+Creation Commit Hash: 24703f9fd91d42778a5a83c49db8b5d58078154e
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(blickly): Make the SIDE_EFFECT_PREDICATE check more exact
+//   and remove this special case.
+File Name: /src/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java
+Time Of Creation: 2017-06-27T10:58:06-07:00
+Time Of Deletion: null
+Creation Commit Hash: f07f6a22314d14577f2c4e44688b355577e11c41
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(johnlenz): Add support for quoted properties
+File Name: /test/com/google/javascript/jscomp/DefinitionUseSiteFinderTest.java
+Time Of Creation: 2017-06-22T16:48:22-07:00
+Time Of Deletion: null
+Creation Commit Hash: 7c5377c3c9947212345f084049c096ef920a6ebd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(johnlenz): Fix this.
+File Name: /test/com/google/javascript/jscomp/DefinitionUseSiteFinderTest.java
+Time Of Creation: 2017-06-22T16:48:22-07:00
+Time Of Deletion: null
+Creation Commit Hash: 7c5377c3c9947212345f084049c096ef920a6ebd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(rluble): Find a better solution to avoid serializing the code cache.
+File Name: /src/com/google/javascript/jscomp/SourceFile.java
+Time Of Creation: 2017-06-22T10:36:55-07:00
+Time Of Deletion: null
+Creation Commit Hash: 9da58006a8bc76caa9562950468667b09a173e43
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(rluble): move these into the general structure for keeping state between pass runs.
+//
+/** Adds exported names to keep track. */
+File Name: /src/com/google/javascript/jscomp/AbstractCompiler.java
+Time Of Creation: 2017-06-27T11:00:04-07:00
+Time Of Deletion: null
+Creation Commit Hash: 59bc85240c923ad6d2ef14755d43a1ea6e063d76
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(rluble): remove the method from the JSTypeRegistry interface and inline the invocations
+// when the OTI is removed.
+File Name: /src/com/google/javascript/jscomp/GlobalTypeInfo.java
+Time Of Creation: 2017-06-22T16:48:21-07:00
+Time Of Deletion: null
+Creation Commit Hash: a7b25493d52128073bebde63dcc8dae29fefe98a
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(sdh): It's somewhat odd that we treat function namespaces differently
+// from object namespaces. The reason is for consistency with OTI, which treats
+// most object literals as anonymous objects, but not so for functions. We
+// could remove the 'fn' check and simply return true for all namespaces, but
+// we'll need to update a bunch of expectations in DisambiguatePropertiesTest
+// (which will then differ from OTI).
+File Name: /src/com/google/javascript/jscomp/newtypes/ObjectType.java
+Time Of Creation: 2017-06-28T09:03:42-07:00
+Time Of Deletion: null
+Creation Commit Hash: c27f830ca767a61cd09ac2f43c1f3f87689118ed
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(sdh): change the name to getDirectSubTypes()
+File Name: /src/com/google/javascript/rhino/FunctionTypeI.java
+Time Of Creation: 2017-06-22T10:36:55-07:00
+Time Of Deletion: null
+Creation Commit Hash: aa5874513f85b1731b0749cde561141b7dd2bcf8
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(simranarora): Fix the pass so that it produces these correct outputs.
+File Name: /test/com/google/javascript/jscomp/OptimizeArgumentsArrayTest.java
+Time Of Creation: 2017-06-22T10:36:55-07:00
+Time Of Deletion: 2017-06-23T16:44:24-07:00
+Creation Commit Hash: 656f3859d300ec63ee6c4f21fe7330cb354ad9c5
+Deletion Commit Hash: b058b4e6748878a9cf6acec79520ef2c63132dcd
+Time To Complete: P1D; PT6H7M29S
+
+Content: // TODO(tbreisacher): Fix and enable this test.
+File Name: /test/com/google/javascript/jscomp/CheckUnreachableCodeTest.java
+Time Of Creation: 2017-06-29T11:52:06-07:00
+Time Of Deletion: null
+Creation Commit Hash: 9eedf456101ffdd98d8566fa939f5c288727ed5d
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(user): We only care about calls to functions that
+// passes one of the dependent variable to a non-side-effect free
+// function.
+File Name: /src/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java
+Time Of Creation: 2017-06-27T10:58:06-07:00
+Time Of Deletion: null
+Creation Commit Hash: f07f6a22314d14577f2c4e44688b355577e11c41
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: //TODO:@BellaShim get this test to pass
+File Name: /test/com/google/javascript/jscomp/FunctionArgumentInjectorTest.java
+Time Of Creation: 2017-06-22T10:36:55-07:00
+Time Of Deletion: 2017-06-26T10:13:08-07:00
+Creation Commit Hash: e27df64602114c539e787fea7a4895e4fc250436
+Deletion Commit Hash: 24703f9fd91d42778a5a83c49db8b5d58078154e
+Time To Complete: P4D; PT-23M-47S
+

@@ -1,0 +1,18 @@
+Content: // TODO: Compare performance to see if anything was lost by
+// losing this optimisation.
+File Name: /src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java
+Time Of Creation: 2017-06-07T09:59:12+02:00
+Time Of Deletion: null
+Creation Commit Hash: ad648cf8a8a90bdee129266ca7b686a5b9a87561
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO: This is no longer public and will be removed later as CharSet is moved
+// to depend on Range.
+File Name: /src/main/java/org/apache/commons/lang3/CharRange.java
+Time Of Creation: 2017-06-07T09:59:12+02:00
+Time Of Deletion: null
+Creation Commit Hash: ad648cf8a8a90bdee129266ca7b686a5b9a87561
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+

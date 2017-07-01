@@ -1,0 +1,291 @@
+Content: * TODO(lowasser): make public
+*/
+File Name: /android/guava/src/com/google/common/hash/AbstractHashFunction.java
+Time Of Creation: 2017-06-01T07:44:05-07:00
+Time Of Deletion: null
+Creation Commit Hash: c92e1c749c18f08c17feaf273bdcfeb3d1053ca0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: * TODO(lowasser): make public
+*/
+File Name: /guava/src/com/google/common/hash/AbstractHashFunction.java
+Time Of Creation: 2017-06-01T07:44:05-07:00
+Time Of Deletion: null
+Creation Commit Hash: c92e1c749c18f08c17feaf273bdcfeb3d1053ca0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(b/35451662): restore the @Override once the supertypes are released
+File Name: /android/guava/src/com/google/common/graph/BaseGraph.java
+Time Of Creation: 2017-05-22T10:39:27-07:00
+Time Of Deletion: 2017-06-01T07:55:35-07:00
+Creation Commit Hash: bc996973fe6ce1ecb67803aa1ff5bdf5df59d182
+Deletion Commit Hash: fac8339c87815fb7deca0cf01d61a5146355723f
+Time To Complete: P10D; PT-2H-43M-52S
+
+Content: // TODO(b/35451662): restore the @Override once the supertypes are released
+File Name: /android/guava/src/com/google/common/graph/Network.java
+Time Of Creation: 2017-05-22T10:39:27-07:00
+Time Of Deletion: 2017-06-01T07:55:35-07:00
+Creation Commit Hash: bc996973fe6ce1ecb67803aa1ff5bdf5df59d182
+Deletion Commit Hash: fac8339c87815fb7deca0cf01d61a5146355723f
+Time To Complete: P10D; PT-2H-43M-52S
+
+Content: // TODO(b/35451662): restore the @Override once the supertypes are released
+File Name: /guava/src/com/google/common/graph/BaseGraph.java
+Time Of Creation: 2017-05-22T10:39:27-07:00
+Time Of Deletion: 2017-06-01T07:55:35-07:00
+Creation Commit Hash: bc996973fe6ce1ecb67803aa1ff5bdf5df59d182
+Deletion Commit Hash: fac8339c87815fb7deca0cf01d61a5146355723f
+Time To Complete: P10D; PT-2H-43M-52S
+
+Content: // TODO(b/35451662): restore the @Override once the supertypes are released
+File Name: /guava/src/com/google/common/graph/Network.java
+Time Of Creation: 2017-05-22T10:39:27-07:00
+Time Of Deletion: 2017-06-01T07:55:35-07:00
+Creation Commit Hash: bc996973fe6ce1ecb67803aa1ff5bdf5df59d182
+Deletion Commit Hash: fac8339c87815fb7deca0cf01d61a5146355723f
+Time To Complete: P10D; PT-2H-43M-52S
+
+Content: // TODO(b/35456940): Update the documentation to reflect the new interfaces
+File Name: /android/guava/src/com/google/common/graph/PredecessorsFunction.java
+Time Of Creation: 2017-06-01T07:55:35-07:00
+Time Of Deletion: null
+Creation Commit Hash: fac8339c87815fb7deca0cf01d61a5146355723f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(b/35456940): Update the documentation to reflect the new interfaces
+File Name: /android/guava/src/com/google/common/graph/SuccessorsFunction.java
+Time Of Creation: 2017-06-01T07:55:35-07:00
+Time Of Deletion: null
+Creation Commit Hash: fac8339c87815fb7deca0cf01d61a5146355723f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(b/35456940): Update the documentation to reflect the new interfaces
+File Name: /guava/src/com/google/common/graph/PredecessorsFunction.java
+Time Of Creation: 2017-06-01T07:55:35-07:00
+Time Of Deletion: null
+Creation Commit Hash: fac8339c87815fb7deca0cf01d61a5146355723f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(b/35456940): Update the documentation to reflect the new interfaces
+File Name: /guava/src/com/google/common/graph/SuccessorsFunction.java
+Time Of Creation: 2017-06-01T07:55:35-07:00
+Time Of Deletion: null
+Creation Commit Hash: fac8339c87815fb7deca0cf01d61a5146355723f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(benyu): Once behavior is the same for all Java versions we support, delete this.
+File Name: /android/guava/src/com/google/common/reflect/Types.java
+Time Of Creation: 2017-06-16T09:49:15-07:00
+Time Of Deletion: null
+Creation Commit Hash: a0f26cc0ea343ce1d88d521f8b9ded3c677da032
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(benyu): Once behavior is the same for all Java versions we support, delete this.
+File Name: /guava/src/com/google/common/reflect/Types.java
+Time Of Creation: 2017-06-16T09:49:15-07:00
+Time Of Deletion: null
+Creation Commit Hash: a0f26cc0ea343ce1d88d521f8b9ded3c677da032
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(cpovirk): Figure out Android JUnit 4 support. Does it work with Gingerbread? @RunWith?
+File Name: /android/guava-tests/test/com/google/common/graph/DefaultNetworkImplementationsTest.java
+Time Of Creation: 2017-06-26T10:08:41-07:00
+Time Of Deletion: null
+Creation Commit Hash: 98fc407531ef6588e6e81c8737107e84abe5f29b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(cpovirk): Figure out Android JUnit 4 support. Does it work with Gingerbread? @RunWith?
+File Name: /guava-tests/test/com/google/common/graph/DefaultNetworkImplementationsTest.java
+Time Of Creation: 2017-06-26T10:08:41-07:00
+Time Of Deletion: null
+Creation Commit Hash: 98fc407531ef6588e6e81c8737107e84abe5f29b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(cpovirk): Test forwarding more extensively.
+File Name: /android/guava-tests/test/com/google/common/util/concurrent/FluentFutureTest.java
+Time Of Creation: 2017-05-30T13:11:03-07:00
+Time Of Deletion: null
+Creation Commit Hash: 107f311e182d4b8298a10093ae4c5c6bc02641ec
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(cpovirk): Test forwarding more extensively.
+File Name: /guava-tests/test/com/google/common/util/concurrent/FluentFutureTest.java
+Time Of Creation: 2017-05-30T13:11:03-07:00
+Time Of Deletion: null
+Creation Commit Hash: 107f311e182d4b8298a10093ae4c5c6bc02641ec
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(kevinb): check more preconditions (as bufferSize >= chunkSize) if this is ever public
+File Name: /android/guava/src/com/google/common/hash/AbstractStreamingHasher.java
+Time Of Creation: 2017-06-01T07:44:05-07:00
+Time Of Deletion: null
+Creation Commit Hash: c92e1c749c18f08c17feaf273bdcfeb3d1053ca0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(kevinb): check more preconditions (as bufferSize >= chunkSize) if this is ever public
+File Name: /guava/src/com/google/common/hash/AbstractStreamingHasher.java
+Time Of Creation: 2017-06-01T07:44:05-07:00
+Time Of Deletion: null
+Creation Commit Hash: c92e1c749c18f08c17feaf273bdcfeb3d1053ca0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(kevinb): this class still needs some design-and-document-for-inheritance love
+File Name: /android/guava/src/com/google/common/hash/AbstractStreamingHasher.java
+Time Of Creation: 2017-06-01T07:44:05-07:00
+Time Of Deletion: null
+Creation Commit Hash: c92e1c749c18f08c17feaf273bdcfeb3d1053ca0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(kevinb): this class still needs some design-and-document-for-inheritance love
+File Name: /guava/src/com/google/common/hash/AbstractStreamingHasher.java
+Time Of Creation: 2017-06-01T07:44:05-07:00
+Time Of Deletion: null
+Creation Commit Hash: c92e1c749c18f08c17feaf273bdcfeb3d1053ca0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(user) move this up into FluentFuture, or parts as a default method on ListenableFuture?
+@Override
+public String toString() {
+StringBuilder builder = new StringBuilder().append(super.toString()).append("[status=");
+if (isCancelled()) {
+builder.append("CANCELLED");
+} else if (isDone()) {
+addDoneString(builder);
+} else {
+String pendingDescription;
+try {
+pendingDescription = pendingToString();
+} catch (RuntimeException e) {
+// Don't call getMessage or toString() on the exception, in case the exception thrown by the
+// subclass is implemented with bugs similar to the subclass.
+pendingDescription = "Exception thrown from implementation: " + e.getClass();
+}
+// The future may complete during or before the call to getPendingToString, so we use null
+// as a signal that we should try checking if the future is done again.
+if (!isNullOrEmpty(pendingDescription)) {
+builder.append("PENDING, info=[").append(pendingDescription).append("]");
+} else if (isDone()) {
+addDoneString(builder);
+} else {
+builder.append("PENDING");
+}
+}
+return builder.append("]").toString();
+}
+
+/**
+* Provide a human-readable explanation of why this future has not yet completed.
+*
+* @return null if an explanation cannot be provided because the future is done.
+*/
+File Name: /android/guava/src/com/google/common/util/concurrent/AbstractFuture.java
+Time Of Creation: 2017-06-12T17:40:40-07:00
+Time Of Deletion: null
+Creation Commit Hash: 304c634d977127085b49f174fd1aafefd09b2bf5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(user) move this up into FluentFuture, or parts as a default method on ListenableFuture?
+@Override
+public String toString() {
+StringBuilder builder = new StringBuilder().append(super.toString()).append("[status=");
+if (isCancelled()) {
+builder.append("CANCELLED");
+} else if (isDone()) {
+addDoneString(builder);
+} else {
+String pendingDescription;
+try {
+pendingDescription = pendingToString();
+} catch (RuntimeException e) {
+// Don't call getMessage or toString() on the exception, in case the exception thrown by the
+// subclass is implemented with bugs similar to the subclass.
+pendingDescription = "Exception thrown from implementation: " + e.getClass();
+}
+// The future may complete during or before the call to getPendingToString, so we use null
+// as a signal that we should try checking if the future is done again.
+if (!isNullOrEmpty(pendingDescription)) {
+builder.append("PENDING, info=[").append(pendingDescription).append("]");
+} else if (isDone()) {
+addDoneString(builder);
+} else {
+builder.append("PENDING");
+}
+}
+return builder.append("]").toString();
+}
+
+/**
+* Provide a human-readable explanation of why this future has not yet completed.
+*
+* @return null if an explanation cannot be provided because the future is done.
+*/
+File Name: /guava/src/com/google/common/util/concurrent/AbstractFuture.java
+Time Of Creation: 2017-06-12T17:40:40-07:00
+Time Of Deletion: null
+Creation Commit Hash: 304c634d977127085b49f174fd1aafefd09b2bf5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(user): benchmark performance difference with longer buffer
+// always space for a single primitive
+File Name: /android/guava/src/com/google/common/hash/AbstractStreamingHasher.java
+Time Of Creation: 2017-06-01T07:44:05-07:00
+Time Of Deletion: null
+Creation Commit Hash: c92e1c749c18f08c17feaf273bdcfeb3d1053ca0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO(user): benchmark performance difference with longer buffer
+// always space for a single primitive
+File Name: /guava/src/com/google/common/hash/AbstractStreamingHasher.java
+Time Of Creation: 2017-06-01T07:44:05-07:00
+Time Of Deletion: null
+Creation Commit Hash: c92e1c749c18f08c17feaf273bdcfeb3d1053ca0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: @AndroidIncompatible // TODO(cpovirk): Look up Build.VERSION.SDK_INT reflectively.
+File Name: /android/guava-tests/test/com/google/common/io/CloserTest.java
+Time Of Creation: 2017-06-12T12:39:16-07:00
+Time Of Deletion: null
+Creation Commit Hash: 8311be9b7353b9580649559a5f3ee699672e3085
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: @AndroidIncompatible // TODO(cpovirk): Look up Build.VERSION.SDK_INT reflectively.
+File Name: /guava-tests/test/com/google/common/io/CloserTest.java
+Time Of Creation: 2017-06-12T12:39:16-07:00
+Time Of Deletion: null
+Creation Commit Hash: 8311be9b7353b9580649559a5f3ee699672e3085
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: @GwtIncompatible // TODO(b/38490623): reenable after GWT double-to-string conversion is fixed
+public void testMapWithIndex_doubleStream() {
+SpliteratorTester.of(
+() ->
+File Name: /guava-tests/test/com/google/common/collect/StreamsTest.java
+Time Of Creation: 2017-05-22T11:26:19-07:00
+Time Of Deletion: null
+Creation Commit Hash: 8297ad4522220c069d4a28a489a0c31d0c577a5e
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+

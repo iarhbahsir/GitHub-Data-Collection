@@ -1,0 +1,35 @@
+Content: * @deprecated TODO: This field will be changed to a private final Charset in 2.0. (CODEC-126)
+*/
+File Name: /src/main/java/org/apache/commons/codec/net/URLCodec.java
+Time Of Creation: 2017-03-26T18:26:07Z
+Time Of Deletion: null
+Creation Commit Hash: 5d3142a1639c7d8e792f3e72288f18e46ff3546a
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO
+File Name: /src/test/java/org/apache/commons/codec/binary/Base64Test.java
+Time Of Creation: 2016-05-20T12:37:05Z
+Time Of Deletion: null
+Creation Commit Hash: 7817bfdadb9cda107955de03d3d15d64ab89b5dc
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: HmacUtils() { // TODO why does test code try to instantiate this?
+File Name: /src/main/java/org/apache/commons/codec/digest/HmacUtils.java
+Time Of Creation: 2016-05-19T11:33:20Z
+Time Of Deletion: 2016-05-19T13:21:16Z
+Creation Commit Hash: 4c84e204cbce349f3c5722750561b91607d3fcae
+Deletion Commit Hash: c353239c4fd22b8991e1488ce81218b1c9769bf9
+Time To Complete: P0D; PT1H47M56S
+
+Content: base64 = new Base64(-1, new byte[] { 'A' }); // TODO do we need to
+// check sep if len
+// = -1?
+File Name: /src/test/java/org/apache/commons/codec/binary/Base64Test.java
+Time Of Creation: 2016-05-20T12:37:05Z
+Time Of Deletion: null
+Creation Commit Hash: 7817bfdadb9cda107955de03d3d15d64ab89b5dc
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+

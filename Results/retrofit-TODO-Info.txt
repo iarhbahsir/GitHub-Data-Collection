@@ -1,0 +1,17 @@
+Content: // TODO else send to plugin as unhandled error
+File Name: /retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/BodyOnSubscribe.java
+Time Of Creation: 2017-01-29T23:02:37-05:00
+Time Of Deletion: 2017-01-29T23:10:59-05:00
+Creation Commit Hash: 63b5ff75be32344796c435ffa192c5b3f2b554bd
+Deletion Commit Hash: 5e47946dfb169c2732846034d9b60606edb87c58
+Time To Complete: P0D; PT8M22S
+
+Content: // TODO if 'callbackExecutor' is not null, the 'callback' methods should be executed
+// on that executor by submitting a Runnable. This is left as an exercise for the reader.
+File Name: /samples/src/main/java/com/example/retrofit/ErrorHandlingAdapter.java
+Time Of Creation: 2017-01-30T00:48:22-05:00
+Time Of Deletion: null
+Creation Commit Hash: 22004b2b4221cb7b55844b165979ba4dedd91574
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
