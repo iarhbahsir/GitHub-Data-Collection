@@ -47,6 +47,11 @@ public class TodoReader {
 		boolean continueTODO = false;
 		Todo toContinue = new Todo("new", "todo");
 		
+		/*if(toRead.getAbsolutePath().contains("71")) {
+			System.out.println("found");
+			System.out.println(fileScanner.nextLine());
+		}*/
+		
 		// first line is always the commit time, second is commit hash
 		String commitTime = "";
 		String commitHash = "";
@@ -62,9 +67,10 @@ public class TodoReader {
 		while(fileScanner.hasNextLine()) {
 					
 			String nextLine = fileScanner.nextLine();
-			// TODO implement in ProcessTODO, add elapsed time (change to localDate/Time), account for single line change of Todos
+			// TODO account for single line change of Todos differently?
 			if(howToRead == ReadType.INITIALIZE && nextLine.equals("!D@E#L$I%M^I&T*E(R)")) {
-				fileName = new String(nextLine);
+				fileName = new String(fileScanner.nextLine());
+				continue;
 			}
 			else if(howToRead == ReadType.UPDATE && nextLine.startsWith("--- ") && !nextLine.endsWith("/null")) {
 				fileName = new String(nextLine.substring(nextLine.indexOf("/")));
@@ -72,6 +78,7 @@ public class TodoReader {
 			else if(howToRead == ReadType.UPDATE && nextLine.startsWith("+++ ") && !nextLine.endsWith("/null")) {
 				fileName = new String(nextLine.substring(nextLine.indexOf("/")));
 			}
+			
 			// if contains // or /*, check if inside string literal
 			if(fileName.endsWith(".java")) {
 				if(nextLine.contains("//")) {
@@ -108,8 +115,6 @@ public class TodoReader {
 								}
 							}
 							
-							// set new variable fullContent
-							
 							else if(nextLine.charAt(0) == '-' && nextLine.charAt(1) != '-') {
 								//update deletion
 								nextLine = nextLine.substring(1);
@@ -129,7 +134,7 @@ public class TodoReader {
 						}
 					}
 					
-					else if(continueTODO) {
+					else if(continueTODO && !nextLine.isEmpty()) {
 						//System.out.println("continue with: " + nextLine);
 						todoKeeper.remove(toContinue);
 						toContinue.setFullContent(toContinue.getFullContent() + "\n" + nextLine.substring(1).trim());
@@ -173,7 +178,6 @@ public class TodoReader {
 		//String clonedPath = kb.nextLine();
 		String clonedPath = args[0];
 		// while testing
-		//String repoName = "GitHub-Data-Collection";
 		String repoName = args[1];
 		
 		File infoDir = new File(clonedPath + "/" + repoName + "-Info");
