@@ -1,1 +1,8 @@
-No TODOs
+Content:     private static Priority traceLevel; // TODO should this be Level?
+File Name: ./src/test/java/org/apache/commons/configuration2/Logging.java
+Time Of Creation: 2016-07-24T19:44:48Z
+Time Of Deletion: null
+Creation Commit Hash: 6485eb72383b98949f7b943f036a6d27e965661c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+

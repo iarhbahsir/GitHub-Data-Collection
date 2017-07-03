@@ -1,1 +1,105 @@
-No TODOs
+Content:             final long size = input.size(); // TODO See IO-386
+File Name: ./src/main/java/org/apache/commons/io/FileUtils.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Re-implement on Java 7 to use java.nio.charset.StandardCharsets
+File Name: ./src/main/java/org/apache/commons/io/Charsets.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO is this what we want with invalid directory?
+File Name: ./src/test/java/org/apache/commons/io/DirectoryWalkerTestCase.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO is this what we want with invalid directory?
+File Name: ./src/test/java/org/apache/commons/io/DirectoryWalkerTestCaseJava4.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: Refactor this to FileSystemUtils
+File Name: ./src/test/java/org/apache/commons/io/FileUtilsCleanDirectoryTestCase.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO Maybe test copy to itself like for copyFile()
+File Name: ./src/test/java/org/apache/commons/io/FileUtilsTestCase.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         assertNotNull(f.toString()); // TODO better tests
+File Name: ./src/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         assertNotNull(filter.toString()); // TODO better test
+File Name: ./src/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         builder.append(new String(magicNumbers, Charset.defaultCharset()));// TODO perhaps use hex if value is not
+// printable
+File Name: ./src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         final long dstLen = destFile.length(); // TODO See IO-386
+File Name: ./src/main/java/org/apache/commons/io/FileUtils.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         final long srcLen = srcFile.length(); // TODO See IO-386
+File Name: ./src/main/java/org/apache/commons/io/FileUtils.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     protected OutputStream branch; //TODO consider making this private
+File Name: ./src/main/java/org/apache/commons/io/output/TeeOutputStream.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     public void testDelegation() { // TODO improve these tests
+File Name: ./src/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java
+Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Deletion: null
+Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+

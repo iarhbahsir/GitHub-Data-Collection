@@ -1,3 +1,214 @@
+Content:         // TODO: send bad request error
+File Name: ./mockwebserver/src/main/java/okhttp3/internal/http2/Http2Server.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: test case for empty continuation header?
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Reader.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: If we don't get this callback after sending settings to the peer, SETTINGS_TIMEOUT.
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: configure a timeout on the reader so that it doesn’t block forever.
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: constants for well-known header names.
+File Name: ./mockwebserver/src/main/java/okhttp3/mockwebserver/MockWebServer.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: honor priority.
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: implement all label limits.
+File Name: ./okhttp/src/main/java/okhttp3/internal/Util.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: propagate exception message into debugData.
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: real max is based on settings between 16384 and 16777215
+File Name: ./okhttp-tests/src/test/java/okhttp3/internal/http2/Http2Test.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: register alternate service.
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       if (debugData.size() > 0) { // TODO: log the debugData
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       return result.replace("HEADERS", "PUSH_PROMISE"); // TODO: Avoid allocation.
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       return result.replace("PRIORITY", "COMPRESSED"); // TODO: Avoid allocation.
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO(jwilson): can I read the response body? Do I have to?
+File Name: ./samples/slack/src/main/java/okhttp3/slack/RtmSession.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: Concat multi-value headers with 0x0, except COOKIE, which uses 0x3B, 0x20.
+// http://tools.ietf.org/html/draft-ietf-httpbis-http2-17#section-8.1.2.5
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Reader.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: checkState open or half-closed (local) or raise STREAM_CLOSED
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Reader.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: write a test that shows pooled connections detect HTTP/1.0 (vs. HTTP/1.1)
+File Name: ./okhttp-tests/src/test/java/okhttp3/URLConnectionTest.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:    * TODO: See if duped headers should be preserved on decode and verify.
+*/
+File Name: ./okhttp-hpacktests/src/test/java/okhttp3/internal/http2/HpackDecodeTestBase.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO(jwilson): can I read the response body? Do I have to?
+//                the body from slack is a 0-byte-buffer
+File Name: ./samples/slack/src/main/java/okhttp3/slack/RtmSession.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO(jwilson): tests below this marker need to be migrated to OkHttp's request/response API.
+File Name: ./okhttp-tests/src/test/java/okhttp3/URLConnectionTest.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO: MWS will need to guard on this setting before attempting to push.
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO: compare different ciphers?
+File Name: ./benchmarks/src/main/java/okhttp3/benchmarks/Benchmark.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO: honor this setting.
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Settings.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO: search for toLowerCase and consider moving logic here.
+File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Header.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   @Ignore // TODO(jwilson): come up with a way to test unchecked exceptions on the writer thread.
+File Name: ./okhttp-tests/src/test/java/okhttp3/internal/ws/RealWebSocketTest.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   @Ignore // TODO: recover gracefully when a connection is shutdown.
+File Name: ./okhttp-tests/src/test/java/okhttp3/internal/http2/HttpOverHttp2Test.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
 Content: // TODO(jwilson): make this public after the 3.7 release.
 File Name: /okhttp/src/main/java/okhttp3/EventListener.java
 Time Of Creation: 2017-05-12T09:10:38-05:00
@@ -38,6 +249,15 @@ Creation Commit Hash: 29d3b73b89f18c1991cf52ab7a82a4e71acf07f7
 Deletion Commit Hash: 5fb5ab50a77efc761489493d4a0b8b9de85feec7
 Time To Complete: P1M8D; PT-55M-47S
 
+Content: // TODO(jwilson): what to do about timeouts? They could be different and unfortunately when any
+/     timeout is hit we like to tear down the whole stream.
+File Name: ./okhttp/src/main/java/okhttp3/internal/cache2/Relay.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
 Content: // TODO: Domains that start with '.' will be null on JDK8, but not on JDK7.
 File Name: /okhttp/src/main/java/okhttp3/internal/publicsuffix/PublicSuffixDatabase.java
 Time Of Creation: 2017-05-05T22:45:08-04:00
@@ -45,4 +265,15 @@ Time Of Deletion: 2017-05-06T11:57:06-04:00
 Creation Commit Hash: bf83abb01cf49fcf434cca3508899a9d819b3b3b
 Deletion Commit Hash: 29d56966c1ba932920b278467bb3d61f49709da9
 Time To Complete: P1D; PT-10H-48M-2S
+
+Content: // TODO: update hpack-test-case with the output of our encoder.
+/ This test will hide complementary bugs in the encoder and decoder,
+/ We should test that the encoder is producing responses that are
+/ d]
+File Name: ./okhttp-hpacktests/src/test/java/okhttp3/internal/http2/HpackRoundTripTest.java
+Time Of Creation: 2017-03-12T00:53-05:00
+Time Of Deletion: null
+Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Deletion Commit Hash: null
+Time To Complete: Incomplete
 

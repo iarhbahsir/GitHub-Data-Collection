@@ -1,3 +1,91 @@
+Content: 			base64 = new Base64(-1, new byte[] { 'A' }); // TODO do we need to
+// check sep if len
+// = -1?
+File Name: ./src/test/java/org/apache/commons/codec/binary/Base64Test.java
+Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Deletion: null
+Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO
+File Name: ./src/test/java/org/apache/commons/codec/binary/Base64Test.java
+Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Deletion: null
+Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO could be simplified if there is no requirement to reject invalid line sep when length <=0
+// @see test case Base64Test.testConstructors()
+File Name: ./src/main/java/org/apache/commons/codec/binary/Base64.java
+Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Deletion: null
+Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * @deprecated TODO: This field will be changed to a private final Charset in 2.0.
+*/
+File Name: ./src/main/java/org/apache/commons/codec/net/URLCodec.java
+Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Deletion: null
+Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO HMAC_SHA_224
+File Name: ./src/test/java/org/apache/commons/codec/digest/HmacAlgorithmsTest.java
+Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Deletion: null
+Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO should this be protected?
+File Name: ./src/main/java/org/apache/commons/codec/binary/BaseNCodecOutputStream.java
+Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Deletion: null
+Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO: Can Base64 be reused?
+*
+* <p>
+* This class is immutable and thread-safe.
+* </p>
+*
+* @version $Id$
+* @since 1.7
+*/
+File Name: ./src/main/java/org/apache/commons/codec/digest/B64.java
+Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Deletion: null
+Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO: also might be good to generate boolean[] from byte[] et cetera.
+*
+* @since 1.3
+* @version $Id$
+*/
+File Name: ./src/main/java/org/apache/commons/codec/binary/BinaryCodec.java
+Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Deletion: null
+Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO: may want to add more bit vector functions like and/or/xor/nand
+File Name: ./src/main/java/org/apache/commons/codec/binary/BinaryCodec.java
+Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Deletion: null
+Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
 Content: * @deprecated TODO: This field will be changed to a private final Charset in 2.0. (CODEC-126)
 */
 File Name: /src/main/java/org/apache/commons/codec/net/URLCodec.java
@@ -12,6 +100,14 @@ File Name: /src/test/java/org/apache/commons/codec/binary/Base64Test.java
 Time Of Creation: 2016-05-20T12:37:05Z
 Time Of Deletion: null
 Creation Commit Hash: 7817bfdadb9cda107955de03d3d15d64ab89b5dc
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO ought to implement Comparator<String> but that's not possible whilst maintaining binary compatibility.
+File Name: ./src/main/java/org/apache/commons/codec/StringEncoderComparator.java
+Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Deletion: null
+Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 

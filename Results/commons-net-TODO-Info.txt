@@ -1,3 +1,297 @@
+Content:                             // TODO should this cause failure, or can it be reported somehow?
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MLSxEntryParser.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO check this is ok
+return false; // this is a parsing failure too.
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MVSFTPEntryParser.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 type = FTPFile.FILE_TYPE; // TODO change this if DEVICE_TYPE implemented
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MacOsPeterFTPEntryParser.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 type = FTPFile.FILE_TYPE; // TODO change this if DEVICE_TYPE implemented
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/UnixFTPEntryParser.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO these are mostly just guesses at present
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MLSxEntryParser.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO this won't always work for systems that use short dates +0/-12months
+// e.g. if today is Jan 1 2001 and the short date is Feb 29
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/FTPTimestampParserImpl.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO use a local server if possible
+File Name: ./src/test/java/org/apache/commons/net/ftp/TestConnectTimeout.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: is offset still valid if rcvNtpTime=0 || xmitNtpTime=0 ???
+// Could always hash origNtpTime (sendTime) but if host doesn't set it
+// then it's an malformed ntp host anyway and we don't care?
+// If server is in broadcast mode then we never send out a query in first place...
+File Name: ./src/main/java/org/apache/commons/net/ntp/package-info.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //$FALL-THROUGH$ TODO this needs to be fixed if a device type is introduced
+File Name: ./src/test/java/org/apache/commons/net/ftp/parser/UnixFTPEntryParserTest.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         + "\\s*"                                        // separator TODO why allow it to be omitted??
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/UnixFTPEntryParser.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         + "\\s*"       // TODO should the space be optional?
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/EnterpriseUnixFTPEntryParser.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./src/test/java/org/apache/commons/net/ftp/parser/MVSFTPEntryParserTest.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Not sure what dates are parsed
+File Name: ./src/test/java/org/apache/commons/net/ftp/parser/MVSFTPEntryParserTest.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO \\d* should be \\d? surely ? Otherwise 01111 is allowed
++ "((?:[012]\\d*)|(?:3[01]))\\s*" // 18 date [012]\d* or 3[01]
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/EnterpriseUnixFTPEntryParser.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO remove this
+// Need to set a higher priority in case JVM does not use pre-emptive
+// threads.  This should prevent scheduler induced deadlock (rather than
+// deadlock caused by a bug in this code).
+File Name: ./src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO the following setup appears to duplicate that in the super class methods
+File Name: ./src/main/java/org/apache/commons/net/ftp/FTPSClient.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO the following setup appears to duplicate that in the super class methods
+File Name: ./src/main/java/org/apache/commons/net/imap/IMAPSClient.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO the following setup appears to duplicate that in the super class methods
+File Name: ./src/main/java/org/apache/commons/net/pop3/POP3SClient.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO the following setup appears to duplicate that in the super class methods
+File Name: ./src/main/java/org/apache/commons/net/smtp/SMTPSClient.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO this is probably a bug - it should default to the current year
+File Name: ./src/test/java/org/apache/commons/net/ftp/parser/FTPConfigEntryParserTest.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO verify this will avoid rehashing
+File Name: ./src/main/java/org/apache/commons/net/nntp/Threader.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         if (m.matches()) { // TODO would lookingAt() be more efficient? If so, then drop trailing .* from patterns
+File Name: ./src/main/java/org/apache/commons/net/imap/IMAPReply.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         output.write(connectString.getBytes("UTF-8")); // TODO what is the correct encoding?
+File Name: ./src/main/java/org/apache/commons/net/ftp/FTPHTTPClient.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * TODO Check that this is a good defensive strategy
+*/
+File Name: ./src/main/java/org/apache/commons/net/util/ListenerList.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * TODO Will be deprecated once the code requires Java 1.6 as a mininmum
+*/
+File Name: ./src/main/java/org/apache/commons/net/package-info.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO - can we delete this override now?
+/***
+* Returns the number of bytes that can be read without blocking EXCEPT
+* when newline conversions have to be made somewhere within the
+* available block of bytes.  In other words, you really should not
+* rely on the value returned by this method if you are trying to avoid
+* blocking.
+***/
+File Name: ./src/main/java/org/apache/commons/net/io/FromNetASCIIInputStream.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO - perhaps restrict permissions to [RWED]* ?
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/VMSFTPEntryParser.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO Lower address test
+File Name: ./src/test/java/org/apache/commons/net/SubnetUtilsTest.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO convert this to an iterative function - this can blow the stack
+// with very large Threadable trees
+File Name: ./src/main/java/org/apache/commons/net/nntp/ThreadContainer.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO should these be private enums?
+File Name: ./src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO there does not appear to be any way to change this value - should it be a ctor parameter?
+File Name: ./src/main/java/org/apache/commons/net/telnet/TelnetOutputStream.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     private static final String TAGGED_RESPONSE = "^\\w+ (\\S+).*"; // TODO perhaps be less strict on tag match?
+// tag cannot contain: + ( ) { SP CTL % * " \ ]
+File Name: ./src/main/java/org/apache/commons/net/imap/IMAPReply.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO - needs some work.
+*/
+File Name: ./src/test/java/org/apache/commons/net/ftp/parser/MLSDComparison.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO replace with an enum
+***/
+File Name: ./src/main/java/org/apache/commons/net/ftp/FTPReply.java
+Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Deletion: null
+Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
 Content: // TODO process first Received: line to determine arrival date?
 File Name: /src/main/java/org/apache/commons/net/examples/mail/IMAPImportMbox.java
 Time Of Creation: 2017-04-21T16:30:03Z

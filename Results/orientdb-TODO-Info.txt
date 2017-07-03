@@ -1,1 +1,1414 @@
-No TODOs
+Content: 		// TODO Auto-generated method stub
+File Name: ./object/src/main/java/com/orientechnologies/orient/object/jpa/OJPAPersistenceUnitInfo.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO: implement
+File Name: ./object/src/main/java/com/orientechnologies/orient/object/jpa/OJPAPersistenceUnitInfo.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	 * TODO: implement transformer provider-supplied transformer that the container invokes at class-(re)definition time
+*/
+File Name: ./object/src/main/java/com/orientechnologies/orient/object/jpa/OJPAPersistenceUnitInfo.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	 * TODO: init default value In a Java EE environment, if this element is not specified, the default is JTA. In a Java SE
+* environment, if this element is not specified, a default of RESOURCE_LOCAL may be assumed.
+*
+* @param elementContent
+* @return
+*/
+File Name: ./object/src/main/java/com/orientechnologies/orient/object/jpa/OJPAPersistenceUnitInfo.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                                               // TODO Auto-generated method stub
+File Name: ./tests/src/test/java/com/orientechnologies/orient/test/domain/base/JavaSimpleTestClass.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                     // TODO replace with regex
+// ASSURE ALL THE ITEMS ARE RID
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/string/ORecordSerializerSchemaAware2CSV.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/OCommandExecutorSQLCreateLink.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: CHECK IF CONTAINS VALUE=FIELD
+File Name: ./object/src/main/java/com/orientechnologies/orient/object/serialization/OObjectSerializerHelper.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: ONCE OPTIMIZED (SEE ABOVE) AVOID TO FILTER HERE
+File Name: ./distributed/src/main/java/com/orientechnologies/orient/server/distributed/impl/ODistributedStorage.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:           // // TODO Remove the additional management of WHERE for TRAVERSE after a while
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/OCommandExecutorSQLTraverse.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:           // TODO
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OSelectStatement.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:           // TODO apply current TX
+File Name: ./lucene/src/main/java/com/orientechnologies/lucene/operator/OLuceneOperatorFactory.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:           // TODO sort every iterator
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/OCommandExecutorSQLSelect.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:           // TODO: REFACTOR INDEX TO RETURN DELETED ITEMS
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/OCommandExecutorSQLDelete.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:           // TODO: Remove code duplication of this kind!
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/metadata/schema/OSchemaShared.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:           // TODO: SUPPORT BACKUP ON CLUSTER
+File Name: ./distributed/src/main/java/com/orientechnologies/orient/server/distributed/impl/task/OSyncClusterTask.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:           // TODO: revisit this exception
+// if (superClass != null && !cls.isSubClassOf(superClass))
+// throw new IllegalArgumentException("Class '" + iClassName + "' is not an instance of " + superClass.getShortName());
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/metadata/schema/OSchemaShared.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:           // TODO: revisit this logic: interfaces should be also taken into concederation
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/metadata/schema/OSchemaShared.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:           boolean ascendingOrder = true;// TODO
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OSelectStatement.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:           childContext.currentEdgeNumber = matchContext.currentEdgeNumber + 1; //TODO testOptional 3 match passa con +1
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OMatchStatement.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:           wrapped.reload(); // TODO: RELOAD DOESN'T DO ANYTHING WHILE HERE IT'S NEEDED A WAY TO CLOSE/OPEN THE DB
+File Name: ./distributed/src/main/java/com/orientechnologies/orient/server/distributed/impl/ODistributedStorage.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientGraphNoTx.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated catch block
+File Name: ./jdbc/src/test/java/com/orientechnologies/orient/jdbc/OrientJdbcBlobTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated catch block
+File Name: ./tests/src/test/java/com/orientechnologies/orient/test/database/speed/RemoteCreateDocumentSpeedTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO filter data
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/query/live/OLiveQueryQueueThread.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO redundant in some cases, owner is already added by getValue in some cases
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/string/ORecordSerializerJSON.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO workaround
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/db/record/ridbag/sbtree/OSBTreeRidBag.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: ADD AUTO-SHARDING INDEX FILES TOO
+File Name: ./distributed/src/main/java/com/orientechnologies/orient/server/distributed/impl/ODistributedAbstractPlugin.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: AVOID TO KEEP ALL THE RESULT FOR THE SAME RESP GROUP, BUT RATHER THE FIRST ONE + COUNTER
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/distributed/ODistributedResponseManager.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: CALL THE RECORD CONFLICT PIPELINE
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/distributed/ODistributedResponseManager.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: CONSIDER DIFFERENT TYPE OF EXCEPTION, SOME OF THOSE COULD REQUIRE AN UNDO
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/distributed/ODistributedResponseManager.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: Catch all expected exceptions correctly!
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/network/protocol/http/command/OServerCommandAuthenticatedDbAbstract.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: Check if the token is expiring and if it is send a new token
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: FREEZE COULD IT NOT NEEDED
+File Name: ./distributed/src/main/java/com/orientechnologies/orient/server/distributed/sql/OCommandExecutorSQLHASyncCluster.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: IMPROVE ELECTION BY CHECKING AL THE NODES AGREE ON IT
+File Name: ./distributed/src/main/java/com/orientechnologies/orient/server/hazelcast/OHazelcastPlugin.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: IMPROVE THIS CASE AVOIDING DOUBLE PARSING
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/OSQLHelper.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: handle the null links
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerBinaryV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: handle the null links
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerNetworkV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO:check skip of complex types
+// FIXME: changed to support only string key on map
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerBinaryV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO:check skip of complex types
+// FIXME: changed to support only string key on map
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerNetworkV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO handle in a proper way
+File Name: ./lucene/src/main/java/com/orientechnologies/lucene/collections/OLuceneResultSet.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         token = random.nextInt();// TODO do something better ;-)!
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/OCommandExecutorSQLLiveSelect.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OSelectStatement.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO Auto-generated method stub
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/metadata/schema/TestOTypeDetection.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO check this!
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/OCommandExecutorSQLLiveSelect.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO find a way to know a bit more on each parameter
+File Name: ./jdbc/src/main/java/com/orientechnologies/orient/jdbc/OrientJdbcPreparedStatement.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO if invalid build a JSON
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OInputParameter.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO other cases?
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OSuffixIdentifier.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO synchronize
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/query/live/OLiveQueryHook.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO why this maximums can be different?
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/db/tool/ODatabaseCompare.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: Check if the token is expiring and if it is send a new token
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: MANAGE ERROR ON LOCAL NODE
+File Name: ./distributed/src/main/java/com/orientechnologies/orient/server/distributed/impl/task/OAbstract2pcTask.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: OPTIMIZE SEARCH!
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/network/protocol/http/OHttpNetworkCommandManager.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: TEMPORARY PATCH TO WAIT FOR DB PROPAGATION IN CFG TO ALL THE OTHER SERVERS
+File Name: ./distributed/src/main/java/com/orientechnologies/orient/server/hazelcast/OHazelcastPlugin.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: This Logic should not be here provide an api in the Serializer if asked for trimmed content.
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: WHEN TO USE THE SERIALIZER?
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/record/impl/ODocument.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO: do not use the parse split getSignedBinaryToken in two methods.
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO:check skip of complex types
+// FIXME: changed to support only string key on map
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerBinaryV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO:check skip of complex types
+// FIXME: changed to support only string key on map
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerNetworkV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO:manage in a better way null entry
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerBinaryV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO:manage in a better way null entry
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerNetworkV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       // TODO:may run a session reopen
+File Name: ./client/src/main/java/com/orientechnologies/orient/client/remote/OStorageRemote.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       //TODO implement this!
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OScAndOperator.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       //TODO:replace this api with one that get connection for only the specified url.
+File Name: ./client/src/main/java/com/orientechnologies/orient/client/remote/OServerAdmin.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       protocol.channel.flush();// TODO review this flush... it's for non blocking...
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/OAsyncCommandResultListener.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       result.field("token", token);// TODO change this name...?
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/OCommandExecutorSQLLiveSelect.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       return false;// TODO
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/query/OSQLNonBlockingQuery.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:       throw new RuntimeException("cannot run non blocking query with non tx db");// TODO
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/query/OSQLNonBlockingQuery.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     *          TODO
+*/
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/network/protocol/http/command/OServerCommand.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // FUTURE_TODO: (QUARTZ-481) IMPROVE THIS! The following is a BAD solution to this problem. Performance will be very bad here,
+// depending on the cron expression. It is, however A solution.
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/schedule/OCronExpression.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // FUTURE_TODO: implement QUARTZ-423
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/schedule/OCronExpression.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/sql/parser/operators/OInOperatorTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/sql/parser/operators/OLuceneOperatorTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/sql/parser/operators/ONearOperatorTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/sql/parser/operators/OWithinOperatorTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO - remove this delete to test simple type collections JSON import/export
+File Name: ./tests/src/test/java/com/orientechnologies/orient/test/database/auto/CRUDObjectPhysicalTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO CHECK WHY SHOULD THROW EXCEPTION
+// database.begin();
+//
+// try {
+// // BROWSE ALL THE OBJECTS
+// Assert.assertTrue(database.countClass(Account.class) > 0);
+// for (Account a : database.browseClass(Account.class)) {
+// Assert.assertNotNull(a.getId());
+//
+// // UPDATE IT TO GET NEWER VERSION
+// a.setName(a.getName() + " v1");
+// database.save(a);
+// break;
+// }
+//
+// database.commit();
+//
+// Assert.assertTrue(false);
+// } finally {
+// database.rollback();
+// }
+File Name: ./tests/src/test/java/com/orientechnologies/orient/test/database/auto/ObjectDetachingTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO CHECK WHY SHOULD THROW EXCEPTION
+// database.begin();
+//
+// try {
+// // BROWSE ALL THE OBJECTS
+// Assert.assertTrue(database.countClass(Account.class) > 0);
+// for (Account a : database.browseClass(Account.class)) {
+// Assert.assertNotNull(a.getId());
+//
+// // UPDATE IT TO GET NEWER VERSION
+// a.setName(a.getName() + " v1");
+// database.save(a);
+// break;
+// }
+//
+// database.commit();
+//
+// Assert.assertTrue(false);
+// } finally {
+// database.rollback();
+// }
+File Name: ./tests/src/test/java/com/orientechnologies/orient/test/database/auto/ObjectDetachingTestSchemaFull.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO Implementation of Composite keys with Collection
+File Name: ./lucene/src/main/java/com/orientechnologies/lucene/OLuceneIndexType.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO To be used in evaluate Record
+File Name: ./lucene/src/test/java/com/orientechnologies/lucene/test/LuceneBooleanIndexTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO add boolan and byte
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/metadata/schema/OClassImplTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO add boolean and byte
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/metadata/schema/OClassImplTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO complete this!
+// database.command(new OCommandSQL("create vertex set")).execute();
+// database.command(new OCommandSQL("create vertex set set set = 1")).execute();
+File Name: ./tests/src/test/java/com/orientechnologies/orient/test/database/auto/SQLCreateVertexTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO fix char management issue:#2427
+// assertEquals(document.field("character"), extr.field("character"));
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/record/impl/ODocumentSchemalessBinarySerializationTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO fix char management issue:#2427
+// assertEquals(document.field("character"), extr.field("character"));
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/record/impl/SimpleSerializableClass.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO improve query execution plan so that also next statements succeed (in 2.0 it's not guaranteed)
+// assertProfileCount(profiler.getCounter("db.demo.query.indexUsed"), oldIndexUsage , 1);
+// assertProfileCount(profiler.getCounter("db.demo.query.compositeIndexUsed"), oldcompositeIndexUsed , 1);
+// Assert.assertTrue(profiler.getCounter("db.demo.query.compositeIndexUsed.3") < oldcompositeIndexUsed3 , 1);
+// Assert.assertTrue(profiler.getCounter("db.demo.query.compositeIndexUsed.3.3") < oldcompositeIndexUsed33 + 1);
+File Name: ./tests/src/test/java/com/orientechnologies/orient/test/database/auto/SQLSelectHashIndexReuseTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO manage embedded type from schema and auto-determined.
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerBinaryV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO manage embedded type from schema and auto-determined.
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerNetworkV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO not really correct check. Small numbers with high precision will be trunked while they shouldn't be
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/string/ORecordSerializerJSON.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO optimize
+File Name: ./lucene/src/main/java/com/orientechnologies/lucene/tx/OLuceneTxChangesAbstract.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO profiler
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/OCommandExecutorSQLSelect.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO projections
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OSelectStatement.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO remove and refactor (see same method in OCommandExecutorAbstract)
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/filter/OSQLPredicate.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO remove and refactor (see same method in OCommandExecutorAbstract)
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/filter/OSQLTarget.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO remove false conditions (contraddictions)
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OWhereClause.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO remove this
+File Name: ./graphdb/src/test/java/com/orientechnologies/orient/graph/sql/SQLCreateVertexAndEdgeTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO replace with more efficient implementation
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/db/record/ridbag/sbtree/OIndexRIDContainerSBTree.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO replace with more efficient implementation.
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/db/record/ridbag/sbtree/OIndexRIDContainerSBTree.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO search is wrong because if first user is not root tests will fail
+File Name: ./client/src/main/java/com/orientechnologies/orient/client/db/ODatabaseHelper.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO see OChannelBinary
+File Name: ./client/src/main/java/com/orientechnologies/orient/client/remote/OStorageRemoteAsynchEventListener.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO sync
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/query/live/OLiveQueryHook.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: BIND ARGS
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/command/script/formatter/OSQLScriptFormatter.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: CREATE PROTOCOL FACTORIES INSTEAD
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/network/OServerNetworkListener.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: DELEGATE MERGE AT EVERY COMMAND
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/OCommandExecutorSQLResultsetAbstract.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: IMPROVE THIS BY RECEIVING THE RECORD AS PARAMETER INSTEAD OF RELOADING IT
+File Name: ./distributed/src/main/java/com/orientechnologies/orient/server/distributed/impl/ODistributedDatabaseImpl.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: Other validations... (e.g. check audience, etc.)
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/token/OTokenHandlerImpl.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: REMOVE THIS
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/record/impl/ODocument.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: SOME VALUES NEED TO BE MERGED
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/command/OBasicCommandContext.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: SUPPORT SHARDING HERE
+File Name: ./distributed/src/main/java/com/orientechnologies/orient/server/distributed/impl/ODistributedStorage.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: add tests for checking value of creates/reads to check the remotion of iteration had no impact
+File Name: ./tools/src/test/java/com/orientechnologies/orient/stresstest/workload/OCRUDWorkloadTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: char not currently supported in orient.
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/record/impl/ODocumentSchemafullSerializationTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: char not currently supported in orient.
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/record/impl/ODocumentSchemalessBinarySerializationTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: char not currently supported in orient.
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/record/impl/SimpleSerializableClass.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: check if integrate the binary disc binary comparator here
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerNetworkV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: double check this, it's an overhead
+File Name: ./core/src/test/java/com/orientechnologies/orient/core/db/record/impl/ODirtyManagerTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: is this assumption ok?
+// Get the currently open database for this thread and set intent.
+File Name: ./tests/src/test/java/com/orientechnologies/orient/test/database/speed/GiantFileTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: manage case where type is known
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerBinaryV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: manage case where type is known
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ORecordSerializerNetworkV0.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: manage taxo
+// facetManager = new OLuceneFacetManager(this, metadata);
+File Name: ./lucene/src/main/java/com/orientechnologies/lucene/engine/OLuceneStorage.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO:REASSOCIATE CONNECTION TO CLIENT.
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // return null;// TODO
+// }
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OExpression.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO support all the basic types
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/filter/OSQLFilterItemField.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO these tests are broken, they should test "contains" instead of "="
+File Name: ./tests/src/test/java/com/orientechnologies/orient/test/database/auto/GraphDatabaseTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     boolean useCache = false;// TODO
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OSelectStatement.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     final ORID[] range = new ORID[2];// TODO
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OSelectStatement.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     return -1;// TODO
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OSelectStatement.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     return expression.getMatchPatternInvolvedAliases();//TODO also check the statement...?
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OParenthesisExpression.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     return false;// TODO
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OContainsAllCondition.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     return null;// TODO
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OMatchStatement.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     super.validate();//TODO
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OAlterPropertyStatement.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:    *          TODO
+* @return The new offset inside the string analyzed
+*/
+File Name: ./core/src/main/java/com/orientechnologies/common/parser/OStringParser.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:    *          TODO
+* @return true if repair must be done, otherwise false
+*/
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/db/ODatabaseListener.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:    *          TODO
+* @param iParams
+*          : function parameters, number is ensured to be within minParams and maxParams.
+* @param iContext
+*          : object calling this function
+* @return function result, can be null. Special cases : can be null if function aggregate results, can be null if function filter
+*         results : this mean result is excluded
+*/
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/functions/OSQLFunction.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:    *          TODO
+* @param iParams
+*          : function parameters, number is ensured to be within minParams and maxParams.
+* @param iPossibleResults
+*          : a set of possible results (the function will return, as a result, only items contained in this collection)
+* @param iContext
+*          : object calling this function
+* @return function result, can be null. Special cases : can be null if function aggregate results, can be null if function filter
+*         results : this mean result is excluded
+*/
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/functions/OSQLFunctionFiltered.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:    *          TODO
+* @param iContext
+* @return
+*/
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/functions/OSQLFunctionRuntime.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:    *          TODO
+* @param iContext
+* @return
+*/
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/method/OSQLMethodRuntime.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:    * @param iCurrentResult TODO
+* @param iContext
+*          Context of execution
+* @return The result of predicate
+*/
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/command/OCommandPredicate.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:    * @param reference TODO
+*/
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/ODocumentSerializer.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:    * Backport copy of Float.isFinite() method that was introduced since Java 1.8 but we must support 1.6. TODO replace after
+* choosing Java 1.8 as minimal supported
+**/
+File Name: ./etl/src/main/java/com/orientechnologies/orient/etl/extractor/OCSVExtractor.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:    * Backport copy of Float.isFinite() method that was introduced since Java 1.8 but we must support 1.6. TODO replace after
+* choosing Java 1.8 as minimal supported
+**/
+File Name: ./etl/src/main/java/com/orientechnologies/orient/etl/transformer/OCSVTransformer.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // //TODO: move to EE test suite
+// public void testIncrementalBackup() throws IOException, ClassNotFoundException, MalformedObjectNameException,
+// InstanceAlreadyExistsException, NotCompliantMBeanException, MBeanRegistrationException {
+// if (new File(BACKUPDIR + "/" + DBNAME).exists())
+// OFileUtils.deleteRecursively(new File(BACKUPDIR + "/" + DBNAME));
+//
+// final OAutomaticBackup aBackup = new OAutomaticBackup();
+//
+// final OServerParameterConfiguration[] config = new OServerParameterConfiguration[] {
+// new OServerParameterConfiguration("firstTime",
+// new SimpleDateFormat("HH:mm:ss").format(new Date(System.currentTimeMillis() + 2000))),
+// new OServerParameterConfiguration("delay", "1d"), new OServerParameterConfiguration("mode", "INCREMENTAL_BACKUP"),
+// new OServerParameterConfiguration("target.directory", BACKUPDIR) };
+//
+// aBackup.config(server, config);
+//
+// try {
+// Thread.sleep(5000);
+// } catch (InterruptedException e) {
+// e.printStackTrace();
+// }
+//
+// aBackup.sendShutdown();
+//
+// final ODatabaseDocumentTx database2 = new ODatabaseDocumentTx(URL2);
+// if (database2.exists())
+// database2.open("admin", "admin").drop();
+// database2.create(BACKUPDIR + "/" + DBNAME);
+//
+// Assert.assertEquals(database2.countClass("TestBackup"), 1);
+// }
+File Name: ./server/src/test/java/com/orientechnologies/orient/server/handler/AutomaticBackupTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO Re-enable when removed check syntax on ODB
+File Name: ./lucene/src/test/java/com/orientechnologies/lucene/test/LuceneMiscTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO Test, and double doubleqoutes case
+File Name: ./etl/src/main/java/com/orientechnologies/orient/etl/transformer/OCSVTransformer.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO change current config and restart the automatic backup plugin
+File Name: ./server/src/main/java/com/orientechnologies/orient/server/handler/OAutomaticBackup.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO invalid test, invalid integer alias
+// @Test
+// public void queryProjectionAliases() {
+// List<ODocument> result = database.command(
+// new OSQLSynchQuery<ODocument>(
+// "select name.append('!') as 1, surname as 2 from Profile where name is not null and surname is not null")).execute();
+//
+// Assert.assertTrue(result.size() != 0);
+//
+// for (ODocument d : result) {
+// Assert.assertTrue(d.fieldNames().length <= 2);
+// Assert.assertTrue(d.field("1").toString().endsWith("!"));
+// Assert.assertNotNull(d.field("2"));
+//
+// Assert.assertNull(d.getClassName());
+// Assert.assertEquals(ORecordInternal.getRecordType(d), ODocument.RECORD_TYPE);
+// }
+// }
+File Name: ./tests/src/test/java/com/orientechnologies/orient/test/database/auto/SQLSelectProjectionsTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO is this valid?
+File Name: ./lucene/src/main/java/com/orientechnologies/lucene/tx/OLuceneTxChangesMultiRid.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO transform in a map
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/sql/parser/OMatchFilter.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO: CREATE A REGULAR JSR223 SCRIPT IMPL
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/command/script/OCommandExecutorScript.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   // TODO: move to utility class
+File Name: ./lucene/src/main/java/com/orientechnologies/lucene/engine/OLuceneIndexEngineAbstract.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:   //TODO re-enable this with new parser. this test was broken!!!
+/  public void testEscaping() {
+/    database.getMetadata().getSchema().createClass("Thing");
+/
+/    List result = database.command(new OCommandSQL("select from cluster:internal")).execute();
+/
+/    List result0 = database.command(new OCommandSQL("select from cluster:internal where \"\\u005C\\u005C\" = \"\\u005C\\u005C\"")).execute();
+/    Assert.assertEquals(result.size(), result0.size());
+/
+/    ODocument document0 = database.command(new OCommandSQL("insert into Thing set value = \"\\u005C\\u005C\"")).execute();
+/    Assert.assertEquals("\\", document0.field("value"));
+/
+/    ODocument document1 = database.command(new OCommandSQL("insert into Thing set value = \"\\\\\"")).execute();
+/    Assert.assertEquals("\\", document1.field("value"));
+/
+/    List list1 = database.command(new OCommandSQL("select from cluster:internal where \"\\u005C\\u005C\" == \"\\\\\"")).execute();
+/    Assert.assertEquals(result.size(), list1.size());
+/
+/    try {
+/      ODocument document2 = database.command(new OCommandSQL("insert into Thing set value = \"\\\"")).execute();
+/      Assert.assertTrue(false);
+/    } catch (Exception e) {
+/      Assert.assertTrue(true);
+/    }
+/
+/    try {
+/      List list2 = database.command(new OCommandSQL("select from cluster:internal where \"\\u005C\" == \"\\\"")).execute();
+/      Assert.assertTrue(false);
+/    } catch (Exception e) {
+/      Assert.assertTrue(true);
+/    }
+/
+/    try {
+/      List list3 = database.command(new OCommandSQL("select from cluster:internal where \"\\\" == \"\\u005C\"")).execute();
+/      Assert.assertTrue(false);
+/    } catch (Exception e) {
+/      Assert.assertTrue(true);
+/    }
+/  }
+File Name: ./tests/src/test/java/com/orientechnologies/orient/test/database/auto/SQLEscapingTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * Immutable ORID implementation. To be really immutable fields must not be public anymore. TODO!
+*
+* @author Luca Garulli (l.garulli--at--orientechnologies.com)
+*
+*/
+File Name: ./core/src/main/java/com/orientechnologies/orient/core/id/OImmutableRecordId.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO Temporary Ignored
+File Name: ./distributed/src/test/java/com/orientechnologies/orient/server/distributed/scenariotest/ThreeClientsRecordUpdateWithTransactionsOnMultipleServersScenarioTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO Temporary Ignored
+File Name: ./distributed/src/test/java/com/orientechnologies/orient/server/distributed/scenariotest/TwoClientsRecordUpdateDuringRetryWithTransactionsOnMultipleServersScenarioTest.java
+Time Of Creation: 2017-02-23T10:03:23Z
+Time Of Deletion: null
+Creation Commit Hash: 469bb1923cc9601a8264fda6ea79f0f9bd8448e6
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+

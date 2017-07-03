@@ -1,1 +1,299 @@
-No TODOs
+Content:                 // TODO: Exceptions should not be used for flow control.
+File Name: ./src/main/java/org/apache/commons/math4/fitting/GaussianCurveFitter.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: once MATH-364 is resolved, replace 9 with 30
+File Name: ./src/test/java/org/apache/commons/math4/distribution/NormalDistributionTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Use more specific error message
+File Name: ./src/main/java/org/apache/commons/math4/linear/RealVector.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: Exceptions should not be used for flow control.
+File Name: ./src/main/java/org/apache/commons/math4/fitting/GaussianCurveFitter.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO check it got the right answer
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/LevenbergMarquardtOptimizerTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO check that it is a bad fit? Why the extra conditions?
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/LevenbergMarquardtOptimizerTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO get array from RealVector without copying?
+File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresFactory.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO move to builder test
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/AbstractLeastSquaresOptimizerAbstractTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO why is this part here? hasn't it been tested already?
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/AbstractLeastSquaresOptimizerAbstractTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:          * TODO This test leads to a singular problem with the Gauss-Newton
+* optimizer. This should be inquired.
+*/
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithCholeskyTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:          * TODO This test leads to a singular problem with the Gauss-Newton
+* optimizer. This should be inquired.
+*/
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithLUTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:          * TODO This test leads to a singular problem with the Gauss-Newton
+* optimizer. This should be inquired.
+*/
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithQRTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:          * TODO This test leads to a singular problem with the Gauss-Newton
+* optimizer. This should be inquired.
+*/
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithSVDTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // From Wikipedia KS article - TODO: get (and test) more precise values
+File Name: ./src/test/java/org/apache/commons/math4/stat/inference/KolmogorovSmirnovTestTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO more efficient implementation
+File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresFactory.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO:  Should have assertRelativelyEquals(double[], double[], eps) in TestUtils
+//        Should also add RealVector and RealMatrix versions
+File Name: ./src/test/java/org/apache/commons/math4/stat/regression/GLSMultipleLinearRegressionTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: for small t (say less than 1), the alternative expansion in part 3 of [1]
+// from class javadoc should be used.
+File Name: ./src/main/java/org/apache/commons/math4/stat/inference/KolmogorovSmirnovTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: the wrapper around NonLinearConjugateGradientOptimizer is a temporary hack for
+// version 3.1 of the library. It should be removed when NonLinearConjugateGradientOptimizer
+// will officially be declared as implementing MultivariateDifferentiableOptimizer
+File Name: ./src/test/java/org/apache/commons/math4/optim/nonlinear/scalar/MultiStartMultivariateOptimizerTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: user-defined parameter?
+File Name: ./src/test/java/org/apache/commons/math4/PerfTestUtils.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO what is this actually testing?
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/AbstractLeastSquaresOptimizerAbstractTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO why should this fail? It uses 15 evaluations.
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/LevenbergMarquardtOptimizerTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: replace with statistical tests
+File Name: ./src/test/java/org/apache/commons/math4/distribution/EmpiricalDistributionTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * TODO: verify that tolerance this wide is really OK
+*/
+File Name: ./src/test/java/org/apache/commons/math4/random/StableRandomGeneratorTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: this test is temporarily disabled for 3.2 release as a bug in Cobertura
+//       makes it run for several hours before completing
+File Name: ./src/test/java/org/apache/commons/math4/optim/nonlinear/scalar/noderiv/BOBYQAOptimizerTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO Solution?
+File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresOptimizer.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO move to linear package and expand options?
+File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizer.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     @SuppressWarnings("unchecked") // TODO is the cast OK?
+File Name: ./src/main/java/org/apache/commons/math4/stat/Frequency.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     public void testJava() {// TODO more debug
+File Name: ./src/test/java/org/apache/commons/math4/complex/ComplexTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO cache results?
+*
+* @since 3.3
+*/
+File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/AbstractEvaluation.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO:
+*  - improve user interface
+*    - make algorithm parameters configurable
+*    - add a gallery of results after x iterations / minutes (either automatic or based on button click)
+*    - allow loading / selection of other images
+*    - add logging in the user interface, e.g. number of generations, time spent, ...
+*
+* @see <a href="http://www.nihilogic.dk/labs/evolving-images/">Evolving Images with JavaScript and canvas (Nihilogic)</a>
+*/
+File Name: ./src/userguide/java/org/apache/commons/math4/userguide/genetics/ImageEvolutionExample.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO: 
+*  - select tolerance level
+*  - allow editing of the point set
+*/
+File Name: ./src/userguide/java/org/apache/commons/math4/userguide/geometry/GeometryExample.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: //             Assert.fail("Expecting MathIllegalArgumentException"); // TODO needs rework since convergence behaviour was changed
+File Name: ./src/test/java/org/apache/commons/math4/analysis/solvers/UnivariateSolverUtilsTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: //  TODO: add this test in 4.0, as it is not possible to do it in 3.2
+/  due to incompatibility of the return type in the Dfp class
+/    @Test
+/    public void testLog10() {
+/        for (double x = -0.9; x < 0.9; x += 0.05) {
+/            checkRelative(FastMath.log10(x), build(x).log10());
+/        }
+/    }
+File Name: ./src/test/java/org/apache/commons/math4/ExtendedFieldElementAbstractTest.java
+Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Deletion: null
+Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+

@@ -1,1 +1,198 @@
-No TODOs
+Content: 				// TODO support throwables?
+File Name: ./empire-db-maven-plugin/src/main/java/org/apache/empire/db/maven/CodeGenMojo.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO add extra validation for the real generated sources
+File Name: ./empire-db-examples/empire-db-example-cxf/src/main/java/org/apache/empire/samples/cxf/wssample/common/Employee.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO can't the implementation of this be simpler?
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/DateUtilsTest.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO check if this is the wanted result
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/ObjectUtilsTest.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO fall back to getPackageName() is the other names are not set
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/CodeGenWriter.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO handle null?
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/ObjectUtilsTest.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO maybe we should find the highest param as some might not be in use (regex)
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/ErrorTypeTest.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO might be better to add this to the enum
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/WriterService.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO test fail if file in use
+File Name: ./empire-db-codegen/src/test/java/org/apache/empire/db/codegen/util/FileUtilsTest.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO test with files
+File Name: ./empire-db-codegen/src/test/java/org/apache/empire/db/codegen/util/FileUtilsTest.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO use primitives for non-nullable columns?
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/WriterService.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO what is the difference with the other replace method, merge???
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/StringUtilsTest.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	// TODO remove as not in use?
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/util/FileUtils.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	// TODO remove as not in use?	
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/util/FileUtils.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         	// TODO throw proper exception
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/CodeGenConfig.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             		// TODO throw IO Exception or return false?
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/util/FileUtils.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: Set view metadata
+File Name: ./empire-db-jsf2/src/main/java/org/apache/empire/jsf2/pages/PagePhaseListener.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./empire-db-jsf2/src/main/java/org/apache/empire/jsf2/controls/InputControl.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./empire-db-jsf2/src/main/java/org/apache/empire/jsf2/utils/StringResponseWriter.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO get rid of flags param??
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/OptionsTest.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO try to compile the resulting files???
+File Name: ./empire-db-codegen/src/test/java/org/apache/empire/db/codegen/CodeGenTest.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: not working properly!
+File Name: ./empire-db-examples/empire-db-example-struts2-cxf/src/main/java/org/apache/empire/struts2/websample/web/actions/EmployeeDetailAction.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * TODO: Find a way to set the view Metadata. Don't know how to do it.
+*
+* @param pageParams
+* @return
+*/
+File Name: ./empire-db-jsf2/src/main/java/org/apache/empire/jsf2/pages/PagePhaseListener.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO would be better to let these methods throw IOExceptions!
+*
+*/
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/util/FileUtils.java
+Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Deletion: null
+Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+

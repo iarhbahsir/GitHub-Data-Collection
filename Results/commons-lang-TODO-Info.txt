@@ -1,3 +1,162 @@
+Content:             // TODO: Need to handle escaping of '
+File Name: ./src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO when breaking BC, consider returning input
+File Name: ./src/main/java/org/apache/commons/lang3/Validate.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO when breaking BC, consider returning obj
+File Name: ./src/main/java/org/apache/commons/lang3/Validate.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO when breaking BC, consider returning type
+File Name: ./src/main/java/org/apache/commons/lang3/Validate.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO when breaking BC, consider returning value
+File Name: ./src/main/java/org/apache/commons/lang3/Validate.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: Compare performance to see if anything was lost by 
+// losing this optimisation.
+File Name: ./src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: Handle potential + sign per various Unicode escape implementations
+File Name: ./src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: refine API for escaping/unescaping specific HTML versions
+File Name: ./src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO extract an interface to implement compareParameterSets(...)?
+File Name: ./src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: Create a parent class - 'SinglePassTranslator' ?
+//       It would handle the index checking + length returning,
+//       and could also have an optimization check method.
+File Name: ./src/main/java/org/apache/commons/lang3/StringEscapeUtils.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: Remove in Lang 4.0
+File Name: ./src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: throw "illegal character: \92" as an Exception if a \ on the end of the Java (as per the compiler)?
+File Name: ./src/main/java/org/apache/commons/lang3/StringEscapeUtils.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO?: Create an OptionsSet class to hide some of the conditional logic below
+File Name: ./src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     protected char[] buffer; // TODO make private?
+/** Current size of the buffer. */
+File Name: ./src/main/java/org/apache/commons/lang3/text/StrBuilder.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     protected int size; // TODO make private?
+/** The new line. */
+File Name: ./src/main/java/org/apache/commons/lang3/text/StrBuilder.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * This can act as an exception based TODO tag. </p>
+*
+* <pre>
+* public void foo() {
+*   try {
+*     // do something that throws an Exception
+*   } catch (Exception ex) {
+*     // don't know what to do here yet
+*     throw new NotImplementedException("TODO", ex);
+*   }
+* }
+* </pre>
+*
+* This class was originally added in Lang 2.0, but removed in 3.0.
+*
+* @since 3.2
+*/
+File Name: ./src/main/java/org/apache/commons/lang3/NotImplementedException.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: //            // TODO: Implement rather than convert to String
+/            return cs.toString().lastIndexOf(searchChar.toString(), start);
+/        }
+File Name: ./src/main/java/org/apache/commons/lang3/CharSequenceUtils.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
 Content: // TODO: Compare performance to see if anything was lost by
 // losing this optimisation.
 File Name: /src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java
@@ -7,12 +166,31 @@ Creation Commit Hash: ad648cf8a8a90bdee129266ca7b686a5b9a87561
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Content: // TODO: I think this should hold, needs further investigation
+/        String unescapedFromEntity = StringEscapeUtils.unescapeHtml4( "&#119650;" );
+/        assertEquals( "High Unicode should have been unescaped", original, unescapedFromEntity);
+File Name: ./src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
 Content: // TODO: This is no longer public and will be removed later as CharSet is moved
 // to depend on Range.
 File Name: /src/main/java/org/apache/commons/lang3/CharRange.java
 Time Of Creation: 2017-06-07T09:59:12+02:00
 Time Of Deletion: null
 Creation Commit Hash: ad648cf8a8a90bdee129266ca7b686a5b9a87561
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO: This is no longer public and will be removed later as CharSet is moved 
+/ to depend on Range.
+File Name: ./src/main/java/org/apache/commons/lang3/CharRange.java
+Time Of Creation: 2017-03-19T17:12:16+01:00
+Time Of Deletion: null
+Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 

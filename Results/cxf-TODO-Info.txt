@@ -1,8 +1,3385 @@
+Content:                             // TODO - add the interceptors
+File Name: ./rt/bindings/soap/src/main/java/org/apache/cxf/binding/soap/interceptor/ReadHeadersInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                             // TODO: REVISIT - Is this the only way we can create the file name for the
+// imported schema?
+File Name: ./tools/corba/src/main/java/org/apache/cxf/tools/corba/processors/idl/IDLToWSDLProcessor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                          * TODO: why are we looking up an element name with findSchemaType?
+*/
+File Name: ./tools/corba/src/main/java/org/apache/cxf/tools/corba/processors/wsdl/WSDLToCorbaHelper.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                         // First match TODO refactor for better method override
+File Name: ./services/sts/sts-core/src/main/java/org/apache/cxf/sts/claims/mapper/ClaimUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                         // TODO Auto-generated catch block
+File Name: ./rt/transports/http-hc/src/test/java/org/apache/cxf/transport/http/asyncclient/AsyncHTTPConduitTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                         // TODO Auto-generated catch block
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/jetty9/Jetty9WebSocketDestination.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                         // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/interceptors/MessageModeOutInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                         // TODO: this is really ugly, but how to link between
+// this binding and this transport ?
+File Name: ./rt/wsdl/src/main/java/org/apache/cxf/wsdl11/WSDLServiceBuilder.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                         //TODO - should check minOccurs=0 and throw validation exception
+//thing if the part needs to be here
+File Name: ./rt/wsdl/src/main/java/org/apache/cxf/wsdl/interceptors/DocLiteralInInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                     // TODO Auto-generated catch block
+File Name: ./rt/transports/http-hc/src/main/java/org/apache/cxf/transport/http/asyncclient/AsyncHTTPConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                     // TODO Auto-generated catch block
+File Name: ./rt/transports/http-hc/src/test/java/org/apache/cxf/transport/http/asyncclient/AsyncHTTPConduitTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                     // TODO Auto-generated catch block
+File Name: ./systests/jaxws/src/test/java/org/apache/cxf/systest/provider/HWDOMSourcePayloadProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                     // TODO We only support using a KeyIdentifier for the moment
+File Name: ./rt/ws/security/src/main/java/org/apache/cxf/ws/security/wss4j/policyhandlers/AbstractBindingBuilder.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                     // TODO: add customize here
+//doCustomizeOperation(jf, jm, bop);
+File Name: ./tools/wsdlto/frontend/jaxws/src/main/java/org/apache/cxf/tools/wsdlto/frontend/jaxws/processor/internal/ServiceProcessor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                     //TODO may want use string directly instead of converting it to byte[]
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/jetty9/Jetty9WebSocketDestination.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                     //TODO:Cache the JAXBRIContext
+File Name: ./rt/databinding/jaxb/src/main/java/org/apache/cxf/jaxb/io/DataWriterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO
+File Name: ./rt/transports/http/src/main/java/org/apache/cxf/transport/http/HttpAuthenticationFaultHandler.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO - compile issue
+File Name: ./tools/javato/ws/src/main/java/org/apache/cxf/tools/java2wsdl/generator/wsdl11/BeanGenerator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Add support for SAML2 here
+File Name: ./rt/ws/security/src/main/java/org/apache/cxf/ws/security/wss4j/policyhandlers/AbstractBindingBuilder.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Auto-generated catch block
+File Name: ./core/src/main/java/org/apache/cxf/common/jaxb/JAXBUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Auto-generated catch block
+File Name: ./core/src/main/java/org/apache/cxf/interceptor/OutFaultChainInitiatorObserver.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Auto-generated catch block
+File Name: ./distribution/src/main/release/samples/throttling/src/main/java/demo/throttling/server/CustomerMetricsInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Auto-generated catch block
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/spi/ProviderImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Auto-generated catch block
+File Name: ./rt/transports/http-jetty/src/main/java/org/apache/cxf/transport/http_jetty/JettyHTTPServerEngineFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Auto-generated catch block
+File Name: ./rt/transports/http-netty/netty-server/src/main/java/org/apache/cxf/transport/http/netty/server/NettyHttpServerEngineFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Auto-generated catch block
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/jetty9/Jetty9WebSocketDestination.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Auto-generated catch block
+File Name: ./services/wsn/wsn-core/src/test/java/org/apache/cxf/wsn/types/CustomType.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Auto-generated catch block
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/ut/SecurityHeaderCacheInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Auto-generated method stub
+File Name: ./rt/bindings/corba/src/main/java/org/apache/cxf/binding/corba/runtime/CorbaStreamReader.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxrs/src/test/java/org/apache/cxf/jaxrs/utils/JAXRSUtilsTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO Auto-generated method stub
+File Name: ./systests/jaxws/src/test/java/org/apache/cxf/systest/jaxws/ClientServerTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO use a constant op instead of this inefficient linear op
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/soap/SoapFaultFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: CXF code should have a better solution somewhere, we'll get back to it
+// when addressing the issue of retrieving WADLs with included schemas
+File Name: ./tools/wadlto/jaxrs/src/main/java/org/apache/cxf/tools/wadlto/jaxrs/SourceGenerator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: Do we need anything else to handle system exceptions here...i.e. do
+// we want to add a wrapper around this so that we can add some more information?
+File Name: ./rt/bindings/corba/src/main/java/org/apache/cxf/binding/corba/interceptors/CorbaStreamFaultInInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: Revisit the possibility of supporting multiple formats
+File Name: ./rt/rs/client/src/main/java/org/apache/cxf/jaxrs/client/cache/CacheControlClientReaderInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: This is correct but the appinfo markup is never added to the
+// schema.  Investigate.
+File Name: ./tools/corba/src/main/java/org/apache/cxf/tools/corba/processors/idl/ObjectReferenceVisitor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: better exception handling
+File Name: ./rt/frontend/jaxrs/src/test/java/org/apache/cxf/jaxrs/provider/ProviderFactoryTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: check to see if this is a recursive type.
+File Name: ./rt/bindings/corba/src/main/java/org/apache/cxf/binding/corba/utils/CorbaUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: handle exception
+File Name: ./rt/management/src/main/java/org/apache/cxf/management/interceptor/PersistOutInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: make this streamable. This is one of my pet
+// peeves in JAXB RI as well, so if you fix this, submit the
+// code to the JAXB RI as well (see RuntimeBuiltinLeafInfoImpl)! - DD
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/interceptors/SwAOutInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: mock STS
+File Name: ./rt/ws/security/src/test/java/org/apache/cxf/ws/security/trust/AuthPolicyValidatingInterceptorTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: more complex Parameterized type
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/WrapperClassGenerator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: the bogus case of segments containing encoded '/'
+// Not sure if we have a cleaner solution though.
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/impl/UriBuilderImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: wsdl2.0 support
+File Name: ./tools/wsdlto/core/src/main/java/org/apache/cxf/tools/wsdlto/WSDLToJavaContainer.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO: wsdl2.0 support
+File Name: ./tools/wsdlto/frontend/javascript/src/main/java/org/apache/cxf/tools/wsdlto/javascript/JavaScriptContainer.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 // TODO:Cache the JAXBRIContext
+File Name: ./rt/databinding/jaxb/src/main/java/org/apache/cxf/jaxb/io/DataReaderImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 //@@TODO  - this isn't good, need to return all the services
+File Name: ./rt/wsdl/src/main/java/org/apache/cxf/wsdl11/WSDLServiceFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 //TODO Obtain localPrincipal and peerPrincipal using the com.sun.net.ssl api
+File Name: ./rt/transports/http/src/main/java/org/apache/cxf/transport/https/HttpsURLConnectionInfo.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 //TODO This is a hack, this should not come under USE_REQ_SIG_CERT
+File Name: ./rt/ws/security/src/main/java/org/apache/cxf/ws/security/wss4j/policyhandlers/AbstractBindingBuilder.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 //TODO look at how we can refactor all these decoupled faultTo stuff
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/EncoderDecoder.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 //TODO standard requires support for multiple useKeyWith attributes
+File Name: ./services/xkms/xkms-x509-handlers/src/main/java/org/apache/cxf/xkms/x509/handlers/X509Register.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 //TODO: consider introducing SearchConditionVisitor.getBeanClass &&
+//      SearchConditionVisitor.getQueryClass to avoid such casts
+File Name: ./rt/rs/extensions/search/src/main/java/org/apache/cxf/jaxrs/ext/search/QueryContextProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 //TODO: review the possibility of DynamicFeatures needing to have Contexts injected
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/provider/ServerProviderFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 //TODO:Look at how to refactor
+File Name: ./rt/ws/addr/src/main/java/org/apache/cxf/ws/addressing/impl/InternalContextUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                 } // TODO: wsse:Security child element
+File Name: ./rt/ws/policy/src/main/java/org/apache/cxf/ws/policy/attachment/external/ExternalAttachmentProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:                // TODO: Should we raise an exception or log?
+File Name: ./rt/bindings/corba/src/main/java/org/apache/cxf/binding/corba/types/CorbaHandlerUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             /* TODO else if (isRequestor()
+&& (token instanceof IssuedToken
+|| token instanceof SecureConversationToken
+|| token instanceof SecurityContextToken
+|| token instanceof KerberosToken)) {
+} */
+File Name: ./rt/ws/security/src/main/java/org/apache/cxf/ws/security/wss4j/policyhandlers/AbstractStaxBindingHandler.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //  TODO
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/Servant.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/ahc/AhcWebSocketConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO
+writer.writeStartElement(prefix, "RequestSecurityTokenResponse", namespace);
+if (context != null && !"".equals(context)) {
+writer.writeAttribute("Context", context);
+}
+writeAuthenticator(writer, prefix, namespace, secret);
+writer.writeEndElement();
+*/
+File Name: ./rt/ws/security/src/main/java/org/apache/cxf/ws/security/policy/interceptors/SpnegoContextTokenInInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO
+File Name: ./services/wsn/wsn-core/src/main/java/org/apache/cxf/wsn/jms/JmsNotificationBroker.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated catch block
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/ext/xml/XMLSource.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated catch block
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/handler/AnnotationHandlerChainBuilder.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated catch block
+File Name: ./rt/javascript/javascript-tests/src/test/java/org/apache/cxf/javascript/fortest/MtoMParameterBeanNoDataHandler.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated catch block
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/jetty9/Jetty9WebSocketDestination.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated catch block
+File Name: ./services/sts/systests/advanced/src/test/java/org/apache/cxf/systest/sts/distributed_caching/SCTTokenValidator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated catch block
+File Name: ./systests/jaxws/src/test/java/org/apache/cxf/systest/jaxws/DocLitWrappedCodeFirstServiceImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated catch block
+File Name: ./tools/common/src/test/java/org/apache/cxf/tools/util/FileWriterUtilTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./distribution/src/main/release/samples/ws_rm/src/main/java/demo/ws_rm/common/MessageLossSimulator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxrs/src/test/java/org/apache/cxf/jaxrs/Customer.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxrs/src/test/java/org/apache/cxf/jaxrs/JAXRSServerFactoryBeanTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxrs/src/test/java/org/apache/cxf/jaxrs/ext/MessageContextImplTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxrs/src/test/java/org/apache/cxf/jaxrs/impl/ConfigurationImplTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxrs/src/test/java/org/apache/cxf/jaxrs/provider/JAXBElementProviderTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxrs/src/test/java/org/apache/cxf/jaxrs/provider/ProviderFactoryTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxrs/src/test/java/org/apache/cxf/jaxrs/utils/JAXRSUtilsTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxws/src/test/java/org/apache/cxf/jaxws/ConfiguredEndpointTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxws/src/test/java/org/apache/cxf/jaxws/handler/HandlerChainInvokerTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/frontend/simple/src/test/java/org/apache/cxf/service/factory/ServerFactoryTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/rs/client/src/test/java/org/apache/cxf/jaxrs/client/WebClientTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/ws/rm/src/test/java/org/apache/cxf/ws/rm/ManagedRMManagerTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./rt/ws/rm/src/test/java/org/apache/cxf/ws/rm/RMManagerConfigurationTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./systests/jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/BookServer.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./systests/jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/JAXRS20ClientServerBookTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./systests/jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/JAXRSAsyncClientTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Auto-generated method stub
+File Name: ./systests/ws-rm/src/test/java/org/apache/cxf/systest/ws/rm/MessageLossSimulator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO DOM server not working
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/bindings/BindingPropertiesTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Endorsing derived keys not supported.
+// {new TestParam("SecureConversation_MutualCertificate10SignEncrypt_IPingService",
+//               STAX_PORT, true)},
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/wssc/WSSCTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Endorsing streaming not supported
+// {new TestParam("SecureConversation_MutualCertificate10SignEncrypt_IPingService", PORT, true)},
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/wssc/WSSCTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO StAX Policy Validation error caused by incorrect DOM message
+// {new TestParam("SecureConversation_MutualCertificate10SignEncrypt_IPingService",
+//               STAX_PORT, false)},
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/wssc/WSSCTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Streaming endorsing not working
+// {new TestParam("_XD_IPingService", STAX_PORT, true)},
+// {new TestParam("_XD-SEES_IPingService", STAX_PORT, true)},
+// {new TestParam("_XD-ES_IPingService", STAX_PORT, true)},
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/wssc/WSSCTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Strict validation not working - see WSS-444
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/bindings/BindingPropertiesTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO Timestamp First/Last validation not working - see WSS-444
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/bindings/BindingPropertiesTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO add proxy support ...
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/ahc/AhcWebSocketConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO need to check how to set the Chunked feature
+//request.getRequest().setChunked(true);
+File Name: ./rt/transports/http-netty/netty-client/src/main/java/org/apache/cxf/transport/http/netty/client/NettyHttpConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO need to set the sessionTimeout
+//newSession.setMaxInactiveInterval();
+File Name: ./rt/transports/http-netty/netty-server/src/main/java/org/apache/cxf/transport/http/netty/server/servlet/HttpSessionThreadLocal.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO we need to deal with the Chunked information ourself
+//entity.getRequest().setChunked(false);
+File Name: ./rt/transports/http-netty/netty-client/src/main/java/org/apache/cxf/transport/http/netty/client/NettyHttpConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO we need to support it
+File Name: ./rt/transports/http-netty/netty-client/src/main/java/org/apache/cxf/transport/http/netty/client/NettyHttpConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: Provide other export mechanisms?
+File Name: ./rt/bindings/corba/src/main/java/org/apache/cxf/binding/corba/CorbaDestination.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: REVISIT: for some reason, some ORBs do not like to
+// have a null NamedValue return value. Create this 'empty'
+// one if a void return type is used.
+File Name: ./rt/bindings/corba/src/main/java/org/apache/cxf/binding/corba/CorbaConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: better error handling
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/RMManager.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: consider making Client secret time limited
+File Name: ./rt/rs/security/oauth-parent/oauth2/src/main/java/org/apache/cxf/rs/security/oauth2/services/TokenRevocationService.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: if failover conduit selector fails to find a failover target
+// then it will revert to the previous endpoint; that is not very likely
+// but possible - thus ideally we need to resert base and current URI only
+// if we get the same ConduitInitiatior endpoint instance before and after
+// retryInvoke.
+File Name: ./rt/rs/client/src/main/java/org/apache/cxf/jaxrs/client/AbstractClient.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: if it is simple frontend, and the impl class implements
+// multiple interfaces
+File Name: ./tools/javato/ws/src/main/java/org/apache/cxf/tools/java2js/processor/JavaToJSProcessor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: multiple 'any'
+File Name: ./rt/javascript/javascript-rt/src/main/java/org/apache/cxf/javascript/ParticleInfo.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: pay attention to the typeClass parameter.
+File Name: ./rt/databinding/aegis/src/main/java/org/apache/cxf/aegis/databinding/ElementDataReader.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: there has to be a better fix
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/provider/JAXBElementProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             // TODO: this is not critical now - but figure out if we can avoid copying
+// DOMs
+File Name: ./rt/rs/security/xml/src/main/java/org/apache/cxf/rs/security/saml/SamlEnvelopedOutInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO
+File Name: ./rt/rs/security/jose-parent/jose-jaxrs/src/main/java/org/apache/cxf/rs/security/jose/jaxrs/JweJsonWriterInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/ahc/AhcWebSocketConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO
+/            if (onBehalfOfToken != null) {
+/                OnBehalfOfType onBehalfOfType = of.createOnBehalfOfType();
+/                onBehalfOfType.setAny(onBehalfOfToken);
+/                JAXBElement<OnBehalfOfType> onBehalfOfElement = of.createOnBehalfOf(onBehalfOfType);
+/                request.getAny().add(onBehalfOfElement);
+/            }
+//  }
+File Name: ./services/sts/sts-core/src/main/java/org/apache/cxf/sts/rest/RESTSecurityTokenServiceImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO - add the interceptors
+File Name: ./rt/bindings/soap/src/main/java/org/apache/cxf/binding/soap/saaj/SAAJInInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO : Handle service customized class
+File Name: ./tools/wsdlto/frontend/jaxws/src/main/java/org/apache/cxf/tools/wsdlto/frontend/jaxws/processor/internal/ServiceProcessor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO Check for the managed connection factory properties
+File Name: ./integration/jca/src/main/java/org/apache/cxf/jca/cxf/JCABusFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO We may need get the configuration file from properties
+File Name: ./integration/jca/src/main/java/org/apache/cxf/jca/cxf/JCABusFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO a Context Filter Strategy required.
+File Name: ./rt/bindings/coloc/src/main/java/org/apache/cxf/binding/coloc/ColocMessageObserver.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO add server-side TSR handling
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/soap/SoapFaultFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO need to support the chunked version
+//entity.getRequest().setChunked(true);
+File Name: ./rt/transports/http-netty/netty-client/src/main/java/org/apache/cxf/transport/http/netty/client/NettyHttpConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO release the message and later reload it upon resume
+//cancel();
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/soap/SoapFaultFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO return a generic message based on the status code
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/ahc/AhcWebSocketConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO:  Attempt to map client_id to subject.getName()
+File Name: ./rt/rs/security/oauth-parent/oauth2-saml/src/main/java/org/apache/cxf/rs/security/oauth2/auth/saml/Saml2BearerAuthHandler.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: 200408
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/spi/ProviderImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: OIDC core talks about various security algorithm preferences
+// that may be set during the client registrations, they can be passed along too
+File Name: ./rt/rs/security/sso/oidc/src/main/java/org/apache/cxf/rs/security/oidc/idp/IdTokenResponseFilter.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: Review if Expires can be supported as an alternative to Cache-Control
+File Name: ./rt/rs/client/src/main/java/org/apache/cxf/jaxrs/client/cache/CacheControlClientReaderInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: Review if it also makes sense to support "http.transport.disable"
+//      directly in the CXF_CONFIG_SCOPE properties file
+File Name: ./rt/transports/http/src/main/java/org/apache/cxf/transport/http/osgi/HTTPTransportActivator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: Review the possibility of supporting POST responses, example,
+//      POST create request may get a created entity representation returned
+File Name: ./rt/rs/client/src/main/java/org/apache/cxf/jaxrs/client/cache/CacheControlClientRequestFilter.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: The chunking mode be configured or at least some
+// documented client constant.
+//use -1 and allow the URL connection to pick a default value
+File Name: ./rt/transports/http/src/main/java/org/apache/cxf/transport/http/HTTPConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: check client certificates
+File Name: ./rt/rs/security/oauth-parent/oauth2/src/main/java/org/apache/cxf/rs/security/oauth2/services/AccessTokenValidatorService.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: check for valid extension namespaces
+if (!(childNode instanceof Element)) { //!isJaxbBindings(childNode)) {
+File Name: ./tools/wsdlto/frontend/jaxws/src/main/java/org/apache/cxf/tools/wsdlto/frontend/jaxws/customization/CustomNodeSelector.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: consider loading all the public keys in the store
+File Name: ./rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/jwe/JweUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: do the extra validation against the conditional headers
+//      which may be contained in the current request
+File Name: ./rt/rs/client/src/main/java/org/apache/cxf/jaxrs/client/cache/CacheControlClientRequestFilter.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: handle @XmlAccessOrder
+File Name: ./rt/databinding/jaxb/src/main/java/org/apache/cxf/jaxb/JAXBSchemaInitializer.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: if it is simple frontend, and the impl class implments
+//multiple interfaces
+File Name: ./tools/javato/ws/src/main/java/org/apache/cxf/tools/java2wsdl/processor/JavaToWSDLProcessor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: optimize further
+File Name: ./core/src/main/java/org/apache/cxf/common/util/Base64Utility.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: optionally validate inHeaders.getAlgorithm against a property in props
+File Name: ./rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/jws/JwsUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: support EncryptedData/ds:KeyInfo - the encrypted key is passed out of band
+File Name: ./rt/rs/security/xml/src/main/java/org/apache/cxf/rs/security/xml/AbstractXmlEncInHandler.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //TODO: wsdl4j's bug. if there is recursive import,
+//wsdl4j can not get operation input message
+File Name: ./rt/wsdl/src/main/java/org/apache/cxf/wsdl11/WSDLServiceBuilder.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             //[TODO] Add plugin for validation out-of-band
+// Example:
+// If the requestor is in the possession of a certificate (mutual ssl handshake)
+// the STS trusts the token sent in OnBehalfOf element
+File Name: ./services/sts/sts-core/src/main/java/org/apache/cxf/sts/operation/TokenIssueOperation.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             os.write(MESSAGE_CONTENT.getBytes()); // TODO encoding
+File Name: ./rt/transports/jms/src/test/java/org/apache/cxf/transport/jms/AbstractJMSTester.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:             return new ProcessedClaimCollection(); // TODO Check if null or an exception would be more
+// appropriate
+File Name: ./services/sts/sts-core/src/main/java/org/apache/cxf/sts/claims/mapper/JexlClaimsMapper.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:          * TODO: the following can be easily supported too
+<X509SKI>31d97bd7</X509SKI>
+<X509SubjectName>Subject of Certificate B</X509SubjectName>
+*
+*/
+File Name: ./rt/rs/security/xml/src/main/java/org/apache/cxf/rs/security/xml/AbstractXmlEncInHandler.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // // TODO Supporting streaming Snego outbound
+// runKerberosTest(portName, true, PORT2);
+// runKerberosTest(portName, true, STAX_PORT2);
+File Name: ./systests/kerberos/src/test/java/org/apache/cxf/systest/kerberos/wssec/spnego/SpnegoTokenTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/handler/logical/LogicalHandlerFaultInInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/handler/logical/LogicalHandlerInInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/handler/soap/SOAPHandlerFaultInInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/handler/soap/SOAPHandlerFaultOutInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./rt/transports/http/src/main/java/org/apache/cxf/transport/http/HTTPTransportFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/jetty/WebSocketVirtualServletResponse.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/undertow/WebSocketUndertowServletResponse.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/Destination.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./rt/ws/rm/src/test/java/org/apache/cxf/ws/rm/RMInInterceptorTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./tools/wsdlto/frontend/jaxws/src/main/java/org/apache/cxf/tools/wsdlto/frontend/jaxws/customization/JAXWSBindingSerializer.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO
+File Name: ./tools/wsdlto/misc/src/main/java/org/apache/cxf/tools/misc/processor/WSDLToXMLProcessor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO - consider deprecation as this really belongs in PropertyUtils
+File Name: ./core/src/main/java/org/apache/cxf/message/MessageUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO - do I need to defensively copy this?
+File Name: ./rt/ws/policy/src/main/java/org/apache/cxf/ws/policy/ServiceModelPolicyUpdater.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO - how can I improve this to provide a specific interceptor chain that just has the
+// stax, gzip and message sender components, while also ensuring that GZIP is only provided
+// if its already configured for the endpoint.
+File Name: ./rt/frontend/simple/src/main/java/org/apache/cxf/frontend/WSDLGetInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO - support endorsing Streaming
+File Name: ./systests/ws-security-examples/src/test/java/org/apache/cxf/systest/wssec/examples/x509/X509TokenTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO : enbale handler chain
+File Name: ./tools/wsdlto/frontend/jaxws/src/main/java/org/apache/cxf/tools/wsdlto/frontend/jaxws/generators/SEIGenerator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO : ensure chunking can be enabled for non-empty PUTs - if requested
+File Name: ./rt/transports/http/src/main/java/org/apache/cxf/transport/http/HTTPConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO : if we have the same column involved, ex a >= 123 and a <=244 then
+// we may try to use IN or BETWEEN, depending on the values
+File Name: ./rt/rs/extensions/search/src/main/java/org/apache/cxf/jaxrs/ext/search/SearchUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO : throw UnsupportedOperationException for all other DataHandler methods
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/provider/MultipartProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated constructor stub
+File Name: ./core/src/main/java/org/apache/cxf/common/util/Base64Exception.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated constructor stub
+File Name: ./systests/jaxws/src/test/java/org/apache/cxf/systest/jaxws/cxf5064/SOAPHeaderServiceImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./core/src/main/java/org/apache/cxf/bus/managers/ServerRegistryImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./core/src/main/java/org/apache/cxf/databinding/source/NodeDataReader.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./core/src/main/java/org/apache/cxf/staxutils/AbstractDOMStreamReader.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./core/src/test/java/org/apache/cxf/endpoint/DummyServer.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./distribution/src/main/release/samples/wsdl_first_pure_xml/src/main/java/demo/hw/server/GreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./integration/jca/src/test/java/org/apache/cxf/jca/cxf/test/DummyBus.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/bindings/corba/src/main/java/org/apache/cxf/binding/corba/runtime/CorbaStreamReader.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/bindings/corba/src/main/java/org/apache/cxf/binding/corba/utils/CorbaAnyHelper.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/databinding/aegis/src/main/java/org/apache/cxf/aegis/util/stax/JDOMStreamWriter.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxrs/src/test/java/org/apache/cxf/jaxrs/JAXBContextProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxrs/src/test/java/org/apache/cxf/jaxrs/JAXBContextProvider2.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxrs/src/test/java/org/apache/cxf/jaxrs/resources/BookStore.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxws/src/test/java/org/apache/cxf/jaxws/service/FooServiceImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxws/src/test/java/org/apache/cxf/jaxws/service/Hello2.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/frontend/jaxws/src/test/java/org/apache/cxf/jaxws/service/Hello3.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/rs/client/src/test/java/org/apache/cxf/jaxrs/resources/BookStore.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/rs/extensions/rx/src/main/java/org/apache/cxf/jaxrs/rx/provider/ObservableWriter.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/rs/security/oauth-parent/oauth2/src/test/java/org/apache/cxf/rs/security/oauth2/grants/OAuthDataProviderImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/rs/security/oauth-parent/oauth2/src/test/java/org/apache/cxf/rs/security/oauth2/utils/crypto/CodeGrantEncryptingDataProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/rs/security/oauth-parent/oauth2/src/test/java/org/apache/cxf/rs/security/oauth2/utils/crypto/EncryptingDataProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/rs/security/sso/saml/src/main/java/org/apache/cxf/rs/security/saml/sso/state/HTTPSPStateManager.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/transports/http-netty/netty-client/src/main/java/org/apache/cxf/transport/http/netty/client/NettyHttpConduit.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/jetty/WebSocketVirtualServletRequest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/undertow/WebSocketUndertowServletRequest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/ws/policy/src/test/java/org/apache/cxf/ws/policy/TestAssertion.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/soap/SoapFaultFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./rt/wsdl/src/main/java/org/apache/cxf/wsdl/JAXBExtensionHelper.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/databinding/src/test/java/org/apache/cxf/systest/source/GreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/databinding/src/test/java/org/apache/cxf/systest/source/PutLastTradePriceImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/CustomResponse.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/jaxws/src/test/java/org/apache/cxf/systest/jaxws/types/BarImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transport-jms/src/test/java/org/apache/cxf/systest/jms/TwoWayJMSImplBase.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transport-jms/src/test/java/org/apache/cxf/systest/jms/security/TwoWayJMSImplBase.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transport-undertow/src/test/java/org/apache/cxf/systest/http_undertow/GreeterSessionImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transport-undertow/src/test/java/org/apache/cxf/systest/http_undertow/MapIdentityManager.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transport-undertow/src/test/java/org/apache/cxf/systest/http_undertow/PerRequestAnnotationGreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transport-undertow/src/test/java/org/apache/cxf/systest/http_undertow/SessionAnnotationGreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transport-undertow/src/test/java/org/apache/cxf/systest/http_undertow/SpringAnnotationGreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transport-undertow/src/test/java/org/apache/cxf/systest/http_undertow/StatefulGreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transports/src/test/java/org/apache/cxf/systest/http/GreeterSessionImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transports/src/test/java/org/apache/cxf/systest/http/PerRequestAnnotationGreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transports/src/test/java/org/apache/cxf/systest/http/SessionAnnotationGreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transports/src/test/java/org/apache/cxf/systest/http/SpringAnnotationGreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transports/src/test/java/org/apache/cxf/systest/http/StatefulGreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/transports/src/test/java/org/apache/cxf/systest/http/auth/GreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/uncategorized/src/test/java/org/apache/cxf/systest/beanincreationexception/DummyPlatformTransactionManager.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/uncategorized/src/test/java/org/apache/cxf/systest/clustering/ControlImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/uncategorized/src/test/java/org/apache/cxf/systest/mtom/TestMtomJMSImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./systests/uncategorized/src/test/java/org/apache/cxf/systest/schema_validation/SchemaValidationImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./testutils/src/main/java/org/apache/cxf/greeter_control/AbstractGreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./testutils/src/main/java/org/apache/cxf/greeter_control/ControlImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./testutils/src/main/java/org/apache/cxf/ordered_param_holder/OrderedParamHolderImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./testutils/src/main/java/org/apache/headers/HeaderTesterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./testutils/src/main/java/org/apache/hello_world_soap_http/AnotherDerivedGreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./testutils/src/main/java/org/apache/hello_world_soap_http/DerivedGreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./testutils/src/main/java/org/apache/hello_world_soap_http/NotAnnotatedGreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./testutils/src/main/java/org/apache/hello_world_xml_http/bare/GreeterImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Auto-generated method stub
+File Name: ./tools/javato/ws/src/test/java/org/apache/cxf/tools/fortest/inherit/A.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Check JNDI lookup
+File Name: ./rt/transports/jms/src/test/java/org/apache/cxf/transport/jms/JMSConfigFactoryTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO DOM server not working
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/bindings/BindingPropertiesTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Endorsing SAML not supported Streaming
+File Name: ./systests/ws-security-examples/src/test/java/org/apache/cxf/systest/wssec/examples/saml/SamlTokenTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Endorsing Streaming not supported yet Streaming
+File Name: ./systests/ws-security-examples/src/test/java/org/apache/cxf/systest/wssec/examples/saml/SamlTokenTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Kerberos derived regression on streaming inbound
+//runKerberosTest(portName, false, STAX_PORT);
+//runKerberosTest(portName, true, PORT);
+//runKerberosTest(portName, true, STAX_PORT);
+File Name: ./systests/kerberos/src/test/java/org/apache/cxf/systest/kerberos/wssec/kerberos/KerberosTokenTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Not yet supported for the client streaming code
+File Name: ./services/sts/systests/basic/src/test/java/org/apache/cxf/systest/sts/x509/X509SymmetricBindingTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Only working for DOM client + server atm
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/saml/SamlTokenTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO See WSS-464
+/*
+SecurityTestUtil.enableStreaming(pt);
+try {
+pt.doubleIt(5);
+fail("should fail on server side when do signature validation due the revoked certificates");
+} catch (Exception ex) {
+String errorMessage = ex.getMessage();
+// Different errors using different JDKs...
+System.out.println("ERR1: " + errorMessage);
+}
+*/
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/security/SecurityPolicyTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Streaming client is not including a separate main Signature
+File Name: ./services/sts/systests/basic/src/test/java/org/apache/cxf/systest/sts/x509/X509SymmetricBindingTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Streaming support
+// runKerberosTest(portName, false, STAX_PORT);
+// runKerberosTest(portName, true, PORT);
+// runKerberosTest(portName, true, STAX_PORT);
+File Name: ./systests/kerberos/src/test/java/org/apache/cxf/systest/kerberos/wssec/kerberos/KerberosTokenTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Strict validation not working - see WSS-444
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/bindings/BindingPropertiesTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Supporting streaming Spnego outbound
+// runKerberosTest(portName, true, PORT2);
+// runKerberosTest(portName, true, STAX_PORT2);
+File Name: ./systests/kerberos/src/test/java/org/apache/cxf/systest/kerberos/wssec/spnego/SpnegoTokenTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Timestamp First/Last validation not working - see WSS-444
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/bindings/BindingPropertiesTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO WSS-456 Streaming
+File Name: ./systests/ws-security/src/test/java/org/apache/cxf/systest/ws/x509/X509TokenTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO We could have more than one parameter
+File Name: ./rt/transports/jms/src/main/java/org/apache/cxf/transport/jms/uri/JMSEndpointWSDLUtil.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO Why should it fail here?
+// Assert.fail("Expect the exception here !");
+File Name: ./systests/uncategorized/src/test/java/org/apache/cxf/systest/mtom/ClientMtomXopWithJMSTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO check we can resolve endpoint
+File Name: ./services/wsn/wsn-core/src/main/java/org/apache/cxf/wsn/AbstractSubscription.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO do we need to cache the context
+File Name: ./rt/transports/http/src/main/java/org/apache/cxf/transport/https/HttpsMessageTrustDecider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO do we need to support this
+File Name: ./rt/transports/http-netty/netty-server/src/main/java/org/apache/cxf/transport/http/netty/server/servlet/NettyHttpSession.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO error?
+File Name: ./core/src/main/java/org/apache/cxf/configuration/jsse/TLSParameterJaxBUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO forward declaration <constr_forward_declaration>
+File Name: ./tools/corba/src/main/java/org/apache/cxf/tools/corba/processors/idl/TypeDclVisitor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO if the portName null ?
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/JaxWsProxyFactoryBean.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO need to configure the aggregator size
+File Name: ./rt/transports/http-netty/netty-client/src/main/java/org/apache/cxf/transport/http/netty/client/NettyHttpClientPipelineFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO ref parameters not present in 2004/03
+// internal.setReferenceParameters(convert(exposed
+// .getReferenceParameters()));
+File Name: ./core/src/main/java/org/apache/cxf/ws/addressing/VersionTransformer.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO there should be partial responses to the decoupled responses!
+File Name: ./systests/ws-rm/src/test/java/org/apache/cxf/systest/ws/rm/SequenceTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO we need to check the SOAP JMS transport properties here
+File Name: ./rt/transports/jms/src/test/java/org/apache/cxf/transport/jms/JMSDestinationTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO what about the mix style/use?
+File Name: ./rt/bindings/soap/src/main/java/org/apache/cxf/binding/soap/SoapBindingFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO what if no address is specified for the EndpointInfo object ...
+File Name: ./rt/ws/policy/src/main/java/org/apache/cxf/ws/policy/attachment/external/EndpointReferenceDomainExpression.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO:
+// This custom parameter is only needed by the "oauth"
+// demo shipped in the distribution; needs to be removed.
+File Name: ./rt/rs/security/oauth-parent/oauth/src/main/java/org/apache/cxf/rs/security/oauth/filters/AbstractAuthFilter.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO:
+// On the server side: If a fault occurs after this interceptor we will switch
+// interceptor chains (if this is not already a fault message) and therefore need to
+// make sure the retransmission interceptor is added to the fault chain
+//
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/EncoderDecoder11Impl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: After runtime support w3c EPR mapping ,this will be removed
+//context.put(ToolConstants.CFG_NO_ADDRESS_BINDING,
+//            ToolConstants.CFG_NO_ADDRESS_BINDING);
+File Name: ./tools/wsdlto/core/src/main/java/org/apache/cxf/tools/wsdlto/WSDLToJavaContainer.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: Allow overridden methods.
+File Name: ./core/src/main/java/org/apache/cxf/interceptor/AbstractInDatabindingInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: At the moment we still delegate if possible to the async HTTP conduit.
+// Investigate if letting the RxJava thread pool deal with the sync invocation
+// is indeed more effective
+File Name: ./rt/rs/extensions/rx/src/main/java/org/apache/cxf/jaxrs/rx/client/ObservableRxInvokerProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: BindingFaultInfo (SequenceFault)
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/RMEndpoint.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: FaultInfo (SequenceFault)
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/RMEndpoint.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: FaultPolicy (SequenceFault)
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/RMEndpoint.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: Get namespace from XML?
+File Name: ./rt/databinding/aegis/src/main/java/org/apache/cxf/aegis/type/AbstractTypeCreator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: Handle case of the return parameter has not yet been initialized.
+File Name: ./rt/bindings/corba/src/main/java/org/apache/cxf/binding/corba/CorbaMessage.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: Provide Implementation. Do we throw an exception.
+File Name: ./rt/bindings/corba/src/main/java/org/apache/cxf/binding/corba/runtime/CorbaObjectReader.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: Provide Implementation. Do we throw an exception.
+File Name: ./rt/bindings/corba/src/main/java/org/apache/cxf/binding/corba/runtime/CorbaObjectWriter.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: Tests for Key Identifier are needed but require that the
+// certificates used in the test cases be updated to version 3
+// according to WSS4J.
+File Name: ./rt/ws/security/src/test/java/org/apache/cxf/ws/security/wss4j/PolicyBasedWss4JInOutTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: Tests for derived keys.
+File Name: ./rt/ws/security/src/test/java/org/apache/cxf/ws/security/wss4j/PolicyBasedWss4JInOutTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: This seems wrong and not sure who put it here. Will revisit -
+// DBD
+File Name: ./rt/wsdl/src/main/java/org/apache/cxf/wsdl/service/factory/ReflectionServiceFactoryBean.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: abort
+// 20 cancel network activity.
+File Name: ./rt/javascript/javascript-tests/src/test/java/org/apache/cxf/javascript/JsXMLHttpRequest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: cancel
+// 21 set state to OPENED and fire the listener.
+File Name: ./rt/javascript/javascript-tests/src/test/java/org/apache/cxf/javascript/JsXMLHttpRequest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: decode SequenceFault ?
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/soap/SoapFaultFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: doesn't pass because I don't know how to use easymock :-(
+// assertEquals(dest, dest2);
+File Name: ./rt/bindings/soap/src/test/java/org/apache/cxf/binding/soap/SoapDestinationFactoryTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: for simple types we really need a dictionary of the simple type qnames.
+File Name: ./rt/javascript/javascript-rt/src/main/java/org/apache/cxf/javascript/types/SchemaJavascriptBuilder.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: get bundle resource message once this filter is moved
+// to rt/rs/security
+File Name: ./rt/rs/security/xml/src/main/java/org/apache/cxf/rs/security/saml/AbstractSamlInHandler.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: handle
+/        mapElementToJaxbProperty(context, bean, element,
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/EncoderDecoder10Impl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: handle
+/        mapElementToJaxbProperty(element, bean,
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/VersionTransformer.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: handle
+/        mapElementToJaxbProperty(element, bean,
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/spring/RMFeatureBeanDefinitionParser.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: if it's a range request, then we should probably always return -1 and set
+// Content-Length and Content-Range in handleRangeRequest
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/provider/BinaryDataProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: implement raw notifications
+File Name: ./services/wsn/wsn-core/src/main/java/org/apache/cxf/wsn/services/JaxwsSubscription.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: may need to be 384/8 or 512/8 if not a default HS256 but HS384 or HS512
+File Name: ./rt/rs/security/sso/oidc/src/main/java/org/apache/cxf/rs/security/oidc/idp/OidcDynamicRegistrationService.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: need to set relatesTo
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/Proxy.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: read context properties to exclude some patterns?
+File Name: ./rt/rs/client/src/main/java/org/apache/cxf/jaxrs/client/cache/CacheControlFeature.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: set encoding/version
+File Name: ./rt/databinding/aegis/src/main/java/org/apache/cxf/aegis/util/stax/JDOMStreamWriter.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: should also check if we allow breaking the WI Profile rule by which no headers
+// can be included in a HTTP response
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/DestinationSequence.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: shouldn't have to do this. IO caching needs cleaning
+// up or possibly removal...
+File Name: ./testutils/src/main/java/org/apache/cxf/test/TestUtilities.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         // TODO: temporarily commented out for first version of new RM code
+/        verifyTwowayNonAnonymous();
+File Name: ./systests/ws-rm/src/test/java/org/apache/cxf/systest/ws/rm/SequenceTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO
+File Name: ./distribution/src/main/release/samples/configuration_interceptor/src/main/java/demo/stream/interceptor/StreamInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO
+File Name: ./integration/jca/src/main/java/org/apache/cxf/jca/cxf/ManagedConnectionImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/handler/soap/SOAPHandlerInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO -- This is not the BP way.
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/blueprint/BlueprintResourceFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO Do we need to implement it ?
+File Name: ./rt/transports/http-netty/netty-server/src/main/java/org/apache/cxf/transport/http/netty/server/servlet/NettyServletResponse.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO Set Coloc FaultObserver chain
+File Name: ./rt/bindings/coloc/src/main/java/org/apache/cxf/binding/coloc/ColocInInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO The wsdlLocation inserted should be a valid URI
+//before doing a split. So temporarily return the string
+//return wsdlLocation.split(" ");
+File Name: ./core/src/main/java/org/apache/cxf/ws/addressing/EndpointReferenceUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO To Ensure it is a valid URI syntax.
+File Name: ./core/src/main/java/org/apache/cxf/ws/addressing/EndpointReferenceUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO Very springish...
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/blueprint/BlueprintResourceFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO a Context Filter Strategy required.
+File Name: ./rt/bindings/coloc/src/main/java/org/apache/cxf/binding/coloc/ColocOutInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO add some way to control the client to switch between the bytes and text modes
+File Name: ./systests/jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/websocket/JAXRSClientConduitWebSocketTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO how to deal with the fields
+File Name: ./rt/transports/http/src/main/java/org/apache/cxf/transport/http/Headers.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO need reverse lookup
+File Name: ./core/src/main/java/org/apache/cxf/staxutils/transform/InTransformReader.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO need to configure the thread size of EventExecutorGroup
+File Name: ./rt/transports/http-netty/netty-server/src/main/java/org/apache/cxf/transport/http/netty/server/NettyHttpServletPipelineFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO need to handle the exception here
+File Name: ./rt/transports/http-netty/netty-client/src/main/java/org/apache/cxf/transport/http/netty/client/NettyHttpClientHandler.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO njiang classloader things
+//check the threadContextClassLoader
+File Name: ./integration/jca/src/test/java/org/apache/cxf/jca/cxf/ManagedConnectionImplTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO remove the query string part
+//REVISIT may cache this value in requstHeaders?
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/jetty/WebSocketVirtualServletRequest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO should throw the exception
+File Name: ./integration/jca/src/main/java/org/apache/cxf/jca/cxf/ManagedConnectionImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO test fault exceptions
+DynamicClientFactory dcf = DynamicClientFactory.newInstance();
+Client client = dcf.createClient(wsdlUrl);
+Object o = Class.forName("com.strikeiron.GetTeamInfoByCity", true,
+Thread.currentThread().getContextClassLoader()).newInstance();
+Object[] result = client.invoke("GetTeamInfoByCity", "a", "b", "New England");
+//System.out.println(Arrays.asList(result));
+}
+*/
+File Name: ./systests/jaxws/src/test/java/org/apache/cxf/systest/jaxws/ClientServerTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO there is no way to get the continuous stream at the moment
+//resource.getBookBought();
+File Name: ./systests/jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/websocket/JAXRSClientConduitWebSocketTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO use a better conversion method to get a Source from a pojo.
+File Name: ./rt/bindings/coloc/src/main/java/org/apache/cxf/binding/coloc/ColocUtil.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: Consider adding an 'HttpOnly' attribute
+File Name: ./rt/rs/security/sso/saml/src/main/java/org/apache/cxf/rs/security/saml/sso/AbstractSSOSpHandler.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: Review if it is at least theoretically possible that a given b[] region
+// can be modified in a subsequent write which might affect the signature calculation
+File Name: ./rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/jws/JwsJsonOutputStream.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: Validate JWE specific constraints
+File Name: ./rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/jwe/JweUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: check other properties
+// Add more typed properties like tosUri, policyUri, etc to Client
+// or set them as Client extra properties
+File Name: ./rt/rs/security/oauth-parent/oauth2/src/main/java/org/apache/cxf/rs/security/oauth2/services/TokenRevocationService.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: consider restricting to specific hosts
+File Name: ./rt/rs/security/oauth-parent/oauth2/src/main/java/org/apache/cxf/rs/security/oauth2/grants/code/JwtRequestCodeFilter.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: consider setting "use.httpurlconnection.method.reflection" here too -
+// if the async conduit is not loaded then the only way for the custom HTTP verb
+// to be supported is to attempt to reflectively modify HTTPUrlConnection
+File Name: ./rt/rs/client/src/main/java/org/apache/cxf/jaxrs/client/AbstractClient.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: default is expected to be set to OAuthConstants.TOKEN_ENDPOINT_AUTH_BASIC
+File Name: ./rt/rs/security/oauth-parent/oauth2/src/main/java/org/apache/cxf/rs/security/oauth2/services/TokenRevocationService.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: implement
+File Name: ./distribution/src/main/release/samples/oauth/server/src/main/java/demo/oauth/server/controllers/MemoryOAuthDataProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: make it simpler, convert it to JwtClaims -> JSON
+File Name: ./rt/rs/security/oauth-parent/oauth2/src/main/java/org/apache/cxf/rs/security/oauth2/provider/JoseSessionTokenProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: perhaps a key should be a name+keysize pair
+File Name: ./rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/jwa/SignatureAlgorithm.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: replay cache, same as with SAML SSO case
+File Name: ./rt/rs/security/oauth-parent/oauth2-saml/src/main/java/org/apache/cxf/rs/security/oauth2/saml/SamlOAuthValidator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: review the possibility of caching the providers
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/provider/StreamingResponseProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: save ContentDisposition directly
+File Name: ./core/src/main/java/org/apache/cxf/attachment/AttachmentUtil.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: the anyAttribute case.
+File Name: ./core/src/main/java/org/apache/cxf/common/xmlschema/XmlSchemaUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: the following isn't a real test. We need to test against a service
+// that would actually notice the difference. At least it ensures that
+// specifying the property does not explode.
+File Name: ./systests/jaxws/src/test/java/org/apache/cxf/systest/jaxws/ClientServerTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         //TODO: validate JWS specific constraints
+File Name: ./rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/jws/JwsUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:         final byte[] testBytes = testMsg.getBytes(Charset.defaultCharset().name()); // TODO encoding
+File Name: ./rt/transports/jms/src/test/java/org/apache/cxf/transport/jms/util/JMSUtilTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:        //TODO: enable the handler chain
+/* if (this.intf.getHandlerChains() == null) {
+return true;
+}*/
+File Name: ./tools/wsdlto/frontend/jaxws/src/main/java/org/apache/cxf/tools/wsdlto/frontend/jaxws/generators/HandlerConfigGenerator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * TODO - hook up these policies
+<xs:attribute name="SuppressClientSendErrors" type="xs:boolean" use="optional" default="false">
+<xs:attribute name="SuppressClientReceiveErrors" type="xs:boolean" use="optional" default="false">
+*/
+File Name: ./rt/transports/http/src/main/java/org/apache/cxf/transport/http/Headers.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * TODO This is SOAP specific code and should not be in cxf core
+* @param fault
+*/
+File Name: ./core/src/main/java/org/apache/cxf/endpoint/ClientImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * TODO documentation for these
+*/
+File Name: ./rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/common/JoseConstants.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * TODO implement validation
+*/
+File Name: ./integration/jca/src/main/java/org/apache/cxf/jca/inbound/MDBActivationSpec.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * TODO: What are the existing Message Properties at the point of this call?
+*
+* @param conduitName    This parameter contains the logical name
+*                       for the conduit that this trust decider
+*                       is being called from.
+*
+* @param connectionInfo This parameter contains information about
+*                       the URL Connection. It may be subclassed depending
+*                       on the protocol used for the URL. For "https",
+*                       this argument will be a HttpsURLConnectionInfo.
+*                       For "http", this argument will be
+*                       HttpURLConnectionInfo.
+*
+* @param message        This parameter contains the Message structure
+*                       that governs where the message may be going.
+*
+* @throws UntrustedURLConnectionIOException
+*                     The trust decider throws this exception if
+*                     trust in the URLConnection cannot be established
+*                     for the particular Message.
+*
+* @see HttpURLConnectionInfo
+* @see HttpsURLConnectionInfo
+*/
+File Name: ./rt/transports/http/src/main/java/org/apache/cxf/transport/http/MessageTrustDecider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * TODO: What are the formal constraints on EndpointInfo and
+* EndpointReferenceType values?
+*/
+File Name: ./rt/transports/http/src/main/java/org/apache/cxf/transport/http/HTTPTransportFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * TODO: support multiline definitions, functions, etc.
+*/
+File Name: ./tools/corba/src/main/java/org/apache/cxf/tools/corba/idlpreprocessor/IdlPreprocessorReader.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      * be handled on the writer manually. TODO: if the namespace on the reader
+* has been declared previously to where we are in the stream, this probably
+* won't work.
+*
+* @param reader
+* @param writer
+* @throws XMLStreamException
+*/
+File Name: ./core/src/main/java/org/apache/cxf/staxutils/StaxUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:      //TODO: remove duplicate code in setUpUsingHelloWorld and setUpUsingDocLit
+File Name: ./rt/databinding/jaxb/src/test/java/org/apache/cxf/jaxb/DocLiteralInInterceptorTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //  TODO: should suppor the XmlMimeType annotation in the SEI
+File Name: ./tools/javato/ws/src/test/java/org/apache/cxf/tools/java2wsdl/processor/JavaToProcessorTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO
+File Name: ./systests/rs-security/src/test/java/org/apache/cxf/systest/jaxrs/security/jose/jwejws/JweJwsReferenceTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO 1. comparison with multiple values
+File Name: ./rt/rs/extensions/search/src/test/java/org/apache/cxf/jaxrs/ext/search/SimpleSearchConditionTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO 2. comparison when getter returns null/throws exception
+File Name: ./rt/rs/extensions/search/src/test/java/org/apache/cxf/jaxrs/ext/search/SimpleSearchConditionTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO : Pushing the filter processing and copying response headers into say
+// PRE-LOGICAl and PREPARE_SEND interceptors will most likely be a good thing
+// however JAX-RS MessageBodyWriters are also allowed to add response headers
+// which is reason why a MultipartMap parameter in MessageBodyWriter.writeTo
+// method is modifiable. Thus we do need to know if the initial copy has already
+// occurred: for now we will just use to ensure the correct status is set
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/interceptor/JAXRSOutInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO : can we reuse this block with JAXBBinding somehow ?
+File Name: ./rt/rs/description/src/main/java/org/apache/cxf/jaxrs/model/wadl/WadlGenerator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO : introduce a common abstract class instead with
+// ProtocolHeaderImpl and HttpHeadersImpl inheriting from it given that
+// HttpHeadersImpl is just a wrapper around Message.PROTOCOL_HEADERS
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/ext/ProtocolHeadersImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO : investigate the possibility of using generic proxies only
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/utils/InjectionUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO assertFileEquals
+File Name: ./tools/javato/ws/src/test/java/org/apache/cxf/tools/java2wsdl/processor/internal/jaxws/JaxwsServiceBuilderTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO need to setup configuration about them
+File Name: ./rt/transports/http-netty/netty-server/src/main/java/org/apache/cxf/transport/http/netty/server/NettyHttpServerEngine.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO refactoring into factory class?
+File Name: ./services/xkms/xkms-service/src/main/java/org/apache/cxf/xkms/service/XKMSService.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO the generated wsdl has two faultDetail elements
+File Name: ./tools/javato/ws/src/test/java/org/apache/cxf/tools/java2wsdl/processor/JavaToProcessorTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: Can we add the features that exist in the main package here?
+File Name: ./rt/bindings/corba/src/main/java/org/apache/cxf/binding/corba/types/CorbaExceptionHandler.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: Collapse multiple parameters into a holder
+// CHECKSTYLE:OFF
+File Name: ./rt/rs/description/src/main/java/org/apache/cxf/jaxrs/model/wadl/WadlGenerator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: Is there a better way to detect boundaries in the message content?
+// It seems constricting to assume the boundary will start with ----=_Part_
+File Name: ./core/src/main/java/org/apache/cxf/attachment/AttachmentDeserializer.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: SOAPBinding can not on method with RPC style
+File Name: ./tools/javato/ws/src/test/java/org/apache/cxf/tools/java2wsdl/processor/internal/jaxws/JaxwsServiceBuilderTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: Should also check SoapHeader/SoapHeaderFault
+File Name: ./tools/validator/src/main/java/org/apache/cxf/tools/validator/internal/WSIBPValidator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: The method containing the actual annotations have to retrieved
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/provider/JAXRSDataBinding.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: This method can be removed or reduced when testSignedElementsWithIssuedSAMLToken is
+// cleaned up.
+File Name: ./rt/ws/security/src/test/java/org/apache/cxf/ws/security/wss4j/AbstractPolicySecurityTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: This method can be removed when runOutInterceptorAndValidateAsymmetricBinding
+// is cleaned up by adding server side enforcement of signature related algorithms.
+// See https://issues.apache.org/jira/browse/WSS-222
+File Name: ./rt/ws/security/src/test/java/org/apache/cxf/ws/security/wss4j/AbstractPolicySecurityTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: This method can be removed when runOutInterceptorAndValidateSamlTokenAttached
+// is cleaned up.
+File Name: ./rt/ws/security/src/test/java/org/apache/cxf/ws/security/wss4j/AbstractPolicySecurityTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: What is the correct implementation for this operation?
+File Name: ./distribution/src/main/release/samples/corba/bank_ws_addressing/src/main/java/corba/server/BankImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: What is the correct implementation for this operation?
+File Name: ./distribution/src/main/release/samples/corba/bank_ws_addressing/src/main/java/cxf/server/BankImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: assertFileEquals
+File Name: ./tools/javato/ws/src/test/java/org/apache/cxf/tools/java2wsdl/processor/internal/jaxws/JaxwsServiceBuilderTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: deal with caching later on
+File Name: ./rt/rs/description/src/main/java/org/apache/cxf/jaxrs/model/wadl/WadlGenerator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: reuse the wsdl in testutils and add the parameter order into one of the wsdl
+File Name: ./rt/wsdl/src/test/java/org/apache/cxf/wsdl11/WSDLServiceBuilderTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     // TODO: the following 3 helpers can go to a superclass or common utility class
+//       to be used by WADL and WSDL Pptions
+File Name: ./maven-plugins/wadl2java-plugin/src/main/java/org/apache/cxf/maven_plugin/wadlto/WadlOption.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO : consider moving JAXBDataBinding.createContext to JAXBUtils
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/JAXRSBinding.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO : multiple query string parsing, do it once
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/utils/JAXRSUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO add other tests
+File Name: ./core/src/test/java/org/apache/cxf/endpoint/EndpointImplTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO add tests with Timezones
+File Name: ./rt/databinding/aegis/src/test/java/org/apache/cxf/aegis/type/basic/DateTimezoneTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO refactor this class to unify its functionality with that of ResendCandidate
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/soap/SoapFaultFactory.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO remove attachments when we remove the deprecated attachments related methods
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/persistence/RMMessage.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO: Support symmetric keys if requested
+File Name: ./rt/rs/security/xml/src/main/java/org/apache/cxf/rs/security/xml/AbstractXmlEncInHandler.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO: This can be overridden, but consider also introducing dedicated handlers
+File Name: ./rt/rs/security/xml/src/main/java/org/apache/cxf/rs/security/saml/authorization/SecurityContextProviderImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO: cache the JAXBRIContext
+File Name: ./rt/databinding/jaxb/src/main/java/org/apache/cxf/jaxb/JAXBEncoderDecoder.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO: default to "AES/CBC/PKCS5Padding" if Cipher "AES/CBC/PKCS7Padding"
+// can not be initialized, apparently Java 8 has decided to settle on PKCS5Padding only
+File Name: ./rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/jwa/SignatureAlgorithm.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO: enhance the certificate validation code
+File Name: ./rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/common/KeyManagementUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO: how do we see if MTOM actually happened?
+File Name: ./systests/databinding/src/test/java/org/apache/cxf/systest/aegis/mtom/MtomTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO: move these methods into the dedicated utility class
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/provider/AbstractJAXBProvider.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO: remove duplicate code in setUpUsingHelloWorld and setUpUsingDocLit
+File Name: ./rt/databinding/jaxb/src/test/java/org/apache/cxf/jaxb/BareInInterceptorTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO: retry invocation will not work in case of async request failures for the moment
+File Name: ./rt/rs/client/src/main/java/org/apache/cxf/jaxrs/client/WebClient.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO: support attaching a signature to the cookie value
+File Name: ./rt/rs/security/sso/saml/src/main/java/org/apache/cxf/rs/security/saml/sso/AbstractSSOSpHandler.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO: this belongs to JAXB Databinding, should we just reuse
+// org.apache.cxf.tools.wsdlto.databinding.jaxb ?
+File Name: ./tools/wadlto/jaxrs/src/main/java/org/apache/cxf/tools/wadlto/jaxrs/JAXRSContainer.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //TODO: we can simply use the reflection, investigate
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/utils/ExceptionUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     //[TODO] should work after Relationship support in validateoperation
+File Name: ./services/sts/sts-core/src/test/java/org/apache/cxf/sts/operation/ValidateTokenTransformationUnitTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     @PreDestroy // TODO: check it is called
+File Name: ./rt/rs/client/src/main/java/org/apache/cxf/jaxrs/client/cache/CacheControlFeature.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     @org.junit.Ignore //TODO need to pass the principal of the original upgrade request to its subsequent service calls
+File Name: ./systests/jaxws/src/test/java/org/apache/cxf/systest/jaxws/websocket/ClientServerWebSocketTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:     private static final Pattern IPV4_MAPPED_IPV6_PATTERN = // TODO does not allow for redundant leading zeros
+File Name: ./rt/transports/http/src/main/java/org/apache/cxf/transport/https/httpclient/InetAddressUtils.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * Note: many methods' implementation still TODO.
+*
+*/
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/transport/http_jaxws_spi/HttpServletRequestAdapter.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * Note: many methods' implementation still TODO.
+*
+*/
+File Name: ./rt/frontend/jaxws/src/main/java/org/apache/cxf/transport/http_jaxws_spi/HttpServletResponseAdapter.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO : consider moving this class into a rt-core-security module
+*/
+File Name: ./core/src/main/java/org/apache/cxf/interceptor/security/DefaultSecurityContext.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO : deal with InvalidStateExceptions
+*
+*/
+File Name: ./rt/frontend/jaxrs/src/main/java/org/apache/cxf/jaxrs/impl/RequestImpl.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO Refactor this class a bit better...
+*/
+File Name: ./rt/ws/security/src/main/java/org/apache/cxf/ws/security/trust/STSStaxTokenValidator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO may rename it to WebSocketConduitRequest and move it to a generic package
+*/
+File Name: ./rt/transports/websocket/src/main/java/org/apache/cxf/transport/websocket/ahc/AhcWebSocketConduitRequest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:  * TODO: review the possibility of working with the Servlet HTTPSession
+* instead; in that case it can be tricky to configure various containers
+* (Tomcat, Jetty) to make sure the cookies are shared across multiple
+* war contexts which will be needed if RequestAssertionConsumerService
+* needs to be run in its own war file instead of having every application
+* war on the SP side have a dedicated RequestAssertionConsumerService endpoint
+*/
+File Name: ./rt/rs/security/sso/saml/src/main/java/org/apache/cxf/rs/security/saml/sso/state/SPStateManager.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: //  TODO: cache the JAXBRIContext
+File Name: ./rt/databinding/jaxb/src/main/java/org/apache/cxf/jaxb/JAXBEncoderDecoder.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO: Move to the common plugin module
+File Name: ./maven-plugins/wadl2java-plugin/src/main/java/org/apache/cxf/maven_plugin/common/ClassLoaderSwitcher.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
 Content: // TODO: Schedule reconnect here
 File Name: /rt/rs/sse/src/main/java/org/apache/cxf/jaxrs/sse/client/SseEventSourceImpl.java
 Time Of Creation: 2017-06-23T17:37:23-04:00
 Time Of Deletion: null
 Creation Commit Hash: feba8045486cd910b238065cbb3ee4a741198d76
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO: handle lastMessage
+File Name: ./rt/ws/rm/src/main/java/org/apache/cxf/ws/rm/SourceSequence.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO: remove once the wiki documentation is updated
+/  KeyStore keyStore = loadKeyStore();
+/  Certificate cert = keyStore.getCertificate("alice");
+/  PublicKey publicKey = cert.getPublicKey();
+/  KeyStore.PrivateKeyEntry pkEntry = (KeyStore.PrivateKeyEntry)
+/      keyStore.getEntry("alice", new KeyStore.PasswordProtection(
+/           new char[]{'p', 'a', 's', 's', 'w', 'o', 'r', 'd'}));
+/  PrivateKey privateKey = pkEntry.getPrivateKey();
+File Name: ./rt/rs/security/oauth-parent/oauth2/src/test/java/org/apache/cxf/rs/security/oauth2/utils/crypto/CryptoUtilsTest.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: //TODO: Make sure that enveloped signatures can be applied to individual
+/      child nodes of an envelope root element, a new property such as
+/      targetElementQName will be needed
+File Name: ./rt/rs/security/xml/src/main/java/org/apache/cxf/rs/security/xml/XmlSigOutInterceptor.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: //TODO: Move to the common plugin module
+File Name: ./maven-plugins/wadl2java-plugin/src/main/java/org/apache/cxf/maven_plugin/common/DocumentArtifact.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: //TODO: Move to the common plugin module
+File Name: ./maven-plugins/wadl2java-plugin/src/main/java/org/apache/cxf/maven_plugin/common/ForkOnceCodeGenerator.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: //TODO: consider simply extending ServerAccessToken,
+/ though this will require relaxing a bit the ServerAccessToken model
+/ (introduce default constructors, etc)
+File Name: ./rt/rs/security/oauth-parent/oauth2/src/main/java/org/apache/cxf/rs/security/oauth2/common/AccessTokenValidation.java
+Time Of Creation: 2017-05-22T16:35:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: c2517eb552704a406cfbc45eba4822a84e5ca7da
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 

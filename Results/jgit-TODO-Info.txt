@@ -1,3 +1,766 @@
+Content: 							+ startPointFullName; // TODO
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/CreateBranchCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 						// TODO check that we don't overwrite some unsaved
+// file content
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/dircache/DirCacheCheckout.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 						// TODO(jrn): Take a callback to recurse
+// into submodules.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/ArchiveCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 					// TODO: refactor into its own function
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/diff/MyersDiff.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 					// inserting. TODO: Fix this by using Buffers.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/AddCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// @TODO throw an InvalidRefNameException. We can't do that
+// now because this would break the API
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/ResetCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// TODO Git CLI supports checkout from unborn branch, we should
+// also allow this
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/CheckoutCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// TODO back port this change to JetS3t V2
+// See:
+// https://bitbucket.org/jmurty/jets3t/raw/156c00eb160598c2e9937fd6873f00d3190e28ca/src/org/jets3t/service/security/EncryptionUtil.java
+// http://cr.openjdk.java.net/~mullan/webrevs/ascarpin/webrev.00/raw_files/new/src/share/classes/com/sun/crypto/provider/PBES2Core.java
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/transport/WalkEncryption.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// TODO(sop) Do not send certain ref names to replica.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/ketch/KetchReplica.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// TODO(sop): Do not send certain object graphs to replica.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/ketch/KetchReplica.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// TODO(sop): Redirect proposals.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/ketch/KetchLeader.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// TODO: check whether it is always correct to report a conflict here
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/dircache/DirCacheCheckout.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// TODO: handle i more efficiently
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/diff/MyersDiff.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// TODO: if all the commits in the queue of RevWalk has allFlags
+// there's no point in continuing search as we'll not discover any more
+// tags. But RevWalk doesn't expose this.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/DescribeCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// TODO: make use of tree extension as soon as available in jgit
+// we would like to do something like
+// if (!equalIdAndMode(iId, iMode, mId, mMode)
+//   conflict(name, i.getDirCacheEntry(), h, m);
+// But since we don't know the id of a tree in the index we do
+// nothing here and wait that conflicts between index and merge
+// are found later
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/dircache/DirCacheCheckout.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// TODO: move end points out of the loop to avoid conditionals inside the loop
+// go backwards so that we can avoid temp vars
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/diff/MyersDiff.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// TODO: move out of loop
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/diff/MyersDiff.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				// TODO: walk snake(k, getX(d, k)) only once per (d, k)
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/diff/MyersDiff.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				case KEEP: // TODO
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/ResetCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				case MERGE: // TODO
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/ResetCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 				throw new UnsupportedOperationException(); // TODO message
+File Name: ./org.eclipse.jgit.http.apache/src/org/eclipse/jgit/transport/http/apache/HttpClientConnection.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// @TODO fix me
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/api/LogCommandTest.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// @TODO: Fix so that this operation is generic and casting to
+// JschSession is no longer necessary.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/transport/TransportSftp.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO check if status 200 is ok for PUT request, HTTP foresees 204
+// for successful PUT without response body
+File Name: ./org.eclipse.jgit.lfs.server/src/org/eclipse/jgit/lfs/server/fs/ObjectUploadListener.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO if the content of this commit is already merged
+// here we should skip this step in order to avoid
+// confusing pseudo-changed
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/RebaseCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO re-factor AmazonS3.putImpl to be more transaction-like
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/transport/WalkEncryption.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO(ch) align the defaults with native git
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/CommitCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO(ch): Change this in the next release
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/CommitCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO(jrn): Throw finer-grained errors.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/ArchiveCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO(sop) Check term to see if my leader was deposed.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/ketch/LagCheck.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO(sop) Collapse during long retry outage.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/ketch/KetchReplica.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO(sop) Depose leader if it cannot use its repository.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/ketch/KetchLeader.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO(sop) Process signed push certificates.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/ketch/ProposalRound.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO: Would it be faster to check with isNormalized first
+// assuming normalized paths are much more common
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/util/FileUtils.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO: ideally we'd like to get two paths from this exception
+// assertEquals(2, exception.getConflictingPaths().size());
+// assertEquals("a", exception.getConflictingPaths().get(0));
+// assertEquals("a/c", exception.getConflictingPaths().get(1));
+File Name: ./org.eclipse.jgit.pgm.test/tst/org/eclipse/jgit/pgm/CheckoutTest.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO: multiple clean filters for one file???
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/api/AddCommandTest.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO: should be "fatal: clean.requireForce defaults to true and
+// neither -i, -n, nor -f given; refusing to clean" but we don't
+// support -i yet. Fix this when/if we add support for -i.
+File Name: ./org.eclipse.jgit.pgm.test/tst/org/eclipse/jgit/pgm/CleanTest.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO: the exception has to be wrapped into an IOException because
+// throwing the ParseException directly would break the API, instead
+// we should throw a ConfigInvalidException
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/file/GC.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			// TODO: wire correctly with AUTOCRLF
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/dircache/DirCacheCheckout.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			int minK, maxK; // TODO: better explanation
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/diff/MyersDiff.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 			return; // TODO throw exception?
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/CloneCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// @TODO: find out why the following assertion would break the tests
+// assertTrue(git.status().call().isClean());
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/api/EolRepositoryTest.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO --full-history
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/revwalk/RevWalkPathFilter6012Test.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO --simplify-merges
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/revwalk/RevWalkPathFilter6012Test.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO Batch these together into one log update.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/dfs/DfsRefRename.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO Check if the implementation used in FileRepository can be used
+// for this kind of repository
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/dfs/DfsRepository.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO Close packs if they aren't cached.
+// for (DfsPackFile p : packs.packs)
+// p.close();
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/dfs/DfsObjDatabase.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO Correctly handle renaming foo/bar to foo.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/dfs/DfsRefRename.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO This table grows without bound. It needs to clean up
+// entries that aren't in cache anymore, and aren't being used
+// by a live DfsObjDatabase reference.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/dfs/DfsBlockCache.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO actually store this configuration.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/dfs/DfsConfig.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO fix broken test
+// check(i, e, c, b, a);
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/revwalk/RevWalkPathFilter6012Test.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO is this correct? It is what the command line returns
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/api/RebaseCommandTest.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO maybe NameConflictTreeWalk ?
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/StashApplyCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO returns inconsistent list.
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/transport/WalkEncryptionTest.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO run pre-auto-gc hook, if it fails return false
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/file/GC.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO(cranger): compare the pack checksum?
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/file/PackBitmapIndexV1.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO(ms) cache and reuse DateFormat instances
+File Name: ./org.eclipse.jgit.lfs.server/src/org/eclipse/jgit/lfs/server/s3/SignerV4.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO(sop) Cluster by restricted graphs to support filtering.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/ketch/StageBuilder.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO(sop) Do not delete precious names from replica.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/ketch/KetchReplica.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO(sop) Lagging replicas should build accept on the fly.
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/ketch/KetchReplica.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO: Why should we expect conflicts here?
+// H and M are empty and according to rule #5 of
+// the carry-over rules a dirty index is no reason
+// for a conflict. (I also feel it should be a
+// conflict because we are going to overwrite
+// unsaved content in the working tree
+// This test would fail in DirCacheCheckoutTest
+// assertConflict("foo");
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/lib/DirCacheCheckoutTest.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO: check whether we can really ignore this.
+File Name: ./org.eclipse.jgit.http.apache/src/org/eclipse/jgit/transport/http/apache/HttpClientConnection.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO: couldn't we delete unsaved worktree content here?
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/dircache/DirCacheCheckout.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO: dont we need a progressmonitor
+File Name: ./org.eclipse.jgit.http.apache/src/org/eclipse/jgit/transport/http/apache/TemporaryBufferEntity.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO: if JGit GC is enhanced to support repack's option -l this
+// method needs to be implemented
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/file/GC.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO: measure speed impact when this is synchronized
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/diff/MyersDiff.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		// TODO: when we add unnecessary commit's as tips (e.g. a commit which
+// is a parent of another tip) the walk will return those commits twice.
+// Find out why!
+// pw.markStart(pw.lookupCommit(a.getId()));
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/revplot/PlotCommitListTest.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		KEEP // TODO not implemented yet
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/ResetCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		MERGE, // TODO not implemented yet
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/ResetCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 		return null; // TODO(ms) implement this
+File Name: ./org.eclipse.jgit.lfs.server/src/org/eclipse/jgit/lfs/server/s3/S3Repository.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	 * @param when TODO
+* @return the local time zone
+*/
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/util/SystemReader.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	 * @return id of stashed commit that was applied TODO: Does anyone depend on
+*         this, or could we make it more like Merge/CherryPick/Revert?
+* @throws GitAPIException
+* @throws WrongRepositoryStateException
+* @throws NoHeadException
+* @throws StashApplyFailureException
+*/
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/StashApplyCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	 * TODO This method should be annotated as Nullable, because in some
+* specific configurations metadata is not located in the local file system
+* (for example in memory databases). In "usual" repositories this
+* annotation would only cause compiler errors at places where the actual
+* directory can never be null.
+*/
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/lib/Repository.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	 * TODO: check that suffixes don't overlap.
+*
+* @param name name of a format (e.g., "tar" or "zip").
+* @param fmt archiver for that format
+* @throws JGitInternalException
+*              A different archival format with that name was
+*              already registered.
+*/
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/api/ArchiveCommand.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	 * TODO: enhance WorkingTreeIterator to support write operations. Then this
+* merger will be able to merge with a different working tree abstraction.
+*
+* @param workingTreeIterator
+*            the workingTreeIt to set
+*/
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/merge/ResolveMerger.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	 * TODO: this method works directly on File IO, we may need another
+* abstraction (like WorkingTreeIterator). This way we could tell e.g.
+* Eclipse that Files in the workspace got changed
+* </p>
+*
+* @param repo
+*            repository managing the destination work tree.
+* @param entry
+*            the entry containing new mode and content
+* @param or
+*            object reader to use for checkout
+* @param deleteRecursive
+*            true to recursively delete final path if it exists on the file
+*            system
+* @param checkoutMetadata
+*            containing
+*            <ul>
+*            <li>smudgeFilterCommand to be run for smudging the entry to be
+*            checked out</li>
+*            <li>eolStreamType used for stream conversion</li>
+*            </ul>
+*
+* @throws IOException
+* @since 4.2
+*/
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/dircache/DirCacheCheckout.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	// TODO mixed ciphers
+// consider permitting mixed ciphers to facilitate algorithm migration
+// i.e. user keeps the password, but changes the algorithm
+// then existing remote entries will still be readable
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/transport/WalkEncryption.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	// TODO(msohn) deprecate this method in 4.4
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/treewalk/TreeWalk.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	// TODO(msohn) make this method public in 4.4
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/treewalk/TreeWalk.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	// TODO: testWritePackDeltasCycle()
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/internal/storage/file/PackWriterTest.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	// TODO: testWritePackDeltasDepth()
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/internal/storage/file/PackWriterTest.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	// TODO: use ThreadLocal for future multi-threaded operations
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/diff/MyersDiff.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: 	// TODO: write a faster test which depends less on characteristics of
+// underlying filesystem/OS.
+File Name: ./org.eclipse.jgit.test/tst/org/eclipse/jgit/api/CheckoutCommandTest.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
 Content: // TODO(czhen): Make findObjectsWalk resume the walk instead
 // once RevWalk and ObjectWalk support that.
 File Name: /org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/pack/PackWriterBitmapWalker.java
@@ -37,6 +800,23 @@ File Name: /org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/file/GC.java
 Time Of Creation: 2017-06-11T16:39:41+02:00
 Time Of Deletion: null
 Creation Commit Hash: 03b8d1a202453e79fe5344149d020c775d662cd7
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: // TODO: remove
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/diff/MyersDiff.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content: public interface UploadPackLogger { // TODO remove in JGit 5.0
+/** A simple no-op logger. */
+File Name: ./org.eclipse.jgit/src/org/eclipse/jgit/transport/UploadPackLogger.java
+Time Of Creation: 2017-04-05T17:50:54-04:00
+Time Of Deletion: null
+Creation Commit Hash: 4c3e274588060d9ab2e05d7919f506789bcbbc0b
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
