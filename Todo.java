@@ -2,6 +2,7 @@ package todoReader;
 
 import java.io.StringReader;
 import java.time.Duration;
+import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
@@ -31,6 +32,12 @@ public class Todo implements Comparable<Todo>{
 	private double specificity;
 	private List<TypedDependency> fullContentStructure;
 	private List<CoreLabel> fullContentWords;
+	private static final String parserModel = "edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz";
+	private static final LexicalizedParser lp = LexicalizedParser.loadModel(parserModel);
+	private static final PennTreebankLanguagePack tlp = (PennTreebankLanguagePack) lp.treebankLanguagePack();
+	private static final GrammaticalStructureFactory gsf = tlp.grammaticalStructureFactory();
+	
+	TokenizerFactory<CoreLabel> tf = PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
 	
 	private static final DateTimeFormatter timeFormat = DateTimeFormatter.ISO_OFFSET_DATE_TIME;
 	
@@ -49,16 +56,9 @@ public class Todo implements Comparable<Todo>{
 	}
 
 	public void analyzeFullContent() {
-		String parserModel = "edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz";
-		LexicalizedParser lp = LexicalizedParser.loadModel(parserModel);
-		
-		TokenizerFactory<CoreLabel> tf = PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
-		Tokenizer<CoreLabel> t = tf.getTokenizer(new StringReader(getFullContent()));
-		setFullContentWords(t.tokenize());
+		System.out.println(LocalDateTime.now());
+		System.out.println(this.getFullContent());
 		Tree fullContentTree = lp.apply(getFullContentWords());
-		
-		PennTreebankLanguagePack tlp = (PennTreebankLanguagePack) lp.treebankLanguagePack();
-		GrammaticalStructureFactory gsf = tlp.grammaticalStructureFactory();
 	    GrammaticalStructure gs = gsf.newGrammaticalStructure(fullContentTree);
 	    setFullContentStructure(gs.typedDependenciesCCprocessed());
 	    //System.out.println(getFullContentStructure());
@@ -98,7 +98,7 @@ public class Todo implements Comparable<Todo>{
 	}
 	
 	public String toString() {
-		return "Content: " + getFullContent() + "\nContent Structure:" + getFullContentStructureString() + "\nFile Name: " + getFileName()
+		return "Content:\n" + getFullContent() + "\nContent Structure:" + getFullContentStructureString() + "\nFile Name: " + getFileName()
 			+ "\nTime Of Creation: " + getTimeOfCreation() + "\nTime Of Deletion: " + getTimeOfDeletion()
 			+ "\nCreation Commit Hash: " + getCreationCommitHash() + "\nDeletion Commit Hash: " + getDeletionCommitHash()
 			+ "\nTime To Complete: " + ((timeOfCreation == null || timeOfDeletion == null) ? "Incomplete":(elapsedTime(timeOfCreation, timeOfDeletion)))
@@ -201,7 +201,8 @@ public class Todo implements Comparable<Todo>{
 	
 	public void setFullContent(String fullContent) {
 		this.fullContent = fullContent;
-		analyzeFullContent();
+		Tokenizer<CoreLabel> t = tf.getTokenizer(new StringReader(getFullContent()));
+		setFullContentWords(t.tokenize());
 	}
 	
 	public double getSpecificity() {

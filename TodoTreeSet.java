@@ -13,9 +13,14 @@ public class TodoTreeSet extends TreeSet<Todo> {
 	 */
 	private static final long serialVersionUID = 8385345907942588632L;
 	private int numCompleted = 0;
-	private double completionRate = 0;
 	private double totalSpecificity = 0;
 	private HashMap<String, Integer> wordFrequency = new HashMap<String, Integer>();
+	
+	public void analyze() {
+		for(Todo toAnalyze: this) {
+			toAnalyze.analyzeFullContent();
+		}
+	}
 	
 	public boolean add(Todo toAdd) {
 		addToFreqTable(toAdd);
@@ -75,7 +80,7 @@ public class TodoTreeSet extends TreeSet<Todo> {
 			return "No TODOs";
 		}
 		
-		String toReturn = "TODOs: \n";
+		String toReturn = "Completion Rate: " + getCompletionRate() + "%\n\n\nTODOs:";
 		
 		for(Todo toAdd: this) {
 			toReturn += toAdd.toString();
@@ -96,10 +101,7 @@ public class TodoTreeSet extends TreeSet<Todo> {
 		this.numCompleted = numCompleted;
 	}
 	public double getCompletionRate() {
-		return completionRate;
-	}
-	public void setCompletionRate(double completionRate) {
-		this.completionRate = completionRate;
+		return (((double) getNumCompleted())/((double) size()))*100.0;
 	}
 	public double getAvgSpecificity() {
 		return totalSpecificity/this.size();
