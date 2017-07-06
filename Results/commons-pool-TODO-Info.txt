@@ -1,14 +1,23 @@
-Content:                             // TODO - May need to add code here once additional
-// states are used
-File Name: ./src/main/java/org/apache/commons/pool2/impl/GenericObjectPool.java
-Time Of Creation: 2015-05-18T23:40:21Z
-Time Of Deletion: null
-Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Completion Rate: 0.0%
 
-Content:                         // TODO - May need to add code here once additional
-// states are used
+
+TODOs:Content:
+TODO - May need to add code here once additional
+states are used
+Content Structure:
+root(ROOT-0, TODO-1)
+nsubj(need-4, May-3)
+nsubj:xsubj(add-6, May-3)
+parataxis(TODO-1, need-4)
+mark(add-6, to-5)
+xcomp(need-4, add-6)
+dobj(add-6, code-7)
+advmod(add-6, here-8)
+mark(used-13, once-9)
+amod(states-11, additional-10)
+nsubjpass(used-13, states-11)
+auxpass(used-13, are-12)
+advcl(add-6, used-13)
 File Name: ./src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java
 Time Of Creation: 2015-05-18T23:40:21Z
 Time Of Deletion: null
@@ -16,7 +25,37 @@ Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:                 // TODO - Should never happen
+Content:
+TODO - May need to add code here once additional
+states are used
+Content Structure:
+root(ROOT-0, TODO-1)
+nsubj(need-4, May-3)
+nsubj:xsubj(add-6, May-3)
+parataxis(TODO-1, need-4)
+mark(add-6, to-5)
+xcomp(need-4, add-6)
+dobj(add-6, code-7)
+advmod(add-6, here-8)
+mark(used-13, once-9)
+amod(states-11, additional-10)
+nsubjpass(used-13, states-11)
+auxpass(used-13, are-12)
+advcl(add-6, used-13)
+File Name: ./src/main/java/org/apache/commons/pool2/impl/GenericObjectPool.java
+Time Of Creation: 2015-05-18T23:40:21Z
+Time Of Deletion: null
+Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+TODO - Should never happen
+Content Structure:
+root(ROOT-0, TODO-1)
+aux(happen-5, Should-3)
+neg(happen-5, never-4)
+parataxis(TODO-1, happen-5)
 File Name: ./src/main/java/org/apache/commons/pool2/impl/DefaultPooledObject.java
 Time Of Creation: 2015-05-18T23:40:21Z
 Time Of Deletion: null
@@ -24,7 +63,16 @@ Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:             // TODO Allocate anyway and ignore eviction test
+Content:
+TODO Allocate anyway and ignore eviction test
+Content Structure:
+root(ROOT-0, TODO-1)
+dobj(TODO-1, Allocate-2)
+advmod(TODO-1, anyway-3)
+cc(TODO-1, and-4)
+conj:and(TODO-1, ignore-5)
+compound(test-7, eviction-6)
+dobj(ignore-5, test-7)
 File Name: ./src/main/java/org/apache/commons/pool2/impl/DefaultPooledObject.java
 Time Of Creation: 2015-05-18T23:40:21Z
 Time Of Deletion: null
@@ -32,106 +80,19 @@ Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:         // TODO Fix this. Can't use local pool since runTestThreads uses the
-//      protected pool field
-File Name: ./src/test/java/org/apache/commons/pool2/impl/TestDefaultPooledObject.java
-Time Of Creation: 2015-05-18T23:40:21Z
-Time Of Deletion: null
-Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO Simplify this once getBorrowedCount has been added to PooledObject
-File Name: ./src/main/java/org/apache/commons/pool2/impl/DefaultPooledObjectInfo.java
-Time Of Creation: 2015-05-18T23:40:21Z
-Time Of Deletion: null
-Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO add other attributes
-File Name: ./src/main/java/org/apache/commons/pool2/impl/DefaultPooledObject.java
-Time Of Creation: 2015-05-18T23:40:21Z
-Time Of Deletion: null
-Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO add other attributes
-File Name: ./src/main/java/org/apache/commons/pool2/impl/PooledSoftReference.java
-Time Of Creation: 2015-05-18T23:40:21Z
-Time Of Deletion: null
-Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO encapsulate state and other attribute display in parent
-File Name: ./src/main/java/org/apache/commons/pool2/impl/PooledSoftReference.java
-Time Of Creation: 2015-05-18T23:40:21Z
-Time Of Deletion: null
-Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO if validating and testOnBorrow == true then pre-allocate for
-// performance
-File Name: ./src/main/java/org/apache/commons/pool2/impl/DefaultPooledObject.java
-Time Of Creation: 2015-05-18T23:40:21Z
-Time Of Deletion: null
-Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO this currently causes tearDown to report an error
-// Looks like GKOP needs to call close() on its parent before throwing IAE
-File Name: ./src/test/java/org/apache/commons/pool2/impl/TestDefaultPooledObject.java
-Time Of Creation: 2015-05-18T23:40:21Z
-Time Of Deletion: null
-Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO this currently causes tearDown to report an error
-// Looks like GOP needs to call close() or jmxUnregister() before throwing IAE
-File Name: ./src/test/java/org/apache/commons/pool2/impl/TestGenericObjectPool.java
-Time Of Creation: 2015-05-18T23:40:21Z
-Time Of Deletion: null
-Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO: Anyone feel motivated to construct a test that verifies proper synchronization?
-File Name: ./src/test/java/org/apache/commons/pool2/TestPoolUtils.java
-Time Of Creation: 2015-05-18T23:40:21Z
-Time Of Deletion: null
-Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:      * TODO: Add support for more efficient bulk operations.
-*
-* We don't want to acquire the lock for every iteration, but we
-* also want other threads a chance to interact with the
-* collection, especially when count is close to capacity.
-*/
-File Name: ./src/main/java/org/apache/commons/pool2/impl/LinkedBlockingDeque.java
-Time Of Creation: 2015-05-18T23:40:21Z
-Time Of Deletion: null
-Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:      * TODO: Consider allocating object and ignoring the result of the eviction
-*       test.
-*/
-File Name: ./src/main/java/org/apache/commons/pool2/PoolUtils.java
-Time Of Creation: 2015-05-18T23:40:21Z
-Time Of Deletion: null
-Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO Consider changing this to a single property for 3.x
+Content:
+TODO Consider changing this to a single property for 3.x
+Content Structure:
+compound(Consider-2, TODO-1)
+root(ROOT-0, Consider-2)
+acl(Consider-2, changing-3)
+dobj(changing-3, this-4)
+case(property-8, to-5)
+det(property-8, a-6)
+amod(property-8, single-7)
+nmod:to(changing-3, property-8)
+case(3-10, for-9)
+nmod:for(property-8, 3-10)
 File Name: ./src/main/java/org/apache/commons/pool2/impl/BaseObjectPoolConfig.java
 Time Of Creation: 2015-05-18T23:40:21Z
 Time Of Deletion: null
@@ -139,12 +100,337 @@ Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:     // TODO: Uncomment this for version 3 (can't add it to 2.x as it will break
-//       API compatibility)
-///**
-// * Get the number of times this object has been borrowed.
-// */
-//long getBorrowedCount();
+Content:
+TODO Fix this. Can't use local pool since runTestThreads uses the
+protected pool field
+Content Structure:
+nsubj(Fix-2, TODO-1)
+root(ROOT-0, Fix-2)
+nsubj(uses-12, this-3)
+aux(use-7, Ca-5)
+neg(use-7, n't-6)
+dep(this-3, use-7)
+amod(pool-9, local-8)
+dobj(use-7, pool-9)
+case(runTestThreads-11, since-10)
+nmod:since(use-7, runTestThreads-11)
+ccomp(Fix-2, uses-12)
+det(field-16, the-13)
+amod(field-16, protected-14)
+compound(field-16, pool-15)
+dobj(uses-12, field-16)
+File Name: ./src/test/java/org/apache/commons/pool2/impl/TestDefaultPooledObject.java
+Time Of Creation: 2015-05-18T23:40:21Z
+Time Of Deletion: null
+Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+TODO Simplify this once getBorrowedCount has been added to PooledObject
+Content Structure:
+compound(Simplify-2, TODO-1)
+nsubjpass(added-8, Simplify-2)
+det(once-4, this-3)
+nmod:npmod(getBorrowedCount-5, once-4)
+amod(Simplify-2, getBorrowedCount-5)
+aux(added-8, has-6)
+auxpass(added-8, been-7)
+root(ROOT-0, added-8)
+case(PooledObject-10, to-9)
+nmod:to(added-8, PooledObject-10)
+File Name: ./src/main/java/org/apache/commons/pool2/impl/DefaultPooledObjectInfo.java
+Time Of Creation: 2015-05-18T23:40:21Z
+Time Of Deletion: null
+Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+TODO add other attributes
+Content Structure:
+nsubj(add-2, TODO-1)
+root(ROOT-0, add-2)
+amod(attributes-4, other-3)
+dobj(add-2, attributes-4)
+File Name: ./src/main/java/org/apache/commons/pool2/impl/DefaultPooledObject.java
+Time Of Creation: 2015-05-18T23:40:21Z
+Time Of Deletion: null
+Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+TODO add other attributes
+Content Structure:
+nsubj(add-2, TODO-1)
+root(ROOT-0, add-2)
+amod(attributes-4, other-3)
+dobj(add-2, attributes-4)
+File Name: ./src/main/java/org/apache/commons/pool2/impl/PooledSoftReference.java
+Time Of Creation: 2015-05-18T23:40:21Z
+Time Of Deletion: null
+Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+TODO encapsulate state and other attribute display in parent
+Content Structure:
+compound(encapsulate-2, TODO-1)
+nsubj(attribute-6, encapsulate-2)
+dep(encapsulate-2, state-3)
+cc(state-3, and-4)
+dep(encapsulate-2, other-5)
+conj:and(state-3, other-5)
+root(ROOT-0, attribute-6)
+dobj(attribute-6, display-7)
+case(parent-9, in-8)
+nmod:in(display-7, parent-9)
+File Name: ./src/main/java/org/apache/commons/pool2/impl/PooledSoftReference.java
+Time Of Creation: 2015-05-18T23:40:21Z
+Time Of Deletion: null
+Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+TODO if validating and testOnBorrow == true then pre-allocate for
+performance
+Content Structure:
+root(ROOT-0, TODO-1)
+mark(pre-allocate-9, if-2)
+nsubj(pre-allocate-9, validating-3)
+cc(validating-3, and-4)
+conj:and(validating-3, testOnBorrow-5)
+nsubj(pre-allocate-9, testOnBorrow-5)
+advmod(true-7, ==-6)
+amod(validating-3, true-7)
+advmod(pre-allocate-9, then-8)
+dep(TODO-1, pre-allocate-9)
+case(performance-11, for-10)
+nmod:for(pre-allocate-9, performance-11)
+File Name: ./src/main/java/org/apache/commons/pool2/impl/DefaultPooledObject.java
+Time Of Creation: 2015-05-18T23:40:21Z
+Time Of Deletion: null
+Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+TODO this currently causes tearDown to report an error
+Looks like GKOP needs to call close() on its parent before throwing IAE
+Content Structure:
+nsubj(needs-13, TODO-1)
+nsubj:xsubj(call-15, TODO-1)
+nsubj(causes-4, this-2)
+advmod(causes-4, currently-3)
+acl:relcl(TODO-1, causes-4)
+xcomp(causes-4, tearDown-5)
+mark(report-7, to-6)
+xcomp(tearDown-5, report-7)
+det(Looks-10, an-8)
+compound(Looks-10, error-9)
+dobj(report-7, Looks-10)
+case(GKOP-12, like-11)
+nmod:like(report-7, GKOP-12)
+root(ROOT-0, needs-13)
+mark(call-15, to-14)
+xcomp(needs-13, call-15)
+amod(-LRB--17, close-16)
+dobj(call-15, -LRB--17)
+case(parent-21, on-19)
+nmod:poss(parent-21, its-20)
+nmod:on(call-15, parent-21)
+mark(throwing-23, before-22)
+advcl(needs-13, throwing-23)
+dobj(throwing-23, IAE-24)
+File Name: ./src/test/java/org/apache/commons/pool2/impl/TestDefaultPooledObject.java
+Time Of Creation: 2015-05-18T23:40:21Z
+Time Of Deletion: null
+Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+TODO this currently causes tearDown to report an error
+Looks like GOP needs to call close() or jmxUnregister() before throwing IAE
+Content Structure:
+nsubj(needs-13, TODO-1)
+nsubj:xsubj(call-15, TODO-1)
+nsubj(causes-4, this-2)
+advmod(causes-4, currently-3)
+acl:relcl(TODO-1, causes-4)
+xcomp(causes-4, tearDown-5)
+mark(report-7, to-6)
+xcomp(tearDown-5, report-7)
+det(Looks-10, an-8)
+compound(Looks-10, error-9)
+dobj(report-7, Looks-10)
+case(GOP-12, like-11)
+nmod:like(report-7, GOP-12)
+root(ROOT-0, needs-13)
+mark(call-15, to-14)
+xcomp(needs-13, call-15)
+dobj(call-15, close-16)
+compound(-LRB--21, -RRB--18)
+cc(-RRB--18, or-19)
+conj:or(-RRB--18, jmxUnregister-20)
+compound(-LRB--21, jmxUnregister-20)
+appos(close-16, -LRB--21)
+mark(throwing-24, before-23)
+advcl(call-15, throwing-24)
+dobj(throwing-24, IAE-25)
+File Name: ./src/test/java/org/apache/commons/pool2/impl/TestGenericObjectPool.java
+Time Of Creation: 2015-05-18T23:40:21Z
+Time Of Deletion: null
+Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+TODO: Add support for more efficient bulk operations.
+
+We don't want to acquire the lock for every iteration, but we
+also want other threads a chance to interact with the
+collection, especially when count is close to capacity.
+
+Content Structure:
+dep(want-14, TODO-1)
+amod(support-4, Add-3)
+dep(TODO-1, support-4)
+case(operations-9, for-5)
+advmod(efficient-7, more-6)
+amod(operations-9, efficient-7)
+compound(operations-9, bulk-8)
+nmod:for(support-4, operations-9)
+nsubj(want-14, We-11)
+nsubj:xsubj(acquire-16, We-11)
+aux(want-14, do-12)
+neg(want-14, n't-13)
+root(ROOT-0, want-14)
+mark(acquire-16, to-15)
+xcomp(want-14, acquire-16)
+det(lock-18, the-17)
+dobj(acquire-16, lock-18)
+case(iteration-21, for-19)
+det(iteration-21, every-20)
+nmod:for(lock-18, iteration-21)
+cc(want-14, but-23)
+nsubj(want-26, we-24)
+advmod(want-26, also-25)
+conj:but(want-14, want-26)
+amod(threads-28, other-27)
+iobj(want-26, threads-28)
+det(chance-30, a-29)
+dobj(want-26, chance-30)
+mark(interact-32, to-31)
+advcl(want-26, interact-32)
+case(collection-35, with-33)
+det(collection-35, the-34)
+nmod:with(interact-32, collection-35)
+advmod(when-38, especially-37)
+advmod(capacity-43, when-38)
+nsubj(capacity-43, count-39)
+cop(capacity-43, is-40)
+case(capacity-43, close-41)
+mwe(close-41, to-42)
+acl:relcl(collection-35, capacity-43)
+File Name: ./src/main/java/org/apache/commons/pool2/impl/LinkedBlockingDeque.java
+Time Of Creation: 2015-05-18T23:40:21Z
+Time Of Deletion: null
+Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+TODO: Anyone feel motivated to construct a test that verifies proper synchronization?
+Content Structure:
+root(ROOT-0, TODO-1)
+nsubj(feel-4, Anyone-3)
+parataxis(TODO-1, feel-4)
+xcomp(feel-4, motivated-5)
+mark(construct-7, to-6)
+xcomp(motivated-5, construct-7)
+det(test-9, a-8)
+dobj(construct-7, test-9)
+nsubj(verifies-11, test-9)
+ref(test-9, that-10)
+acl:relcl(test-9, verifies-11)
+amod(synchronization-13, proper-12)
+dobj(verifies-11, synchronization-13)
+File Name: ./src/test/java/org/apache/commons/pool2/TestPoolUtils.java
+Time Of Creation: 2015-05-18T23:40:21Z
+Time Of Deletion: null
+Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+TODO: Consider allocating object and ignoring the result of the eviction
+test.
+
+Content Structure:
+root(ROOT-0, TODO-1)
+dep(TODO-1, Consider-3)
+ccomp(Consider-3, allocating-4)
+dobj(allocating-4, object-5)
+cc(allocating-4, and-6)
+ccomp(Consider-3, ignoring-7)
+conj:and(allocating-4, ignoring-7)
+det(result-9, the-8)
+dobj(ignoring-7, result-9)
+case(test-13, of-10)
+det(test-13, the-11)
+compound(test-13, eviction-12)
+nmod:of(result-9, test-13)
+File Name: ./src/main/java/org/apache/commons/pool2/PoolUtils.java
+Time Of Creation: 2015-05-18T23:40:21Z
+Time Of Deletion: null
+Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+TODO: Uncomment this for version 3 (can't add it to 2.x as it will break
+API compatibility)
+/**
+* Get the number of times this object has been borrowed.
+*/
+long getBorrowedCount();
+Content Structure:
+root(ROOT-0, TODO-1)
+dep(getBorrowedCount-39, this-4)
+case(version-6, for-5)
+nmod:for(this-4, version-6)
+nummod(version-6, 3-7)
+aux(add-11, ca-9)
+neg(add-11, n't-10)
+dep(version-6, add-11)
+dobj(add-11, it-12)
+case(2.x-14, to-13)
+nmod:to(add-11, 2.x-14)
+mark(break-18, as-15)
+nsubj(break-18, it-16)
+aux(break-18, will-17)
+advcl(add-11, break-18)
+compound(compatibility-20, API-19)
+dobj(break-18, compatibility-20)
+compound(*-24, **-23)
+nsubj(Get-25, *-24)
+parataxis(this-4, Get-25)
+det(number-27, the-26)
+dobj(Get-25, number-27)
+case(times-29, of-28)
+nmod:of(number-27, times-29)
+det(object-31, this-30)
+nsubjpass(borrowed-34, object-31)
+aux(borrowed-34, has-32)
+auxpass(borrowed-34, been-33)
+acl:relcl(times-29, borrowed-34)
+dep(getBorrowedCount-39, long-38)
+dep(TODO-1, getBorrowedCount-39)
+nummod(getBorrowedCount-39, -LRB--40)
 File Name: ./src/main/java/org/apache/commons/pool2/PooledObject.java
 Time Of Creation: 2015-05-18T23:40:21Z
 Time Of Deletion: null
@@ -152,3 +438,155 @@ Creation Commit Hash: b6f59e0835fbee9e5cc2a09a34e0a6cdc33925d1
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+
+
+Frequency Table: 
+'parent' : 2
+'been' : 2
+'construct' : 4
+'changing' : 1
+'ignoring' : 1
+'when' : 1
+'jmxUnregister' : 1
+'number' : 1
+'runTestThreads' : 1
+'protected' : 1
+'property' : 1
+'lock' : 1
+'n't' : 3
+'state' : 1
+'if' : 1
+'happen' : 1
+'Consider' : 2
+'in' : 1
+'want' : 2
+'pool' : 2
+'is' : 1
+'*' : 2
+'then' : 1
+'it' : 2
+'Anyone' : 4
+',' : 2
+'IAE' : 2
+'-' : 3
+'version' : 1
+'an' : 2
+'.' : 6
+'/' : 2
+'as' : 1
+'3' : 2
+'validating' : 1
+'field' : 1
+'Get' : 1
+':' : 7
+';' : 1
+'bulk' : 1
+'object' : 2
+'?' : 4
+'**' : 1
+'other' : 4
+'Should' : 1
+'-LRB-' : 5
+'May' : 2
+'acquire' : 1
+'long' : 1
+'local' : 1
+'anyway' : 1
+'capacity' : 1
+'result' : 1
+'throwing' : 2
+'are' : 2
+'causes' : 2
+'attribute' : 1
+'close' : 3
+'ca' : 1
+'borrowed' : 1
+'TODO' : 20
+'a' : 6
+'efficient' : 1
+'break' : 1
+'more' : 1
+'display' : 1
+'GOP' : 1
+'single' : 1
+'call' : 2
+'the' : 6
+'testOnBorrow' : 1
+'PooledObject' : 1
+'x' : 1
+'report' : 2
+'attributes' : 2
+'to' : 16
+'Ca' : 1
+'Add' : 1
+'but' : 1
+'added' : 1
+'before' : 2
+'use' : 1
+'feel' : 4
+'do' : 1
+'used' : 2
+'that' : 4
+'has' : 2
+'==' : 1
+'add' : 5
+'needs' : 2
+'motivated' : 4
+'test' : 6
+'need' : 2
+'like' : 2
+'Uncomment' : 1
+'count' : 1
+'this' : 7
+'its' : 1
+'collection' : 1
+'never' : 1
+'especially' : 1
+'getBorrowedCount' : 2
+'once' : 3
+'true' : 1
+'allocating' : 1
+'-RRB-' : 5
+'2.x' : 1
+'pre-allocate' : 1
+'support' : 1
+'compatibility' : 1
+'Allocate' : 1
+'since' : 1
+'here' : 2
+'code' : 2
+'additional' : 2
+'for' : 5
+'interact' : 1
+'proper' : 4
+'error' : 2
+'we' : 1
+'states' : 2
+'times' : 1
+'operations' : 1
+'eviction' : 2
+'and' : 4
+'of' : 2
+'ignore' : 1
+'iteration' : 1
+'every' : 1
+'on' : 1
+'chance' : 1
+'or' : 1
+'Simplify' : 1
+'GKOP' : 1
+'will' : 1
+'threads' : 1
+'also' : 1
+'We' : 1
+'tearDown' : 2
+'with' : 1
+'performance' : 1
+'currently' : 2
+'Fix' : 1
+'Looks' : 2
+'verifies' : 4
+'synchronization' : 4
+'API' : 1
+'uses' : 1
+'encapsulate' : 1
