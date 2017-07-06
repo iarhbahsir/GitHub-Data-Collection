@@ -5,12 +5,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.time.OffsetDateTime;
 import java.util.Scanner;
-import java.util.TreeSet;
 import todoReader.Todo;
 
 public class TodoReader {
 
-	private TreeSet<Todo> todoKeeper = new TreeSet<Todo>();
+	private TodoTreeSet todoKeeper = new TodoTreeSet();
 	
 	private enum ReadType {
 		INITIALIZE, UPDATE
@@ -61,6 +60,7 @@ public class TodoReader {
 			commitHash = fileScanner.nextLine();
 		} catch (java.util.NoSuchElementException e) {
 			System.out.println(toRead.getAbsolutePath());
+			fileScanner.close();
 			return;
 		}
 		
@@ -157,28 +157,19 @@ public class TodoReader {
 		fileScanner.close();
 	}
 	
-	public String showTodos()
-	{
-		String toReturn = "";
-		
-		if(todoKeeper.isEmpty()) {
-			return "No TODOs";
-		}
-		
-		for(Todo toAdd: todoKeeper) {
-			toReturn += toAdd.toString();
-		}
-		
-		return toReturn;
+	public String toString() {
+		return todoKeeper.toString();
 	}
 	
 	public static void main(String[] args) throws IOException {
 		//Scanner kb = new Scanner(System.in);
 		//System.out.println("Enter path to Cloned directory");
 		//String clonedPath = kb.nextLine();
-		String clonedPath = args[0];
+		//String clonedPath = args[0];
+		String clonedPath = "/home/rishabh/Cloned";
 		// while testing
-		String repoName = args[1];
+		String repoName = "GitHub-Data-Collection";
+		//String repoName = args[1];
 		
 		File infoDir = new File(clonedPath + "/" + repoName + "-Info");
 		String CommitInfoPath = infoDir.getAbsolutePath() + "/" + repoName + "-Output-";
@@ -197,7 +188,7 @@ public class TodoReader {
 		
 		File outputFile = new File(infoDir.getAbsolutePath() + "/" + repoName + "-TODO-Info.txt");
 		FileWriter output = new FileWriter(outputFile);
-		output.write(reader.showTodos());
+		output.write(reader.toString());
 		
 		System.out.println("Analysis done.");
 		

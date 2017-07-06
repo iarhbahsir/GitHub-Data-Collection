@@ -1,9 +1,23 @@
 package todoReader;
 
+import java.io.StringReader;
 import java.time.Duration;
 import java.time.OffsetDateTime;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
+
+import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
+import edu.stanford.nlp.process.CoreLabelTokenFactory;
+import edu.stanford.nlp.process.PTBTokenizer;
+import edu.stanford.nlp.process.Tokenizer;
+import edu.stanford.nlp.process.TokenizerFactory;
+import edu.stanford.nlp.trees.GrammaticalStructure;
+import edu.stanford.nlp.trees.GrammaticalStructureFactory;
+import edu.stanford.nlp.trees.PennTreebankLanguagePack;
+import edu.stanford.nlp.trees.Tree;
+import edu.stanford.nlp.trees.TypedDependency;
 
 public class Todo implements Comparable<Todo>{
 	
@@ -14,6 +28,9 @@ public class Todo implements Comparable<Todo>{
 	private OffsetDateTime timeOfCreation;
 	private OffsetDateTime timeOfDeletion;
 	private String fullContent;
+	private double specificity;
+	private List<TypedDependency> fullContentStructure;
+	private List<CoreLabel> fullContentWords;
 	
 	private static final DateTimeFormatter timeFormat = DateTimeFormatter.ISO_OFFSET_DATE_TIME;
 	
@@ -29,6 +46,22 @@ public class Todo implements Comparable<Todo>{
 		setFileName(fileName);
 		setTimeOfCreation(timeOfCreation);
 		setCreationCommitHash(creationCommitHash);
+	}
+
+	public void analyzeFullContent() {
+		String parserModel = "edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz";
+		LexicalizedParser lp = LexicalizedParser.loadModel(parserModel);
+		
+		TokenizerFactory<CoreLabel> tf = PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
+		Tokenizer<CoreLabel> t = tf.getTokenizer(new StringReader(getFullContent()));
+		setFullContentWords(t.tokenize());
+		Tree fullContentTree = lp.apply(getFullContentWords());
+		
+		PennTreebankLanguagePack tlp = (PennTreebankLanguagePack) lp.treebankLanguagePack();
+		GrammaticalStructureFactory gsf = tlp.grammaticalStructureFactory();
+	    GrammaticalStructure gs = gsf.newGrammaticalStructure(fullContentTree);
+	    setFullContentStructure(gs.typedDependenciesCCprocessed());
+	    //System.out.println(getFullContentStructure());
 	}
 
 	@Override
@@ -65,7 +98,7 @@ public class Todo implements Comparable<Todo>{
 	}
 	
 	public String toString() {
-		return "Content: " + getFullContent() + "\nFile Name: " + getFileName()
+		return "Content: " + getFullContent() + "\nContent Structure:" + getFullContentStructureString() + "\nFile Name: " + getFileName()
 			+ "\nTime Of Creation: " + getTimeOfCreation() + "\nTime Of Deletion: " + getTimeOfDeletion()
 			+ "\nCreation Commit Hash: " + getCreationCommitHash() + "\nDeletion Commit Hash: " + getDeletionCommitHash()
 			+ "\nTime To Complete: " + ((timeOfCreation == null || timeOfDeletion == null) ? "Incomplete":(elapsedTime(timeOfCreation, timeOfDeletion)))
@@ -115,7 +148,7 @@ public class Todo implements Comparable<Todo>{
 
 	public void setContent(String content) {
 		this.content = content;
-		this.fullContent = content;
+		setFullContent(content);
 	}
 
 	public String getFileName() {
@@ -168,6 +201,40 @@ public class Todo implements Comparable<Todo>{
 	
 	public void setFullContent(String fullContent) {
 		this.fullContent = fullContent;
+		analyzeFullContent();
 	}
+	
+	public double getSpecificity() {
+		return specificity;
+	}
+	
+	public void setSpecificity(double specificity) {
+		this.specificity = specificity;
+	}
+
+	public List<TypedDependency> getFullContentStructure() {
+		return fullContentStructure;
+	}
+	
+	public String getFullContentStructureString() {
+		String toReturn = "";
+		for(TypedDependency td : getFullContentStructure()) {
+			toReturn += "\n" + td.toString();
+		}
+		return toReturn;
+	}
+	
+	public void setFullContentStructure(List<TypedDependency> fullContentStructure) {
+		this.fullContentStructure = fullContentStructure;
+	}
+
+	public List<CoreLabel> getFullContentWords() {
+		return fullContentWords;
+	}
+
+	public void setFullContentWords(List<CoreLabel> fullContentWords) {
+		this.fullContentWords = fullContentWords;
+	}
+	
 	
 }
