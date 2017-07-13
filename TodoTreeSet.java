@@ -1,5 +1,6 @@
 package todoReader;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.TreeSet;
@@ -16,7 +17,7 @@ public class TodoTreeSet extends TreeSet<Todo> {
 	private double totalSpecificity = 0;
 	private HashMap<String, Integer> wordFrequency = new HashMap<String, Integer>();
 	
-	public void analyze() {
+	public void analyze() throws IOException, InterruptedException {
 		for(Todo toAnalyze: this) {
 			toAnalyze.analyzeFullContent();
 		}

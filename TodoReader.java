@@ -92,7 +92,7 @@ public class TodoReader {
 				}
 				
 				if(isComment || isMultiLineComment) {
-					if(continueTODO && nextLine.substring(1).trim().startsWith("/*")) {
+					if(continueTODO && nextLine.length() > 0 && nextLine.substring(1).trim().startsWith("/*")) {
 						continueTODO = false;
 					}
 					
@@ -139,7 +139,7 @@ public class TodoReader {
 						}
 					}
 					
-					else if(continueTODO && !nextLine.isEmpty()) {
+					else if(continueTODO && !nextLine.isEmpty() && !cleanLine(nextLine).endsWith(";")) {
 						//System.out.println("continue with: " + nextLine);
 						todoKeeper.remove(toContinue);
 		//clean
@@ -184,21 +184,22 @@ public class TodoReader {
 		return todoKeeper.toString();
 	}
 	
-	public void analyze() {
+	public void analyze() throws IOException, InterruptedException {
 		todoKeeper.analyze();
 	}
 	
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, InterruptedException {
 		Scanner kb = new Scanner(System.in);
 		//System.out.println("Enter path to Cloned directory");
-		String clonedPath = kb.nextLine();
+		//String clonedPath = kb.nextLine();
 		///String clonedPath = args[0];
-		//String clonedPath = "/home/rishabh/Cloned";
+		String clonedPath = "/home/rishabh/Cloned";
 		// while testing
 		/*String[] repoNames = {"closure-compiler", "commons-codec", "commons-configuration", "commons-io", "commons-jxpath", 
 				"commons-lang", "commons-math", "commons-net", "commons-pool", "cxf", "empire-db", "guava", "java-design-patterns",
 				"jgit", "okhttp", "orientdb", "retrofit"};*/
-		String[] repoNames = {"commons-pool"};
+		//String[] repoNames = {"commons-pool"};
+		String[] repoNames = {"GitHub-Data-Collection"};
 		
 		//String repoName = args[1];
 		for(String repoName : repoNames) {

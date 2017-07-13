@@ -1,5 +1,10 @@
 package todoReader;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.time.Duration;
 import java.time.LocalDateTime;
@@ -7,6 +12,7 @@ import java.time.OffsetDateTime;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
+import java.util.Scanner;
 
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
@@ -36,7 +42,6 @@ public class Todo implements Comparable<Todo>{
 	private static final LexicalizedParser lp = LexicalizedParser.loadModel(parserModel);
 	private static final PennTreebankLanguagePack tlp = (PennTreebankLanguagePack) lp.treebankLanguagePack();
 	private static final GrammaticalStructureFactory gsf = tlp.grammaticalStructureFactory();
-	
 	TokenizerFactory<CoreLabel> tf = PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
 	
 	private static final DateTimeFormatter timeFormat = DateTimeFormatter.ISO_OFFSET_DATE_TIME;
@@ -55,12 +60,62 @@ public class Todo implements Comparable<Todo>{
 		setCreationCommitHash(creationCommitHash);
 	}
 
-	public void analyzeFullContent() {
+	public void analyzeFullContent() throws IOException, InterruptedException {
 		System.out.println(LocalDateTime.now());
 		System.out.println(this.getFullContent());
 		Tree fullContentTree = lp.apply(getFullContentWords());
 	    GrammaticalStructure gs = gsf.newGrammaticalStructure(fullContentTree);
 	    setFullContentStructure(gs.typedDependenciesCCprocessed());
+	    
+	    //String[] toSpeciteller = {"cd", "speciteller-master"};
+	    //Process toSpecitellerProc = new ProcessBuilder(toSpeciteller).start();
+	    //Runtime.getRuntime().exec(toSpeciteller);
+File currDir = new File("");
+	    
+	    System.out.println(currDir.getAbsolutePath());
+	    
+	    File specificityIn = new File(currDir.getAbsolutePath() + "/" + "speciteller-master/specificityIn.txt");
+	    if(!specificityIn.exists()) {
+	    	specificityIn.createNewFile();
+	    }
+	    File specificityOut = new File(currDir.getAbsolutePath()+ "/" + "speciteller-master/specificityOut.txt");
+	    if(!specificityOut.exists()) {
+	    	specificityOut.createNewFile();
+	    }
+	    
+	    
+	    FileWriter fw = new FileWriter(specificityIn);
+	    //System.out.println(tf.toString());
+	    //fw.write(tf.toString());
+	    System.out.println(getFullContentWords().toString());
+	    fw.write(getFullContentWords().toString());
+	    fw.flush();
+	    fw.close();
+	    String[] specitellerCommand = {"python", "speciteller-master/speciteller.py", "--inputfile", "inputfile", "--outputfile", "predfile"};
+	    specitellerCommand[3] = "speciteller-master/specificityIn.txt";
+	    specitellerCommand[5] = "speciteller-master/specificityOut.txt";
+	    Process specitellerCommandProc = new ProcessBuilder(specitellerCommand).start();
+	    BufferedReader br = new BufferedReader(new InputStreamReader(specitellerCommandProc.getErrorStream()));
+	    String read = br.readLine();;
+	    while(read != null) {
+	    	System.out.println(read);
+	    	read = br.readLine();
+	    }
+	    specitellerCommandProc.waitFor();
+	    //System.out.println(specitellerCommandProc.getOutputStream());
+	    //Runtime.getRuntime().exec(speciTellerCommand);
+	    
+	    Scanner fs = new Scanner(specificityOut);
+	    /*while(!fs.hasNextLine()) {
+	    	
+	    }*/
+	    
+	    setSpecificity(Double.parseDouble(fs.nextLine()));
+	    
+	    //String[] fromSpeciteller = {"/bin/bash", "-c", "cd", ".."};
+	    //Process fromSpecitellerProc = new ProcessBuilder(fromSpeciteller).start();
+	    //Runtime.getRuntime().exec(toSpeciteller);
+	    
 	    //System.out.println(getFullContentStructure());
 	}
 
@@ -203,6 +258,7 @@ public class Todo implements Comparable<Todo>{
 		this.fullContent = fullContent;
 		Tokenizer<CoreLabel> t = tf.getTokenizer(new StringReader(getFullContent()));
 		setFullContentWords(t.tokenize());
+		//System.out.println(getFullContentWords());
 	}
 	
 	public double getSpecificity() {
