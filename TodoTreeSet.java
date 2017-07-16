@@ -1,8 +1,13 @@
 package todoReader;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Scanner;
 import java.util.TreeSet;
 
 import edu.stanford.nlp.ling.CoreLabel;
@@ -18,9 +23,55 @@ public class TodoTreeSet extends TreeSet<Todo> {
 	private HashMap<String, Integer> wordFrequency = new HashMap<String, Integer>();
 	
 	public void analyze() throws IOException, InterruptedException {
+		String toWrite = "";
 		for(Todo toAnalyze: this) {
 			toAnalyze.analyzeFullContent();
+			toWrite += toAnalyze.getFullContentWords().toString() + "\n";
 		}
+		
+		File currDir = new File("");
+	    
+	    //System.out.println(currDir.getAbsolutePath());
+	    
+	    File specificityIn = new File(currDir.getAbsolutePath() + "/" + "speciteller-master/specificityIn.txt");
+	    if(!specificityIn.exists()) {
+	    	specificityIn.createNewFile();
+	    }
+	    File specificityOut = new File(currDir.getAbsolutePath()+ "/" + "speciteller-master/specificityOut.txt");
+	    if(!specificityOut.exists()) {
+	    	specificityOut.createNewFile();
+	    }
+	    
+	    
+	    FileWriter fw = new FileWriter(specificityIn, true);
+	    //System.out.println(tf.toString());
+	    //fw.write(tf.toString());
+	    //System.out.println(getFullContentWords().toString());
+	    fw.write(toWrite);
+	    fw.flush();
+	    fw.close();
+	    String[] specitellerCommand = {"python", "speciteller-master/speciteller.py", "--inputfile", "inputfile", "--outputfile", "predfile"};
+	    specitellerCommand[3] = "speciteller-master/specificityIn.txt";
+	    specitellerCommand[5] = "speciteller-master/specificityOut.txt";
+	    Process specitellerCommandProc = new ProcessBuilder(specitellerCommand).start();
+	    BufferedReader br = new BufferedReader(new InputStreamReader(specitellerCommandProc.getErrorStream()));
+	    String read = br.readLine();;
+	    while(read != null) {
+	    	System.out.println(read);
+	    	read = br.readLine();
+	    }
+	    specitellerCommandProc.waitFor();
+	    //System.out.println(specitellerCommandProc.getOutputStream());
+	    //Runtime.getRuntime().exec(speciTellerCommand);
+	    
+	    Scanner fs = new Scanner(specificityOut);
+	    
+	    for(Todo analyzed: this) {
+	    	double specificity = Double.parseDouble(fs.nextLine());
+	    	analyzed.setSpecificity(specificity);
+	    	this.setTotalSpecificity(totalSpecificity + specificity);
+	    }
+	    
 	}
 	
 	public boolean add(Todo toAdd) {
@@ -53,6 +104,10 @@ public class TodoTreeSet extends TreeSet<Todo> {
 				}
 				//System.out.println(currFreq);
 				wordFrequency.put(word.toString(), ++currFreq);
+				
+				/*if(word.toString().equals("TODO")) {
+					System.out.println("Adds:\n" + toAdd.getFullContent());
+				}*/
 			}
 		}
 	}
@@ -71,6 +126,9 @@ public class TodoTreeSet extends TreeSet<Todo> {
 				}
 				
 				wordFrequency.put(word.toString(), --currFreq);
+				/*if(word.toString().equals("TODO")) {
+					System.out.println("Removes:\n" + toRemove.getContent());
+				}*/
 			}	
 		}
 	}
@@ -81,7 +139,7 @@ public class TodoTreeSet extends TreeSet<Todo> {
 			return "No TODOs";
 		}
 		
-		String toReturn = "Completion Rate: " + getCompletionRate() + "%\n\n\nTODOs:";
+		String toReturn = "Number of TODOs: " + size() + "\nAverage Specificity: " + getAvgSpecificity() + "\nCompletion Rate: " + getCompletionRate() + "%\n\n\nTODOs:\n\n";
 		
 		for(Todo toAdd: this) {
 			toReturn += toAdd.toString();

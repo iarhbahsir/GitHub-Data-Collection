@@ -5,6 +5,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.time.OffsetDateTime;
 import java.util.Scanner;
+
+import org.omg.Messaging.SyncScopeHelper;
+
 import todoReader.Todo;
 
 public class TodoReader {
@@ -67,6 +70,9 @@ public class TodoReader {
 		while(fileScanner.hasNextLine()) {
 					
 			String nextLine = fileScanner.nextLine();
+			if(nextLine.contains("int TODO = 0;")) {
+				System.out.println("here");
+			}
 			// TODO account for single line change of Todos differently?
 			if(howToRead == ReadType.INITIALIZE && nextLine.equals("!D@E#L$I%M^I&T*E(R)")) {
 				fileName = new String(fileScanner.nextLine());
@@ -82,12 +88,12 @@ public class TodoReader {
 			// if contains // or /*, check if inside string literal
 			if(fileName.endsWith(".java")) {
 				if(nextLine.contains("//")) {
-					isComment = !checkIfString("//", nextLine);
+					isComment = !checkIfString("//", nextLine);					
 				}
 				if(nextLine.contains("/*") && !isMultiLineComment) {
 					if(!(isComment && nextLine.indexOf("/*") > nextLine.indexOf("//")))
 					{
-						isMultiLineComment = !checkIfString("/*", nextLine);
+						isMultiLineComment = !checkIfString("/*", nextLine);	
 					}
 				}
 				
@@ -100,12 +106,13 @@ public class TodoReader {
 						// found Todo
 						if(howToRead == ReadType.INITIALIZE) {
 							// initialize todos for oldest examined commit (looking at all code, not just changes)
-	//clean	
+	//clean					
 							toContinue = new Todo(cleanLine(nextLine), fileName, commitHash, commitTime);
 							todoKeeper.add(toContinue);
 							continueTODO = true;
 						} else {
 							// update todos (looking only at changes in code)
+
 							if(nextLine.charAt(0) == '+' && nextLine.charAt(1) != '+') {
 								//update addition
 			//clean
@@ -177,6 +184,29 @@ public class TodoReader {
 			toClean = toClean.trim();
 		}
 		
+		if(toClean.startsWith("TODO")) {
+			toClean = toClean.substring(4).trim();
+		}
+		
+		if(toClean.contains("TODO") && !checkIfString("TODO", toClean)) {
+			if(toClean.contains("//") && !checkIfString("//", toClean)) {
+				if(toClean.indexOf("TODO") < toClean.indexOf("//")) {
+					toClean = toClean.substring(toClean.indexOf("//"));
+					toClean = cleanLine(toClean);
+				}
+			}
+			if(toClean.contains("/*") && !checkIfString("/*", toClean)) {
+				if(toClean.indexOf("TODO") < toClean.indexOf("/*")) {
+					toClean = toClean.substring(toClean.indexOf("/*"));
+					toClean = cleanLine(toClean);
+				}
+			}
+		}
+		
+		if(toClean.endsWith("*/")) {
+			toClean = toClean.substring(0, toClean.length() - 2).trim();
+		}
+		
 		return toClean;
 	}
 	
@@ -191,17 +221,19 @@ public class TodoReader {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		Scanner kb = new Scanner(System.in);
 		//System.out.println("Enter path to Cloned directory");
-		//String clonedPath = kb.nextLine();
-		///String clonedPath = args[0];
-		String clonedPath = "/home/rishabh/Cloned";
+		String clonedPath = kb.nextLine();
+		//String clonedPath = args[0];
 		// while testing
 		/*String[] repoNames = {"closure-compiler", "commons-codec", "commons-configuration", "commons-io", "commons-jxpath", 
 				"commons-lang", "commons-math", "commons-net", "commons-pool", "cxf", "empire-db", "guava", "java-design-patterns",
 				"jgit", "okhttp", "orientdb", "retrofit"};*/
-		//String[] repoNames = {"commons-pool"};
-		String[] repoNames = {"GitHub-Data-Collection"};
+		/*String[] repoNames = {"commons-codec", "commons-configuration", "commons-io", "commons-jxpath", 
+		"commons-lang", "commons-math", "commons-net", "commons-pool", "cxf", "empire-db", "java-design-patterns",
+		"jgit", "okhttp", "orientdb", "retrofit"};*/
+		String[] repoNames = {"commons-math"};
 		
-		//String repoName = args[1];
+		//String repoNames[] = {args[1]};
+		
 		for(String repoName : repoNames) {
 			System.out.println("Processing " + repoName);
 			File infoDir = new File(clonedPath + "/" + repoName + "-Info");

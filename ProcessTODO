@@ -7,7 +7,7 @@
 # write all TODO tasks to a .txt file (name based on commit #, new file for every commit, new folder for every repo, create folder if doesn't exist)
 
 cd
-echo "Enter username"
+echo "Enter username A"
 read userName
 echo "Enter repo name"
 read repoName
@@ -50,7 +50,7 @@ find -name "*.java" > $cur$INFO_SUF/$repoName$JAVAFILE_SUF
 echo "created list of java files in directory $repoName$INFO_SUF"
 
 # Write each change log to a new file in -Info directory
-MAX_COMMITS=100
+MAX_COMMITS=500
 numCommits=$(git rev-list HEAD | wc -l)
 if [ $numCommits -gt $MAX_COMMITS ]; then
     numCommits=$MAX_COMMITS

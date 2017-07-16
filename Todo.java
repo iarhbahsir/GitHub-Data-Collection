@@ -63,6 +63,7 @@ public class Todo implements Comparable<Todo>{
 	public void analyzeFullContent() throws IOException, InterruptedException {
 		System.out.println(LocalDateTime.now());
 		System.out.println(this.getFullContent());
+		
 		Tree fullContentTree = lp.apply(getFullContentWords());
 	    GrammaticalStructure gs = gsf.newGrammaticalStructure(fullContentTree);
 	    setFullContentStructure(gs.typedDependenciesCCprocessed());
@@ -70,47 +71,7 @@ public class Todo implements Comparable<Todo>{
 	    //String[] toSpeciteller = {"cd", "speciteller-master"};
 	    //Process toSpecitellerProc = new ProcessBuilder(toSpeciteller).start();
 	    //Runtime.getRuntime().exec(toSpeciteller);
-File currDir = new File("");
 	    
-	    System.out.println(currDir.getAbsolutePath());
-	    
-	    File specificityIn = new File(currDir.getAbsolutePath() + "/" + "speciteller-master/specificityIn.txt");
-	    if(!specificityIn.exists()) {
-	    	specificityIn.createNewFile();
-	    }
-	    File specificityOut = new File(currDir.getAbsolutePath()+ "/" + "speciteller-master/specificityOut.txt");
-	    if(!specificityOut.exists()) {
-	    	specificityOut.createNewFile();
-	    }
-	    
-	    
-	    FileWriter fw = new FileWriter(specificityIn);
-	    //System.out.println(tf.toString());
-	    //fw.write(tf.toString());
-	    System.out.println(getFullContentWords().toString());
-	    fw.write(getFullContentWords().toString());
-	    fw.flush();
-	    fw.close();
-	    String[] specitellerCommand = {"python", "speciteller-master/speciteller.py", "--inputfile", "inputfile", "--outputfile", "predfile"};
-	    specitellerCommand[3] = "speciteller-master/specificityIn.txt";
-	    specitellerCommand[5] = "speciteller-master/specificityOut.txt";
-	    Process specitellerCommandProc = new ProcessBuilder(specitellerCommand).start();
-	    BufferedReader br = new BufferedReader(new InputStreamReader(specitellerCommandProc.getErrorStream()));
-	    String read = br.readLine();;
-	    while(read != null) {
-	    	System.out.println(read);
-	    	read = br.readLine();
-	    }
-	    specitellerCommandProc.waitFor();
-	    //System.out.println(specitellerCommandProc.getOutputStream());
-	    //Runtime.getRuntime().exec(speciTellerCommand);
-	    
-	    Scanner fs = new Scanner(specificityOut);
-	    /*while(!fs.hasNextLine()) {
-	    	
-	    }*/
-	    
-	    setSpecificity(Double.parseDouble(fs.nextLine()));
 	    
 	    //String[] fromSpeciteller = {"/bin/bash", "-c", "cd", ".."};
 	    //Process fromSpecitellerProc = new ProcessBuilder(fromSpeciteller).start();
@@ -153,7 +114,7 @@ File currDir = new File("");
 	}
 	
 	public String toString() {
-		return "Content:\n" + getFullContent() + "\nContent Structure:" + getFullContentStructureString() + "\nFile Name: " + getFileName()
+		return "Content:\n" + getFullContent() + "\nSpecificity: " + getSpecificity() + "\nContent Structure:" + getFullContentStructureString() +"\nFile Name: " + getFileName()
 			+ "\nTime Of Creation: " + getTimeOfCreation() + "\nTime Of Deletion: " + getTimeOfDeletion()
 			+ "\nCreation Commit Hash: " + getCreationCommitHash() + "\nDeletion Commit Hash: " + getDeletionCommitHash()
 			+ "\nTime To Complete: " + ((timeOfCreation == null || timeOfDeletion == null) ? "Incomplete":(elapsedTime(timeOfCreation, timeOfDeletion)))
