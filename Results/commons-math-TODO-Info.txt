@@ -1,299 +1,1076 @@
-Content:                 // TODO: Exceptions should not be used for flow control.
-File Name: ./src/main/java/org/apache/commons/math4/fitting/GaussianCurveFitter.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Number of TODOs: 33
+Average Specificity: 0.6131836060606062
+Completion Rate: 3.0303030303030303%
 
-Content:                 // TODO: once MATH-364 is resolved, replace 9 with 30
-File Name: ./src/test/java/org/apache/commons/math4/distribution/NormalDistributionTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
 
-Content:             // TODO Use more specific error message
-File Name: ./src/main/java/org/apache/commons/math4/linear/RealVector.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+TODOs:
 
-Content:             // TODO: Exceptions should not be used for flow control.
-File Name: ./src/main/java/org/apache/commons/math4/fitting/GaussianCurveFitter.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Content:
+:
+- improve user interface
+- make algorithm parameters configurable
+- add a gallery of results after x iterations / minutes (either automatic or based on button click)
+- allow loading / selection of other images
+- add logging in the user interface, e.g. number of generations, time spent, ...
 
-Content:             //TODO check it got the right answer
-File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/LevenbergMarquardtOptimizerTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+@see <a href="http://www.nihilogic.dk/labs/evolving-images/">Evolving Images with JavaScript and canvas (Nihilogic)</a>
 
-Content:             //TODO check that it is a bad fit? Why the extra conditions?
-File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/LevenbergMarquardtOptimizerTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:             //TODO get array from RealVector without copying?
-File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresFactory.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:             //TODO move to builder test
-File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/AbstractLeastSquaresOptimizerAbstractTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:             //TODO why is this part here? hasn't it been tested already?
-File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/AbstractLeastSquaresOptimizerAbstractTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:          * TODO This test leads to a singular problem with the Gauss-Newton
-* optimizer. This should be inquired.
-*/
-File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithCholeskyTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:          * TODO This test leads to a singular problem with the Gauss-Newton
-* optimizer. This should be inquired.
-*/
-File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithLUTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:          * TODO This test leads to a singular problem with the Gauss-Newton
-* optimizer. This should be inquired.
-*/
-File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithQRTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:          * TODO This test leads to a singular problem with the Gauss-Newton
-* optimizer. This should be inquired.
-*/
-File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithSVDTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // From Wikipedia KS article - TODO: get (and test) more precise values
-File Name: ./src/test/java/org/apache/commons/math4/stat/inference/KolmogorovSmirnovTestTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO more efficient implementation
-File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresFactory.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO:  Should have assertRelativelyEquals(double[], double[], eps) in TestUtils
-//        Should also add RealVector and RealMatrix versions
-File Name: ./src/test/java/org/apache/commons/math4/stat/regression/GLSMultipleLinearRegressionTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO: for small t (say less than 1), the alternative expansion in part 3 of [1]
-// from class javadoc should be used.
-File Name: ./src/main/java/org/apache/commons/math4/stat/inference/KolmogorovSmirnovTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO: the wrapper around NonLinearConjugateGradientOptimizer is a temporary hack for
-// version 3.1 of the library. It should be removed when NonLinearConjugateGradientOptimizer
-// will officially be declared as implementing MultivariateDifferentiableOptimizer
-File Name: ./src/test/java/org/apache/commons/math4/optim/nonlinear/scalar/MultiStartMultivariateOptimizerTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO: user-defined parameter?
-File Name: ./src/test/java/org/apache/commons/math4/PerfTestUtils.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         //TODO what is this actually testing?
-File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/AbstractLeastSquaresOptimizerAbstractTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         //TODO why should this fail? It uses 15 evaluations.
-File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/LevenbergMarquardtOptimizerTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         //TODO: replace with statistical tests
-File Name: ./src/test/java/org/apache/commons/math4/distribution/EmpiricalDistributionTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:      * TODO: verify that tolerance this wide is really OK
-*/
-File Name: ./src/test/java/org/apache/commons/math4/random/StableRandomGeneratorTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO: this test is temporarily disabled for 3.2 release as a bug in Cobertura
-//       makes it run for several hours before completing
-File Name: ./src/test/java/org/apache/commons/math4/optim/nonlinear/scalar/noderiv/BOBYQAOptimizerTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     //TODO Solution?
-File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresOptimizer.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     //TODO move to linear package and expand options?
-File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizer.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     @SuppressWarnings("unchecked") // TODO is the cast OK?
-File Name: ./src/main/java/org/apache/commons/math4/stat/Frequency.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     public void testJava() {// TODO more debug
-File Name: ./src/test/java/org/apache/commons/math4/complex/ComplexTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:  * TODO cache results?
-*
-* @since 3.3
-*/
-File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/AbstractEvaluation.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
-Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:  * TODO:
-*  - improve user interface
-*    - make algorithm parameters configurable
-*    - add a gallery of results after x iterations / minutes (either automatic or based on button click)
-*    - allow loading / selection of other images
-*    - add logging in the user interface, e.g. number of generations, time spent, ...
-*
-* @see <a href="http://www.nihilogic.dk/labs/evolving-images/">Evolving Images with JavaScript and canvas (Nihilogic)</a>
-*/
+Specificity: 1.0
+Content Structure:
+parataxis(make-7, improve-3)
+compound(interface-5, user-4)
+dobj(improve-3, interface-5)
+root(ROOT-0, make-7)
+compound(parameters-9, algorithm-8)
+iobj(make-7, parameters-9)
+dobj(make-7, configurable-10)
+appos(configurable-10, add-12)
+det(gallery-14, a-13)
+dobj(add-12, gallery-14)
+case(results-16, of-15)
+nmod:of(gallery-14, results-16)
+mark(iterations-19, after-17)
+nsubj(iterations-19, x-18)
+advcl(add-12, iterations-19)
+amod(minutes-21, /-20)
+dobj(iterations-19, minutes-21)
+advmod(automatic-24, either-23)
+dep(minutes-21, automatic-24)
+cc(automatic-24, or-25)
+dep(minutes-21, based-26)
+conj:or(automatic-24, based-26)
+case(click-29, on-27)
+compound(click-29, button-28)
+nmod:on(automatic-24, click-29)
+parataxis(add-12, allow-32)
+xcomp(allow-32, loading-33)
+amod(selection-35, /-34)
+dobj(loading-33, selection-35)
+case(images-38, of-36)
+amod(images-38, other-37)
+nmod:of(selection-35, images-38)
+parataxis(add-12, add-40)
+dobj(add-40, logging-41)
+case(interface-45, in-42)
+det(interface-45, the-43)
+compound(interface-45, user-44)
+nmod:in(logging-41, interface-45)
+parataxis(add-12, e.g.-47)
+dobj(e.g.-47, number-48)
+case(generations-50, of-49)
+nmod:of(number-48, generations-50)
+appos(generations-50, time-52)
+acl(time-52, spent-53)
+parataxis(add-12, @see-56)
+compound(Images-59, <a href="http://www.nihilogic.dk/labs/evolving-images/">-57)
+compound(Images-59, Evolving-58)
+dobj(@see-56, Images-59)
+case(JavaScript-61, with-60)
+nmod:with(Images-59, JavaScript-61)
+cc(make-7, and-62)
+conj:and(make-7, canvas-63)
+appos(</a>-67, Nihilogic-65)
+dobj(canvas-63, </a>-67)
 File Name: ./src/userguide/java/org/apache/commons/math4/userguide/genetics/ImageEvolutionExample.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Creation: 2015-12-02T20:34:49-07:00
 Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:  * TODO: 
-*  - select tolerance level
-*  - allow editing of the point set
-*/
+Content:
+:
+- select tolerance level
+- allow editing of the point set
+
+Specificity: 0.659714
+Content Structure:
+case(level-5, --2)
+amod(level-5, select-3)
+compound(level-5, tolerance-4)
+nmod:-(allow-7, level-5)
+root(ROOT-0, allow-7)
+dobj(allow-7, editing-8)
+case(set-12, of-9)
+det(set-12, the-10)
+compound(set-12, point-11)
+nmod:of(editing-8, set-12)
 File Name: ./src/userguide/java/org/apache/commons/math4/userguide/geometry/GeometryExample.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Creation: 2015-12-02T20:34:49-07:00
 Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: //             Assert.fail("Expecting MathIllegalArgumentException"); // TODO needs rework since convergence behaviour was changed
-File Name: ./src/test/java/org/apache/commons/math4/analysis/solvers/UnivariateSolverUtilsTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
+Content:
+:  Should have assertRelativelyEquals(double[], double[], eps) in TestUtils
+Should also add RealVector and RealMatrix versions
+Specificity: 0.682364
+Content Structure:
+aux(have-3, Should-2)
+root(ROOT-0, have-3)
+dobj(have-3, assertRelativelyEquals-4)
+advmod(-RSB--8, double-6)
+amod(-RSB--8, -LSB--7)
+appos(assertRelativelyEquals-4, -RSB--8)
+advmod(-RSB--12, double-10)
+amod(-RSB--12, -LSB--11)
+dep(-RSB--8, -RSB--12)
+dep(-RSB--8, eps-14)
+case(TestUtils-17, in-16)
+nmod:in(assertRelativelyEquals-4, TestUtils-17)
+aux(add-20, Should-18)
+advmod(add-20, also-19)
+acl:relcl(assertRelativelyEquals-4, add-20)
+compound(versions-24, RealVector-21)
+cc(RealVector-21, and-22)
+conj:and(RealVector-21, RealMatrix-23)
+compound(versions-24, RealMatrix-23)
+dobj(add-20, versions-24)
+File Name: ./src/test/java/org/apache/commons/math4/stat/regression/GLSMultipleLinearRegressionTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
 Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: //  TODO: add this test in 4.0, as it is not possible to do it in 3.2
-/  due to incompatibility of the return type in the Dfp class
-/    @Test
-/    public void testLog10() {
-/        for (double x = -0.9; x < 0.9; x += 0.05) {
-/            checkRelative(FastMath.log10(x), build(x).log10());
-/        }
-/    }
+Content:
+: Exceptions should not be used for flow control.
+Specificity: 0.96452
+Content Structure:
+nsubjpass(used-6, Exceptions-2)
+aux(used-6, should-3)
+neg(used-6, not-4)
+auxpass(used-6, be-5)
+root(ROOT-0, used-6)
+case(control-9, for-7)
+compound(control-9, flow-8)
+nmod:for(used-6, control-9)
+File Name: ./src/main/java/org/apache/commons/math4/fitting/GaussianCurveFitter.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+: add this test in 4.0, as it is not possible to do it in 3.2
+due to incompatibility of the return type in the Dfp class
+@Test
+public void testLog10() {
+for (double x = -0.9; x < 0.9; x += 0.05) {
+}
+}
+Specificity: 0.693004
+Content Structure:
+root(ROOT-0, add-2)
+det(test-4, this-3)
+dobj(add-2, test-4)
+case(4.0-6, in-5)
+nmod:in(test-4, 4.0-6)
+mark(possible-12, as-8)
+nsubj(possible-12, it-9)
+nsubj:xsubj(do-14, it-9)
+cop(possible-12, is-10)
+neg(possible-12, not-11)
+advcl(add-2, possible-12)
+mark(do-14, to-13)
+xcomp(possible-12, do-14)
+dobj(do-14, it-15)
+case(testLog10-32, in-16)
+nummod(testLog10-32, 3.2-17)
+amod(testLog10-32, due-18)
+mark(incompatibility-20, to-19)
+xcomp(due-18, incompatibility-20)
+case(type-24, of-21)
+det(type-24, the-22)
+compound(type-24, return-23)
+nmod:of(incompatibility-20, type-24)
+case(class-28, in-25)
+det(class-28, the-26)
+compound(class-28, Dfp-27)
+nmod:in(type-24, class-28)
+amod(testLog10-32, @Test-29)
+amod(testLog10-32, public-30)
+compound(testLog10-32, void-31)
+nmod:in(do-14, testLog10-32)
+dep(testLog10-32, -RRB--34)
+case(-LCB--52, for-36)
+dep(-LCB--52, double-38)
+dep(double-38, x-39)
+dep(-0.9-41, =-40)
+acl:relcl(x-39, -0.9-41)
+dep(x-39, x-43)
+dep(0.9-45, <-44)
+acl:relcl(x-43, 0.9-45)
+dep(x-39, x-47)
+dep(0.05-50, +-48)
+nummod(0.05-50, =-49)
+acl:relcl(x-47, 0.05-50)
+dep(-RRB--34, -LCB--52)
 File Name: ./src/test/java/org/apache/commons/math4/ExtendedFieldElementAbstractTest.java
-Time Of Creation: 2017-03-07T14:45:15+01:00
+Time Of Creation: 2015-12-02T20:34:49-07:00
 Time Of Deletion: null
-Creation Commit Hash: 08cbacf7e413bd0b2e015495b673da88c7474b1b
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Content:
+: for small t (say less than 1), the alternative expansion in part 3 of [1]
+from class javadoc should be used.
+Specificity: 0.693004
+Content Structure:
+case(t-4, for-2)
+amod(t-4, small-3)
+nmod:for(used-27, t-4)
+dep(t-4, say-6)
+advmod(1-9, less-7)
+mwe(less-7, than-8)
+dobj(say-6, 1-9)
+det(expansion-14, the-12)
+amod(expansion-14, alternative-13)
+nsubjpass(used-27, expansion-14)
+case(part-16, in-15)
+nmod:in(expansion-14, part-16)
+nummod(part-16, 3-17)
+case(-RSB--21, of-18)
+compound(1-20, -LSB--19)
+nummod(-RSB--21, 1-20)
+nmod:of(part-16, -RSB--21)
+case(javadoc-24, from-22)
+compound(javadoc-24, class-23)
+nmod:from(-RSB--21, javadoc-24)
+aux(used-27, should-25)
+auxpass(used-27, be-26)
+root(ROOT-0, used-27)
+File Name: ./src/main/java/org/apache/commons/math4/stat/inference/KolmogorovSmirnovTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+: once MATH-364 is resolved, replace 9 with 30
+Specificity: 0.704099
+Content Structure:
+advmod(MATH-364-3, once-2)
+nsubjpass(resolved-5, MATH-364-3)
+auxpass(resolved-5, is-4)
+root(ROOT-0, resolved-5)
+ccomp(resolved-5, replace-7)
+dobj(replace-7, 9-8)
+case(30-10, with-9)
+nmod:with(replace-7, 30-10)
+File Name: ./src/test/java/org/apache/commons/math4/distribution/NormalDistributionTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+: replace with statistical tests
+Specificity: 0.461157
+Content Structure:
+root(ROOT-0, replace-2)
+case(tests-5, with-3)
+amod(tests-5, statistical-4)
+nmod:with(replace-2, tests-5)
+File Name: /src/test/java/org/apache/commons/math4/distribution/EmpiricalDistributionTest.java
+Time Of Creation: 2016-08-28T02:57:51+02:00
+Time Of Deletion: null
+Creation Commit Hash: 55cc560f8a20c183db108dd2136edd3721bd6935
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+: the wrapper around NonLinearConjugateGradientOptimizer is a temporary hack for
+version 3.1 of the library. It should be removed when NonLinearConjugateGradientOptimizer
+will officially be declared as implementing MultivariateDifferentiableOptimizer
+Specificity: 0.461157
+Content Structure:
+det(wrapper-3, the-2)
+nsubj(hack-9, wrapper-3)
+case(NonLinearConjugateGradientOptimizer-5, around-4)
+nmod:around(wrapper-3, NonLinearConjugateGradientOptimizer-5)
+cop(hack-9, is-6)
+det(hack-9, a-7)
+amod(hack-9, temporary-8)
+dep(removed-20, hack-9)
+case(version-11, for-10)
+nmod:for(hack-9, version-11)
+nummod(version-11, 3.1-12)
+case(library-15, of-13)
+det(library-15, the-14)
+nmod:of(version-11, library-15)
+nsubjpass(removed-20, It-17)
+aux(removed-20, should-18)
+auxpass(removed-20, be-19)
+dep(declared-26, removed-20)
+advmod(be-25, when-21)
+nsubj(be-25, NonLinearConjugateGradientOptimizer-22)
+aux(be-25, will-23)
+advmod(be-25, officially-24)
+advcl(removed-20, be-25)
+root(ROOT-0, declared-26)
+mark(implementing-28, as-27)
+advcl(declared-26, implementing-28)
+nsubj(declared-26, MultivariateDifferentiableOptimizer-29)
+File Name: ./src/test/java/org/apache/commons/math4/optim/nonlinear/scalar/MultiStartMultivariateOptimizerTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+: this test is temporarily disabled for 3.2 release as a bug in Cobertura
+makes it run for several hours before completing
+Specificity: 0.495207
+Content Structure:
+det(test-3, this-2)
+nsubj(disabled-6, test-3)
+aux(disabled-6, is-4)
+advmod(disabled-6, temporarily-5)
+root(ROOT-0, disabled-6)
+case(release-9, for-7)
+nummod(release-9, 3.2-8)
+nmod:for(disabled-6, release-9)
+mark(makes-15, as-10)
+det(bug-12, a-11)
+nsubj(makes-15, bug-12)
+case(Cobertura-14, in-13)
+nmod:in(bug-12, Cobertura-14)
+advcl(disabled-6, makes-15)
+nsubj(run-17, it-16)
+ccomp(makes-15, run-17)
+case(hours-20, for-18)
+amod(hours-20, several-19)
+nmod:for(run-17, hours-20)
+mark(completing-22, before-21)
+advcl(run-17, completing-22)
+File Name: ./src/test/java/org/apache/commons/math4/optim/nonlinear/scalar/noderiv/BOBYQAOptimizerTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+: user-defined parameter?
+Specificity: 0.942738
+Content Structure:
+amod(parameter-3, user-defined-2)
+root(ROOT-0, parameter-3)
+File Name: /src/test/java/org/apache/commons/math4/PerfTestUtils.java
+Time Of Creation: 2016-05-20T14:07:46+02:00
+Time Of Deletion: null
+Creation Commit Hash: 7550cb46417b396fed21f2ec149b465e7d039cef
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+: verify that tolerance this wide is really OK
+
+Specificity: 0.531258
+Content Structure:
+root(ROOT-0, verify-2)
+mark(OK-9, that-3)
+nsubj(OK-9, tolerance-4)
+det(wide-6, this-5)
+amod(tolerance-4, wide-6)
+cop(OK-9, is-7)
+advmod(OK-9, really-8)
+ccomp(verify-2, OK-9)
+File Name: ./src/test/java/org/apache/commons/math4/random/StableRandomGeneratorTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+@SuppressWarnings("unchecked") // TODO is the cast OK?
+Specificity: 0.531258
+Content Structure:
+root(ROOT-0, @SuppressWarnings-1)
+dep(/-7, unchecked-4)
+acl(@SuppressWarnings-1, /-7)
+nsubj(OK-13, TODO-9)
+cop(OK-13, is-10)
+det(cast-12, the-11)
+nmod:npmod(OK-13, cast-12)
+parataxis(@SuppressWarnings-1, OK-13)
+File Name: ./src/main/java/org/apache/commons/math4/stat/Frequency.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+Assert.fail("Expecting MathIllegalArgumentException"); // TODO needs rework since convergence behaviour was changed
+Specificity: 0.559504
+Content Structure:
+root(ROOT-0, Assert.fail-1)
+compound(MathIllegalArgumentException-5, Expecting-4)
+dep(Assert.fail-1, MathIllegalArgumentException-5)
+compound(TODO-11, /-9)
+compound(TODO-11, /-10)
+nsubj(needs-12, TODO-11)
+parataxis(Assert.fail-1, needs-12)
+dep(Assert.fail-1, rework-13)
+mark(changed-18, since-14)
+amod(behaviour-16, convergence-15)
+nsubjpass(changed-18, behaviour-16)
+auxpass(changed-18, was-17)
+dep(rework-13, changed-18)
+File Name: ./src/test/java/org/apache/commons/math4/analysis/solvers/UnivariateSolverUtilsTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+From Wikipedia KS article - TODO: get (and test) more precise values
+Specificity: 0.461157
+Content Structure:
+case(KS-3, From-1)
+compound(KS-3, Wikipedia-2)
+root(ROOT-0, KS-3)
+nsubj(get-8, article-4)
+dep(article-4, TODO-6)
+acl:relcl(KS-3, get-8)
+cc(test-11, and-10)
+dep(get-8, test-11)
+amod(values-15, more-13)
+amod(values-15, precise-14)
+dobj(get-8, values-15)
+File Name: ./src/test/java/org/apache/commons/math4/stat/inference/KolmogorovSmirnovTestTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+Solution?
+Specificity: 0.461157
+Content Structure:
+root(ROOT-0, Solution-1)
+File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresOptimizer.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+This test leads to a singular problem with the Gauss-Newton
+optimizer. This should be inquired.
+
+Specificity: 0.495207
+Content Structure:
+det(test-2, This-1)
+nsubj(leads-3, test-2)
+dep(inquired-16, leads-3)
+case(problem-7, to-4)
+det(problem-7, a-5)
+compound(problem-7, singular-6)
+nmod:to(leads-3, problem-7)
+case(optimizer-11, with-8)
+det(optimizer-11, the-9)
+amod(optimizer-11, Gauss-Newton-10)
+nmod:with(leads-3, optimizer-11)
+nsubj(inquired-16, This-13)
+aux(inquired-16, should-14)
+cop(inquired-16, be-15)
+root(ROOT-0, inquired-16)
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithCholeskyTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+This test leads to a singular problem with the Gauss-Newton
+optimizer. This should be inquired.
+
+Specificity: 0.942738
+Content Structure:
+det(test-2, This-1)
+nsubj(leads-3, test-2)
+dep(inquired-16, leads-3)
+case(problem-7, to-4)
+det(problem-7, a-5)
+compound(problem-7, singular-6)
+nmod:to(leads-3, problem-7)
+case(optimizer-11, with-8)
+det(optimizer-11, the-9)
+amod(optimizer-11, Gauss-Newton-10)
+nmod:with(leads-3, optimizer-11)
+nsubj(inquired-16, This-13)
+aux(inquired-16, should-14)
+cop(inquired-16, be-15)
+root(ROOT-0, inquired-16)
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithLUTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+This test leads to a singular problem with the Gauss-Newton
+optimizer. This should be inquired.
+
+Specificity: 0.531258
+Content Structure:
+det(test-2, This-1)
+nsubj(leads-3, test-2)
+dep(inquired-16, leads-3)
+case(problem-7, to-4)
+det(problem-7, a-5)
+compound(problem-7, singular-6)
+nmod:to(leads-3, problem-7)
+case(optimizer-11, with-8)
+det(optimizer-11, the-9)
+amod(optimizer-11, Gauss-Newton-10)
+nmod:with(leads-3, optimizer-11)
+nsubj(inquired-16, This-13)
+aux(inquired-16, should-14)
+cop(inquired-16, be-15)
+root(ROOT-0, inquired-16)
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithQRTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+This test leads to a singular problem with the Gauss-Newton
+optimizer. This should be inquired.
+
+Specificity: 0.531258
+Content Structure:
+det(test-2, This-1)
+nsubj(leads-3, test-2)
+dep(inquired-16, leads-3)
+case(problem-7, to-4)
+det(problem-7, a-5)
+compound(problem-7, singular-6)
+nmod:to(leads-3, problem-7)
+case(optimizer-11, with-8)
+det(optimizer-11, the-9)
+amod(optimizer-11, Gauss-Newton-10)
+nmod:with(leads-3, optimizer-11)
+nsubj(inquired-16, This-13)
+aux(inquired-16, should-14)
+cop(inquired-16, be-15)
+root(ROOT-0, inquired-16)
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizerWithSVDTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+Use more specific error message
+Specificity: 0.559504
+Content Structure:
+root(ROOT-0, Use-1)
+advmod(specific-3, more-2)
+amod(message-5, specific-3)
+compound(message-5, error-4)
+dobj(Use-1, message-5)
+File Name: ./src/main/java/org/apache/commons/math4/linear/RealVector.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+XXX TODO: method cannot be "private" because of its use in "ValueServer" in "DIGEST_MODE".
+Specificity: 0.461157
+Content Structure:
+compound(TODO-2, XXX-1)
+root(ROOT-0, TODO-2)
+nsubj(private-9, method-4)
+aux(private-9, can-5)
+neg(private-9, not-6)
+cop(private-9, be-7)
+parataxis(TODO-2, private-9)
+case(use-14, because-11)
+mwe(because-11, of-12)
+nmod:poss(use-14, its-13)
+nmod:because_of(private-9, use-14)
+case(ValueServer-17, in-15)
+nmod:in(use-14, ValueServer-17)
+case(DIGEST_MODE-21, in-19)
+nmod:in(ValueServer-17, DIGEST_MODE-21)
+File Name: /src/main/java/org/apache/commons/math4/random/RandomDataGenerator.java
+Time Of Creation: 2016-05-29T18:47:19+02:00
+Time Of Deletion: 2016-08-28T02:57:51+02:00
+Creation Commit Hash: b85d898d2a5c73f1f46c1fab3848c95b05cd8bf1
+Deletion Commit Hash: 55cc560f8a20c183db108dd2136edd3721bd6935
+Time To Complete: P2M30D; PT-15H-49M-28S
+
+Content:
+cache results?
+
+@since 3.3
+
+Specificity: 0.461157
+Content Structure:
+dep(results-2, cache-1)
+dep(@since-4, results-2)
+root(ROOT-0, @since-4)
+nummod(@since-4, 3.3-5)
+File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/AbstractEvaluation.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+check it got the right answer
+Specificity: 0.495207
+Content Structure:
+root(ROOT-0, check-1)
+nsubj(got-3, it-2)
+ccomp(check-1, got-3)
+det(answer-6, the-4)
+amod(answer-6, right-5)
+dobj(got-3, answer-6)
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/LevenbergMarquardtOptimizerTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+check that it is a bad fit? Why the extra conditions?
+Specificity: 0.942738
+Content Structure:
+root(ROOT-0, check-1)
+mark(fit-7, that-2)
+nsubj(fit-7, it-3)
+cop(fit-7, is-4)
+det(fit-7, a-5)
+amod(fit-7, bad-6)
+ccomp(check-1, fit-7)
+discourse(conditions-12, Why-9)
+det(conditions-12, the-10)
+amod(conditions-12, extra-11)
+dobj(check-1, conditions-12)
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/LevenbergMarquardtOptimizerTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+get array from RealVector without copying?
+Specificity: 0.531258
+Content Structure:
+root(ROOT-0, get-1)
+dobj(get-1, array-2)
+case(RealVector-4, from-3)
+nmod:from(get-1, RealVector-4)
+case(copying-6, without-5)
+nmod:without(get-1, copying-6)
+File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresFactory.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+more efficient implementation
+Specificity: 0.531258
+Content Structure:
+advmod(efficient-2, more-1)
+amod(implementation-3, efficient-2)
+root(ROOT-0, implementation-3)
+File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresFactory.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+move to builder test
+Specificity: 0.559504
+Content Structure:
+root(ROOT-0, move-1)
+case(test-4, to-2)
+compound(test-4, builder-3)
+nmod:to(move-1, test-4)
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/AbstractLeastSquaresOptimizerAbstractTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+move to linear package and expand options?
+Specificity: 0.461157
+Content Structure:
+root(ROOT-0, move-1)
+case(package-4, to-2)
+amod(package-4, linear-3)
+nmod:to(move-1, package-4)
+cc(move-1, and-5)
+conj:and(move-1, expand-6)
+dobj(expand-6, options-7)
+File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/GaussNewtonOptimizer.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+public void testJava() {// TODO more debug
+Specificity: 0.461157
+Content Structure:
+amod(testJava-3, public-1)
+compound(testJava-3, void-2)
+root(ROOT-0, testJava-3)
+compound(TODO-9, -RRB--5)
+compound(TODO-9, /-7)
+nummod(TODO-9, /-8)
+dep(testJava-3, TODO-9)
+advmod(debug-11, more-10)
+amod(TODO-9, debug-11)
+File Name: ./src/test/java/org/apache/commons/math4/complex/ComplexTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+what is this actually testing?
+Specificity: 0.495207
+Content Structure:
+dobj(testing-5, what-1)
+aux(testing-5, is-2)
+nsubj(testing-5, this-3)
+advmod(testing-5, actually-4)
+root(ROOT-0, testing-5)
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/AbstractLeastSquaresOptimizerAbstractTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+why is this part here? hasn't it been tested already?
+Specificity: 0.942738
+Content Structure:
+advmod(is-2, why-1)
+dep(has-7, is-2)
+det(part-4, this-3)
+nsubj(is-2, part-4)
+advmod(is-2, here-5)
+root(ROOT-0, has-7)
+neg(has-7, n't-8)
+nsubj(has-7, it-9)
+auxpass(tested-11, been-10)
+acl(it-9, tested-11)
+advmod(tested-11, already-12)
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/AbstractLeastSquaresOptimizerAbstractTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Content:
+why should this fail? It uses 15 evaluations.
+Specificity: 0.531258
+Content Structure:
+advmod(fail-4, why-1)
+aux(fail-4, should-2)
+nsubj(fail-4, this-3)
+dep(uses-7, fail-4)
+nsubj(uses-7, It-6)
+root(ROOT-0, uses-7)
+nummod(evaluations-9, 15-8)
+dobj(uses-7, evaluations-9)
+File Name: ./src/test/java/org/apache/commons/math4/fitting/leastsquares/LevenbergMarquardtOptimizerTest.java
+Time Of Creation: 2015-12-02T20:34:49-07:00
+Time Of Deletion: null
+Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+
+
+Frequency Table: 
+'``' : 6
+'temporary' : 1
+'been' : 1
+'bad' : 1
+'completing' : 1
+'@see' : 1
+'without' : 1
+'Dfp' : 1
+'fit' : 1
+'n't' : 1
+'because' : 1
+'based' : 1
+'!' : 1
+'cache' : 1
+'15' : 1
+'Images' : 1
+'+' : 1
+',' : 8
+'version' : 1
+'click' : 1
+'-' : 8
+'.' : 14
+'/' : 8
+'1' : 2
+'as' : 3
+'3' : 1
+'selection' : 1
+'9' : 1
+':' : 15
+'singular' : 4
+';' : 3
+'<' : 1
+'conditions' : 1
+'assertRelativelyEquals' : 1
+'=' : 2
+'?' : 12
+'statistical' : 1
+'Should' : 2
+'be' : 11
+'another' : 1
+'javadoc' : 1
+'Exceptions' : 2
+'builder' : 2
+'ValueServer' : 2
+'disabled' : 1
+'after' : 1
+'NonLinearConjugateGradientOptimizer' : 2
+'30' : 1
+'resolved' : 1
+'a' : 8
+'TODO' : 5
+'set' : 1
+'makes' : 1
+'possible' : 1
+'testLog10' : 1
+'right' : 1
+'...' : 1
+'<a href="http://www.nihilogic.dk/labs/evolving-images/">' : 1
+'actually' : 1
+'the' : 15
+'Assert.fail' : 1
+'Expecting' : 1
+'incompatibility' : 1
+'t' : 1
+'testJava' : 1
+'answer' : 1
+'bug' : 1
+'x' : 4
+'Evolving' : 1
+'to' : 10
+'generations' : 1
+'DIGEST_MODE' : 1
+'run' : 1
+'do' : 1
+'got' : 1
+'either' : 1
+'0.05' : 1
+'copying' : 1
+'This' : 8
+'has' : 1
+'results' : 2
+'needs' : 1
+'add' : 4
+'test' : 9
+'unchecked' : 1
+'this' : 6
+'its' : 1
+'check' : 2
+'</a>' : 1
+'article' : 1
+'iterations' : 1
+'inquired' : 4
+'internals' : 1
+'tests' : 1
+'once' : 1
+'leads' : 4
+'-RRB-' : 10
+'fixed' : 1
+'-0.9' : 1
+'parameters' : 1
+'changed' : 1
+'allow' : 2
+'private' : 1
+'for' : 7
+'Wikipedia' : 1
+'interface' : 2
+'button' : 1
+'not' : 5
+'optimizer' : 4
+'RealVector' : 2
+'JavaScript' : 1
+'class' : 3
+'''' : 6
+'hours' : 1
+'evaluations' : 1
+'wide' : 1
+'was' : 1
+'message' : 1
+'editing' : 1
+'with' : 7
+'what' : 1
+'4.0' : 1
+'MultivariateDifferentiableOptimizer' : 1
+'Cobertura' : 1
+'time' : 1
+'configurable' : 1
+'e.g.' : 1
+'-LSB-' : 3
+'select' : 1
+'release' : 1
+'tested' : 1
+'user-defined' : 1
+'type' : 1
+'when' : 1
+'cast' : 1
+'hack' : 1
+'number' : 1
+'-LCB-' : 3
+'problem' : 4
+'options' : 1
+'flow' : 2
+'gallery' : 1
+'algorithm' : 1
+'images' : 1
+'canvas' : 1
+'method' : 1
+'in' : 9
+'double' : 3
+'testing' : 1
+'eps' : 1
+'is' : 9
+'it' : 6
+'loading' : 1
+'fail' : 1
+'versions' : 1
+'3.1' : 1
+'3.2' : 2
+'3.3' : 1
+'logging' : 1
+'Gauss-Newton' : 4
+'other' : 1
+'-LRB-' : 10
+'@since' : 1
+'It' : 2
+'library' : 1
+'get' : 2
+'have' : 1
+'verify' : 1
+'XXX' : 1
+'precise' : 1
+'Solution' : 1
+'@Test' : 1
+'linear' : 1
+'efficient' : 1
+'Use' : 1
+'implementing' : 1
+'more' : 4
+'KS' : 1
+'-RCB-' : 2
+'removed' : 1
+'MathIllegalArgumentException' : 1
+'-RSB-' : 3
+'behaviour' : 1
+'MATH-364' : 1
+'return' : 1
+'small' : 1
+'before' : 1
+'use' : 2
+'several' : 1
+'replace' : 2
+'wrapper' : 1
+'used' : 3
+'rework' : 1
+'@SuppressWarnings' : 1
+'that' : 2
+'TestUtils' : 1
+'than' : 1
+'should' : 10
+'from' : 2
+'tolerance' : 2
+'officially' : 1
+'package' : 1
+'void' : 2
+'already' : 1
+'level' : 1
+'minutes' : 1
+'temporarily' : 1
+'Why' : 1
+'less' : 1
+'expansion' : 1
+'expand' : 1
+'improve' : 1
+'since' : 1
+'here' : 1
+'convergence' : 1
+'part' : 2
+'values' : 1
+'why' : 2
+'error' : 1
+'around' : 1
+'point' : 1
+'can' : 1
+'Nihilogic' : 1
+'public' : 2
+'array' : 1
+'and' : 4
+'extra' : 1
+'parameter' : 1
+'of' : 9
+'OK' : 2
+'make' : 1
+'on' : 1
+'declared' : 1
+'move' : 3
+'debug' : 1
+'or' : 1
+'will' : 1
+'implementation' : 1
+'spent' : 1
+'alternative' : 1
+'automatic' : 1
+'control' : 2
+'say' : 1
+'also' : 1
+'From' : 1
+'specific' : 1
+'really' : 1
+'RealMatrix' : 1
+'due' : 1
+'uses' : 1
+'0.9' : 1
+'user' : 2
