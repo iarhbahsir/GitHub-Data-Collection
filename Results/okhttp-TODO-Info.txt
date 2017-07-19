@@ -1,215 +1,220 @@
-Content:         // TODO: send bad request error
-File Name: ./mockwebserver/src/main/java/okhttp3/internal/http2/Http2Server.java
-Time Of Creation: 2017-03-12T00:53-05:00
+Number of TODOs: 97
+Average Specificity: 0.7282791030927835Specificites Box Plots: (min, q1, mean, median, q3, max)
+	Incomplete TODO: 0.472354, 0.547599, 0.742886606060606, 0.736184, 0.899741, 0.990048
+	Completed TODO: 0.472354, 0.6025105, 0.7207471093750003, 0.7096425, 0.858277, 0.970128
+Completion Rate: 65.97938144329896%
+
+
+TODOs:
+
+Type: Complete
+Content:
+(jwilson): Racy? Is there an interleaving of events where the websocket is not closed?
+Specificity: 0.89163
+Content Structure:
+root(ROOT-0, jwilson-2)
+dep(jwilson-2, Racy-5)
+cop(interleaving-10, Is-7)
+advmod(interleaving-10, there-8)
+det(interleaving-10, an-9)
+acl:relcl(Racy-5, interleaving-10)
+case(events-12, of-11)
+nmod:of(interleaving-10, events-12)
+advmod(closed-18, where-13)
+det(websocket-15, the-14)
+nsubj(closed-18, websocket-15)
+cop(closed-18, is-16)
+neg(closed-18, not-17)
+advcl(interleaving-10, closed-18)
+File Name: /samples/slack/src/main/java/okhttp3/slack/RtmSession.java
+Time Of Creation: 2017-01-28T15:39:43Z
+Time Of Deletion: 2017-01-31T13:13:57-05:00
+Creation Commit Hash: 49e9294feb2e5700d574857ea330be89f85dad7a
+Deletion Commit Hash: e95a9cc765b458a7162d1fe14904c554a10ba1ec
+Time To Complete: P3D; PT2H34M14S
+
+Type: Incomplete
+Content:
+(jwilson): can I read the response body? Do I have to?
+Specificity: 0.859447
+Content Structure:
+nsubj(Do-12, jwilson-2)
+dep(read-7, can-5)
+nsubj(read-7, I-6)
+dep(jwilson-2, read-7)
+det(body-10, the-8)
+compound(body-10, response-9)
+dobj(read-7, body-10)
+root(ROOT-0, Do-12)
+nsubj(have-14, I-13)
+nsubj:xsubj(to-15, I-13)
+ccomp(Do-12, have-14)
+xcomp(have-14, to-15)
+File Name: /samples/slack/src/main/java/okhttp3/slack/RtmSession.java
+Time Of Creation: 2017-01-31T13:13:57-05:00
 Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Creation Commit Hash: e95a9cc765b458a7162d1fe14904c554a10ba1ec
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:         // TODO: test case for empty continuation header?
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Reader.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Type: Complete
+Content:
+(jwilson): can I read the response body? Do I have to?
+Specificity: 0.859447
+Content Structure:
+nsubj(Do-12, jwilson-2)
+dep(read-7, can-5)
+nsubj(read-7, I-6)
+dep(jwilson-2, read-7)
+det(body-10, the-8)
+compound(body-10, response-9)
+dobj(read-7, body-10)
+root(ROOT-0, Do-12)
+nsubj(have-14, I-13)
+nsubj:xsubj(to-15, I-13)
+ccomp(Do-12, have-14)
+xcomp(have-14, to-15)
+File Name: /samples/slack/src/main/java/okhttp3/slack/RtmSession.java
+Time Of Creation: 2017-01-28T15:39:43Z
+Time Of Deletion: 2017-01-31T13:13:57-05:00
+Creation Commit Hash: 49e9294feb2e5700d574857ea330be89f85dad7a
+Deletion Commit Hash: e95a9cc765b458a7162d1fe14904c554a10ba1ec
+Time To Complete: P3D; PT2H34M14S
 
-Content:       // TODO: If we don't get this callback after sending settings to the peer, SETTINGS_TIMEOUT.
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Type: Complete
+Content:
+(jwilson): confirm reason is well-formed. (<=123 bytes, etc.)
+Specificity: 0.862264
+Content Structure:
+dep(well-formed-8, jwilson-2)
+csubj(well-formed-8, confirm-5)
+dobj(confirm-5, reason-6)
+cop(well-formed-8, is-7)
+root(ROOT-0, well-formed-8)
+dep(well-formed-8, <-11)
+dep(bytes-14, =-12)
+nummod(bytes-14, 123-13)
+acl:relcl(<-11, bytes-14)
+dep(well-formed-8, etc.-16)
+File Name: /okhttp/src/main/java/okhttp3/internal/ws/RealNewWebSocket.java
+Time Of Creation: 2017-01-31T17:39:52Z
+Time Of Deletion: 2017-02-01T08:02:35-05:00
+Creation Commit Hash: 8b80127913a197892c9b3ac5d41d388e5f155cf6
+Deletion Commit Hash: 71729c39f2b62761d87bf2395127a9140ecab229
+Time To Complete: P1D; PT-4H-37M-17S
 
-Content:       // TODO: configure a timeout on the reader so that it doesn’t block forever.
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Type: Complete
+Content:
+(jwilson): confirm reason is well-formed. (<=123 bytes, etc.)
+Specificity: 0.862264
+Content Structure:
+dep(well-formed-8, jwilson-2)
+csubj(well-formed-8, confirm-5)
+dobj(confirm-5, reason-6)
+cop(well-formed-8, is-7)
+root(ROOT-0, well-formed-8)
+dep(well-formed-8, <-11)
+dep(bytes-14, =-12)
+nummod(bytes-14, 123-13)
+acl:relcl(<-11, bytes-14)
+dep(well-formed-8, etc.-16)
+File Name: /okhttp/src/main/java/okhttp3/internal/ws/RealWebSocket.java
+Time Of Creation: 2017-02-01T08:02:35-05:00
+Time Of Deletion: 2017-03-05T19:48:12-05:00
+Creation Commit Hash: 71729c39f2b62761d87bf2395127a9140ecab229
+Deletion Commit Hash: e2d2ad80fffd1774561b4825203ab44209cd60bd
+Time To Complete: P1M4D; PT11H45M37S
 
-Content:       // TODO: constants for well-known header names.
-File Name: ./mockwebserver/src/main/java/okhttp3/mockwebserver/MockWebServer.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Type: Complete
+Content:
+(jwilson): find a better way for this.
+Specificity: 0.725197
+Content Structure:
+dep(find-5, jwilson-2)
+root(ROOT-0, find-5)
+det(way-8, a-6)
+amod(way-8, better-7)
+dobj(find-5, way-8)
+case(this-10, for-9)
+nmod:for(way-8, this-10)
+File Name: /okhttp/src/main/java/com/squareup/okhttp/internal/http/StreamAllocation.java
+Time Of Creation: 2016-06-03T10:58:25-04:00
+Time Of Deletion: 2016-06-28T18:22:10-04:00
+Creation Commit Hash: 05e5c4d22a058fdbf9645c2bc846c0a33e2bc518
+Deletion Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Time To Complete: P25D; PT7H23M45S
 
-Content:       // TODO: honor priority.
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Type: Complete
+Content:
+(jwilson): find a better way for this.
+Specificity: 0.725197
+Content Structure:
+dep(find-5, jwilson-2)
+root(ROOT-0, find-5)
+det(way-8, a-6)
+amod(way-8, better-7)
+dobj(find-5, way-8)
+case(this-10, for-9)
+nmod:for(way-8, this-10)
+File Name: /okhttp/src/main/java/okhttp3/internal/http/StreamAllocation.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-07-02T11:00:52-04:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: ae1ef1604d73d447222e958041f0cd9ebe85ba3b
+Time To Complete: P4D; PT-7H-21M-18S
 
-Content:       // TODO: implement all label limits.
-File Name: ./okhttp/src/main/java/okhttp3/internal/Util.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Type: Complete
+Content:
+(jwilson): fix this for HTTP/2 to not nuke the socket connection.
+Specificity: 0.856428
+Content Structure:
+root(ROOT-0, jwilson-2)
+dep(jwilson-2, fix-5)
+nsubj(nuke-11, this-6)
+case(HTTP/2-8, for-7)
+nmod:for(this-6, HTTP/2-8)
+mark(nuke-11, to-9)
+neg(nuke-11, not-10)
+acl:relcl(fix-5, nuke-11)
+det(connection-14, the-12)
+compound(connection-14, socket-13)
+dobj(nuke-11, connection-14)
+File Name: /okhttp/src/main/java/com/squareup/okhttp/internal/http/StreamAllocation.java
+Time Of Creation: 2016-06-03T10:58:25-04:00
+Time Of Deletion: 2016-06-21T13:55:16-04:00
+Creation Commit Hash: 05e5c4d22a058fdbf9645c2bc846c0a33e2bc518
+Deletion Commit Hash: 19c08a00fad097e67d2f6d0ed3c1f4a3671c8743
+Time To Complete: P18D; PT2H56M51S
 
-Content:       // TODO: propagate exception message into debugData.
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Type: Complete
+Content:
+(jwilson): make non public.
+Specificity: 0.666977
+Content Structure:
+dep(make-5, jwilson-2)
+root(ROOT-0, make-5)
+compound(public-7, non-6)
+dobj(make-5, public-7)
+File Name: /okhttp/src/main/java/com/squareup/okhttp/internal/io/RealConnection.java
+Time Of Creation: 2016-06-03T10:58:25-04:00
+Time Of Deletion: 2016-06-11T00:10:13+02:00
+Creation Commit Hash: 05e5c4d22a058fdbf9645c2bc846c0a33e2bc518
+Deletion Commit Hash: d3eb37a359aac07d8806b71dca3fd783fd8d5e77
+Time To Complete: P8D; PT-16H-48M-12S
 
-Content:       // TODO: real max is based on settings between 16384 and 16777215
-File Name: ./okhttp-tests/src/test/java/okhttp3/internal/http2/Http2Test.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:       // TODO: register alternate service.
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:       if (debugData.size() > 0) { // TODO: log the debugData
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:       return result.replace("HEADERS", "PUSH_PROMISE"); // TODO: Avoid allocation.
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:       return result.replace("PRIORITY", "COMPRESSED"); // TODO: Avoid allocation.
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO(jwilson): can I read the response body? Do I have to?
-File Name: ./samples/slack/src/main/java/okhttp3/slack/RtmSession.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO: Concat multi-value headers with 0x0, except COOKIE, which uses 0x3B, 0x20.
-// http://tools.ietf.org/html/draft-ietf-httpbis-http2-17#section-8.1.2.5
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Reader.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO: checkState open or half-closed (local) or raise STREAM_CLOSED
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Reader.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO: write a test that shows pooled connections detect HTTP/1.0 (vs. HTTP/1.1)
-File Name: ./okhttp-tests/src/test/java/okhttp3/URLConnectionTest.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:    * TODO: See if duped headers should be preserved on decode and verify.
-*/
-File Name: ./okhttp-hpacktests/src/test/java/okhttp3/internal/http2/HpackDecodeTestBase.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:   // TODO(jwilson): can I read the response body? Do I have to?
-//                the body from slack is a 0-byte-buffer
-File Name: ./samples/slack/src/main/java/okhttp3/slack/RtmSession.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:   // TODO(jwilson): tests below this marker need to be migrated to OkHttp's request/response API.
-File Name: ./okhttp-tests/src/test/java/okhttp3/URLConnectionTest.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:   // TODO: MWS will need to guard on this setting before attempting to push.
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:   // TODO: compare different ciphers?
-File Name: ./benchmarks/src/main/java/okhttp3/benchmarks/Benchmark.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:   // TODO: honor this setting.
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Settings.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:   // TODO: search for toLowerCase and consider moving logic here.
-File Name: ./okhttp/src/main/java/okhttp3/internal/http2/Header.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:   @Ignore // TODO(jwilson): come up with a way to test unchecked exceptions on the writer thread.
-File Name: ./okhttp-tests/src/test/java/okhttp3/internal/ws/RealWebSocketTest.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:   @Ignore // TODO: recover gracefully when a connection is shutdown.
-File Name: ./okhttp-tests/src/test/java/okhttp3/internal/http2/HttpOverHttp2Test.java
-Time Of Creation: 2017-03-12T00:53-05:00
-Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: // TODO(jwilson): make this public after the 3.7 release.
+Type: Complete
+Content:
+(jwilson): make this public after the 3.7 release.
+Specificity: 0.731425
+Content Structure:
+dep(make-5, jwilson-2)
+root(ROOT-0, make-5)
+det(public-7, this-6)
+dobj(make-5, public-7)
+case(release-11, after-8)
+det(release-11, the-9)
+nummod(release-11, 3.7-10)
+nmod:after(make-5, release-11)
 File Name: /okhttp/src/main/java/okhttp3/EventListener.java
 Time Of Creation: 2017-05-12T09:10:38-05:00
 Time Of Deletion: 2017-06-04T22:14:24-04:00
@@ -217,7 +222,19 @@ Creation Commit Hash: 29d3b73b89f18c1991cf52ab7a82a4e71acf07f7
 Deletion Commit Hash: 7f053b03c522ec5d5cc2a853cf3ab146eba25257
 Time To Complete: P23D; PT12H3M46S
 
-Content: // TODO(jwilson): make this public after the 3.7 release.
+Type: Complete
+Content:
+(jwilson): make this public after the 3.7 release.
+Specificity: 0.731425
+Content Structure:
+dep(make-5, jwilson-2)
+root(ROOT-0, make-5)
+det(public-7, this-6)
+dobj(make-5, public-7)
+case(release-11, after-8)
+det(release-11, the-9)
+nummod(release-11, 3.7-10)
+nmod:after(make-5, release-11)
 File Name: /okhttp/src/main/java/okhttp3/OkHttpClient.java
 Time Of Creation: 2017-05-12T09:10:38-05:00
 Time Of Deletion: 2017-06-04T22:14:24-04:00
@@ -225,7 +242,19 @@ Creation Commit Hash: 29d3b73b89f18c1991cf52ab7a82a4e71acf07f7
 Deletion Commit Hash: 7f053b03c522ec5d5cc2a853cf3ab146eba25257
 Time To Complete: P23D; PT12H3M46S
 
-Content: // TODO(jwilson): make this public after the 3.8 release.
+Type: Complete
+Content:
+(jwilson): make this public after the 3.8 release.
+Specificity: 0.731425
+Content Structure:
+dep(make-5, jwilson-2)
+root(ROOT-0, make-5)
+det(public-7, this-6)
+dobj(make-5, public-7)
+case(release-11, after-8)
+det(release-11, the-9)
+nummod(release-11, 3.8-10)
+nmod:after(make-5, release-11)
 File Name: /okhttp/src/main/java/okhttp3/EventListener.java
 Time Of Creation: 2017-06-04T22:14:24-04:00
 Time Of Deletion: 2017-06-20T09:14:51-04:00
@@ -233,7 +262,19 @@ Creation Commit Hash: 7f053b03c522ec5d5cc2a853cf3ab146eba25257
 Deletion Commit Hash: 5fb5ab50a77efc761489493d4a0b8b9de85feec7
 Time To Complete: P16D; PT-12H-59M-33S
 
-Content: // TODO(jwilson): make this public after the 3.8 release.
+Type: Complete
+Content:
+(jwilson): make this public after the 3.8 release.
+Specificity: 0.731425
+Content Structure:
+dep(make-5, jwilson-2)
+root(ROOT-0, make-5)
+det(public-7, this-6)
+dobj(make-5, public-7)
+case(release-11, after-8)
+det(release-11, the-9)
+nummod(release-11, 3.8-10)
+nmod:after(make-5, release-11)
 File Name: /okhttp/src/main/java/okhttp3/OkHttpClient.java
 Time Of Creation: 2017-06-04T22:14:24-04:00
 Time Of Deletion: 2017-06-20T09:14:51-04:00
@@ -241,7 +282,211 @@ Creation Commit Hash: 7f053b03c522ec5d5cc2a853cf3ab146eba25257
 Deletion Commit Hash: 5fb5ab50a77efc761489493d4a0b8b9de85feec7
 Time To Complete: P16D; PT-12H-59M-33S
 
-Content: // TODO(jwilson): this is unsafe publication and not threadsafe.
+Type: Complete
+Content:
+(jwilson): reduce visibility.
+Specificity: 0.646419
+Content Structure:
+dep(reduce-5, jwilson-2)
+root(ROOT-0, reduce-5)
+dobj(reduce-5, visibility-6)
+File Name: /okhttp/src/main/java/com/squareup/okhttp/ConnectionPool.java
+Time Of Creation: 2016-06-03T10:58:25-04:00
+Time Of Deletion: 2016-06-21T15:09:35-04:00
+Creation Commit Hash: 05e5c4d22a058fdbf9645c2bc846c0a33e2bc518
+Deletion Commit Hash: 5b0f6d9be5d730dca04138fafd330b76de4f2678
+Time To Complete: P18D; PT4H11M10S
+
+Type: Complete
+Content:
+(jwilson): schedule a cleanup thread if allocationLimit == 0.
+Specificity: 0.759707
+Content Structure:
+dep(schedule-5, jwilson-2)
+root(ROOT-0, schedule-5)
+det(thread-8, a-6)
+compound(thread-8, cleanup-7)
+dobj(schedule-5, thread-8)
+mark(==-11, if-9)
+nsubj(==-11, allocationLimit-10)
+advcl(schedule-5, ==-11)
+dobj(==-11, 0-12)
+File Name: /okhttp/src/main/java/com/squareup/okhttp/internal/allocations/Connection.java
+Time Of Creation: 2016-05-21T22:23:48-04:00
+Time Of Deletion: 2016-06-21T16:18:32-04:00
+Creation Commit Hash: 3f7a3344a4c85aa3bbb879dabac5ee625ab987f3
+Deletion Commit Hash: 0f5c5c6431cfe7e5227d90fc08e822cd3b2cec9f
+Time To Complete: P1M; PT-6H-5M-16S
+
+Type: Incomplete
+Content:
+(jwilson): tests below this marker need to be migrated to OkHttp's request/response API.
+Specificity: 0.899741
+Content Structure:
+dep(need-9, jwilson-2)
+nsubj(need-9, tests-5)
+nsubjpass:xsubj(migrated-12, tests-5)
+case(marker-8, below-6)
+det(marker-8, this-7)
+nmod:below(tests-5, marker-8)
+root(ROOT-0, need-9)
+mark(migrated-12, to-10)
+auxpass(migrated-12, be-11)
+xcomp(need-9, migrated-12)
+case(API-17, to-13)
+nmod:poss(API-17, OkHttp-14)
+case(OkHttp-14, 's-15)
+amod(API-17, request/response-16)
+nmod:to(migrated-12, API-17)
+File Name: ./okhttp-tests/src/test/java/okhttp3/URLConnectionTest.java
+Time Of Creation: 2016-05-07T18:21:50-04:00
+Time Of Deletion: null
+Creation Commit Hash: 94bda42362bdc3b1219b8b833a0bad61cd869c7b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+(jwilson): tests below this marker need to be migrated to OkHttp's request/response API.
+Specificity: 0.899741
+Content Structure:
+dep(need-9, jwilson-2)
+nsubj(need-9, tests-5)
+nsubjpass:xsubj(migrated-12, tests-5)
+case(marker-8, below-6)
+det(marker-8, this-7)
+nmod:below(tests-5, marker-8)
+root(ROOT-0, need-9)
+mark(migrated-12, to-10)
+auxpass(migrated-12, be-11)
+xcomp(need-9, migrated-12)
+case(API-17, to-13)
+nmod:poss(API-17, OkHttp-14)
+case(OkHttp-14, 's-15)
+amod(API-17, request/response-16)
+nmod:to(migrated-12, API-17)
+File Name: /okhttp-tests/src/test/java/okhttp3/URLConnectionTest.java
+Time Of Creation: 2016-08-07T11:51:40-04:00
+Time Of Deletion: null
+Creation Commit Hash: ecbcd51fc99c565496be15cfd7eadca465ae4a06
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+(jwilson): this behavior shouldn't rely on having another IP address to attempt.
+Specificity: 0.860764
+Content Structure:
+root(ROOT-0, jwilson-2)
+det(behavior-6, this-5)
+nsubj(rely-9, behavior-6)
+aux(rely-9, should-7)
+neg(rely-9, n't-8)
+dep(jwilson-2, rely-9)
+mark(having-11, on-10)
+advcl(rely-9, having-11)
+det(address-14, another-12)
+compound(address-14, IP-13)
+dobj(having-11, address-14)
+mark(attempt-16, to-15)
+ccomp(having-11, attempt-16)
+File Name: ./okhttp-tests/src/test/java/okhttp3/URLConnectionTest.java
+Time Of Creation: 2016-05-07T18:21:50-04:00
+Time Of Deletion: null
+Creation Commit Hash: 94bda42362bdc3b1219b8b833a0bad61cd869c7b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+(jwilson): this behavior shouldn't rely on having another IP address to attempt.
+Specificity: 0.860764
+Content Structure:
+root(ROOT-0, jwilson-2)
+det(behavior-6, this-5)
+nsubj(rely-9, behavior-6)
+aux(rely-9, should-7)
+neg(rely-9, n't-8)
+dep(jwilson-2, rely-9)
+mark(having-11, on-10)
+advcl(rely-9, having-11)
+det(address-14, another-12)
+compound(address-14, IP-13)
+dobj(having-11, address-14)
+mark(attempt-16, to-15)
+ccomp(having-11, attempt-16)
+File Name: /okhttp-tests/src/test/java/okhttp3/URLConnectionTest.java
+Time Of Creation: 2016-07-07T21:54:34-04:00
+Time Of Deletion: 2016-12-11T20:52:47-05:00
+Creation Commit Hash: e9245a26d82cd9af6630ebe6ddf107d978cbad7f
+Deletion Commit Hash: dc5cbfd042768c86189dba01f52574a7493a62c6
+Time To Complete: P5M4D; PT-1M-47S
+
+Type: Complete
+Content:
+(jwilson): this is awkward. We're already holding a lock on 'this', and
+Specificity: 0.882678
+Content Structure:
+root(ROOT-0, jwilson-2)
+dep(jwilson-2, this-5)
+cop(awkward-7, is-6)
+acl:relcl(this-5, awkward-7)
+nsubj(holding-12, We-9)
+aux(holding-12, 're-10)
+advmod(holding-12, already-11)
+acl:relcl(awkward-7, holding-12)
+det(lock-14, a-13)
+dobj(holding-12, lock-14)
+case(this-17, on-15)
+nmod:on(holding-12, this-17)
+advmod(holding-12, and-20)
+File Name: /okhttp/src/main/java/com/squareup/okhttp/ConnectionPool.java
+Time Of Creation: 2016-06-10T18:21:16-04:00
+Time Of Deletion: 2016-06-28T18:22:10-04:00
+Creation Commit Hash: a464a63aca1e591ceffffff1808c9461035532ca
+Deletion Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Time To Complete: P18D; PT54S
+
+Type: Complete
+Content:
+(jwilson): this is awkward. We're already holding a lock on 'this', and
+Specificity: 0.882678
+Content Structure:
+root(ROOT-0, jwilson-2)
+dep(jwilson-2, this-5)
+cop(awkward-7, is-6)
+acl:relcl(this-5, awkward-7)
+nsubj(holding-12, We-9)
+aux(holding-12, 're-10)
+advmod(holding-12, already-11)
+acl:relcl(awkward-7, holding-12)
+det(lock-14, a-13)
+dobj(holding-12, lock-14)
+case(this-17, on-15)
+nmod:on(holding-12, this-17)
+advmod(holding-12, and-20)
+File Name: /okhttp/src/main/java/okhttp3/ConnectionPool.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-07-30T11:14:38-04:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 3f651242766ffdb68d76d426e02b17c971a85dc6
+Time To Complete: P1M2D; PT-7H-7M-32S
+
+Type: Complete
+Content:
+(jwilson): this is unsafe publication and not threadsafe.
+Specificity: 0.742876
+Content Structure:
+root(ROOT-0, jwilson-2)
+nsubj(publication-8, this-5)
+nsubj(threadsafe-11, this-5)
+cop(publication-8, is-6)
+amod(publication-8, unsafe-7)
+dep(jwilson-2, publication-8)
+cc(publication-8, and-9)
+neg(threadsafe-11, not-10)
+dep(jwilson-2, threadsafe-11)
+conj:and(publication-8, threadsafe-11)
 File Name: /okhttp/src/main/java/okhttp3/RealCall.java
 Time Of Creation: 2017-05-12T09:10:38-05:00
 Time Of Deletion: 2017-06-20T09:14:51-04:00
@@ -249,16 +494,212 @@ Creation Commit Hash: 29d3b73b89f18c1991cf52ab7a82a4e71acf07f7
 Deletion Commit Hash: 5fb5ab50a77efc761489493d4a0b8b9de85feec7
 Time To Complete: P1M8D; PT-55M-47S
 
-Content: // TODO(jwilson): what to do about timeouts? They could be different and unfortunately when any
-/     timeout is hit we like to tear down the whole stream.
-File Name: ./okhttp/src/main/java/okhttp3/internal/cache2/Relay.java
-Time Of Creation: 2017-03-12T00:53-05:00
+Type: Complete
+Content:
+(jwilson): validate that the domain matches.
+Specificity: 0.703462
+Content Structure:
+dep(validate-5, jwilson-2)
+root(ROOT-0, validate-5)
+mark(matches-9, that-6)
+det(domain-8, the-7)
+nsubj(matches-9, domain-8)
+ccomp(validate-5, matches-9)
+File Name: /okhttp/src/main/java/okhttp3/Cookie.java
+Time Of Creation: 2016-07-03T23:22:51-04:00
+Time Of Deletion: 2016-07-05T19:08:16+08:00
+Creation Commit Hash: 764c35e7842c8828e6686e318facfca0a11d49ba
+Deletion Commit Hash: f4f5ca9a8db97c1e0a90d110e390aff1b2a04d7f
+Time To Complete: P2D; PT-16H-14M-35S
+
+Type: Complete
+Content:
+(jwilson): what should this limit be?
+Specificity: 0.704849
+Content Structure:
+root(ROOT-0, jwilson-2)
+dobj(be-9, what-5)
+aux(be-9, should-6)
+det(limit-8, this-7)
+nsubj(be-9, limit-8)
+dep(jwilson-2, be-9)
+File Name: /okhttp/src/main/java/com/squareup/okhttp/internal/http/StreamAllocation.java
+Time Of Creation: 2016-06-03T10:58:25-04:00
+Time Of Deletion: 2016-06-10T18:21:16-04:00
+Creation Commit Hash: 05e5c4d22a058fdbf9645c2bc846c0a33e2bc518
+Deletion Commit Hash: a464a63aca1e591ceffffff1808c9461035532ca
+Time To Complete: P7D; PT7H22M51S
+
+Type: Incomplete
+Content:
+(jwilson): what to do about timeouts? They could be different and unfortunately when any
+timeout is hit we like to tear down the whole stream.
+Specificity: 0.978849
+Content Structure:
+root(ROOT-0, jwilson-2)
+dep(jwilson-2, what-5)
+mark(do-7, to-6)
+dep(what-5, do-7)
+dep(timeouts-9, about-8)
+dep(different-14, timeouts-9)
+nsubj(different-14, They-11)
+aux(different-14, could-12)
+cop(different-14, be-13)
+dep(do-7, different-14)
+cc(different-14, and-15)
+advmod(when-17, unfortunately-16)
+advmod(hit-21, when-17)
+det(timeout-19, any-18)
+nsubjpass(hit-21, timeout-19)
+auxpass(hit-21, is-20)
+dep(do-7, hit-21)
+conj:and(different-14, hit-21)
+nsubj(like-23, we-22)
+nsubj:xsubj(tear-25, we-22)
+ccomp(hit-21, like-23)
+mark(tear-25, to-24)
+xcomp(like-23, tear-25)
+compound:prt(tear-25, down-26)
+det(stream-29, the-27)
+amod(stream-29, whole-28)
+dobj(tear-25, stream-29)
+File Name: /okhttp/src/main/java/okhttp3/internal/cache2/Relay.java
+Time Of Creation: 2016-12-27T07:31:56Z
 Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Creation Commit Hash: 116f5d149252ff75f2cd0ea64fedf413a1030c94
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: // TODO: Domains that start with '.' will be null on JDK8, but not on JDK7.
+Type: Complete
+Content:
+: Concat multi-value headers with 0x0, except COOKIE, which uses 0x3B, 0x20.
+Specificity: 0.852902
+Content Structure:
+amod(headers-4, Concat-2)
+amod(headers-4, multi-value-3)
+nsubj(0x20-15, headers-4)
+case(0x0-6, with-5)
+nmod:with(headers-4, 0x0-6)
+case(COOKIE-9, except-8)
+nsubj(uses-12, COOKIE-9)
+nmod:except(0x20-15, COOKIE-9)
+ref(COOKIE-9, which-11)
+acl:relcl(COOKIE-9, uses-12)
+dobj(uses-12, 0x3B-13)
+root(ROOT-0, 0x20-15)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/FrameReader.java
+Time Of Creation: 2016-12-11T12:05:48-05:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P0D; PT7S
+
+Type: Complete
+Content:
+: Concat multi-value headers with 0x0, except COOKIE, which uses 0x3B, 0x20.
+Specificity: 0.852902
+Content Structure:
+amod(headers-4, Concat-2)
+amod(headers-4, multi-value-3)
+nsubj(0x20-15, headers-4)
+case(0x0-6, with-5)
+nmod:with(headers-4, 0x0-6)
+case(COOKIE-9, except-8)
+nsubj(uses-12, COOKIE-9)
+nmod:except(0x20-15, COOKIE-9)
+ref(COOKIE-9, which-11)
+acl:relcl(COOKIE-9, uses-12)
+dobj(uses-12, 0x3B-13)
+root(ROOT-0, 0x20-15)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/Http2.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:48-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Time To Complete: P5M13D; PT-5H-16M-22S
+
+Type: Incomplete
+Content:
+: Concat multi-value headers with 0x0, except COOKIE, which uses 0x3B, 0x20.
+http://tools.ietf.org/html/draft-ietf-httpbis-http2-17#section-8.1.2.5
+Specificity: 0.727979
+Content Structure:
+root(ROOT-0, Concat-2)
+amod(headers-4, multi-value-3)
+dobj(Concat-2, headers-4)
+case(0x0-6, with-5)
+nmod:with(Concat-2, 0x0-6)
+case(COOKIE-9, except-8)
+nmod:except(0x0-6, COOKIE-9)
+nsubj(uses-12, COOKIE-9)
+ref(COOKIE-9, which-11)
+acl:relcl(COOKIE-9, uses-12)
+dobj(uses-12, 0x3B-13)
+appos(0x3B-13, 0x20-15)
+nsubj(Concat-2, http://tools.ietf.org/html/draft-ietf-httpbis-http2-17#section-8.1.2.5-17)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2Reader.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: Deprecate use of X-Android-Transports header?
+Specificity: 0.620718
+Content Structure:
+amod(use-3, Deprecate-2)
+root(ROOT-0, use-3)
+case(header-6, of-4)
+compound(header-6, X-Android-Transports-5)
+nmod:of(use-3, header-6)
+File Name: /okhttp-urlconnection/src/main/java/okhttp3/internal/huc/HttpURLConnectionImpl.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-11-21T12:29:14-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: c8dbccea5e8e724a799eea4dcf5abde511f4750c
+Time To Complete: P4M24D; PT-4H-52M-56S
+
+Type: Complete
+Content:
+: Deprecate use of X-Android-Transports header?
+Specificity: 0.620718
+Content Structure:
+amod(use-3, Deprecate-2)
+root(ROOT-0, use-3)
+case(header-6, of-4)
+compound(header-6, X-Android-Transports-5)
+nmod:of(use-3, header-6)
+File Name: /okhttp-urlconnection/src/main/java/okhttp3/internal/huc/OkHttpURLConnection.java
+Time Of Creation: 2016-11-21T12:29:14-05:00
+Time Of Deletion: 2016-12-24T10:04:33-05:00
+Creation Commit Hash: c8dbccea5e8e724a799eea4dcf5abde511f4750c
+Deletion Commit Hash: e3d595107264062e84096d0e2d0a4d0f6a620688
+Time To Complete: P1M3D; PT-2H-24M-41S
+
+Type: Complete
+Content:
+: Domains that start with '.' will be null on JDK8, but not on JDK7.
+Specificity: 0.88997
+Content Structure:
+nsubj(start-4, Domains-2)
+nsubj(null-11, Domains-2)
+nsubj(null-11', Domains-2)
+ref(Domains-2, that-3)
+acl:relcl(Domains-2, start-4)
+dep(start-4, with-5)
+xcomp(with-5, '-6)
+aux(null-11, will-9)
+cop(null-11, be-10)
+root(ROOT-0, null-11)
+conj:but(null-11, null-11')
+case(JDK8-13, on-12)
+nmod:on(null-11, JDK8-13)
+cc(null-11, but-15)
+neg(JDK7-18, not-16)
+case(JDK7-18, on-17)
+nmod:on(null-11', JDK7-18)
 File Name: /okhttp/src/main/java/okhttp3/internal/publicsuffix/PublicSuffixDatabase.java
 Time Of Creation: 2017-05-05T22:45:08-04:00
 Time Of Deletion: 2017-05-06T11:57:06-04:00
@@ -266,14 +707,1657 @@ Creation Commit Hash: bf83abb01cf49fcf434cca3508899a9d819b3b3b
 Deletion Commit Hash: 29d56966c1ba932920b278467bb3d61f49709da9
 Time To Complete: P1D; PT-10H-48M-2S
 
-Content: // TODO: update hpack-test-case with the output of our encoder.
-/ This test will hide complementary bugs in the encoder and decoder,
-/ We should test that the encoder is producing responses that are
-/ d]
-File Name: ./okhttp-hpacktests/src/test/java/okhttp3/internal/http2/HpackRoundTripTest.java
-Time Of Creation: 2017-03-12T00:53-05:00
+Type: Complete
+Content:
+: If we don't get this callback after sending settings to the peer, SETTINGS_TIMEOUT.
+Specificity: 0.943122
+Content Structure:
+mark(get-6, If-2)
+nsubj(get-6, we-3)
+aux(get-6, do-4)
+neg(get-6, n't-5)
+parataxis(SETTINGS_TIMEOUT-16, get-6)
+det(callback-8, this-7)
+dobj(get-6, callback-8)
+mark(sending-10, after-9)
+advcl(get-6, sending-10)
+dobj(sending-10, settings-11)
+case(peer-14, to-12)
+det(peer-14, the-13)
+nmod:to(sending-10, peer-14)
+root(ROOT-0, SETTINGS_TIMEOUT-16)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/FramedConnection.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P5M13D; PT-5H-16M-15S
+
+Type: Incomplete
+Content:
+: If we don't get this callback after sending settings to the peer, SETTINGS_TIMEOUT.
+Specificity: 0.943122
+Content Structure:
+mark(get-6, If-2)
+nsubj(get-6, we-3)
+aux(get-6, do-4)
+neg(get-6, n't-5)
+parataxis(SETTINGS_TIMEOUT-16, get-6)
+det(callback-8, this-7)
+dobj(get-6, callback-8)
+mark(sending-10, after-9)
+advcl(get-6, sending-10)
+dobj(sending-10, settings-11)
+case(peer-14, to-12)
+det(peer-14, the-13)
+nmod:to(sending-10, peer-14)
+root(ROOT-0, SETTINGS_TIMEOUT-16)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
 Time Of Deletion: null
-Creation Commit Hash: 6c3a1607b06cf129c017aa28e6aa3baee1a66745
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Complete
+Content:
+: MWS will need to guard on this setting before attempting to push.
+Specificity: 0.774945
+Content Structure:
+nsubj(need-4, MWS-2)
+nsubj:xsubj(guard-6, MWS-2)
+aux(need-4, will-3)
+root(ROOT-0, need-4)
+mark(guard-6, to-5)
+xcomp(need-4, guard-6)
+case(setting-9, on-7)
+det(setting-9, this-8)
+nmod:on(guard-6, setting-9)
+mark(attempting-11, before-10)
+advcl(guard-6, attempting-11)
+mark(push-13, to-12)
+xcomp(attempting-11, push-13)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/FramedConnection.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P5M13D; PT-5H-16M-15S
+
+Type: Incomplete
+Content:
+: MWS will need to guard on this setting before attempting to push.
+Specificity: 0.774945
+Content Structure:
+nsubj(need-4, MWS-2)
+nsubj:xsubj(guard-6, MWS-2)
+aux(need-4, will-3)
+root(ROOT-0, need-4)
+mark(guard-6, to-5)
+xcomp(need-4, guard-6)
+case(setting-9, on-7)
+det(setting-9, this-8)
+nmod:on(guard-6, setting-9)
+mark(attempting-11, before-10)
+advcl(guard-6, attempting-11)
+mark(push-13, to-12)
+xcomp(attempting-11, push-13)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: See if duped headers should be preserved on decode and verify.
+Specificity: 0.714436
+Content Structure:
+root(ROOT-0, See-2)
+mark(preserved-8, if-3)
+amod(headers-5, duped-4)
+nsubjpass(preserved-8, headers-5)
+nsubj(verify-12, headers-5)
+aux(preserved-8, should-6)
+auxpass(preserved-8, be-7)
+dep(See-2, preserved-8)
+case(decode-10, on-9)
+nmod:on(preserved-8, decode-10)
+cc(preserved-8, and-11)
+dep(See-2, verify-12)
+conj:and(preserved-8, verify-12)
+File Name: /okhttp-hpacktests/src/test/java/okhttp3/internal/framed/HpackDecodeTestBase.java
+Time Of Creation: 2016-10-16T18:54:35-04:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: 993c9c6a1dc351b3740c881c2ba4678aec376f3f
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P1M25D; PT-5H-48M-40S
+
+Type: Incomplete
+Content:
+: See if duped headers should be preserved on decode and verify.
+
+Specificity: 0.714436
+Content Structure:
+root(ROOT-0, See-2)
+mark(preserved-8, if-3)
+amod(headers-5, duped-4)
+nsubjpass(preserved-8, headers-5)
+nsubj(verify-12, headers-5)
+aux(preserved-8, should-6)
+auxpass(preserved-8, be-7)
+dep(See-2, preserved-8)
+case(decode-10, on-9)
+nmod:on(preserved-8, decode-10)
+cc(preserved-8, and-11)
+dep(See-2, verify-12)
+conj:and(preserved-8, verify-12)
+File Name: /okhttp-hpacktests/src/test/java/okhttp3/internal/http2/HpackDecodeTestBase.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: See if duped headers should be preserved on decode and verify.
+Specificity: 0.714436
+Content Structure:
+root(ROOT-0, See-2)
+mark(preserved-8, if-3)
+amod(headers-5, duped-4)
+nsubjpass(preserved-8, headers-5)
+nsubj(verify-12, headers-5)
+aux(preserved-8, should-6)
+auxpass(preserved-8, be-7)
+dep(See-2, preserved-8)
+case(decode-10, on-9)
+nmod:on(preserved-8, decode-10)
+cc(preserved-8, and-11)
+dep(See-2, verify-12)
+conj:and(preserved-8, verify-12)
+File Name: /okhttp-hpacktests/src/test/java/okhttp3/internal/spdy/HpackDecodeTestBase.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-10-16T18:54:35-04:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 993c9c6a1dc351b3740c881c2ba4678aec376f3f
+Time To Complete: P3M18D; PT32M25S
+
+Type: Complete
+Content:
+: checkState open or half-closed (local) or raise STREAM_CLOSED
+Specificity: 0.942002
+Content Structure:
+root(ROOT-0, checkState-2)
+xcomp(checkState-2, open-3)
+cc(open-3, or-4)
+xcomp(checkState-2, half-closed-5)
+conj:or(open-3, half-closed-5)
+dep(open-3, local-7)
+cc(checkState-2, or-9)
+conj:or(checkState-2, raise-10)
+dobj(raise-10, STREAM_CLOSED-11)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/FrameReader.java
+Time Of Creation: 2016-12-11T12:05:48-05:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P0D; PT7S
+
+Type: Complete
+Content:
+: checkState open or half-closed (local) or raise STREAM_CLOSED
+Specificity: 0.942002
+Content Structure:
+root(ROOT-0, checkState-2)
+xcomp(checkState-2, open-3)
+cc(open-3, or-4)
+xcomp(checkState-2, half-closed-5)
+conj:or(open-3, half-closed-5)
+dep(open-3, local-7)
+cc(checkState-2, or-9)
+conj:or(checkState-2, raise-10)
+dobj(raise-10, STREAM_CLOSED-11)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/Http2.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:48-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Time To Complete: P5M13D; PT-5H-16M-22S
+
+Type: Incomplete
+Content:
+: checkState open or half-closed (local) or raise STREAM_CLOSED
+Specificity: 0.942002
+Content Structure:
+root(ROOT-0, checkState-2)
+xcomp(checkState-2, open-3)
+cc(open-3, or-4)
+xcomp(checkState-2, half-closed-5)
+conj:or(open-3, half-closed-5)
+dep(open-3, local-7)
+cc(checkState-2, or-9)
+conj:or(checkState-2, raise-10)
+dobj(raise-10, STREAM_CLOSED-11)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2Reader.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+: compare different ciphers?
+Specificity: 0.506
+Content Structure:
+root(ROOT-0, compare-2)
+amod(ciphers-4, different-3)
+dobj(compare-2, ciphers-4)
+File Name: ./benchmarks/src/main/java/okhttp3/benchmarks/Benchmark.java
+Time Of Creation: 2016-05-07T18:21:50-04:00
+Time Of Deletion: null
+Creation Commit Hash: 94bda42362bdc3b1219b8b833a0bad61cd869c7b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+: compare different ciphers?
+Specificity: 0.506
+Content Structure:
+root(ROOT-0, compare-2)
+amod(ciphers-4, different-3)
+dobj(compare-2, ciphers-4)
+File Name: /benchmarks/src/main/java/okhttp3/benchmarks/Benchmark.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: null
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+: configure a timeout on the reader so that it doesn’t block forever.
+Specificity: 0.736184
+Content Structure:
+root(ROOT-0, configure-2)
+det(timeout-4, a-3)
+dobj(configure-2, timeout-4)
+case(reader-7, on-5)
+det(reader-7, the-6)
+nmod:on(configure-2, reader-7)
+mark(block-13, so-8)
+mwe(so-8, that-9)
+nsubj(block-13, it-10)
+aux(block-13, does-11)
+neg(block-13, n't-12)
+advcl(configure-2, block-13)
+advmod(block-13, forever-14)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2017-01-28T14:09:54-05:00
+Time Of Deletion: null
+Creation Commit Hash: f54130499acf0062ff655c07917e5c5f37f081cb
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+: constants for well-known header names.
+Specificity: 0.547599
+Content Structure:
+root(ROOT-0, constants-2)
+case(names-6, for-3)
+amod(names-6, well-known-4)
+compound(names-6, header-5)
+nmod:for(constants-2, names-6)
+File Name: ./mockwebserver/src/main/java/okhttp3/mockwebserver/MockWebServer.java
+Time Of Creation: 2016-05-07T18:21:50-04:00
+Time Of Deletion: null
+Creation Commit Hash: 94bda42362bdc3b1219b8b833a0bad61cd869c7b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+: constants for well-known header names.
+Specificity: 0.547599
+Content Structure:
+root(ROOT-0, constants-2)
+case(names-6, for-3)
+amod(names-6, well-known-4)
+compound(names-6, header-5)
+nmod:for(constants-2, names-6)
+File Name: /mockwebserver/src/main/java/okhttp3/mockwebserver/MockWebServer.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: null
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: honor priority.
+Specificity: 0.472354
+Content Structure:
+compound(priority-3, honor-2)
+root(ROOT-0, priority-3)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/FramedConnection.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P5M13D; PT-5H-16M-15S
+
+Type: Incomplete
+Content:
+: honor priority.
+Specificity: 0.472354
+Content Structure:
+compound(priority-3, honor-2)
+root(ROOT-0, priority-3)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: honor this setting in HTTP/2.
+Specificity: 0.642435
+Content Structure:
+root(ROOT-0, honor-2)
+det(setting-4, this-3)
+dep(honor-2, setting-4)
+case(HTTP/2-6, in-5)
+nmod:in(honor-2, HTTP/2-6)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/Settings.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:48-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Time To Complete: P5M13D; PT-5H-16M-22S
+
+Type: Complete
+Content:
+: honor this setting in spdy/3 and HTTP/2.
+Specificity: 0.665256
+Content Structure:
+root(ROOT-0, honor-2)
+det(setting-4, this-3)
+dep(honor-2, setting-4)
+case(spdy/3-6, in-5)
+nmod:in(honor-2, spdy/3-6)
+cc(spdy/3-6, and-7)
+nmod:in(honor-2, HTTP/2-8)
+conj:and(spdy/3-6, HTTP/2-8)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/Settings.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:48-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Time To Complete: P5M13D; PT-5H-16M-22S
+
+Type: Complete
+Content:
+: honor this setting.
+Specificity: 0.5069
+Content Structure:
+root(ROOT-0, honor-2)
+det(setting-4, this-3)
+dobj(honor-2, setting-4)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/Settings.java
+Time Of Creation: 2016-12-11T12:05:48-05:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P0D; PT7S
+
+Type: Complete
+Content:
+: honor this setting.
+Specificity: 0.5069
+Content Structure:
+root(ROOT-0, honor-2)
+det(setting-4, this-3)
+dobj(honor-2, setting-4)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Settings.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: 2016-12-24T10:04:33-05:00
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: e3d595107264062e84096d0e2d0a4d0f6a620688
+Time To Complete: P13D; PT-2H-1M-22S
+
+Type: Incomplete
+Content:
+: implement all label limits.
+Specificity: 0.534375
+Content Structure:
+dep(limits-5, implement-2)
+advmod(label-4, all-3)
+xcomp(limits-5, label-4)
+root(ROOT-0, limits-5)
+File Name: ./okhttp/src/main/java/okhttp3/internal/Util.java
+Time Of Creation: 2016-05-07T18:21:50-04:00
+Time Of Deletion: null
+Creation Commit Hash: 94bda42362bdc3b1219b8b833a0bad61cd869c7b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: implement all label limits.
+Specificity: 0.534375
+Content Structure:
+dep(limits-5, implement-2)
+advmod(label-4, all-3)
+xcomp(limits-5, label-4)
+root(ROOT-0, limits-5)
+File Name: /okhttp/src/main/java/okhttp3/HttpUrl.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-07-05T19:08:16+08:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: f4f5ca9a8db97c1e0a90d110e390aff1b2a04d7f
+Time To Complete: P7D; PT-11H-13M-54S
+
+Type: Incomplete
+Content:
+: implement all label limits.
+Specificity: 0.534375
+Content Structure:
+dep(limits-5, implement-2)
+advmod(label-4, all-3)
+xcomp(limits-5, label-4)
+root(ROOT-0, limits-5)
+File Name: /okhttp/src/main/java/okhttp3/internal/Util.java
+Time Of Creation: 2016-07-05T19:08:16+08:00
+Time Of Deletion: null
+Creation Commit Hash: f4f5ca9a8db97c1e0a90d110e390aff1b2a04d7f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: implement index tracking
+Specificity: 0.481214
+Content Structure:
+root(ROOT-0, implement-2)
+compound(tracking-4, index-3)
+dobj(implement-2, tracking-4)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/Hpack.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P5M13D; PT-5H-16M-15S
+
+Type: Complete
+Content:
+: implement index tracking
+Specificity: 0.481214
+Content Structure:
+root(ROOT-0, implement-2)
+compound(tracking-4, index-3)
+dobj(implement-2, tracking-4)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Hpack.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: 2017-01-07T14:15:48-05:00
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: 98443a9ca8ca9ad82d5fb9b05b32f180bb510601
+Time To Complete: P27D; PT2H9M53S
+
+Type: Complete
+Content:
+: propagate exception message into debugData
+Specificity: 0.564986
+Content Structure:
+dep(message-4, propagate-2)
+compound(message-4, exception-3)
+root(ROOT-0, message-4)
+case(debugData-6, into-5)
+nmod:into(message-4, debugData-6)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/FramedConnection.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P5M13D; PT-5H-16M-15S
+
+Type: Complete
+Content:
+: propagate exception message into debugData
+Specificity: 0.564986
+Content Structure:
+dep(message-4, propagate-2)
+compound(message-4, exception-3)
+root(ROOT-0, message-4)
+case(debugData-6, into-5)
+nmod:into(message-4, debugData-6)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: 2017-01-28T14:09:54-05:00
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: f54130499acf0062ff655c07917e5c5f37f081cb
+Time To Complete: P1M17D; PT2H3M59S
+
+Type: Incomplete
+Content:
+: propagate exception message into debugData.
+Specificity: 0.576268
+Content Structure:
+amod(message-4, propagate-2)
+compound(message-4, exception-3)
+root(ROOT-0, message-4)
+case(debugData-6, into-5)
+nmod:into(message-4, debugData-6)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2017-01-28T14:09:54-05:00
+Time Of Deletion: null
+Creation Commit Hash: f54130499acf0062ff655c07917e5c5f37f081cb
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: real max is based on settings between 16384 and 16777215
+Specificity: 0.658712
+Content Structure:
+amod(max-3, real-2)
+nsubjpass(based-5, max-3)
+auxpass(based-5, is-4)
+root(ROOT-0, based-5)
+case(settings-7, on-6)
+nmod:on(based-5, settings-7)
+case(16384-9, between-8)
+nmod:between(settings-7, 16384-9)
+cc(16384-9, and-10)
+nmod:between(settings-7, 16777215-11)
+conj:and(16384-9, 16777215-11)
+File Name: /okhttp-tests/src/test/java/okhttp3/internal/framed/Http2Test.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P5M13D; PT-5H-16M-15S
+
+Type: Incomplete
+Content:
+: real max is based on settings between 16384 and 16777215
+Specificity: 0.658712
+Content Structure:
+amod(max-3, real-2)
+nsubjpass(based-5, max-3)
+auxpass(based-5, is-4)
+root(ROOT-0, based-5)
+case(settings-7, on-6)
+nmod:on(based-5, settings-7)
+case(16384-9, between-8)
+nmod:between(settings-7, 16384-9)
+cc(16384-9, and-10)
+nmod:between(settings-7, 16777215-11)
+conj:and(16384-9, 16777215-11)
+File Name: /okhttp-tests/src/test/java/okhttp3/internal/http2/Http2Test.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: register alternate service.
+Specificity: 0.505873
+Content Structure:
+compound(service-4, register-2)
+compound(service-4, alternate-3)
+root(ROOT-0, service-4)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/FramedConnection.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P5M13D; PT-5H-16M-15S
+
+Type: Incomplete
+Content:
+: register alternate service.
+Specificity: 0.505873
+Content Structure:
+compound(service-4, register-2)
+compound(service-4, alternate-3)
+root(ROOT-0, service-4)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: search for toLowerCase and consider moving logic here.
+Specificity: 0.665386
+Content Structure:
+root(ROOT-0, search-2)
+mark(toLowerCase-4, for-3)
+acl(search-2, toLowerCase-4)
+cc(toLowerCase-4, and-5)
+acl(search-2, consider-6)
+conj:and(toLowerCase-4, consider-6)
+xcomp(consider-6, moving-7)
+dobj(moving-7, logic-8)
+advmod(moving-7, here-9)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/Header.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P5M13D; PT-5H-16M-15S
+
+Type: Incomplete
+Content:
+: search for toLowerCase and consider moving logic here.
+Specificity: 0.665386
+Content Structure:
+root(ROOT-0, search-2)
+mark(toLowerCase-4, for-3)
+acl(search-2, toLowerCase-4)
+cc(toLowerCase-4, and-5)
+acl(search-2, consider-6)
+conj:and(toLowerCase-4, consider-6)
+xcomp(consider-6, moving-7)
+dobj(moving-7, logic-8)
+advmod(moving-7, here-9)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Header.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: send bad request error
+Specificity: 0.517264
+Content Structure:
+root(ROOT-0, send-2)
+amod(error-5, bad-3)
+compound(error-5, request-4)
+dobj(send-2, error-5)
+File Name: /mockwebserver/src/main/java/okhttp3/internal/framed/FramedServer.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P5M13D; PT-5H-16M-15S
+
+Type: Incomplete
+Content:
+: send bad request error
+Specificity: 0.517264
+Content Structure:
+root(ROOT-0, send-2)
+amod(error-5, bad-3)
+compound(error-5, request-4)
+dobj(send-2, error-5)
+File Name: /mockwebserver/src/main/java/okhttp3/internal/http2/Http2Server.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: square braces for IPv6 ?
+Specificity: 0.579072
+Content Structure:
+amod(braces-3, square-2)
+root(ROOT-0, braces-3)
+case(IPv6-5, for-4)
+nmod:for(braces-3, IPv6-5)
+File Name: /okhttp/src/main/java/okhttp3/internal/Util.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-09-17T20:55:25-04:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 2d3183bf6a3db800602fec458d36ecd31be1a694
+Time To Complete: P2M20D; PT2H33M15S
+
+Type: Complete
+Content:
+: test case for empty continuation header?
+Specificity: 0.580236
+Content Structure:
+compound(case-3, test-2)
+root(ROOT-0, case-3)
+case(header-7, for-4)
+amod(header-7, empty-5)
+compound(header-7, continuation-6)
+nmod:for(case-3, header-7)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/FrameReader.java
+Time Of Creation: 2016-12-11T12:05:48-05:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P0D; PT7S
+
+Type: Complete
+Content:
+: test case for empty continuation header?
+Specificity: 0.580236
+Content Structure:
+compound(case-3, test-2)
+root(ROOT-0, case-3)
+case(header-7, for-4)
+amod(header-7, empty-5)
+compound(header-7, continuation-6)
+nmod:for(case-3, header-7)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/Http2.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:48-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Time To Complete: P5M13D; PT-5H-16M-22S
+
+Type: Incomplete
+Content:
+: test case for empty continuation header?
+Specificity: 0.580236
+Content Structure:
+compound(case-3, test-2)
+root(ROOT-0, case-3)
+case(header-7, for-4)
+amod(header-7, empty-5)
+compound(header-7, continuation-6)
+nmod:for(case-3, header-7)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2Reader.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: the returned body will always be null.
+Specificity: 0.603122
+Content Structure:
+det(body-4, the-2)
+amod(body-4, returned-3)
+nsubj(null-8, body-4)
+aux(null-8, will-5)
+advmod(null-8, always-6)
+cop(null-8, be-7)
+root(ROOT-0, null-8)
+File Name: /okhttp/src/main/java/okhttp3/internal/http/HttpEngine.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-11-19T15:16:58-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 949439ae5b0c5fd70687d1f946cac80552a5a7f9
+Time To Complete: P4M22D; PT-2H-5M-12S
+
+Type: Complete
+Content:
+: update hpack-test-case with the output of our encoder.
+Specificity: 0.601899
+Content Structure:
+compound(hpack-test-case-3, update-2)
+root(ROOT-0, hpack-test-case-3)
+case(output-6, with-4)
+det(output-6, the-5)
+nmod:with(hpack-test-case-3, output-6)
+case(encoder-9, of-7)
+nmod:poss(encoder-9, our-8)
+nmod:of(hpack-test-case-3, encoder-9)
+File Name: /okhttp-hpacktests/src/test/java/okhttp3/internal/framed/HpackRoundTripTest.java
+Time Of Creation: 2016-10-16T18:54:35-04:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: 993c9c6a1dc351b3740c881c2ba4678aec376f3f
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P1M25D; PT-5H-48M-40S
+
+Type: Incomplete
+Content:
+: update hpack-test-case with the output of our encoder.
+This test will hide complementary bugs in the encoder and decoder,
+We should test that the encoder is producing responses that are
+d]
+Specificity: 0.990048
+Content Structure:
+compound(hpack-test-case-3, update-2)
+dep(output-6, hpack-test-case-3)
+acl(hpack-test-case-3, with-4)
+det(output-6, the-5)
+dep(hide-14, output-6)
+case(encoder-9, of-7)
+nmod:poss(encoder-9, our-8)
+nmod:of(output-6, encoder-9)
+det(test-12, This-11)
+nsubj(hide-14, test-12)
+aux(hide-14, will-13)
+advcl(test-25, hide-14)
+amod(bugs-16, complementary-15)
+dobj(hide-14, bugs-16)
+case(encoder-19, in-17)
+det(encoder-19, the-18)
+nmod:in(hide-14, encoder-19)
+cc(encoder-19, and-20)
+nmod:in(hide-14, decoder-21)
+conj:and(encoder-19, decoder-21)
+nsubj(test-25, We-23)
+aux(test-25, should-24)
+root(ROOT-0, test-25)
+mark(producing-30, that-26)
+det(encoder-28, the-27)
+nsubj(producing-30, encoder-28)
+aux(producing-30, is-29)
+ccomp(test-25, producing-30)
+dobj(producing-30, responses-31)
+nsubj(-RSB--35, responses-31)
+ref(responses-31, that-32)
+cop(-RSB--35, are-33)
+advmod(-RSB--35, d-34)
+acl:relcl(responses-31, -RSB--35)
+File Name: /okhttp-hpacktests/src/test/java/okhttp3/internal/http2/HpackRoundTripTest.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+: update hpack-test-case with the output of our encoder.
+Specificity: 0.601899
+Content Structure:
+compound(hpack-test-case-3, update-2)
+root(ROOT-0, hpack-test-case-3)
+case(output-6, with-4)
+det(output-6, the-5)
+nmod:with(hpack-test-case-3, output-6)
+case(encoder-9, of-7)
+nmod:poss(encoder-9, our-8)
+nmod:of(hpack-test-case-3, encoder-9)
+File Name: /okhttp-hpacktests/src/test/java/okhttp3/internal/spdy/HpackRoundTripTest.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-10-16T18:54:35-04:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 993c9c6a1dc351b3740c881c2ba4678aec376f3f
+Time To Complete: P3M18D; PT32M25S
+
+Type: Complete
+Content:
+: when supported, check the frameWriter's compression table is unaffected.
+Specificity: 0.690084
+Content Structure:
+advmod(supported-3, when-2)
+parataxis(check-5, supported-3)
+root(ROOT-0, check-5)
+det(frameWriter-7, the-6)
+nmod:poss(table-10, frameWriter-7)
+case(frameWriter-7, 's-8)
+compound(table-10, compression-9)
+nsubj(unaffected-12, table-10)
+cop(unaffected-12, is-11)
+ccomp(check-5, unaffected-12)
+File Name: /okhttp-tests/src/test/java/okhttp3/internal/framed/Http2ConnectionTest.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-01T12:45:14-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 7087dbc1906d29a9ee837bb0cc879086467c5818
+Time To Complete: P5M3D; PT-4H-36M-56S
+
+Type: Incomplete
+Content:
+: write a test that shows pooled connections detect HTTP/1.0 (vs. HTTP/1.1)
+Specificity: 0.894891
+Content Structure:
+root(ROOT-0, write-2)
+det(test-4, a-3)
+dobj(write-2, test-4)
+nsubj(shows-6, test-4)
+ref(test-4, that-5)
+acl:relcl(test-4, shows-6)
+amod(connections-8, pooled-7)
+nsubj(detect-9, connections-8)
+ccomp(shows-6, detect-9)
+compound(.0-11, HTTP/1-10)
+dobj(detect-9, .0-11)
+dep(HTTP/1-14, vs.-13)
+nmod(.0-11, HTTP/1-14)
+nummod(HTTP/1-14, .1-15)
+File Name: ./okhttp-tests/src/test/java/okhttp3/URLConnectionTest.java
+Time Of Creation: 2016-05-07T18:21:50-04:00
+Time Of Deletion: null
+Creation Commit Hash: 94bda42362bdc3b1219b8b833a0bad61cd869c7b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+: write a test that shows pooled connections detect HTTP/1.0 (vs. HTTP/1.1)
+Specificity: 0.894891
+Content Structure:
+root(ROOT-0, write-2)
+det(test-4, a-3)
+dobj(write-2, test-4)
+nsubj(shows-6, test-4)
+ref(test-4, that-5)
+acl:relcl(test-4, shows-6)
+amod(connections-8, pooled-7)
+nsubj(detect-9, connections-8)
+ccomp(shows-6, detect-9)
+compound(.0-11, HTTP/1-10)
+dobj(detect-9, .0-11)
+dep(HTTP/1-14, vs.-13)
+nmod(.0-11, HTTP/1-14)
+nummod(HTTP/1-14, .1-15)
+File Name: /okhttp-tests/src/test/java/okhttp3/URLConnectionTest.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: null
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+@Ignore // TODO(jwilson): come up with a way to test unchecked exceptions on the writer thread.
+Specificity: 0.938317
+Content Structure:
+compound(TODO-4, @Ignore-1)
+compound(TODO-4, /-2)
+compound(TODO-4, /-3)
+root(ROOT-0, TODO-4)
+appos(TODO-4, jwilson-6)
+acl(TODO-4, come-9)
+compound:prt(come-9, up-10)
+case(way-13, with-11)
+det(way-13, a-12)
+nmod:with(come-9, way-13)
+mark(test-15, to-14)
+acl(way-13, test-15)
+amod(exceptions-17, unchecked-16)
+dobj(test-15, exceptions-17)
+case(thread-21, on-18)
+det(thread-21, the-19)
+compound(thread-21, writer-20)
+nmod:on(TODO-4, thread-21)
+File Name: /okhttp-tests/src/test/java/okhttp3/internal/ws/RealWebSocketTest.java
+Time Of Creation: 2017-01-31T13:13:57-05:00
+Time Of Deletion: null
+Creation Commit Hash: e95a9cc765b458a7162d1fe14904c554a10ba1ec
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+@Ignore // TODO(jwilson): fix HttpEngine connection cleanups.
+Specificity: 0.857107
+Content Structure:
+root(ROOT-0, @Ignore-1)
+dep(jwilson-6, TODO-4)
+dep(@Ignore-1, jwilson-6)
+amod(cleanups-12, fix-9)
+compound(cleanups-12, HttpEngine-10)
+compound(cleanups-12, connection-11)
+dep(jwilson-6, cleanups-12)
+File Name: /okhttp-tests/src/test/java/com/squareup/okhttp/CallTest.java
+Time Of Creation: 2016-05-21T21:29:42-04:00
+Time Of Deletion: 2016-06-21T17:29:49+01:00
+Creation Commit Hash: 3699d5c9fd0ad78fc52e3ea317951f9d485f656f
+Deletion Commit Hash: df73a7e98e8450813325d28458b6bdd4b8b11791
+Time To Complete: P1M; PT-8H-59M-53S
+
+Type: Complete
+Content:
+@Ignore // TODO: recover gracefully when a connection is shutdown.
+Specificity: 0.756446
+Content Structure:
+nsubj(recover-6, @Ignore-1)
+compound(TODO-4, /-3)
+dep(@Ignore-1, TODO-4)
+root(ROOT-0, recover-6)
+advmod(recover-6, gracefully-7)
+advmod(shutdown-12, when-8)
+det(connection-10, a-9)
+nsubj(shutdown-12, connection-10)
+cop(shutdown-12, is-11)
+advcl(recover-6, shutdown-12)
+File Name: /okhttp-tests/src/test/java/okhttp3/URLConnectionTest.java
+Time Of Creation: 2017-01-29T12:40:41-05:00
+Time Of Deletion: 2017-02-01T12:50:43Z
+Creation Commit Hash: 158692870d5a5cf1fdf42bd62a18ffa699d7e0b3
+Deletion Commit Hash: 7c94c808de0e946180fbcfa187aacd8fca83c489
+Time To Complete: P3D; PT-4H-49M-58S
+
+Type: Incomplete
+Content:
+@Ignore // TODO: recover gracefully when a connection is shutdown.
+Specificity: 0.756446
+Content Structure:
+nsubj(recover-6, @Ignore-1)
+compound(TODO-4, /-3)
+dep(@Ignore-1, TODO-4)
+root(ROOT-0, recover-6)
+advmod(recover-6, gracefully-7)
+advmod(shutdown-12, when-8)
+det(connection-10, a-9)
+nsubj(shutdown-12, connection-10)
+cop(shutdown-12, is-11)
+advcl(recover-6, shutdown-12)
+File Name: /okhttp-tests/src/test/java/okhttp3/internal/http2/HttpOverHttp2Test.java
+Time Of Creation: 2017-01-29T12:40:41-05:00
+Time Of Deletion: null
+Creation Commit Hash: 158692870d5a5cf1fdf42bd62a18ffa699d7e0b3
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+delete the following when web sockets move into the main package.
+Specificity: 0.681748
+Content Structure:
+root(ROOT-0, delete-1)
+det(following-3, the-2)
+dobj(delete-1, following-3)
+advmod(move-7, when-4)
+compound(sockets-6, web-5)
+nsubj(move-7, sockets-6)
+advcl(delete-1, move-7)
+case(package-11, into-8)
+det(package-11, the-9)
+amod(package-11, main-10)
+nmod:into(move-7, package-11)
+File Name: ./okhttp/src/main/java/okhttp3/internal/Internal.java
+Time Of Creation: 2016-05-07T18:21:50-04:00
+Time Of Deletion: null
+Creation Commit Hash: 94bda42362bdc3b1219b8b833a0bad61cd869c7b
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+delete the following when web sockets move into the main package.
+Specificity: 0.681748
+Content Structure:
+root(ROOT-0, delete-1)
+det(following-3, the-2)
+dobj(delete-1, following-3)
+advmod(move-7, when-4)
+compound(sockets-6, web-5)
+nsubj(move-7, sockets-6)
+advcl(delete-1, move-7)
+case(package-11, into-8)
+det(package-11, the-9)
+amod(package-11, main-10)
+nmod:into(move-7, package-11)
+File Name: /okhttp/src/main/java/okhttp3/internal/Internal.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-11-19T15:16:58-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 949439ae5b0c5fd70687d1f946cac80552a5a7f9
+Time To Complete: P4M22D; PT-2H-5M-12S
+
+Type: Complete
+Content:
+force content-type and content-length to show here
+Specificity: 0.556291
+Content Structure:
+root(ROOT-0, force-1)
+dobj(force-1, content-type-2)
+nsubj:xsubj(show-6, content-type-2)
+cc(content-type-2, and-3)
+dobj(force-1, content-length-4)
+conj:and(content-type-2, content-length-4)
+nsubj:xsubj(show-6, content-length-4)
+mark(show-6, to-5)
+xcomp(force-1, show-6)
+advmod(show-6, here-7)
+File Name: /okhttp-logging-interceptor/src/test/java/com/squareup/okhttp/logging/HttpLoggingInterceptorTest.java
+Time Of Creation: 2016-05-28T14:30:25-04:00
+Time Of Deletion: 2016-05-31T10:15:06+01:00
+Creation Commit Hash: efd74cb29ec52e854ef7116d14151c64704794cc
+Deletion Commit Hash: a18d4e184b224d1567ffc1faa5502a5eeaf5445c
+Time To Complete: P3D; PT-9H-15M-19S
+
+Type: Complete
+Content:
+if (debugData.size() > 0) { // TODO: log the debugData
+Specificity: 0.931283
+Content Structure:
+mark(debugData.size-3, if-1)
+root(ROOT-0, debugData.size-3)
+dep(debugData.size-3, -RRB--5)
+dep(0-7, >-6)
+ccomp(-RRB--5, 0-7)
+compound(TODO-12, /-10)
+nummod(TODO-12, /-11)
+dobj(debugData.size-3, TODO-12)
+dep(debugData.size-3, log-14)
+det(debugData-16, the-15)
+dobj(log-14, debugData-16)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/FramedConnection.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P5M13D; PT-5H-16M-15S
+
+Type: Incomplete
+Content:
+if (debugData.size() > 0) { // TODO: log the debugData
+Specificity: 0.931283
+Content Structure:
+mark(debugData.size-3, if-1)
+root(ROOT-0, debugData.size-3)
+dep(debugData.size-3, -RRB--5)
+dep(0-7, >-6)
+ccomp(-RRB--5, 0-7)
+compound(TODO-12, /-10)
+nummod(TODO-12, /-11)
+dobj(debugData.size-3, TODO-12)
+dep(debugData.size-3, log-14)
+det(debugData-16, the-15)
+dobj(log-14, debugData-16)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+return result.replace("HEADERS", "PUSH_PROMISE"); // TODO: Avoid allocation.
+Specificity: 0.968255
+Content Structure:
+compound(result.replace-2, return-1)
+root(ROOT-0, result.replace-2)
+dep(result.replace-2, HEADERS-5)
+appos(HEADERS-5, PUSH_PROMISE-9)
+compound(TODO-15, /-13)
+compound(TODO-15, /-14)
+dep(result.replace-2, TODO-15)
+compound(allocation-18, Avoid-17)
+dep(TODO-15, allocation-18)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/FrameLogger.java
+Time Of Creation: 2016-12-11T12:05:48-05:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P0D; PT7S
+
+Type: Complete
+Content:
+return result.replace("HEADERS", "PUSH_PROMISE"); // TODO: Avoid allocation.
+Specificity: 0.968255
+Content Structure:
+compound(result.replace-2, return-1)
+root(ROOT-0, result.replace-2)
+dep(result.replace-2, HEADERS-5)
+appos(HEADERS-5, PUSH_PROMISE-9)
+compound(TODO-15, /-13)
+compound(TODO-15, /-14)
+dep(result.replace-2, TODO-15)
+compound(allocation-18, Avoid-17)
+dep(TODO-15, allocation-18)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/Http2.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:48-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Time To Complete: P5M13D; PT-5H-16M-22S
+
+Type: Incomplete
+Content:
+return result.replace("HEADERS", "PUSH_PROMISE"); // TODO: Avoid allocation.
+Specificity: 0.968255
+Content Structure:
+compound(result.replace-2, return-1)
+root(ROOT-0, result.replace-2)
+dep(result.replace-2, HEADERS-5)
+appos(HEADERS-5, PUSH_PROMISE-9)
+compound(TODO-15, /-13)
+compound(TODO-15, /-14)
+dep(result.replace-2, TODO-15)
+compound(allocation-18, Avoid-17)
+dep(TODO-15, allocation-18)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+return result.replace("PRIORITY", "COMPRESSED"); // TODO: Avoid allocation.
+Specificity: 0.970128
+Content Structure:
+compound(result.replace-2, return-1)
+root(ROOT-0, result.replace-2)
+dep(result.replace-2, PRIORITY-5)
+appos(PRIORITY-5, COMPRESSED-9)
+compound(TODO-15, /-13)
+compound(TODO-15, /-14)
+dep(result.replace-2, TODO-15)
+compound(allocation-18, Avoid-17)
+dep(TODO-15, allocation-18)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/FrameLogger.java
+Time Of Creation: 2016-12-11T12:05:48-05:00
+Time Of Deletion: 2016-12-11T12:05:55-05:00
+Creation Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Deletion Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Time To Complete: P0D; PT7S
+
+Type: Complete
+Content:
+return result.replace("PRIORITY", "COMPRESSED"); // TODO: Avoid allocation.
+Specificity: 0.970128
+Content Structure:
+compound(result.replace-2, return-1)
+root(ROOT-0, result.replace-2)
+dep(result.replace-2, PRIORITY-5)
+appos(PRIORITY-5, COMPRESSED-9)
+compound(TODO-15, /-13)
+compound(TODO-15, /-14)
+dep(result.replace-2, TODO-15)
+compound(allocation-18, Avoid-17)
+dep(TODO-15, allocation-18)
+File Name: /okhttp/src/main/java/okhttp3/internal/framed/Http2.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-12-11T12:05:48-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 278088c077033b2914d9e033cf52c770c5a1cfac
+Time To Complete: P5M13D; PT-5H-16M-22S
+
+Type: Incomplete
+Content:
+return result.replace("PRIORITY", "COMPRESSED"); // TODO: Avoid allocation.
+Specificity: 0.970128
+Content Structure:
+compound(result.replace-2, return-1)
+root(ROOT-0, result.replace-2)
+dep(result.replace-2, PRIORITY-5)
+appos(PRIORITY-5, COMPRESSED-9)
+compound(TODO-15, /-13)
+compound(TODO-15, /-14)
+dep(result.replace-2, TODO-15)
+compound(allocation-18, Avoid-17)
+dep(TODO-15, allocation-18)
+File Name: /okhttp/src/main/java/okhttp3/internal/http2/Http2.java
+Time Of Creation: 2016-12-11T12:05:55-05:00
+Time Of Deletion: null
+Creation Commit Hash: f74dc52cb18554ff8d8a8621b1e8a89c5ad22b60
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+return true; // TODO: check framedConnection.shutdown.
+Specificity: 0.679027
+Content Structure:
+root(ROOT-0, return-1)
+amod(return-1, true-2)
+dep(return-1, /-4)
+dep(return-1, TODO-6)
+compound(framedConnection.shutdown-9, check-8)
+dep(TODO-6, framedConnection.shutdown-9)
+File Name: /okhttp/src/main/java/com/squareup/okhttp/internal/io/RealConnection.java
+Time Of Creation: 2016-06-03T10:58:25-04:00
+Time Of Deletion: 2016-06-28T18:22:10-04:00
+Creation Commit Hash: 05e5c4d22a058fdbf9645c2bc846c0a33e2bc518
+Deletion Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Time To Complete: P25D; PT7H23M45S
+
+Type: Complete
+Content:
+return true; // TODO: check framedConnection.shutdown.
+Specificity: 0.679027
+Content Structure:
+root(ROOT-0, return-1)
+amod(return-1, true-2)
+dep(return-1, /-4)
+dep(return-1, TODO-6)
+compound(framedConnection.shutdown-9, check-8)
+dep(TODO-6, framedConnection.shutdown-9)
+File Name: /okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java
+Time Of Creation: 2016-11-21T20:01:45-05:00
+Time Of Deletion: 2017-01-28T14:09:54-05:00
+Creation Commit Hash: 68c0211cc26261a34a5f55b91f9509ae4575c731
+Deletion Commit Hash: f54130499acf0062ff655c07917e5c5f37f081cb
+Time To Complete: P2M7D; PT-5H-51M-51S
+
+Type: Complete
+Content:
+return true; // TODO: check framedConnection.shutdown.
+Specificity: 0.679027
+Content Structure:
+root(ROOT-0, return-1)
+amod(return-1, true-2)
+dep(return-1, /-4)
+dep(return-1, TODO-6)
+compound(framedConnection.shutdown-9, check-8)
+dep(TODO-6, framedConnection.shutdown-9)
+File Name: /okhttp/src/main/java/okhttp3/internal/io/RealConnection.java
+Time Of Creation: 2016-06-28T18:22:10-04:00
+Time Of Deletion: 2016-11-21T20:01:45-05:00
+Creation Commit Hash: f5099ce11f9b9df4eaf2000b80343868f1799176
+Deletion Commit Hash: 68c0211cc26261a34a5f55b91f9509ae4575c731
+Time To Complete: P4M24D; PT2H39M35S
+
+
+
+Frequency Table: 
+'0-byte-buffer' : 1
+'==' : 1
+'Domains' : 1
+'HttpEngine' : 1
+'IPv6' : 1
+'Is' : 1
+'JDK7' : 1
+'JDK8' : 1
+'Our' : 1
+'Racy' : 1
+'They' : 1
+'about' : 1
+'active' : 1
+'allocationLimit' : 1
+'always' : 1
+'any' : 1
+'block' : 1
+'braces' : 1
+'but' : 1
+'ca' : 1
+'cause' : 1
+'cleanup' : 1
+'cleanups' : 1
+'close' : 1
+'closed' : 1
+'come' : 1
+'compression' : 1
+'configure' : 1
+'content-length' : 1
+'content-type' : 1
+'docs' : 1
+'does' : 1
+'domain' : 1
+'down' : 1
+'events' : 1
+'exceptions' : 1
+'force' : 1
+'forever' : 1
+'frameWriter' : 1
+'from' : 1
+'hit' : 1
+'interleaving' : 1
+'limit' : 1
+'matches' : 1
+'non' : 1
+'nuke' : 1
+'problems' : 1
+'publication' : 1
+'reader' : 1
+'reduce' : 1
+'returned' : 1
+'say' : 1
+'schedule' : 1
+'seems' : 1
+'show' : 1
+'slack' : 1
+'so' : 1
+'socket' : 1
+'spdy/3' : 1
+'square' : 1
+'start' : 1
+'stream' : 1
+'supported' : 1
+'table' : 1
+'tear' : 1
+'there' : 1
+'threadsafe' : 1
+'timeouts' : 1
+'unaffected' : 1
+'unchecked' : 1
+'unfortunately' : 1
+'unsafe' : 1
+'up' : 1
+'validate' : 1
+'visibility' : 1
+'websocket' : 1
+'where' : 1
+'whole' : 1
+''re' : 2
+'-LCB-' : 2
+'.0' : 2
+'.1' : 2
+'123' : 2
+'16384' : 2
+'16777215' : 2
+'3.7' : 2
+'3.8' : 2
+'<' : 2
+'=' : 2
+'>' : 2
+'API' : 2
+'Deprecate' : 2
+'Do' : 2
+'FramedConnection' : 2
+'IP' : 2
+'If' : 2
+'MWS' : 2
+'OkHttp' : 2
+'SETTINGS_TIMEOUT' : 2
+'X-Android-Transports' : 2
+'`' : 2
+'address' : 2
+'already' : 2
+'also' : 2
+'alternate' : 2
+'an' : 2
+'another' : 2
+'attempt' : 2
+'attempting' : 2
+'awkward' : 2
+'bad' : 2
+'based' : 2
+'before' : 2
+'behavior' : 2
+'below' : 2
+'better' : 2
+'between' : 2
+'bytes' : 2
+'callback' : 2
+'can' : 2
+'ciphers' : 2
+'compare' : 2
+'confirm' : 2
+'connection.allocationLimit' : 2
+'connections' : 2
+'consider' : 2
+'constants' : 2
+'could' : 2
+'debugData.size' : 2
+'delete' : 2
+'detect' : 2
+'error' : 2
+'etc.' : 2
+'find' : 2
+'fix' : 2
+'following' : 2
+'get' : 2
+'gracefully' : 2
+'guard' : 2
+'having' : 2
+'holding' : 2
+'index' : 2
+'it' : 2
+'like' : 2
+'log' : 2
+'logic' : 2
+'main' : 2
+'marker' : 2
+'max' : 2
+'may' : 2
+'migrated' : 2
+'move' : 2
+'moving' : 2
+'names' : 2
+'null' : 2
+'package' : 2
+'peer' : 2
+'pooled' : 2
+'priority' : 2
+'push' : 2
+'read' : 2
+'real' : 2
+'reason' : 2
+'recover' : 2
+'register' : 2
+'rely' : 2
+'request' : 2
+'request/response' : 2
+'response' : 2
+'search' : 2
+'send' : 2
+'sending' : 2
+'service' : 2
+'shows' : 2
+'shutdown' : 2
+'sockets' : 2
+'tests' : 2
+'thread' : 2
+'timeout' : 2
+'toLowerCase' : 2
+'tracking' : 2
+'use' : 2
+'vs.' : 2
+'web' : 2
+'well-formed' : 2
+'well-known' : 2
+'what' : 2
+'write' : 2
+'writer' : 2
+''s' : 3
+'-RSB-' : 3
+'0' : 3
+'0x0' : 3
+'0x20' : 3
+'0x3B' : 3
+'COMPRESSED' : 3
+'COOKIE' : 3
+'Concat' : 3
+'HEADERS' : 3
+'HTTP/2' : 3
+'PRIORITY' : 3
+'PUSH_PROMISE' : 3
+'STREAM_CLOSED' : 3
+'See' : 3
+'This' : 3
+'all' : 3
+'are' : 3
+'bugs' : 3
+'case' : 3
+'checkState' : 3
+'complementary' : 3
+'continuation' : 3
+'d' : 3
+'decode' : 3
+'decoder' : 3
+'different' : 3
+'do' : 3
+'duped' : 3
+'empty' : 3
+'except' : 3
+'exception' : 3
+'framedConnection.shutdown' : 3
+'half-closed' : 3
+'have' : 3
+'here' : 3
+'hide' : 3
+'hpack-test-case' : 3
+'http://tools.ietf.org/html/draft-ietf-httpbis-http2-17#section-8.1.2.5' : 3
+'label' : 3
+'limits' : 3
+'local' : 3
+'message' : 3
+'multi-value' : 3
+'open' : 3
+'our' : 3
+'output' : 3
+'preserved' : 3
+'producing' : 3
+'propagate' : 3
+'raise' : 3
+'responses' : 3
+'true' : 3
+'update' : 3
+'uses' : 3
+'verify' : 3
+'way' : 3
+'which' : 3
+''' : 4
+'@Ignore' : 4
+'HTTP/1' : 4
+'I' : 4
+'body' : 4
+'check' : 4
+'connection' : 4
+'lock' : 4
+'need' : 4
+'not' : 4
+'release' : 4
+'settings' : 4
+'We' : 5
+'debugData' : 5
+'implement' : 5
+'in' : 5
+'into' : 5
+'make' : 5
+'public' : 5
+'we' : 5
+'Avoid' : 6
+'after' : 6
+'allocation' : 6
+'headers' : 6
+'honor' : 6
+'n't' : 6
+'of' : 6
+'or' : 6
+'result.replace' : 6
+'setting' : 6
+'when' : 6
+'header' : 7
+'if' : 7
+'will' : 7
+'with' : 8
+';' : 9
+'be' : 9
+'encoder' : 9
+'return' : 9
+'should' : 9
+'for' : 11
+'''' : 12
+'``' : 12
+'a' : 12
+'test' : 12
+'that' : 12
+'TODO' : 15
+'on' : 15
+'and' : 16
+'is' : 16
+'?' : 17
+'to' : 19
+'this' : 25
+',' : 26
+'jwilson' : 27
+'/' : 30
+'the' : 34
+'-LRB-' : 46
+'-RRB-' : 46
+'.' : 74
+':' : 95

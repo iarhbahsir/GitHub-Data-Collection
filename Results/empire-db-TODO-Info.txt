@@ -1,198 +1,854 @@
-Content: 				// TODO support throwables?
-File Name: ./empire-db-maven-plugin/src/main/java/org/apache/empire/db/maven/CodeGenMojo.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
+Number of TODOs: 36
+Average Specificity: 0.5789895833333332Specificites Box Plots: (min, q1, mean, median, q3, max)
+	Incomplete TODO: 0.436549, 0.506183, 0.5936200714285713, 0.5536464999999999, 0.6480535000000001, 0.859235
+	Completed TODO: 0.353736, 0.406324, 0.527782875, 0.458912, 0.6772335, 0.783588
+Completion Rate: 22.22222222222222%
+
+
+TODOs:
+
+Type: Complete
+Content:
+
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
+File Name: /empire-db-jsf2/src/main/java/org/apache/empire/jsf2/controls/FieldRenderer.java
+Time Of Creation: 2012-06-18T18:52:35Z
+Time Of Deletion: 2012-06-18T21:53:51Z
+Creation Commit Hash: 9f1d45defb6017dd2172137c9bb7355aa2433cee
+Deletion Commit Hash: 62d37a35d3734d36c2e8a4ed71db5fc6bc6b1983
+Time To Complete: P0D; PT3H1M16S
+
+Type: Complete
+Content:
+
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
+File Name: /empire-db-jsf2/src/main/java/org/apache/empire/jsf2/controls/InputControl.java
+Time Of Creation: 2012-06-18T21:53:51Z
+Time Of Deletion: 2016-03-12T19:00:36+01:00
+Creation Commit Hash: 62d37a35d3734d36c2e8a4ed71db5fc6bc6b1983
+Deletion Commit Hash: d3dd3fa184b834913f2ae6146be14e2748c39a7d
+Time To Complete: P3Y8M23D; PT-3H-53M-15S
+
+Type: Complete
+Content:
+// TODO resource = ResourceBundle.getBundle("lang.messages",
+Specificity: 0.730283
+Content Structure:
+dep(TODO-3, /-2)
+root(ROOT-0, TODO-3)
+dep(TODO-3, resource-4)
+dep(ResourceBundle.getBundle-6, =-5)
+acl:relcl(resource-4, ResourceBundle.getBundle-6)
+dep(resource-4, lang.messages-9)
+File Name: /empire-db-examples/empire-db-example-jsf2/src/main/java/org/apache/empire/jsf2/websample/web/FacesUtils.java
+Time Of Creation: 2012-02-20T15:41:15Z
+Time Of Deletion: 2012-07-31T09:50:33Z
+Creation Commit Hash: 8651abd54bcad070bd58875c979b073608b6a71d
+Deletion Commit Hash: 1611c57fefd6afc533db74f8a92155ad462e1de8
+Time To Complete: P5M11D; PT-5H-50M-42S
+
+Type: Complete
+Content:
+// TODO: remove debug try/catch
+Specificity: 0.624184
+Content Structure:
+dep(TODO-3, /-2)
+root(ROOT-0, TODO-3)
+amod(try/catch-7, remove-5)
+compound(try/catch-7, debug-6)
+dep(TODO-3, try/catch-7)
+File Name: /empire-db-examples/empire-db-example-jsf2/src/main/java/org/apache/empire/jsf2/websample/web/FacesUtils.java
+Time Of Creation: 2012-02-20T15:41:15Z
+Time Of Deletion: 2012-07-31T09:50:33Z
+Creation Commit Hash: 8651abd54bcad070bd58875c979b073608b6a71d
+Deletion Commit Hash: 1611c57fefd6afc533db74f8a92155ad462e1de8
+Time To Complete: P5M11D; PT-5H-50M-42S
+
+Type: Incomplete
+Content:
+: Find a way to set the view Metadata. Don't know how to do it.
+@param pageParams
+@return
+
+Specificity: 0.893437
+Content Structure:
+root(ROOT-0, Find-2)
+det(way-4, a-3)
+dobj(Find-2, way-4)
+nsubj:xsubj(set-6, way-4)
+mark(set-6, to-5)
+xcomp(Find-2, set-6)
+det(view-8, the-7)
+iobj(set-6, view-8)
+dobj(set-6, Metadata-9)
+aux(know-13, Do-11)
+neg(know-13, n't-12)
+acl:relcl(Metadata-9, know-13)
+advmod(do-16, how-14)
+mark(do-16, to-15)
+ccomp(know-13, do-16)
+dobj(do-16, it-17)
+nummod(@return-21, @param-19)
+compound(@return-21, pageParams-20)
+nsubj(Find-2, @return-21)
+File Name: /empire-db-jsf2/src/main/java/org/apache/empire/jsf2/pages/PagePhaseListener.java
+Time Of Creation: 2012-06-18T18:52:35Z
 Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Creation Commit Hash: 9f1d45defb6017dd2172137c9bb7355aa2433cee
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: 		// TODO add extra validation for the real generated sources
-File Name: ./empire-db-examples/empire-db-example-cxf/src/main/java/org/apache/empire/samples/cxf/wssample/common/Employee.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
+Type: Incomplete
+Content:
+: Set view metadata
+Specificity: 0.505725
+Content Structure:
+root(ROOT-0, Set-2)
+compound(metadata-4, view-3)
+dobj(Set-2, metadata-4)
+File Name: /empire-db-jsf2/src/main/java/org/apache/empire/jsf2/pages/PagePhaseListener.java
+Time Of Creation: 2012-06-18T18:52:35Z
 Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Creation Commit Hash: 9f1d45defb6017dd2172137c9bb7355aa2433cee
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: 		// TODO can't the implementation of this be simpler?
-File Name: ./empire-db/src/test/java/org/apache/empire/commons/DateUtilsTest.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: 		// TODO check if this is the wanted result
-File Name: ./empire-db/src/test/java/org/apache/empire/commons/ObjectUtilsTest.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: 		// TODO fall back to getPackageName() is the other names are not set
-File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/CodeGenWriter.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: 		// TODO handle null?
-File Name: ./empire-db/src/test/java/org/apache/empire/commons/ObjectUtilsTest.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: 		// TODO maybe we should find the highest param as some might not be in use (regex)
-File Name: ./empire-db/src/test/java/org/apache/empire/commons/ErrorTypeTest.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: 		// TODO might be better to add this to the enum
-File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/WriterService.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: 		// TODO test fail if file in use
-File Name: ./empire-db-codegen/src/test/java/org/apache/empire/db/codegen/util/FileUtilsTest.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: 		// TODO test with files
-File Name: ./empire-db-codegen/src/test/java/org/apache/empire/db/codegen/util/FileUtilsTest.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: 		// TODO use primitives for non-nullable columns?
-File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/WriterService.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: 		// TODO what is the difference with the other replace method, merge???
-File Name: ./empire-db/src/test/java/org/apache/empire/commons/StringUtilsTest.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: 	// TODO remove as not in use?
-File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/util/FileUtils.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: 	// TODO remove as not in use?	
-File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/util/FileUtils.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         	// TODO throw proper exception
-File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/CodeGenConfig.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:             		// TODO throw IO Exception or return false?
-File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/util/FileUtils.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:                 // TODO: Set view metadata
-File Name: ./empire-db-jsf2/src/main/java/org/apache/empire/jsf2/pages/PagePhaseListener.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO
-File Name: ./empire-db-jsf2/src/main/java/org/apache/empire/jsf2/controls/InputControl.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO Auto-generated method stub
-File Name: ./empire-db-jsf2/src/main/java/org/apache/empire/jsf2/utils/StringResponseWriter.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO get rid of flags param??
-File Name: ./empire-db/src/test/java/org/apache/empire/commons/OptionsTest.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO try to compile the resulting files???
-File Name: ./empire-db-codegen/src/test/java/org/apache/empire/db/codegen/CodeGenTest.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
-Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         //TODO: not working properly!
+Type: Incomplete
+Content:
+: not working properly!
+Specificity: 0.506641
+Content Structure:
+root(ROOT-0, not-2)
+acl(not-2, working-3)
+advmod(working-3, properly-4)
 File Name: ./empire-db-examples/empire-db-example-struts2-cxf/src/main/java/org/apache/empire/struts2/websample/web/actions/EmployeeDetailAction.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Creation: 2010-12-12T19:59:59Z
 Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:      * TODO: Find a way to set the view Metadata. Don't know how to do it.
-*
-* @param pageParams
-* @return
-*/
-File Name: ./empire-db-jsf2/src/main/java/org/apache/empire/jsf2/pages/PagePhaseListener.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
+Type: Complete
+Content:
+Auto-generated catch block
+Specificity: 0.458912
+Content Structure:
+amod(block-3, Auto-generated-1)
+compound(block-3, catch-2)
+root(ROOT-0, block-3)
+File Name: /empire-db-jsf2/src/main/java/org/apache/empire/jsf2/controls/FieldRenderer.java
+Time Of Creation: 2012-06-18T18:52:35Z
+Time Of Deletion: 2012-06-18T21:53:51Z
+Creation Commit Hash: 9f1d45defb6017dd2172137c9bb7355aa2433cee
+Deletion Commit Hash: 62d37a35d3734d36c2e8a4ed71db5fc6bc6b1983
+Time To Complete: P0D; PT3H1M16S
+
+Type: Complete
+Content:
+Auto-generated catch block
+Specificity: 0.458912
+Content Structure:
+amod(block-3, Auto-generated-1)
+compound(block-3, catch-2)
+root(ROOT-0, block-3)
+File Name: /empire-db-jsf2/src/main/java/org/apache/empire/jsf2/controls/InputControl.java
+Time Of Creation: 2012-06-18T21:53:51Z
+Time Of Deletion: 2014-09-19T09:22:38Z
+Creation Commit Hash: 62d37a35d3734d36c2e8a4ed71db5fc6bc6b1983
+Deletion Commit Hash: 5916f06ca3da146104068587835fcb069bc82ffe
+Time To Complete: P2Y3M1D; PT-12H-31M-13S
+
+Type: Complete
+Content:
+Auto-generated method stub
+Specificity: 0.458912
+Content Structure:
+amod(stub-3, Auto-generated-1)
+compound(stub-3, method-2)
+root(ROOT-0, stub-3)
+File Name: /empire-db-examples/empire-db-example-jsf2/src/main/java/org/apache/empire/jsf2/websample/web/PageELResolver.java
+Time Of Creation: 2012-02-20T15:41:15Z
+Time Of Deletion: 2012-02-21T19:14:39Z
+Creation Commit Hash: 8651abd54bcad070bd58875c979b073608b6a71d
+Deletion Commit Hash: 77fcff1e60be65e349bdd9f5f39b0284af26491b
+Time To Complete: P1D; PT3H33M24S
+
+Type: Incomplete
+Content:
+Auto-generated method stub
+Specificity: 0.458912
+Content Structure:
+amod(stub-3, Auto-generated-1)
+compound(stub-3, method-2)
+root(ROOT-0, stub-3)
+File Name: /empire-db-jsf2/src/main/java/org/apache/empire/jsf2/utils/StringResponseWriter.java
+Time Of Creation: 2012-06-18T18:52:35Z
 Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Creation Commit Hash: 9f1d45defb6017dd2172137c9bb7355aa2433cee
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:  * TODO would be better to let these methods throw IOExceptions!
-*
-*/
+Type: Complete
+Content:
+DW: avoid magic numbers for readability || add few words of comments, else
+Specificity: 0.783588
+Content Structure:
+root(ROOT-0, DW-1)
+parataxis(DW-1, avoid-3)
+amod(numbers-5, magic-4)
+nsubj(add-10, numbers-5)
+case(|-9, for-6)
+amod(|-9, readability-7)
+amod(|-9, |-8)
+nmod:for(numbers-5, |-9)
+ccomp(avoid-3, add-10)
+amod(words-12, few-11)
+dep(else-16, words-12)
+case(comments-14, of-13)
+nmod:of(words-12, comments-14)
+xcomp(add-10, else-16)
+File Name: /empire-db-jsf2/src/main/java/org/apache/empire/jsf2/utils/ParameterMap.java
+Time Of Creation: 2012-06-18T18:52:35Z
+Time Of Deletion: 2012-07-25T14:24:23Z
+Creation Commit Hash: 9f1d45defb6017dd2172137c9bb7355aa2433cee
+Deletion Commit Hash: fe74e6ab37e3b11263bcf57ae7dcff9be28a02db
+Time To Complete: P1M7D; PT-4H-28M-12S
+
+Type: Incomplete
+Content:
+add extra validation for the real generated sources
+Specificity: 0.603155
+Content Structure:
+root(ROOT-0, add-1)
+amod(validation-3, extra-2)
+dobj(add-1, validation-3)
+case(sources-8, for-4)
+det(sources-8, the-5)
+amod(sources-8, real-6)
+nummod(sources-8, generated-7)
+nmod:for(add-1, sources-8)
+File Name: ./empire-db-examples/empire-db-example-cxf/src/main/java/org/apache/empire/samples/cxf/wssample/common/Employee.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+can't the implementation of this be simpler?
+Specificity: 0.602356
+Content Structure:
+aux(simpler-8, ca-1)
+neg(simpler-8, n't-2)
+det(implementation-4, the-3)
+nsubj(simpler-8, implementation-4)
+case(this-6, of-5)
+advmod(simpler-8, this-6)
+cop(simpler-8, be-7)
+root(ROOT-0, simpler-8)
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/DateUtilsTest.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+check if this is the wanted result
+Specificity: 0.582781
+Content Structure:
+root(ROOT-0, check-1)
+mark(result-7, if-2)
+nsubj(result-7, this-3)
+cop(result-7, is-4)
+det(result-7, the-5)
+amod(result-7, wanted-6)
+advcl(check-1, result-7)
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/ObjectUtilsTest.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+clean up this class as it is quite messy (add vs set, object vs key, ...)
+Specificity: 0.87915
+Content Structure:
+root(ROOT-0, clean-1)
+compound:prt(clean-1, up-2)
+det(class-4, this-3)
+dobj(clean-1, class-4)
+mark(messy-9, as-5)
+nsubj(messy-9, it-6)
+cop(messy-9, is-7)
+advmod(messy-9, quite-8)
+dep(class-4, messy-9)
+dep(class-4, add-11)
+compound(set-13, vs-12)
+dobj(add-11, set-13)
+advmod(key-17, object-15)
+advmod(key-17, vs-16)
+amod(set-13, key-17)
+File Name: ./empire-db/src/main/java/org/apache/empire/commons/Options.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+convert to an enum?
+Specificity: 0.517895
+Content Structure:
+root(ROOT-0, convert-1)
+case(enum-4, to-2)
+det(enum-4, an-3)
+nmod:to(convert-1, enum-4)
+File Name: ./empire-db/src/main/java/org/apache/empire/db/DBDatabase.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+convert to an enum?
+
+Specificity: 0.517895
+Content Structure:
+root(ROOT-0, convert-1)
+case(enum-4, to-2)
+det(enum-4, an-3)
+nmod:to(convert-1, enum-4)
+File Name: ./empire-db/src/main/java/org/apache/empire/db/DBTable.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+fall back to getPackageName() is the other names are not set
+Specificity: 0.824097
+Content Structure:
+root(ROOT-0, fall-1)
+compound:prt(fall-1, back-2)
+mark(getPackageName-4, to-3)
+xcomp(fall-1, getPackageName-4)
+nsubj(names-10, -RRB--6)
+cop(names-10, is-7)
+det(names-10, the-8)
+amod(names-10, other-9)
+ccomp(getPackageName-4, names-10)
+auxpass(set-13, are-11)
+neg(set-13, not-12)
+acl:relcl(names-10, set-13)
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/CodeGenWriter.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+find a way to force the correct number of params at compiletime
+Specificity: 0.694139
+Content Structure:
+root(ROOT-0, find-1)
+det(way-3, a-2)
+dobj(find-1, way-3)
+mark(force-5, to-4)
+acl(way-3, force-5)
+det(number-8, the-6)
+amod(number-8, correct-7)
+dobj(force-5, number-8)
+case(params-10, of-9)
+nmod:of(number-8, params-10)
+case(compiletime-12, at-11)
+nmod:at(force-5, compiletime-12)
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/ErrorsTest.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+get rid of flags param??
+Specificity: 0.535065
+Content Structure:
+root(ROOT-0, get-1)
+amod(??-6, rid-2)
+case(flags-4, of-3)
+nmod:of(rid-2, flags-4)
+compound(??-6, param-5)
+dobj(get-1, ??-6)
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/OptionsTest.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+handle null?
+Specificity: 0.437558
+Content Structure:
+root(ROOT-0, handle-1)
+xcomp(handle-1, null-2)
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/ObjectUtilsTest.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+is this correct?
+Specificity: 0.482578
+Content Structure:
+cop(correct-3, is-1)
+nsubj(correct-3, this-2)
+root(ROOT-0, correct-3)
+File Name: ./empire-db-codegen/src/test/java/org/apache/empire/db/codegen/WriterServiceTest.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+maybe we should find the highest param as some might not be in use (regex)
+Specificity: 0.859235
+Content Structure:
+advmod(we-2, maybe-1)
+nsubj(find-4, we-2)
+aux(find-4, should-3)
+root(ROOT-0, find-4)
+det(param-7, the-5)
+amod(param-7, highest-6)
+dobj(find-4, param-7)
+mark(use-14, as-8)
+nsubj(use-14, some-9)
+aux(use-14, might-10)
+neg(use-14, not-11)
+cop(use-14, be-12)
+case(use-14, in-13)
+advcl(find-4, use-14)
+appos(use-14, regex-16)
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/ErrorTypeTest.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+might be better to add this to the enum
+Specificity: 0.628108
+Content Structure:
+aux(better-3, might-1)
+cop(better-3, be-2)
+root(ROOT-0, better-3)
+mark(add-5, to-4)
+xcomp(better-3, add-5)
+nsubj(better-3, this-6)
+nsubj:xsubj(add-5, this-6)
+case(enum-9, to-7)
+det(enum-9, the-8)
+nmod:to(this-6, enum-9)
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/WriterService.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+remove as not in use?
+Specificity: 0.546702
+Content Structure:
+root(ROOT-0, remove-1)
+advmod(not-3, as-2)
+neg(remove-1, not-3)
+case(use-5, in-4)
+nmod:in(remove-1, use-5)
 File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/util/FileUtils.java
-Time Of Creation: 2015-09-24T09:58:34+02:00
+Time Of Creation: 2010-12-12T19:59:59Z
 Time Of Deletion: null
-Creation Commit Hash: c6b771489fbf452c57d0955805ea9b70f1ff5c7c
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
+Content:
+should we fail in this case?
+Specificity: 0.570791
+Content Structure:
+aux(fail-3, should-1)
+nsubj(fail-3, we-2)
+root(ROOT-0, fail-3)
+case(case-6, in-4)
+det(case-6, this-5)
+nmod:in(fail-3, case-6)
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/ErrorsTest.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+support throwables?
+Specificity: 0.436549
+Content Structure:
+root(ROOT-0, support-1)
+dobj(support-1, throwables-2)
+File Name: ./empire-db-maven-plugin/src/main/java/org/apache/empire/db/maven/CodeGenMojo.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+test fail if file in use
+Specificity: 0.559317
+Content Structure:
+dep(fail-2, test-1)
+root(ROOT-0, fail-2)
+mark(file-4, if-3)
+advcl(fail-2, file-4)
+case(use-6, in-5)
+nmod:in(file-4, use-6)
+File Name: ./empire-db-codegen/src/test/java/org/apache/empire/db/codegen/util/FileUtilsTest.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+test with files
+Specificity: 0.450228
+Content Structure:
+root(ROOT-0, test-1)
+case(files-3, with-2)
+nmod:with(test-1, files-3)
+File Name: ./empire-db-codegen/src/test/java/org/apache/empire/db/codegen/util/FileUtilsTest.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+throw IO Exception or return false?
+Specificity: 0.647701
+Content Structure:
+root(ROOT-0, throw-1)
+compound(Exception-3, IO-2)
+dobj(throw-1, Exception-3)
+cc(throw-1, or-4)
+conj:or(throw-1, return-5)
+xcomp(return-5, false-6)
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/util/FileUtils.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+throw proper exception
+Specificity: 0.448809
+Content Structure:
+root(ROOT-0, throw-1)
+amod(exception-3, proper-2)
+dobj(throw-1, exception-3)
+File Name: /empire-db-codegen/src/main/java/org/apache/empire/db/codegen/CodeGenConfig.java
+Time Of Creation: 2011-10-21T09:36:33Z
+Time Of Deletion: null
+Creation Commit Hash: 571b9d7ff3b9166780fd888a683ef0e167aa2bbf
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+try to compile the resulting files???
+Specificity: 0.547976
+Content Structure:
+root(ROOT-0, try-1)
+mark(compile-3, to-2)
+xcomp(try-1, compile-3)
+det(files-6, the-4)
+amod(files-6, resulting-5)
+dobj(compile-3, files-6)
+advmod(compile-3, ???-7)
+File Name: ./empire-db-codegen/src/test/java/org/apache/empire/db/codegen/CodeGenTest.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+use primitives for non-nullable columns?
+Specificity: 0.532884
+Content Structure:
+root(ROOT-0, use-1)
+dobj(use-1, primitives-2)
+case(columns-5, for-3)
+amod(columns-5, non-nullable-4)
+nmod:for(primitives-2, columns-5)
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/WriterService.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+what is the difference with the other replace method, merge???
+Specificity: 0.648406
+Content Structure:
+root(ROOT-0, what-1)
+cop(what-1, is-2)
+det(difference-4, the-3)
+nsubj(what-1, difference-4)
+case(method-9, with-5)
+det(method-9, the-6)
+amod(method-9, other-7)
+amod(method-9, replace-8)
+nmod:with(difference-4, method-9)
+compound(???-12, merge-11)
+appos(method-9, ???-12)
+File Name: ./empire-db/src/test/java/org/apache/empire/commons/StringUtilsTest.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+would be better to let these methods throw IOExceptions!
+
+
+Specificity: 0.703272
+Content Structure:
+aux(better-3, would-1)
+cop(better-3, be-2)
+root(ROOT-0, better-3)
+mark(let-5, to-4)
+xcomp(better-3, let-5)
+det(methods-7, these-6)
+nsubj(throw-8, methods-7)
+ccomp(let-5, throw-8)
+dobj(throw-8, IOExceptions-9)
+File Name: ./empire-db-codegen/src/main/java/org/apache/empire/db/codegen/util/FileUtils.java
+Time Of Creation: 2010-12-12T19:59:59Z
+Time Of Deletion: null
+Creation Commit Hash: 1bffef03c760b186162462f77df0464b7fb995cd
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+
+
+Frequency Table: 
+'''' : 1
+'...' : 1
+'=' : 1
+'==' : 1
+'??' : 1
+'@param' : 1
+'@return' : 1
+'DW' : 1
+'Do' : 1
+'Exception' : 1
+'FacesUtils.getUserBean' : 1
+'Find' : 1
+'IO' : 1
+'IOExceptions' : 1
+'Metadata' : 1
+'MissingResourceException' : 1
+'ResourceBundle.getBundle' : 1
+'Set' : 1
+'``' : 1
+'are' : 1
+'at' : 1
+'avoid' : 1
+'back' : 1
+'ca' : 1
+'case' : 1
+'class' : 1
+'clean' : 1
+'columns' : 1
+'comments' : 1
+'compile' : 1
+'compiletime' : 1
+'debug' : 1
+'difference' : 1
+'do' : 1
+'else' : 1
+'exception' : 1
+'extra' : 1
+'fall' : 1
+'false' : 1
+'few' : 1
+'file' : 1
+'flags' : 1
+'force' : 1
+'generated' : 1
+'get' : 1
+'getLocale' : 1
+'getPackageName' : 1
+'handle' : 1
+'highest' : 1
+'how' : 1
+'implementation' : 1
+'key' : 1
+'know' : 1
+'lang.messages' : 1
+'let' : 1
+'magic' : 1
+'maybe' : 1
+'merge' : 1
+'messy' : 1
+'metadata' : 1
+'methods' : 1
+'names' : 1
+'non-nullable' : 1
+'number' : 1
+'numbers' : 1
+'object' : 1
+'or' : 1
+'pageParams' : 1
+'params' : 1
+'primitives' : 1
+'proper' : 1
+'properly' : 1
+'quite' : 1
+'readability' : 1
+'real' : 1
+'regex' : 1
+'replace' : 1
+'resulting' : 1
+'return' : 1
+'rid' : 1
+'simpler' : 1
+'some' : 1
+'sources' : 1
+'support' : 1
+'these' : 1
+'throwables' : 1
+'try/catch' : 1
+'up' : 1
+'validation' : 1
+'what' : 1
+'words' : 1
+'working' : 1
+'would' : 1
+'!' : 2
+'--' : 2
+'???' : 2
+'Column' : 2
+'FacesContext' : 2
+'IOException' : 2
+'Object' : 2
+'TODO' : 2
+'a' : 2
+'an' : 2
+'better' : 2
+'block' : 2
+'context' : 2
+'convert' : 2
+'correct' : 2
+'fail' : 2
+'files' : 2
+'find' : 2
+'instanceof' : 2
+'isTransient' : 2
+'it' : 2
+'might' : 2
+'n't' : 2
+'newTransientValue' : 2
+'null' : 2
+'other' : 2
+'param' : 2
+'resource' : 2
+'restoreState' : 2
+'setTransient' : 2
+'should' : 2
+'stub' : 2
+'test' : 2
+'try' : 2
+'view' : 2
+'vs' : 2
+'way' : 2
+'we' : 2
+'with' : 2
+'|' : 2
+'.' : 3
+'e' : 3
+'enum' : 3
+'for' : 3
+'method' : 3
+'set' : 3
+'throw' : 3
+'Auto-generated' : 4
+'add' : 4
+'be' : 4
+'boolean' : 4
+'check' : 4
+'of' : 4
+'result' : 4
+'state' : 4
+'void' : 4
+'wanted' : 4
+':' : 5
+'catch' : 5
+'/' : 6
+'@Override' : 6
+'public' : 6
+',' : 7
+'remove' : 7
+'as' : 8
+'if' : 8
+'is' : 8
+'in' : 9
+'not' : 9
+'this' : 9
+'use' : 9
+'to' : 10
+'-LCB-' : 11
+'the' : 14
+'?' : 15
+'-LRB-' : 18
+'-RCB-' : 18
+'-RRB-' : 18

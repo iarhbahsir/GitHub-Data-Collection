@@ -1,164 +1,30 @@
-Content:             // TODO: Need to handle escaping of '
-File Name: ./src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Number of TODOs: 4
+Average Specificity: 0.8925615Specificites Box Plots: (min, q1, mean, median, q3, max)
+	Incomplete TODO: 0.737246, 0.8175555, 0.8925615, 0.9314705000000001, 0.9675675, 0.970059
+	Completed TODO: Infinity, NaN, NaN, NaN, NaN, -Infinity
+Completion Rate: 0.0%
 
-Content:         // TODO when breaking BC, consider returning input
-File Name: ./src/main/java/org/apache/commons/lang3/Validate.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
 
-Content:         // TODO when breaking BC, consider returning obj
-File Name: ./src/main/java/org/apache/commons/lang3/Validate.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+TODOs:
 
-Content:         // TODO when breaking BC, consider returning type
-File Name: ./src/main/java/org/apache/commons/lang3/Validate.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO when breaking BC, consider returning value
-File Name: ./src/main/java/org/apache/commons/lang3/Validate.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO: Compare performance to see if anything was lost by 
-// losing this optimisation.
-File Name: ./src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO: Handle potential + sign per various Unicode escape implementations
-File Name: ./src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO: refine API for escaping/unescaping specific HTML versions
-File Name: ./src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO extract an interface to implement compareParameterSets(...)?
-File Name: ./src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO: Create a parent class - 'SinglePassTranslator' ?
-//       It would handle the index checking + length returning,
-//       and could also have an optimization check method.
-File Name: ./src/main/java/org/apache/commons/lang3/StringEscapeUtils.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO: Remove in Lang 4.0
-File Name: ./src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO: throw "illegal character: \92" as an Exception if a \ on the end of the Java (as per the compiler)?
-File Name: ./src/main/java/org/apache/commons/lang3/StringEscapeUtils.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO?: Create an OptionsSet class to hide some of the conditional logic below
-File Name: ./src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     protected char[] buffer; // TODO make private?
-/** Current size of the buffer. */
-File Name: ./src/main/java/org/apache/commons/lang3/text/StrBuilder.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     protected int size; // TODO make private?
-/** The new line. */
-File Name: ./src/main/java/org/apache/commons/lang3/text/StrBuilder.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:  * This can act as an exception based TODO tag. </p>
-*
-* <pre>
-* public void foo() {
-*   try {
-*     // do something that throws an Exception
-*   } catch (Exception ex) {
-*     // don't know what to do here yet
-*     throw new NotImplementedException("TODO", ex);
-*   }
-* }
-* </pre>
-*
-* This class was originally added in Lang 2.0, but removed in 3.0.
-*
-* @since 3.2
-*/
-File Name: ./src/main/java/org/apache/commons/lang3/NotImplementedException.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: //            // TODO: Implement rather than convert to String
-/            return cs.toString().lastIndexOf(searchChar.toString(), start);
-/        }
-File Name: ./src/main/java/org/apache/commons/lang3/CharSequenceUtils.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
-Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: // TODO: Compare performance to see if anything was lost by
-// losing this optimisation.
+Type: Incomplete
+Content:
+: Compare performance to see if anything was lost by
+losing this optimisation.
+Specificity: 0.737246
+Content Structure:
+amod(performance-3, Compare-2)
+root(ROOT-0, performance-3)
+mark(see-5, to-4)
+acl(performance-3, see-5)
+mark(lost-9, if-6)
+nsubjpass(lost-9, anything-7)
+auxpass(lost-9, was-8)
+advcl(see-5, lost-9)
+mark(losing-11, by-10)
+advcl(lost-9, losing-11)
+det(optimisation-13, this-12)
+dobj(losing-11, optimisation-13)
 File Name: /src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java
 Time Of Creation: 2017-06-07T09:59:12+02:00
 Time Of Deletion: null
@@ -166,18 +32,69 @@ Creation Commit Hash: ad648cf8a8a90bdee129266ca7b686a5b9a87561
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: // TODO: I think this should hold, needs further investigation
-/        String unescapedFromEntity = StringEscapeUtils.unescapeHtml4( "&#119650;" );
-/        assertEquals( "High Unicode should have been unescaped", original, unescapedFromEntity);
-File Name: ./src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
+Type: Incomplete
+Content:
+: Create a parent class - 'SinglePassTranslator' ?
+It would handle the index checking + length returning,
+and could also have an optimization check method.
+Specificity: 0.970059
+Content Structure:
+dep(class-5, Create-2)
+det(class-5, a-3)
+compound(class-5, parent-4)
+dep(SinglePassTranslator-8, class-5)
+dep(handle-13, SinglePassTranslator-8)
+nsubj(handle-13, It-11)
+nsubj(have-24, It-11)
+aux(handle-13, would-12)
+root(ROOT-0, handle-13)
+det(index-15, the-14)
+dobj(handle-13, index-15)
+xcomp(handle-13, checking-16)
+amod(length-18, +-17)
+dobj(checking-16, length-18)
+amod(length-18, returning-19)
+cc(handle-13, and-21)
+aux(have-24, could-22)
+advmod(have-24, also-23)
+conj:and(handle-13, have-24)
+det(method-28, an-25)
+amod(method-28, optimization-26)
+compound(method-28, check-27)
+dobj(have-24, method-28)
+File Name: ./src/main/java/org/apache/commons/lang3/StringEscapeUtils.java
+Time Of Creation: 2016-05-22T17:23:46+02:00
 Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Creation Commit Hash: 5b223744b49d3ceac9608959d2db82bbadb47897
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: // TODO: This is no longer public and will be removed later as CharSet is moved
-// to depend on Range.
+Type: Incomplete
+Content:
+: This is no longer public and will be removed later as CharSet is moved
+to depend on Range.
+Specificity: 0.897865
+Content Structure:
+nsubj(public-6, This-2)
+nsubjpass(removed-10, This-2)
+cop(public-6, is-3)
+neg(longer-5, no-4)
+advmod(public-6, longer-5)
+root(ROOT-0, public-6)
+cc(public-6, and-7)
+aux(removed-10, will-8)
+auxpass(removed-10, be-9)
+conj:and(public-6, removed-10)
+advmod(removed-10, later-11)
+mark(moved-15, as-12)
+nsubjpass(moved-15, CharSet-13)
+nsubj:xsubj(depend-17, CharSet-13)
+auxpass(moved-15, is-14)
+advcl(removed-10, moved-15)
+mark(depend-17, to-16)
+xcomp(moved-15, depend-17)
+case(Range-19, on-18)
+nmod:on(depend-17, Range-19)
 File Name: /src/main/java/org/apache/commons/lang3/CharRange.java
 Time Of Creation: 2017-06-07T09:59:12+02:00
 Time Of Deletion: null
@@ -185,12 +102,110 @@ Creation Commit Hash: ad648cf8a8a90bdee129266ca7b686a5b9a87561
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: // TODO: This is no longer public and will be removed later as CharSet is moved 
-/ to depend on Range.
-File Name: ./src/main/java/org/apache/commons/lang3/CharRange.java
-Time Of Creation: 2017-03-19T17:12:16+01:00
+Type: Incomplete
+Content:
+: throw "illegal character: \92" as an Exception if a \ on the end of the Java (as per the compiler)?
+Specificity: 0.965076
+Content Structure:
+root(ROOT-0, throw-2)
+amod(character-5, illegal-4)
+dobj(throw-2, character-5)
+dep(character-5, \-7)
+nummod(\-7, 92-8)
+case(Exception-12, as-10)
+det(Exception-12, an-11)
+nmod:as(throw-2, Exception-12)
+case(\-15, if-13)
+det(\-15, a-14)
+nmod:if(Exception-12, \-15)
+case(end-18, on-16)
+det(end-18, the-17)
+nmod:on(\-15, end-18)
+case(Java-21, of-19)
+det(Java-21, the-20)
+nmod:of(end-18, Java-21)
+case(compiler-26, as-23)
+mwe(as-23, per-24)
+det(compiler-26, the-25)
+nmod:as_per(Java-21, compiler-26)
+File Name: ./src/main/java/org/apache/commons/lang3/StringEscapeUtils.java
+Time Of Creation: 2016-05-22T17:23:46+02:00
 Time Of Deletion: null
-Creation Commit Hash: 1a20867d01ef8ee5b32b0620125b7c38a10b80c5
+Creation Commit Hash: 5b223744b49d3ceac9608959d2db82bbadb47897
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+
+
+Frequency Table: 
+''' : 1
+'''' : 1
+'+' : 1
+',' : 1
+'-' : 1
+'-LRB-' : 1
+'-RRB-' : 1
+'92' : 1
+'CharSet' : 1
+'Compare' : 1
+'Create' : 1
+'Exception' : 1
+'It' : 1
+'Java' : 1
+'Range' : 1
+'SinglePassTranslator' : 1
+'This' : 1
+'`' : 1
+'``' : 1
+'also' : 1
+'anything' : 1
+'be' : 1
+'by' : 1
+'character' : 1
+'check' : 1
+'checking' : 1
+'class' : 1
+'compiler' : 1
+'could' : 1
+'depend' : 1
+'end' : 1
+'handle' : 1
+'have' : 1
+'illegal' : 1
+'index' : 1
+'later' : 1
+'length' : 1
+'longer' : 1
+'losing' : 1
+'lost' : 1
+'method' : 1
+'moved' : 1
+'no' : 1
+'of' : 1
+'optimisation' : 1
+'optimization' : 1
+'parent' : 1
+'per' : 1
+'performance' : 1
+'public' : 1
+'removed' : 1
+'returning' : 1
+'see' : 1
+'this' : 1
+'throw' : 1
+'was' : 1
+'will' : 1
+'would' : 1
+'?' : 2
+'\' : 2
+'a' : 2
+'an' : 2
+'and' : 2
+'if' : 2
+'is' : 2
+'on' : 2
+'to' : 2
+'.' : 3
+'as' : 3
+'the' : 4
+':' : 5

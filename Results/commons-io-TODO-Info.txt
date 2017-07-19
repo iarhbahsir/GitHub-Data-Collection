@@ -1,105 +1,476 @@
-Content:             final long size = input.size(); // TODO See IO-386
-File Name: ./src/main/java/org/apache/commons/io/FileUtils.java
-Time Of Creation: 2016-04-28T21:49:44Z
-Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Number of TODOs: 17
+Average Specificity: 0.8274328823529411Specificites Box Plots: (min, q1, mean, median, q3, max)
+	Incomplete TODO: 0.614345, 0.773533, 0.8314026000000001, 0.873558, 0.910111, 0.978012
+	Completed TODO: 0.617308, 0.617308, 0.79766, 0.79766, 0.978012, 0.978012
+Completion Rate: 11.76470588235294%
 
-Content:         // TODO Re-implement on Java 7 to use java.nio.charset.StandardCharsets
-File Name: ./src/main/java/org/apache/commons/io/Charsets.java
-Time Of Creation: 2016-04-28T21:49:44Z
-Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
-Deletion Commit Hash: null
-Time To Complete: Incomplete
 
-Content:         // TODO is this what we want with invalid directory?
-File Name: ./src/test/java/org/apache/commons/io/DirectoryWalkerTestCase.java
-Time Of Creation: 2016-04-28T21:49:44Z
-Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+TODOs:
 
-Content:         // TODO is this what we want with invalid directory?
-File Name: ./src/test/java/org/apache/commons/io/DirectoryWalkerTestCaseJava4.java
-Time Of Creation: 2016-04-28T21:49:44Z
-Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO: Refactor this to FileSystemUtils
-File Name: ./src/test/java/org/apache/commons/io/FileUtilsCleanDirectoryTestCase.java
-Time Of Creation: 2016-04-28T21:49:44Z
-Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         //TODO Maybe test copy to itself like for copyFile()
+Type: Incomplete
+Content:
+// TODO Remove after debugging
+private void log(Object obj) {
+System.out.println(
+}
+Specificity: 0.9457
+Content Structure:
+root(ROOT-0, /-1)
+compound(TODO-3, /-2)
+nsubj(/-1, TODO-3)
+dep(/-1, Remove-4)
+mark(debugging-6, after-5)
+advcl(Remove-4, debugging-6)
+amod(log-9, private-7)
+compound(log-9, void-8)
+dobj(debugging-6, log-9)
+compound(obj-12, Object-11)
+appos(log-9, obj-12)
+compound(-LRB--16, System.out.println-15)
+appos(log-9, -LRB--16)
 File Name: ./src/test/java/org/apache/commons/io/FileUtilsTestCase.java
-Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Creation: 2012-08-10T16:04:31Z
 Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Creation Commit Hash: 2ac377670df3cfa4dfd0ba893492fd9c5fefec4f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:         assertNotNull(f.toString()); // TODO better tests
+Type: Incomplete
+Content:
+: Refactor this to FileSystemUtils
+Specificity: 0.649187
+Content Structure:
+dep(this-3, Refactor-2)
+root(ROOT-0, this-3)
+case(FileSystemUtils-5, to-4)
+nmod:to(this-3, FileSystemUtils-5)
+File Name: ./src/test/java/org/apache/commons/io/FileUtilsCleanDirectoryTestCase.java
+Time Of Creation: 2012-08-10T16:04:31Z
+Time Of Deletion: null
+Creation Commit Hash: 2ac377670df3cfa4dfd0ba893492fd9c5fefec4f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+Maybe test copy to itself like for copyFile()
+Specificity: 0.784017
+Content Structure:
+advmod(test-2, Maybe-1)
+root(ROOT-0, test-2)
+dobj(test-2, copy-3)
+case(itself-5, to-4)
+nmod:to(copy-3, itself-5)
+case(-LRB--9, like-6)
+case(-LRB--9, for-7)
+amod(-LRB--9, copyFile-8)
+nmod:for(copy-3, -LRB--9)
+File Name: ./src/test/java/org/apache/commons/io/FileUtilsTestCase.java
+Time Of Creation: 2012-08-10T16:04:31Z
+Time Of Deletion: null
+Creation Commit Hash: 2ac377670df3cfa4dfd0ba893492fd9c5fefec4f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+Re-implement on Java 7 to use java.nio.charset.StandardCharsets
+Specificity: 0.617308
+Content Structure:
+root(ROOT-0, Re-implement-1)
+case(Java-3, on-2)
+nmod:on(Re-implement-1, Java-3)
+nummod(Java-3, 7-4)
+mark(use-6, to-5)
+dep(Re-implement-1, use-6)
+dobj(use-6, java.nio.charset.StandardCharsets-7)
+File Name: /src/main/java/org/apache/commons/io/Charsets.java
+Time Of Creation: 2014-04-10T14:06:25Z
+Time Of Deletion: 2016-09-19T22:40:29-07:00
+Creation Commit Hash: 50402e2c494d0b88f13f80cc76c914dadf350ab9
+Deletion Commit Hash: 822bd135f3a54b8fbeb23c313535b13c18198c3a
+Time To Complete: P2Y5M9D; PT15H34M4S
+
+Type: Incomplete
+Content:
+assertNotNull(f.toString()); // TODO better tests
+Specificity: 0.91031
+Content Structure:
+amod(-RRB--5, assertNotNull-1)
+amod(-RRB--5, f.toString-3)
+root(ROOT-0, -RRB--5)
+compound(TODO-10, /-8)
+compound(TODO-10, /-9)
+dep(-RRB--5, TODO-10)
+amod(tests-12, better-11)
+dep(TODO-10, tests-12)
 File Name: ./src/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java
-Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Creation: 2012-08-10T16:04:31Z
 Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Creation Commit Hash: 2ac377670df3cfa4dfd0ba893492fd9c5fefec4f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:         assertNotNull(filter.toString()); // TODO better test
+Type: Incomplete
+Content:
+assertNotNull(filter.toString()); // TODO better test
+Specificity: 0.909912
+Content Structure:
+amod(-RRB--5, assertNotNull-1)
+amod(-RRB--5, filter.toString-3)
+root(ROOT-0, -RRB--5)
+amod(TODO-10, /-8)
+amod(TODO-10, /-9)
+amod(test-12, TODO-10)
+amod(test-12, better-11)
+dep(-RRB--5, test-12)
 File Name: ./src/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java
-Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Creation: 2012-08-10T16:04:31Z
 Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Creation Commit Hash: 2ac377670df3cfa4dfd0ba893492fd9c5fefec4f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:         builder.append(new String(magicNumbers, Charset.defaultCharset()));// TODO perhaps use hex if value is not
-// printable
+Type: Incomplete
+Content:
+builder.append(new String(magicNumbers));// TODO perhaps use hex if value is not printable
+Specificity: 0.947943
+Content Structure:
+root(ROOT-0, builder.append-1)
+amod(String-4, new-3)
+dep(builder.append-1, String-4)
+appos(builder.append-1, magicNumbers-6)
+compound(TODO-12, /-10)
+compound(TODO-12, /-11)
+nsubj(use-14, TODO-12)
+advmod(use-14, perhaps-13)
+dep(builder.append-1, use-14)
+dobj(use-14, hex-15)
+mark(printable-20, if-16)
+nsubj(printable-20, value-17)
+cop(printable-20, is-18)
+neg(printable-20, not-19)
+advcl(use-14, printable-20)
 File Name: ./src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java
-Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Creation: 2012-08-10T16:04:31Z
 Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Creation Commit Hash: 2ac377670df3cfa4dfd0ba893492fd9c5fefec4f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:         final long dstLen = destFile.length(); // TODO See IO-386
-File Name: ./src/main/java/org/apache/commons/io/FileUtils.java
-Time Of Creation: 2016-04-28T21:49:44Z
+Type: Incomplete
+Content:
+builder.append(new String(magicNumbers, Charset.defaultCharset()));// TODO perhaps use hex if value is not
+printable
+Specificity: 0.978012
+Content Structure:
+root(ROOT-0, builder.append-1)
+amod(String-4, new-3)
+dep(builder.append-1, String-4)
+dep(builder.append-1, magicNumbers-6)
+compound(-RRB--10, Charset.defaultCharset-8)
+appos(magicNumbers-6, -RRB--10)
+compound(TODO-16, /-14)
+compound(TODO-16, /-15)
+nsubj(use-18, TODO-16)
+advmod(use-18, perhaps-17)
+parataxis(builder.append-1, use-18)
+dobj(use-18, hex-19)
+mark(printable-24, if-20)
+nsubj(printable-24, value-21)
+cop(printable-24, is-22)
+neg(printable-24, not-23)
+advcl(use-18, printable-24)
+File Name: /src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java
+Time Of Creation: 2015-06-26T21:26:51Z
 Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Creation Commit Hash: 27fffa9dcab300fab596843dc8345bf117d0bfbd
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:         final long srcLen = srcFile.length(); // TODO See IO-386
-File Name: ./src/main/java/org/apache/commons/io/FileUtils.java
-Time Of Creation: 2016-04-28T21:49:44Z
+Type: Complete
+Content:
+builder.append(new String(magicNumbers, Charset.defaultCharset()));// TODO perhaps use hex if value is not printable
+Specificity: 0.978012
+Content Structure:
+root(ROOT-0, builder.append-1)
+amod(String-4, new-3)
+dep(builder.append-1, String-4)
+dep(builder.append-1, magicNumbers-6)
+compound(-RRB--10, Charset.defaultCharset-8)
+appos(magicNumbers-6, -RRB--10)
+compound(TODO-16, /-14)
+compound(TODO-16, /-15)
+nsubj(use-18, TODO-16)
+advmod(use-18, perhaps-17)
+parataxis(builder.append-1, use-18)
+dobj(use-18, hex-19)
+mark(printable-24, if-20)
+nsubj(printable-24, value-21)
+cop(printable-24, is-22)
+neg(printable-24, not-23)
+advcl(use-18, printable-24)
+File Name: /src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java
+Time Of Creation: 2013-04-17T22:44:34Z
+Time Of Deletion: 2015-06-26T21:26:51Z
+Creation Commit Hash: 939844833ab5546c9273b5c55277e93d9e9fd247
+Deletion Commit Hash: 27fffa9dcab300fab596843dc8345bf117d0bfbd
+Time To Complete: P2Y2M9D; PT-1H-17M-43S
+
+Type: Incomplete
+Content:
+final long dstLen = destFile.length(); // TODO See IO-386
+Specificity: 0.878935
+Content Structure:
+amod(-LRB--6, final-1)
+amod(-LRB--6, long-2)
+compound(-LRB--6, dstLen-3)
+compound(-LRB--6, =-4)
+compound(-LRB--6, destFile.length-5)
+root(ROOT-0, -LRB--6)
+compound(IO-386-13, /-9)
+compound(IO-386-13, /-10)
+compound(IO-386-13, TODO-11)
+compound(IO-386-13, See-12)
+dep(-LRB--6, IO-386-13)
+File Name: /src/main/java/org/apache/commons/io/FileUtils.java
+Time Of Creation: 2013-07-10T12:11:50Z
 Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Creation Commit Hash: 0ac87b17a286ad3ed11ad585032d921f3a8c3434
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:     protected OutputStream branch; //TODO consider making this private
-File Name: ./src/main/java/org/apache/commons/io/output/TeeOutputStream.java
-Time Of Creation: 2016-04-28T21:49:44Z
+Type: Incomplete
+Content:
+final long size = input.size(); // TODO See IO-386
+Specificity: 0.849118
+Content Structure:
+amod(-LRB--6, final-1)
+amod(-LRB--6, long-2)
+compound(-LRB--6, size-3)
+compound(-LRB--6, =-4)
+compound(-LRB--6, input.size-5)
+root(ROOT-0, -LRB--6)
+compound(IO-386-13, /-9)
+compound(IO-386-13, /-10)
+compound(IO-386-13, TODO-11)
+compound(IO-386-13, See-12)
+dep(-LRB--6, IO-386-13)
+File Name: /src/main/java/org/apache/commons/io/FileUtils.java
+Time Of Creation: 2013-07-10T12:11:50Z
 Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Creation Commit Hash: 0ac87b17a286ad3ed11ad585032d921f3a8c3434
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:     public void testDelegation() { // TODO improve these tests
+Type: Incomplete
+Content:
+final long srcLen = srcFile.length(); // TODO See IO-386
+Specificity: 0.87905
+Content Structure:
+amod(-LRB--6, final-1)
+amod(-LRB--6, long-2)
+compound(-LRB--6, srcLen-3)
+compound(-LRB--6, =-4)
+compound(-LRB--6, srcFile.length-5)
+root(ROOT-0, -LRB--6)
+compound(IO-386-13, /-9)
+compound(IO-386-13, /-10)
+compound(IO-386-13, TODO-11)
+compound(IO-386-13, See-12)
+dep(-LRB--6, IO-386-13)
+File Name: /src/main/java/org/apache/commons/io/FileUtils.java
+Time Of Creation: 2013-07-10T12:11:50Z
+Time Of Deletion: null
+Creation Commit Hash: 0ac87b17a286ad3ed11ad585032d921f3a8c3434
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+is this what we want with invalid directory?
+Specificity: 0.614345
+Content Structure:
+cop(what-3, is-1)
+nsubj(what-3, this-2)
+root(ROOT-0, what-3)
+nsubj(want-5, we-4)
+acl:relcl(what-3, want-5)
+case(directory-8, with-6)
+amod(directory-8, invalid-7)
+nmod:with(want-5, directory-8)
+File Name: ./src/test/java/org/apache/commons/io/DirectoryWalkerTestCase.java
+Time Of Creation: 2012-08-10T16:04:31Z
+Time Of Deletion: null
+Creation Commit Hash: 2ac377670df3cfa4dfd0ba893492fd9c5fefec4f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+is this what we want with invalid directory?
+Specificity: 0.614345
+Content Structure:
+cop(what-3, is-1)
+nsubj(what-3, this-2)
+root(ROOT-0, what-3)
+nsubj(want-5, we-4)
+acl:relcl(what-3, want-5)
+case(directory-8, with-6)
+amod(directory-8, invalid-7)
+nmod:with(want-5, directory-8)
+File Name: ./src/test/java/org/apache/commons/io/DirectoryWalkerTestCaseJava4.java
+Time Of Creation: 2012-08-10T16:04:31Z
+Time Of Deletion: null
+Creation Commit Hash: 2ac377670df3cfa4dfd0ba893492fd9c5fefec4f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+protected OutputStream branch; //TODO consider making this private
+Specificity: 0.763049
+Content Structure:
+amod(branch-3, protected-1)
+compound(branch-3, OutputStream-2)
+root(ROOT-0, branch-3)
+aux(consider-8, /-5)
+compound(TODO-7, /-6)
+nsubj(consider-8, TODO-7)
+dep(branch-3, consider-8)
+xcomp(consider-8, making-9)
+det(private-11, this-10)
+dobj(making-9, private-11)
+File Name: /src/main/java/org/apache/commons/io/output/TeeOutputStream.java
+Time Of Creation: 2015-06-21T18:44:49Z
+Time Of Deletion: null
+Creation Commit Hash: 7c58d8a9919c5c9dbc1485a21d56bb3f37444060
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+public void testDelegation() { // TODO improve these tests
+Specificity: 0.873558
+Content Structure:
+amod(void-2, public-1)
+nsubj(testDelegation-3, void-2)
+root(ROOT-0, testDelegation-3)
+compound(TODO-9, -RRB--5)
+compound(TODO-9, /-7)
+compound(TODO-9, /-8)
+nsubj(improve-10, TODO-9)
+ccomp(testDelegation-3, improve-10)
+det(tests-12, these-11)
+dobj(improve-10, tests-12)
 File Name: ./src/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java
-Time Of Creation: 2016-04-28T21:49:44Z
+Time Of Creation: 2012-08-10T16:04:31Z
 Time Of Deletion: null
-Creation Commit Hash: 10b116c6559cd8ef555ac0962db515ec00b8ec0f
+Creation Commit Hash: 2ac377670df3cfa4dfd0ba893492fd9c5fefec4f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
+Content:
+public void testDelegation() { // TODO improve these tests
+Specificity: 0.873558
+Content Structure:
+amod(void-2, public-1)
+nsubj(testDelegation-3, void-2)
+root(ROOT-0, testDelegation-3)
+compound(TODO-9, -RRB--5)
+compound(TODO-9, /-7)
+compound(TODO-9, /-8)
+nsubj(improve-10, TODO-9)
+ccomp(testDelegation-3, improve-10)
+det(tests-12, these-11)
+dobj(improve-10, tests-12)
+File Name: /src/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java
+Time Of Creation: 2015-12-22T11:41:24Z
+Time Of Deletion: null
+Creation Commit Hash: 87c5e5377589c4fbbd499010a27b1e345ec38224
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+
+
+Frequency Table: 
+'-RCB-' : 1
+'7' : 1
+':' : 1
+'FileSystemUtils' : 1
+'Java' : 1
+'Object' : 1
+'OutputStream' : 1
+'Re-implement' : 1
+'Refactor' : 1
+'Remove' : 1
+'System.out.println' : 1
+'after' : 1
+'branch' : 1
+'consider' : 1
+'debugging' : 1
+'destFile.length' : 1
+'dstLen' : 1
+'f.toString' : 1
+'input.size' : 1
+'java.nio.charset.StandardCharsets' : 1
+'log' : 1
+'making' : 1
+'obj' : 1
+'on' : 1
+'protected' : 1
+'size' : 1
+'srcFile.length' : 1
+'srcLen' : 1
+',' : 2
+'?' : 2
+'Charset.defaultCharset' : 2
+'Maybe' : 2
+'copy' : 2
+'copyFile' : 2
+'directory' : 2
+'filter.toString' : 2
+'for' : 2
+'improve' : 2
+'invalid' : 2
+'itself' : 2
+'like' : 2
+'private' : 2
+'public' : 2
+'testDelegation' : 2
+'these' : 2
+'want' : 2
+'we' : 2
+'what' : 2
+'with' : 2
+'-LCB-' : 3
+'=' : 3
+'IO-386' : 3
+'See' : 3
+'String' : 3
+'assertNotNull' : 3
+'better' : 3
+'builder.append' : 3
+'final' : 3
+'hex' : 3
+'if' : 3
+'long' : 3
+'magicNumbers' : 3
+'new' : 3
+'not' : 3
+'perhaps' : 3
+'printable' : 3
+'tests' : 3
+'value' : 3
+'void' : 3
+'test' : 4
+'this' : 4
+'to' : 4
+'use' : 4
+'is' : 5
+';' : 10
+'TODO' : 13
+'-RRB-' : 22
+'-LRB-' : 23
+'/' : 26

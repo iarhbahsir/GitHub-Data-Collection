@@ -1,93 +1,668 @@
-Content: 			base64 = new Base64(-1, new byte[] { 'A' }); // TODO do we need to
-// check sep if len
-// = -1?
+Number of TODOs: 33
+Average Specificity: 0.8340550909090909Specificites Box Plots: (min, q1, mean, median, q3, max)
+	Incomplete TODO: 0.353736, 0.646576, 0.7580693571428572, 0.824633, 0.946085, 0.990727
+	Completed TODO: 0.938051, 0.938051, 0.8900445789473682, 0.938051, 0.938051, 0.938051
+Completion Rate: 57.57575757575758%
+
+
+TODOs:
+
+Type: Incomplete
+Content:
+
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
 File Name: ./src/test/java/org/apache/commons/codec/binary/Base64Test.java
-Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Creation: 2012-09-04T19:35:06Z
 Time Of Deletion: null
-Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Creation Commit Hash: 914185bab8af0db467219526b7f04f9c8934bae0
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: 		// TODO
-File Name: ./src/test/java/org/apache/commons/codec/binary/Base64Test.java
-Time Of Creation: 2016-05-18T15:01:37Z
+Type: Incomplete
+Content:
+
+@throws UnsupportedEncodingException
+@throws DecoderException
+
+Specificity: 0.646576
+Content Structure:
+root(ROOT-0, @throws-1)
+compound(DecoderException-4, UnsupportedEncodingException-2)
+compound(DecoderException-4, @throws-3)
+nsubj(@throws-1, DecoderException-4)
+File Name: ./src/test/java/org/apache/commons/codec/binary/HexTest.java
+Time Of Creation: 2012-09-04T19:35:06Z
 Time Of Deletion: null
-Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Creation Commit Hash: 914185bab8af0db467219526b7f04f9c8934bae0
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:         // TODO could be simplified if there is no requirement to reject invalid line sep when length <=0
-// @see test case Base64Test.testConstructors()
-File Name: ./src/main/java/org/apache/commons/codec/binary/Base64.java
-Time Of Creation: 2016-05-18T15:01:37Z
+Type: Incomplete
+Content:
+
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
+File Name: /src/test/java/org/apache/commons/codec/binary/Base64Test.java
+Time Of Creation: 2016-05-20T12:37:05Z
 Time Of Deletion: null
-Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Creation Commit Hash: 7817bfdadb9cda107955de03d3d15d64ab89b5dc
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:      * @deprecated TODO: This field will be changed to a private final Charset in 2.0.
-*/
-File Name: ./src/main/java/org/apache/commons/codec/net/URLCodec.java
-Time Of Creation: 2016-05-18T15:01:37Z
-Time Of Deletion: null
-Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Type: Complete
+Content:
 
-Content:     // TODO HMAC_SHA_224
-File Name: ./src/test/java/org/apache/commons/codec/digest/HmacAlgorithmsTest.java
-Time Of Creation: 2016-05-18T15:01:37Z
-Time Of Deletion: null
-Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
+File Name: /src/test/java/org/apache/commons/codec/binary/Base64Test.java
+Time Of Creation: 2015-08-10T19:44:55Z
+Time Of Deletion: 2016-05-20T12:37:05Z
+Creation Commit Hash: afc89ebca46a71a9a3a91c9ddea6e17b49282479
+Deletion Commit Hash: 7817bfdadb9cda107955de03d3d15d64ab89b5dc
+Time To Complete: P9M10D; PT-7H-7M-50S
 
-Content:     // TODO should this be protected?
-File Name: ./src/main/java/org/apache/commons/codec/binary/BaseNCodecOutputStream.java
-Time Of Creation: 2016-05-18T15:01:37Z
-Time Of Deletion: null
-Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Type: Incomplete
+Content:
+: Can Base64 be reused?
 
-Content:  * TODO: Can Base64 be reused?
-*
-* <p>
-* This class is immutable and thread-safe.
-* </p>
-*
-* @version $Id$
-* @since 1.7
-*/
+<p>
+This class is immutable and thread-safe.
+</p>
+
+@version $Id$
+@since 1.7
+
+Specificity: 0.848718
+Content Structure:
+root(ROOT-0, Can-2)
+nsubjpass(reused-5, Base64-3)
+auxpass(reused-5, be-4)
+ccomp(Can-2, reused-5)
+nsubj(Can-2, <p>-7)
+det(class-9, This-8)
+nsubj(immutable-11, class-9)
+cop(immutable-11, is-10)
+acl:relcl(<p>-7, immutable-11)
+cc(immutable-11, and-12)
+compound(</p>-15, thread-safe-13)
+nsubj(@version-16, </p>-15)
+acl:relcl(<p>-7, @version-16)
+conj:and(immutable-11, @version-16)
+dep($-19, $-17)
+nummod($-19, Id-18)
+dobj(@version-16, $-19)
+compound(1.7-21, @since-20)
+nummod($-19, 1.7-21)
 File Name: ./src/main/java/org/apache/commons/codec/digest/B64.java
-Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Creation: 2012-09-04T19:35:06Z
 Time Of Deletion: null
-Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Creation Commit Hash: 914185bab8af0db467219526b7f04f9c8934bae0
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:  * TODO: also might be good to generate boolean[] from byte[] et cetera.
-*
-* @since 1.3
-* @version $Id$
-*/
+Type: Incomplete
+Content:
+: also might be good to generate boolean[] from byte[] et cetera.
+
+@since 1.3
+@version $Id$
+
+Specificity: 0.939596
+Content Structure:
+dep(good-5, :-1)
+advmod(good-5, also-2)
+aux(good-5, might-3)
+cop(good-5, be-4)
+root(ROOT-0, good-5)
+mark(generate-7, to-6)
+xcomp(good-5, generate-7)
+dobj(generate-7, boolean-8)
+compound(-RSB--10, -LSB--9)
+nsubj(good-5, -RSB--10)
+nsubj:xsubj(generate-7, -RSB--10)
+case(@version-20, from-11)
+compound(@version-20, byte-12)
+compound(@version-20, -LSB--13)
+compound(@version-20, -RSB--14)
+compound(@version-20, et-15)
+compound(@version-20, cetera-16)
+compound(@version-20, .-17)
+compound(@version-20, @since-18)
+compound(@version-20, 1.3-19)
+nmod:from(good-5, @version-20)
+dep(@version-20, $-21)
+compound($-23, Id-22)
+nummod($-21, $-23)
 File Name: ./src/main/java/org/apache/commons/codec/binary/BinaryCodec.java
-Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Creation: 2012-09-04T19:35:06Z
 Time Of Deletion: null
-Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Creation Commit Hash: 914185bab8af0db467219526b7f04f9c8934bae0
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:  * TODO: may want to add more bit vector functions like and/or/xor/nand
+Type: Incomplete
+Content:
+: may want to add more bit vector functions like and/or/xor/nand
+Specificity: 0.673627
+Content Structure:
+aux(want-3, may-2)
+root(ROOT-0, want-3)
+mark(add-5, to-4)
+xcomp(want-3, add-5)
+amod(functions-9, more-6)
+compound(functions-9, bit-7)
+compound(functions-9, vector-8)
+dobj(add-5, functions-9)
+case(/-12, like-10)
+compound(/-12, and/or/xor-11)
+nmod:like(functions-9, /-12)
+acl(/-12, nand-13)
 File Name: ./src/main/java/org/apache/commons/codec/binary/BinaryCodec.java
-Time Of Creation: 2016-05-18T15:01:37Z
+Time Of Creation: 2012-09-04T19:35:06Z
 Time Of Deletion: null
-Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
+Creation Commit Hash: 914185bab8af0db467219526b7f04f9c8934bae0
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: * @deprecated TODO: This field will be changed to a private final Charset in 2.0. (CODEC-126)
-*/
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and
+Specificity: 0.876812
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(and-16, when-11)
+nsubj(and-16, Java-12)
+nummod(Java-12, 7-13)
+cop(and-16, is-14)
+amod(and-16, minimum-15)
+advcl(remove-10, and-16)
+File Name: /src/test/java/org/apache/commons/codec/binary/Base64Test.java
+Time Of Creation: 2015-08-10T19:44:55Z
+Time Of Deletion: 2016-05-16T22:59:35Z
+Creation Commit Hash: afc89ebca46a71a9a3a91c9ddea6e17b49282479
+Deletion Commit Hash: 7b67f1bbc2ed78561db2527e3035bcf1b49e2817
+Time To Complete: P9M6D; PT3H14M40S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/CharsetsTest.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2016-05-16T22:59:35Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: 7b67f1bbc2ed78561db2527e3035bcf1b49e2817
+Time To Complete: P11M12D; PT8H37M15S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/binary/Base32Test.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2016-05-16T22:59:35Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: 7b67f1bbc2ed78561db2527e3035bcf1b49e2817
+Time To Complete: P11M12D; PT8H37M15S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/binary/Base64Codec13Test.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2016-05-16T22:59:35Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: 7b67f1bbc2ed78561db2527e3035bcf1b49e2817
+Time To Complete: P11M12D; PT8H37M15S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/binary/Base64Test.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2015-08-10T19:44:55Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: afc89ebca46a71a9a3a91c9ddea6e17b49282479
+Time To Complete: P2M6D; PT5H22M35S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/binary/BinaryCodecTest.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2016-05-16T22:59:35Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: 7b67f1bbc2ed78561db2527e3035bcf1b49e2817
+Time To Complete: P11M12D; PT8H37M15S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/binary/HexTest.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2016-05-16T22:59:35Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: 7b67f1bbc2ed78561db2527e3035bcf1b49e2817
+Time To Complete: P11M12D; PT8H37M15S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/digest/Apr1CryptTest.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2016-05-16T22:59:55Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: f7e4944a048663e671d12519c4f8068ea0a489dc
+Time To Complete: P11M12D; PT8H37M35S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/digest/Md5CryptTest.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2016-05-16T22:59:55Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: f7e4944a048663e671d12519c4f8068ea0a489dc
+Time To Complete: P11M12D; PT8H37M35S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/digest/Sha256CryptTest.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2016-05-16T22:59:55Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: f7e4944a048663e671d12519c4f8068ea0a489dc
+Time To Complete: P11M12D; PT8H37M35S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/digest/Sha512CryptTest.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2016-05-16T22:59:55Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: f7e4944a048663e671d12519c4f8068ea0a489dc
+Time To Complete: P11M12D; PT8H37M35S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/digest/UnixCryptTest.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2016-05-16T22:59:55Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: f7e4944a048663e671d12519c4f8068ea0a489dc
+Time To Complete: P11M12D; PT8H37M35S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2016-05-16T22:59:13Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: c7846ef59c410983b0f668e59791ecaa977d1fa6
+Time To Complete: P11M12D; PT8H36M53S
+
+Type: Complete
+Content:
+@SuppressWarnings("deprecation") // TODO remove when Java 7 is minimum and Charsets constants can be replaced
+Specificity: 0.938051
+Content Structure:
+nsubj(/-7, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, deprecation-4)
+root(ROOT-0, /-7)
+compound(TODO-9, /-8)
+nsubj(remove-10, TODO-9)
+ccomp(/-7, remove-10)
+advmod(is-14, when-11)
+nsubj(is-14, Java-12)
+nummod(Java-12, 7-13)
+advcl(remove-10, is-14)
+compound(constants-18, minimum-15)
+cc(minimum-15, and-16)
+conj:and(minimum-15, Charsets-17)
+compound(constants-18, Charsets-17)
+nsubjpass(replaced-21, constants-18)
+aux(replaced-21, can-19)
+auxpass(replaced-21, be-20)
+ccomp(is-14, replaced-21)
+File Name: /src/test/java/org/apache/commons/codec/net/URLCodecTest.java
+Time Of Creation: 2015-06-04T14:22:20Z
+Time Of Deletion: 2016-05-16T22:59:13Z
+Creation Commit Hash: 2ae03e1633ec0a79761b215e8eae2574106bec99
+Deletion Commit Hash: c7846ef59c410983b0f668e59791ecaa977d1fa6
+Time To Complete: P11M12D; PT8H36M53S
+
+Type: Complete
+Content:
+@SuppressWarnings("rawtypes") // TODO ought to implement Comparator<String> but that's not possible whilst maintaining binary compatibility
+Specificity: 0.945187
+Content Structure:
+root(ROOT-0, @SuppressWarnings-1)
+dep(@SuppressWarnings-1, rawtypes-4)
+compound(TODO-9, /-7)
+compound(TODO-9, /-8)
+nsubj(ought-10, TODO-9)
+nsubj:xsubj(implement-12, TODO-9)
+dep(@SuppressWarnings-1, ought-10)
+mark(implement-12, to-11)
+xcomp(ought-10, implement-12)
+compound(<String>-14, Comparator-13)
+dobj(implement-12, <String>-14)
+cc(ought-10, but-15)
+nsubj(possible-19, that-16)
+cop(possible-19, 's-17)
+neg(possible-19, not-18)
+dep(@SuppressWarnings-1, possible-19)
+conj:but(ought-10, possible-19)
+mark(maintaining-21, whilst-20)
+ccomp(possible-19, maintaining-21)
+amod(compatibility-23, binary-22)
+dobj(maintaining-21, compatibility-23)
+File Name: /src/main/java/org/apache/commons/codec/StringEncoderComparator.java
+Time Of Creation: 2013-04-08T17:26:42Z
+Time Of Deletion: 2013-04-15T18:35:15Z
+Creation Commit Hash: 3cc73baf806ea007dea3e66252dddf2d8350601d
+Deletion Commit Hash: 79c4777389b173d15fad261ac5dbc98cf7618d8c
+Time To Complete: P7D; PT1H8M33S
+
+Type: Incomplete
+Content:
+@deprecated TODO: This field will be changed to a private final Charset in 2.0.
+
+Specificity: 0.842063
+Content Structure:
+amod(TODO-2, @deprecated-1)
+root(ROOT-0, TODO-2)
+det(field-5, This-4)
+nsubjpass(changed-8, field-5)
+aux(changed-8, will-6)
+auxpass(changed-8, be-7)
+dep(TODO-2, changed-8)
+case(Charset-13, to-9)
+det(Charset-13, a-10)
+amod(Charset-13, private-11)
+amod(Charset-13, final-12)
+nmod:to(changed-8, Charset-13)
+case(2.0-15, in-14)
+nmod:in(Charset-13, 2.0-15)
+File Name: ./src/main/java/org/apache/commons/codec/net/URLCodec.java
+Time Of Creation: 2012-09-04T19:35:06Z
+Time Of Deletion: null
+Creation Commit Hash: 914185bab8af0db467219526b7f04f9c8934bae0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+@deprecated TODO: This field will be changed to a private final Charset in 2.0. (CODEC-126)
+
+Specificity: 0.946085
+Content Structure:
+amod(TODO-2, @deprecated-1)
+root(ROOT-0, TODO-2)
+det(field-5, This-4)
+nsubjpass(changed-8, field-5)
+aux(changed-8, will-6)
+auxpass(changed-8, be-7)
+parataxis(TODO-2, changed-8)
+case(Charset-13, to-9)
+det(Charset-13, a-10)
+amod(Charset-13, private-11)
+amod(Charset-13, final-12)
+nmod:to(changed-8, Charset-13)
+case(2.0-15, in-14)
+nmod:in(Charset-13, 2.0-15)
+appos(2.0-15, CODEC-126-18)
 File Name: /src/main/java/org/apache/commons/codec/net/URLCodec.java
 Time Of Creation: 2017-03-26T18:26:07Z
 Time Of Deletion: null
@@ -95,23 +670,38 @@ Creation Commit Hash: 5d3142a1639c7d8e792f3e72288f18e46ff3546a
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: // TODO
-File Name: /src/test/java/org/apache/commons/codec/binary/Base64Test.java
-Time Of Creation: 2016-05-20T12:37:05Z
+Type: Incomplete
+Content:
+HMAC_SHA_224
+Specificity: 0.807203
+Content Structure:
+root(ROOT-0, HMAC_SHA_224-1)
+File Name: /src/test/java/org/apache/commons/codec/digest/HmacAlgorithmsTest.java
+Time Of Creation: 2016-05-16T20:47:47Z
 Time Of Deletion: null
-Creation Commit Hash: 7817bfdadb9cda107955de03d3d15d64ab89b5dc
+Creation Commit Hash: 1e48e151ea23f8891902834a4553a806c1312d60
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: // TODO ought to implement Comparator<String> but that's not possible whilst maintaining binary compatibility.
-File Name: ./src/main/java/org/apache/commons/codec/StringEncoderComparator.java
-Time Of Creation: 2016-05-18T15:01:37Z
-Time Of Deletion: null
-Creation Commit Hash: 89b1661fde38bd12c4d83b9fbe696db0c8657a78
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content: HmacUtils() { // TODO why does test code try to instantiate this?
+Type: Complete
+Content:
+HmacUtils() { // TODO why does test code try to instantiate this?
+Specificity: 0.911164
+Content Structure:
+nmod:npmod(TODO-7, HmacUtils-1)
+dep(/-5, -RRB--3)
+compound(/-5, -LCB--4)
+dep(HmacUtils-1, /-5)
+advmod(why-8, TODO-7)
+advmod(try-12, why-8)
+aux(try-12, does-9)
+compound(code-11, test-10)
+nsubj(try-12, code-11)
+nsubj:xsubj(instantiate-14, code-11)
+root(ROOT-0, try-12)
+mark(instantiate-14, to-13)
+xcomp(try-12, instantiate-14)
+dobj(instantiate-14, this-15)
 File Name: /src/main/java/org/apache/commons/codec/digest/HmacUtils.java
 Time Of Creation: 2016-05-19T11:33:20Z
 Time Of Deletion: 2016-05-19T13:21:16Z
@@ -119,9 +709,37 @@ Creation Commit Hash: 4c84e204cbce349f3c5722750561b91607d3fcae
 Deletion Commit Hash: c353239c4fd22b8991e1488ce81218b1c9769bf9
 Time To Complete: P0D; PT1H47M56S
 
-Content: base64 = new Base64(-1, new byte[] { 'A' }); // TODO do we need to
-// check sep if len
-// = -1?
+Type: Incomplete
+Content:
+base64 = new Base64(-1, new byte[] { 'A' }); // TODO do we need to
+check sep if len
+= -1?
+Specificity: 0.990727
+Content Structure:
+amod(Base64-4, base64-1)
+amod(Base64-4, =-2)
+amod(Base64-4, new-3)
+root(ROOT-0, Base64-4)
+amod(-RSB--11, -1-6)
+amod(-RSB--11, new-8)
+compound(-RSB--11, byte-9)
+compound(-RSB--11, -LSB--10)
+dep(Base64-4, -RSB--11)
+dep(Base64-4, A-14)
+compound(TODO-21, /-19)
+compound(TODO-21, /-20)
+dep(Base64-4, TODO-21)
+acl:relcl(TODO-21, do-22)
+nsubj(need-24, we-23)
+nsubj:xsubj(check-26, we-23)
+ccomp(do-22, need-24)
+mark(check-26, to-25)
+xcomp(need-24, check-26)
+dobj(check-26, sep-27)
+mark(-1-31, if-28)
+nsubj(-1-31, len-29)
+dep(-1-31, =-30)
+advcl(check-26, -1-31)
 File Name: /src/test/java/org/apache/commons/codec/binary/Base64Test.java
 Time Of Creation: 2016-05-20T12:37:05Z
 Time Of Deletion: null
@@ -129,3 +747,301 @@ Creation Commit Hash: 7817bfdadb9cda107955de03d3d15d64ab89b5dc
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Complete
+Content:
+base64 = new Base64(-1, new byte[] { 'A' }); // TODO do we need to
+Specificity: 0.976123
+Content Structure:
+amod(Base64-4, base64-1)
+amod(Base64-4, =-2)
+amod(Base64-4, new-3)
+root(ROOT-0, Base64-4)
+amod(-RSB--11, -1-6)
+amod(-RSB--11, new-8)
+compound(-RSB--11, byte-9)
+compound(-RSB--11, -LSB--10)
+dep(Base64-4, -RSB--11)
+dep(Base64-4, A-14)
+compound(TODO-21, /-19)
+compound(TODO-21, /-20)
+nsubj(do-22, TODO-21)
+parataxis(Base64-4, do-22)
+nsubj(need-24, we-23)
+ccomp(do-22, need-24)
+nmod(need-24, to-25)
+File Name: /src/test/java/org/apache/commons/codec/binary/Base64Test.java
+Time Of Creation: 2015-08-10T19:44:55Z
+Time Of Deletion: 2016-05-20T12:37:05Z
+Creation Commit Hash: afc89ebca46a71a9a3a91c9ddea6e17b49282479
+Deletion Commit Hash: 7817bfdadb9cda107955de03d3d15d64ab89b5dc
+Time To Complete: P9M10D; PT-7H-7M-50S
+
+Type: Incomplete
+Content:
+base64 = new Base64(-1, new byte[]{'A'}); // TODO do we need to check sep if len = -1?
+Specificity: 0.990727
+Content Structure:
+amod(Base64-4, base64-1)
+amod(Base64-4, =-2)
+amod(Base64-4, new-3)
+root(ROOT-0, Base64-4)
+amod(-RSB--11, -1-6)
+amod(-RSB--11, new-8)
+compound(-RSB--11, byte-9)
+compound(-RSB--11, -LSB--10)
+dep(Base64-4, -RSB--11)
+dep(Base64-4, A-14)
+compound(TODO-21, /-19)
+compound(TODO-21, /-20)
+dep(Base64-4, TODO-21)
+acl:relcl(TODO-21, do-22)
+nsubj(need-24, we-23)
+nsubj:xsubj(check-26, we-23)
+ccomp(do-22, need-24)
+mark(check-26, to-25)
+xcomp(need-24, check-26)
+dobj(check-26, sep-27)
+mark(-1-31, if-28)
+nsubj(-1-31, len-29)
+dep(-1-31, =-30)
+advcl(check-26, -1-31)
+File Name: ./src/test/java/org/apache/commons/codec/binary/Base64Test.java
+Time Of Creation: 2012-09-04T19:35:06Z
+Time Of Deletion: null
+Creation Commit Hash: 914185bab8af0db467219526b7f04f9c8934bae0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+case 0 : // TODO - correct?
+Specificity: 0.653162
+Content Structure:
+dep(correct-8, case-1)
+nummod(case-1, 0-2)
+case(TODO-6, /-4)
+compound(TODO-6, /-5)
+nmod:/(case-1, TODO-6)
+root(ROOT-0, correct-8)
+File Name: /src/main/java/org/apache/commons/codec/binary/Base32.java
+Time Of Creation: 2012-09-09T12:57:11Z
+Time Of Deletion: 2012-09-09T13:05:15Z
+Creation Commit Hash: dbb4fe76bfb52518173c4c24e045ead9be1749ab
+Deletion Commit Hash: e74f18036edac56b093edeb0a9715c8399197b5d
+Time To Complete: P0D; PT8M4S
+
+Type: Incomplete
+Content:
+could be simplified if there is no requirement to reject invalid line sep when length <=0
+@see test case Base64Test.testConstructors()
+Specificity: 0.948039
+Content Structure:
+aux(simplified-3, could-1)
+cop(simplified-3, be-2)
+root(ROOT-0, simplified-3)
+mark(is-6, if-4)
+expl(is-6, there-5)
+advcl(simplified-3, is-6)
+neg(requirement-8, no-7)
+nsubj(is-6, requirement-8)
+mark(reject-10, to-9)
+acl(requirement-8, reject-10)
+amod(sep-13, invalid-11)
+compound(sep-13, line-12)
+dobj(reject-10, sep-13)
+advmod(Base64Test.testConstructors-22, when-14)
+compound(<-16, length-15)
+nsubj(Base64Test.testConstructors-22, <-16)
+dep(Base64Test.testConstructors-22, =-17)
+nummod(Base64Test.testConstructors-22, 0-18)
+amod(Base64Test.testConstructors-22, @see-19)
+compound(Base64Test.testConstructors-22, test-20)
+compound(Base64Test.testConstructors-22, case-21)
+acl:relcl(sep-13, Base64Test.testConstructors-22)
+compound(-RRB--24, -LRB--23)
+nsubj(simplified-3, -RRB--24)
+File Name: ./src/main/java/org/apache/commons/codec/binary/Base64.java
+Time Of Creation: 2012-09-04T19:35:06Z
+Time Of Deletion: null
+Creation Commit Hash: 914185bab8af0db467219526b7f04f9c8934bae0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+ought to implement Comparator<String> but that's not possible whilst maintaining binary compatibility.
+Specificity: 0.755187
+Content Structure:
+root(ROOT-0, ought-1)
+dep(implement-3, to-2)
+ccomp(ought-1, implement-3)
+compound(<String>-5, Comparator-4)
+nsubj(ought-1, <String>-5)
+cc(possible-10, but-6)
+dep(possible-10, that-7)
+cop(possible-10, 's-8)
+neg(possible-10, not-9)
+dep(ought-1, possible-10)
+mark(maintaining-12, whilst-11)
+ccomp(possible-10, maintaining-12)
+amod(compatibility-14, binary-13)
+dobj(maintaining-12, compatibility-14)
+File Name: /src/main/java/org/apache/commons/codec/StringEncoderComparator.java
+Time Of Creation: 2013-04-15T18:35:15Z
+Time Of Deletion: null
+Creation Commit Hash: 79c4777389b173d15fad261ac5dbc98cf7618d8c
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+should this be protected?
+Specificity: 0.516951
+Content Structure:
+aux(protected-4, should-1)
+nsubjpass(protected-4, this-2)
+auxpass(protected-4, be-3)
+root(ROOT-0, protected-4)
+File Name: ./src/main/java/org/apache/commons/codec/binary/BaseNCodecOutputStream.java
+Time Of Creation: 2012-09-04T19:35:06Z
+Time Of Deletion: null
+Creation Commit Hash: 914185bab8af0db467219526b7f04f9c8934bae0
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+
+
+Frequency Table: 
+'-' : 1
+'1.3' : 1
+'1.7' : 1
+'<' : 1
+'</p>' : 1
+'<p>' : 1
+'@see' : 1
+'Base64Test.testConstructors' : 1
+'CODEC-126' : 1
+'Can' : 1
+'DecoderException' : 1
+'HMAC_SHA_224' : 1
+'HmacUtils' : 1
+'UnsupportedEncodingException' : 1
+'add' : 1
+'also' : 1
+'and/or/xor' : 1
+'bit' : 1
+'boolean' : 1
+'cetera' : 1
+'class' : 1
+'code' : 1
+'correct' : 1
+'could' : 1
+'does' : 1
+'et' : 1
+'from' : 1
+'functions' : 1
+'generate' : 1
+'good' : 1
+'immutable' : 1
+'instantiate' : 1
+'invalid' : 1
+'length' : 1
+'like' : 1
+'line' : 1
+'may' : 1
+'might' : 1
+'more' : 1
+'nand' : 1
+'no' : 1
+'protected' : 1
+'rawtypes' : 1
+'reject' : 1
+'requirement' : 1
+'reused' : 1
+'should' : 1
+'simplified' : 1
+'there' : 1
+'thread-safe' : 1
+'try' : 1
+'vector' : 1
+'want' : 1
+'why' : 1
+''s' : 2
+'0' : 2
+'2.0' : 2
+'<String>' : 2
+'@deprecated' : 2
+'@since' : 2
+'@throws' : 2
+'@version' : 2
+'Charset' : 2
+'Comparator' : 2
+'Id' : 2
+'a' : 2
+'binary' : 2
+'but' : 2
+'case' : 2
+'changed' : 2
+'compatibility' : 2
+'field' : 2
+'final' : 2
+'implement' : 2
+'in' : 2
+'maintaining' : 2
+'not' : 2
+'ought' : 2
+'possible' : 2
+'private' : 2
+'test' : 2
+'that' : 2
+'this' : 2
+'whilst' : 2
+'will' : 2
+''' : 3
+',' : 3
+'-RCB-' : 3
+';' : 3
+'A' : 3
+'This' : 3
+'`' : 3
+'base64' : 3
+'check' : 3
+'do' : 3
+'len' : 3
+'need' : 3
+'we' : 3
+'$' : 4
+'-LCB-' : 4
+'Base64' : 4
+'byte' : 4
+'if' : 4
+'sep' : 4
+'-LSB-' : 5
+'-RSB-' : 5
+'.' : 5
+'-1' : 6
+':' : 6
+'new' : 6
+'=' : 7
+'?' : 7
+'to' : 11
+'7' : 14
+'Charsets' : 14
+'Java' : 14
+'can' : 14
+'constants' : 14
+'deprecation' : 14
+'minimum' : 14
+'remove' : 14
+'replaced' : 14
+'''' : 15
+'@SuppressWarnings' : 15
+'``' : 15
+'and' : 15
+'when' : 15
+'is' : 16
+'be' : 20
+'-LRB-' : 21
+'-RRB-' : 21
+'TODO' : 22
+'/' : 41

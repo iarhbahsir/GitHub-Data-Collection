@@ -1,20 +1,43 @@
-Content: * TODO more iterator testing with maps
-*
-* @author Dmitri Plotnikov
-* @version $Revision$ $Date$
-*/
-File Name: /src/test/java/org/apache/commons/jxpath/ri/model/dynamic/DynamicPropertiesModelTest.java
-Time Of Creation: 2015-11-18T19:11:43Z
-Time Of Deletion: null
-Creation Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Number of TODOs: 13
+Average Specificity: 0.7180378461538462Specificites Box Plots: (min, q1, mean, median, q3, max)
+	Incomplete TODO: 0.581882, 0.6764885, 0.7894997500000001, 0.7880725, 0.9025110000000001, 0.999972
+	Completed TODO: 0.528806, 0.612053, 0.686277, 0.66955, 0.764985, 0.841206
+Completion Rate: 69.23076923076923%
 
-Content: //                // TODO Auto-generated catch block
-//                e.printStackTrace();
-//            }
-//            return
-//        }
+
+TODOs:
+
+Type: Complete
+Content:
+// TODO Auto-generated catch block
+Specificity: 0.656887
+Content Structure:
+dep(block-6, /-1)
+compound(block-6, TODO-3)
+compound(block-6, Auto-generated-4)
+compound(block-6, catch-5)
+root(ROOT-0, block-6)
+File Name: /src/java/org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java
+Time Of Creation: 2004-03-25T03:49:50Z
+Time Of Deletion: 2015-11-18T19:11:43Z
+Creation Commit Hash: a0849ed9a4368948696a472afb57ba6938007e88
+Deletion Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
+Time To Complete: P11Y7M24D; PT15H21M53S
+
+Type: Incomplete
+Content:
+// TODO Auto-generated catch block
+}
+return
+}
+Specificity: 0.80505
+Content Structure:
+root(ROOT-0, /-1)
+compound(Auto-generated-4, TODO-3)
+nsubj(catch-5, Auto-generated-4)
+parataxis(/-1, catch-5)
+xcomp(catch-5, block-6)
+dobj(block-6, return-8)
 File Name: /src/main/java/org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java
 Time Of Creation: 2015-11-18T19:11:43Z
 Time Of Deletion: null
@@ -22,32 +45,78 @@ Creation Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: // TODO: (work in progress) - trying to integrate with Xalan
-//        Object ctxNode = getNativeContextNode(expression);
-//        if (ctxNode != null) {
-//            System.err.println("WILL USE XALAN: " + xpath);
-//            CachedXPathAPI api = new CachedXPathAPI();
-//            try {
-//                if (expression instanceof Path) {
-//                    Node node = api.selectSingleNode((Node)ctxNode, xpath);
-//                    System.err.println("NODE: " + node);
-//                    if (node == null) {
-//                        return null;
-//                    }
-//                    return new DOMNodePointer(node, null).getValue();
-//                }
-//                else {
-//                    XObject object = api.eval((Node)ctxNode, xpath);
-//                    switch (object.getType()) {
-//                    case XObject.CLASS_STRING: return object.str();
-//                    case XObject.CLASS_NUMBER: return new Double(object.num());
-//                    case XObject.CLASS_BOOLEAN: return new Boolean(object.bool());
-//                    default:
-//                        System.err.println("OTHER TYPE: " + object.getTypeString());
-//                    }
-//                }
-//            }
-//            catch (TransformerException e) {
+Type: Complete
+Content:
+: (work in progress) - trying to integrate with Xalan
+Specificity: 0.764985
+Content Structure:
+dep(--7, work-3)
+case(progress-5, in-4)
+nmod:in(work-3, progress-5)
+root(ROOT-0, --7)
+acl:relcl(--7, trying-8)
+mark(integrate-10, to-9)
+xcomp(trying-8, integrate-10)
+case(Xalan-12, with-11)
+nmod:with(--7, Xalan-12)
+File Name: /src/java/org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java
+Time Of Creation: 2004-03-25T03:49:50Z
+Time Of Deletion: 2015-11-18T19:11:43Z
+Creation Commit Hash: a0849ed9a4368948696a472afb57ba6938007e88
+Deletion Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
+Time To Complete: P11Y7M24D; PT15H21M53S
+
+Type: Incomplete
+Content:
+: (work in progress) - trying to integrate with Xalan
+if (ctxNode != null) {
+try {
+if (expression instanceof Path) {
+if (node == null) {
+}
+}
+else {
+switch (object.getType()) {
+default:
+}
+}
+}
+catch (TransformerException e) {
+Specificity: 0.999972
+Content Structure:
+root(ROOT-0, :-1)
+dep(:-1, work-3)
+case(progress-5, in-4)
+nmod:in(work-3, progress-5)
+csubj(catch-53, trying-8)
+mark(integrate-10, to-9)
+xcomp(trying-8, integrate-10)
+case(Xalan-12, with-11)
+nmod:with(integrate-10, Xalan-12)
+mark(try-21, if-13)
+dep(try-21, ctxNode-15)
+dep(ctxNode-15, =-17)
+dobj(=-17, null-18)
+nsubj(try-21, -LCB--20)
+advcl(integrate-10, try-21)
+mark(-LCB--29, if-23)
+compound(Path-27, expression-25)
+compound(Path-27, instanceof-26)
+nsubj(-LCB--29, Path-27)
+advcl(trying-8, -LCB--29)
+case(-RCB--37, if-30)
+dep(-RCB--37, node-32)
+parataxis(node-32, null-34)
+nmod:if(-LCB--29, -RCB--37)
+amod(-RRB--45, else-39)
+compound(-RRB--45, switch-41)
+compound(-RRB--45, object.getType-43)
+dep(-RCB--37, -RRB--45)
+dep(-RRB--45, default-48)
+parataxis(:-1, catch-53)
+compound(e-56, TransformerException-55)
+xcomp(catch-53, e-56)
+advmod(e-56, -LCB--58)
 File Name: /src/main/java/org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java
 Time Of Creation: 2015-11-18T19:11:43Z
 Time Of Deletion: null
@@ -55,7 +124,77 @@ Creation Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: // TODO: what if this is a collection?
+Type: Complete
+Content:
+: either complete the external namespace functionality, or get rid of
+Specificity: 0.66955
+Content Structure:
+advmod(complete-3, either-2)
+root(ROOT-0, complete-3)
+det(namespace-6, the-4)
+amod(namespace-6, external-5)
+dobj(complete-3, namespace-6)
+advmod(complete-3, functionality-7)
+cc(complete-3, or-9)
+conj:or(complete-3, get-10)
+xcomp(get-10, rid-11)
+nmod(rid-11, of-12)
+File Name: /src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+Time Of Creation: 2004-01-24T01:12:02Z
+Time Of Deletion: 2004-04-09T19:58:06Z
+Creation Commit Hash: 98df9adaf51b4dadaf20fa9a807eca4004ac6b35
+Deletion Commit Hash: 3696cc927d375ec1c5daad059d8882df2d4bea67
+Time To Complete: P2M16D; PT18H46M4S
+
+Type: Complete
+Content:
+: either remove these methods or complete the functionality
+Specificity: 0.612053
+Content Structure:
+cc:preconj(remove-3, either-2)
+root(ROOT-0, remove-3)
+det(methods-5, these-4)
+dobj(remove-3, methods-5)
+cc(remove-3, or-6)
+conj:or(remove-3, complete-7)
+det(functionality-9, the-8)
+dobj(complete-7, functionality-9)
+File Name: /src/java/org/apache/commons/jxpath/JXPathContext.java
+Time Of Creation: 2004-01-24T01:12:02Z
+Time Of Deletion: 2004-04-09T19:58:06Z
+Creation Commit Hash: 98df9adaf51b4dadaf20fa9a807eca4004ac6b35
+Deletion Commit Hash: 3696cc927d375ec1c5daad059d8882df2d4bea67
+Time To Complete: P2M16D; PT18H46M4S
+
+Type: Complete
+Content:
+: what if this is a collection?
+Specificity: 0.581882
+Content Structure:
+root(ROOT-0, what-2)
+mark(collection-7, if-3)
+nsubj(collection-7, this-4)
+cop(collection-7, is-5)
+det(collection-7, a-6)
+dep(what-2, collection-7)
+File Name: /src/java/org/apache/commons/jxpath/ri/model/container/ContainerPointer.java
+Time Of Creation: 2004-05-08T15:03:36Z
+Time Of Deletion: 2015-11-18T19:11:43Z
+Creation Commit Hash: 540be90e1c0359428d2fa03553d4e1f8f7d57e3e
+Deletion Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
+Time To Complete: P11Y6M10D; PT4H8M7S
+
+Type: Incomplete
+Content:
+: what if this is a collection?
+Specificity: 0.581882
+Content Structure:
+root(ROOT-0, what-2)
+mark(collection-7, if-3)
+nsubj(collection-7, this-4)
+cop(collection-7, is-5)
+det(collection-7, a-6)
+dep(what-2, collection-7)
 File Name: /src/main/java/org/apache/commons/jxpath/ri/model/container/ContainerPointer.java
 Time Of Creation: 2015-11-18T19:11:43Z
 Time Of Deletion: null
@@ -63,3 +202,259 @@ Creation Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
+Content:
+more iterator testing with maps
+
+@author Dmitri Plotnikov
+@version $Revision$ $Date$
+
+Specificity: 0.771095
+Content Structure:
+amod(testing-3, more-1)
+compound(testing-3, iterator-2)
+root(ROOT-0, testing-3)
+case(@version-9, with-4)
+compound(@version-9, maps-5)
+compound(@version-9, @author-6)
+compound(@version-9, Dmitri-7)
+compound(@version-9, Plotnikov-8)
+nmod:with(testing-3, @version-9)
+dep(Revision-11, $-10)
+dep(testing-3, Revision-11)
+dep($-13, $-12)
+dep(Revision-11, $-13)
+compound($-15, Date-14)
+nummod($-13, $-15)
+File Name: /src/test/java/org/apache/commons/jxpath/ri/model/dynamic/DynamicPropertiesModelTest.java
+Time Of Creation: 2015-11-18T19:11:43Z
+Time Of Deletion: null
+Creation Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+more iterator testing with maps
+Specificity: 0.528806
+Content Structure:
+advmod(iterator-2, more-1)
+root(ROOT-0, iterator-2)
+dep(iterator-2, testing-3)
+case(maps-5, with-4)
+nmod:with(testing-3, maps-5)
+File Name: /src/test/org/apache/commons/jxpath/ri/model/dynamic/DynamicPropertiesModelTest.java
+Time Of Creation: 2008-04-22T14:27:10Z
+Time Of Deletion: 2015-11-18T19:11:43Z
+Creation Commit Hash: 0ce636cc165e1d1f82398e3c44e8e83c74bd79af
+Deletion Commit Hash: 56e84792987a9edd5200af11df41c4c989980c5d
+Time To Complete: P7Y6M27D; PT4H44M33S
+
+Type: Complete
+Content:
+private Attr attr;//TODO determine proper serialization strategy
+Specificity: 0.740224
+Content Structure:
+amod(attr-3, private-1)
+compound(attr-3, Attr-2)
+root(ROOT-0, attr-3)
+aux(determine-8, /-5)
+compound(TODO-7, /-6)
+nsubj(determine-8, TODO-7)
+dep(attr-3, determine-8)
+amod(strategy-11, proper-9)
+compound(strategy-11, serialization-10)
+dobj(determine-8, strategy-11)
+File Name: /src/java/org/apache/commons/jxpath/ri/model/dom/DOMAttributePointer.java
+Time Of Creation: 2008-06-11T23:56:47Z
+Time Of Deletion: 2008-06-16T21:59:48Z
+Creation Commit Hash: ed12963e8ef515774cfd627564100f91c4ea540e
+Deletion Commit Hash: 65811463048ef988c857aa4c87a4db54a4a826a4
+Time To Complete: P5D; PT-1H-56M-59S
+
+Type: Complete
+Content:
+private JXPathBeanInfo beanInfo;//TODO determine serialization strategy
+Specificity: 0.841206
+Content Structure:
+amod(beanInfo-3, private-1)
+compound(beanInfo-3, JXPathBeanInfo-2)
+root(ROOT-0, beanInfo-3)
+aux(determine-8, /-5)
+compound(TODO-7, /-6)
+nsubj(determine-8, TODO-7)
+parataxis(beanInfo-3, determine-8)
+compound(strategy-10, serialization-9)
+dobj(determine-8, strategy-10)
+File Name: /src/java/org/apache/commons/jxpath/ri/model/beans/BeanPointer.java
+Time Of Creation: 2008-06-11T23:56:47Z
+Time Of Deletion: 2008-06-16T21:59:48Z
+Creation Commit Hash: ed12963e8ef515774cfd627564100f91c4ea540e
+Deletion Commit Hash: 65811463048ef988c857aa4c87a4db54a4a826a4
+Time To Complete: P5D; PT-1H-56M-59S
+
+Type: Complete
+Content:
+private PropertyDescriptor propertyDescriptor;//TODO determine proper serialization strategy
+Specificity: 0.7809
+Content Structure:
+amod(propertyDescriptor-3, private-1)
+compound(propertyDescriptor-3, PropertyDescriptor-2)
+root(ROOT-0, propertyDescriptor-3)
+aux(determine-8, /-5)
+compound(TODO-7, /-6)
+nsubj(determine-8, TODO-7)
+dep(propertyDescriptor-3, determine-8)
+amod(strategy-11, proper-9)
+compound(strategy-11, serialization-10)
+dobj(determine-8, strategy-11)
+File Name: /src/java/org/apache/commons/jxpath/ri/model/beans/BeanPropertyPointer.java
+Time Of Creation: 2008-06-11T23:56:47Z
+Time Of Deletion: 2008-06-16T21:59:48Z
+Creation Commit Hash: ed12963e8ef515774cfd627564100f91c4ea540e
+Deletion Commit Hash: 65811463048ef988c857aa4c87a4db54a4a826a4
+Time To Complete: P5D; PT-1H-56M-59S
+
+
+
+Frequency Table: 
+'+368,4' : 1
+'-368,4' : 1
+'Attr' : 1
+'DynamicPropertiesModelTest' : 1
+'ExternalNamespaceTest.xml' : 1
+'If' : 1
+'Install' : 1
+'JXPathBeanInfo' : 1
+'JXPathTestCase' : 1
+'No' : 1
+'PropertyDescriptor' : 1
+'Returns' : 1
+'URI' : 1
+'XMLModelTestCase.class.getResource' : 1
+'\' : 1
+'``' : 1
+'assertXPathValueAndPointer' : 1
+'at' : 1
+'attr' : 1
+'be' : 1
+'beanInfo' : 1
+'been' : 1
+'by' : 1
+'class' : 1
+'container' : 1
+'end' : 1
+'extends' : 1
+'external' : 1
+'file' : 1
+'for' : 1
+'fruit/pear' : 1
+'get' : 1
+'getNamespaceManager' : 1
+'has' : 1
+'installed' : 1
+'isExternalNamespaceSupported' : 1
+'key' : 1
+'keyManager' : 1
+'look' : 1
+'methods' : 1
+'new' : 1
+'newline' : 1
+'none' : 1
+'parent' : 1
+'parentContext' : 1
+'prefixes' : 1
+'propertyDescriptor' : 1
+'remove' : 1
+'returns' : 1
+'rid' : 1
+'setNamespaceManager' : 1
+'test' : 1
+'testExternalNamespace' : 1
+'that' : 1
+'these' : 1
+'up' : 1
+'used' : 1
+'will' : 1
+'&' : 2
+''s' : 2
+'**' : 2
+'-' : 2
+'?' : 2
+'@@' : 2
+'@author' : 2
+'@version' : 2
+'Auto-generated' : 2
+'Date' : 2
+'Dmitri' : 2
+'DocumentContainer' : 2
+'NamespaceManager' : 2
+'Path' : 2
+'Plotnikov' : 2
+'Revision' : 2
+'TransformerException' : 2
+'Xalan' : 2
+'block' : 2
+'collection' : 2
+'complete' : 2
+'ctxNode' : 2
+'e' : 2
+'either' : 2
+'else' : 2
+'expression' : 2
+'functionality' : 2
+'in' : 2
+'instanceof' : 2
+'integrate' : 2
+'is' : 2
+'iterator' : 2
+'maps' : 2
+'more' : 2
+'namespaceManager' : 2
+'node' : 2
+'object.getType' : 2
+'progress' : 2
+'proper' : 2
+'return' : 2
+'switch' : 2
+'testing' : 2
+'try' : 2
+'trying' : 2
+'void' : 2
+'what' : 2
+'work' : 2
+'!' : 3
+'''' : 3
+';' : 3
+'a' : 3
+'default' : 3
+'determine' : 3
+'of' : 3
+'or' : 3
+'private' : 3
+'serialization' : 3
+'strategy' : 3
+'to' : 3
+'.' : 4
+'=' : 4
+'==' : 4
+'catch' : 4
+'context' : 4
+'manager' : 4
+'public' : 4
+'this' : 4
+'with' : 4
+'*' : 5
+'TODO' : 5
+'namespace' : 5
+',' : 6
+'the' : 6
+'null' : 7
+'$' : 8
+':' : 8
+'if' : 11
+'/' : 14
+'-LCB-' : 21
+'-RCB-' : 21
+'-RRB-' : 22
+'-LRB-' : 24

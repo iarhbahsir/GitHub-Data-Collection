@@ -1,326 +1,1626 @@
-Content:                             // TODO should this cause failure, or can it be reported somehow?
-File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MLSxEntryParser.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Number of TODOs: 52
+Average Specificity: 0.7258203846153845Specificites Box Plots: (min, q1, mean, median, q3, max)
+	Incomplete TODO: 0.308609, 0.5815635, 0.737180375, 0.7150025, 0.935024, 0.999914
+	Completed TODO: 0.308609, 0.556854, 0.68795375, 0.6831345, 0.878691, 0.957843
+Completion Rate: 23.076923076923077%
 
-Content:                 // TODO check this is ok
-return false; // this is a parsing failure too.
-File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MVSFTPEntryParser.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
 
-Content:                 type = FTPFile.FILE_TYPE; // TODO change this if DEVICE_TYPE implemented
-File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MacOsPeterFTPEntryParser.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+TODOs:
 
-Content:                 type = FTPFile.FILE_TYPE; // TODO change this if DEVICE_TYPE implemented
-File Name: ./src/main/java/org/apache/commons/net/ftp/parser/UnixFTPEntryParser.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:             // TODO these are mostly just guesses at present
-File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MLSxEntryParser.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:             // TODO this won't always work for systems that use short dates +0/-12months
-// e.g. if today is Jan 1 2001 and the short date is Feb 29
-File Name: ./src/main/java/org/apache/commons/net/ftp/parser/FTPTimestampParserImpl.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:             // TODO use a local server if possible
-File Name: ./src/test/java/org/apache/commons/net/ftp/TestConnectTimeout.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:             // TODO: is offset still valid if rcvNtpTime=0 || xmitNtpTime=0 ???
-// Could always hash origNtpTime (sendTime) but if host doesn't set it
-// then it's an malformed ntp host anyway and we don't care?
-// If server is in broadcast mode then we never send out a query in first place...
-File Name: ./src/main/java/org/apache/commons/net/ntp/package-info.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:             //$FALL-THROUGH$ TODO this needs to be fixed if a device type is introduced
+Type: Incomplete
+Content:
+$FALL-THROUGH$ TODO this needs to be fixed if a device type is introduced
+Specificity: 0.935487
+Content Structure:
+dep(FALL-THROUGH-2, $-1)
+nsubj(needs-6, FALL-THROUGH-2)
+nsubjpass:xsubj(fixed-9, FALL-THROUGH-2)
+dep(TODO-4, $-3)
+dep(FALL-THROUGH-2, TODO-4)
+dep(FALL-THROUGH-2, this-5)
+root(ROOT-0, needs-6)
+mark(fixed-9, to-7)
+auxpass(fixed-9, be-8)
+xcomp(needs-6, fixed-9)
+mark(introduced-15, if-10)
+det(type-13, a-11)
+compound(type-13, device-12)
+nsubjpass(introduced-15, type-13)
+auxpass(introduced-15, is-14)
+advcl(fixed-9, introduced-15)
 File Name: ./src/test/java/org/apache/commons/net/ftp/parser/UnixFTPEntryParserTest.java
-Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Creation: 2012-11-28T01:39:49Z
 Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:         + "\\s*"                                        // separator TODO why allow it to be omitted??
-File Name: ./src/main/java/org/apache/commons/net/ftp/parser/UnixFTPEntryParser.java
-Time Of Creation: 2016-05-05T00:33:16Z
+Type: Incomplete
+Content:
++ "\\s*"                                        // separator TODO why allow it to be omitted??
+Specificity: 0.794323
+Content Structure:
+compound(\-4, +-1)
+compound(\-4, \-3)
+root(ROOT-0, \-4)
+cop(*-6, s-5)
+acl:relcl(\-4, *-6)
+dep(\-4, /-9)
+advmod(TODO-11, separator-10)
+dep(\-4, TODO-11)
+advmod(allow-13, why-12)
+advcl(TODO-11, allow-13)
+dobj(allow-13, it-14)
+nsubjpass:xsubj(omitted-17, it-14)
+mark(omitted-17, to-15)
+auxpass(omitted-17, be-16)
+xcomp(allow-13, omitted-17)
+xcomp(omitted-17, ??-18)
+File Name: /src/main/java/org/apache/commons/net/ftp/parser/UnixFTPEntryParser.java
+Time Of Creation: 2015-08-24T00:33:56Z
 Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Creation Commit Hash: 414018941927a4b55b1d730fd9091e14eb1feb42
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:         + "\\s*"       // TODO should the space be optional?
-File Name: ./src/main/java/org/apache/commons/net/ftp/parser/EnterpriseUnixFTPEntryParser.java
-Time Of Creation: 2016-05-05T00:33:16Z
+Type: Complete
+Content:
++ "\\s*"                                        // separator TODO why allow it to be omitted??
+Specificity: 0.794323
+Content Structure:
+compound(\-4, +-1)
+compound(\-4, \-3)
+root(ROOT-0, \-4)
+cop(*-6, s-5)
+acl:relcl(\-4, *-6)
+dep(\-4, /-9)
+advmod(TODO-11, separator-10)
+dep(\-4, TODO-11)
+advmod(allow-13, why-12)
+advcl(TODO-11, allow-13)
+dobj(allow-13, it-14)
+nsubjpass:xsubj(omitted-17, it-14)
+mark(omitted-17, to-15)
+auxpass(omitted-17, be-16)
+xcomp(allow-13, omitted-17)
+xcomp(omitted-17, ??-18)
+File Name: /src/main/java/org/apache/commons/net/ftp/parser/UnixFTPEntryParser.java
+Time Of Creation: 2015-01-17T13:04:23Z
+Time Of Deletion: 2015-08-24T00:33:56Z
+Creation Commit Hash: b43ac62dccc9b4ce2033709aab0a78e1171f3072
+Deletion Commit Hash: 414018941927a4b55b1d730fd9091e14eb1feb42
+Time To Complete: P7M7D; PT-12H-30M-27S
+
+Type: Incomplete
+Content:
++ "\\s*"       // TODO should the space be optional?
+Specificity: 0.751758
+Content Structure:
+dep(TODO-10, +-1)
+compound(\-4, \-3)
+dobj(+-1, \-4)
+dep(\-4, s-5)
+dep(\-4, *-6)
+compound(TODO-10, /-9)
+root(ROOT-0, TODO-10)
+acl:relcl(TODO-10, should-11)
+det(space-13, the-12)
+dobj(should-11, space-13)
+auxpass(optional-15, be-14)
+dep(should-11, optional-15)
+File Name: /src/main/java/org/apache/commons/net/ftp/parser/EnterpriseUnixFTPEntryParser.java
+Time Of Creation: 2014-12-05T22:29:47Z
 Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Creation Commit Hash: 487861257d138ed7b0eedeed48bca28c7d0c4134
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:         // TODO Auto-generated method stub
-File Name: ./src/test/java/org/apache/commons/net/ftp/parser/MVSFTPEntryParserTest.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO Not sure what dates are parsed
-File Name: ./src/test/java/org/apache/commons/net/ftp/parser/MVSFTPEntryParserTest.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO \\d* should be \\d? surely ? Otherwise 01111 is allowed
-+ "((?:[012]\\d*)|(?:3[01]))\\s*" // 18 date [012]\d* or 3[01]
-File Name: ./src/main/java/org/apache/commons/net/ftp/parser/EnterpriseUnixFTPEntryParser.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO remove this
-// Need to set a higher priority in case JVM does not use pre-emptive
-// threads.  This should prevent scheduler induced deadlock (rather than
-// deadlock caused by a bug in this code).
-File Name: ./src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO the following setup appears to duplicate that in the super class methods
-File Name: ./src/main/java/org/apache/commons/net/ftp/FTPSClient.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO the following setup appears to duplicate that in the super class methods
-File Name: ./src/main/java/org/apache/commons/net/imap/IMAPSClient.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO the following setup appears to duplicate that in the super class methods
-File Name: ./src/main/java/org/apache/commons/net/pop3/POP3SClient.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO the following setup appears to duplicate that in the super class methods
-File Name: ./src/main/java/org/apache/commons/net/smtp/SMTPSClient.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO this is probably a bug - it should default to the current year
-File Name: ./src/test/java/org/apache/commons/net/ftp/parser/FTPConfigEntryParserTest.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         // TODO verify this will avoid rehashing
-File Name: ./src/main/java/org/apache/commons/net/nntp/Threader.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         if (m.matches()) { // TODO would lookingAt() be more efficient? If so, then drop trailing .* from patterns
-File Name: ./src/main/java/org/apache/commons/net/imap/IMAPReply.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:         output.write(connectString.getBytes("UTF-8")); // TODO what is the correct encoding?
-File Name: ./src/main/java/org/apache/commons/net/ftp/FTPHTTPClient.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:      * TODO Check that this is a good defensive strategy
-*/
-File Name: ./src/main/java/org/apache/commons/net/util/ListenerList.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:      * TODO Will be deprecated once the code requires Java 1.6 as a mininmum
-*/
-File Name: ./src/main/java/org/apache/commons/net/package-info.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO - can we delete this override now?
-/***
-* Returns the number of bytes that can be read without blocking EXCEPT
-* when newline conversions have to be made somewhere within the
-* available block of bytes.  In other words, you really should not
-* rely on the value returned by this method if you are trying to avoid
-* blocking.
-***/
+Type: Incomplete
+Content:
+- can we delete this override now?
+Specificity: 0.581431
+Content Structure:
+dep(delete-4, --1)
+aux(delete-4, can-2)
+nsubj(delete-4, we-3)
+root(ROOT-0, delete-4)
+det(override-6, this-5)
+dobj(delete-4, override-6)
+advmod(delete-4, now-7)
 File Name: ./src/main/java/org/apache/commons/net/io/FromNetASCIIInputStream.java
-Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Creation: 2012-11-28T01:39:49Z
 Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:     // TODO - perhaps restrict permissions to [RWED]* ?
-File Name: ./src/main/java/org/apache/commons/net/ftp/parser/VMSFTPEntryParser.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Type: Incomplete
+Content:
+- needs some work.
 
-Content:     // TODO Lower address test
-File Name: ./src/test/java/org/apache/commons/net/SubnetUtilsTest.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO convert this to an iterative function - this can blow the stack
-// with very large Threadable trees
-File Name: ./src/main/java/org/apache/commons/net/nntp/ThreadContainer.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO should these be private enums?
-File Name: ./src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     // TODO there does not appear to be any way to change this value - should it be a ctor parameter?
-File Name: ./src/main/java/org/apache/commons/net/telnet/TelnetOutputStream.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:     private static final String TAGGED_RESPONSE = "^\\w+ (\\S+).*"; // TODO perhaps be less strict on tag match?
-// tag cannot contain: + ( ) { SP CTL % * " \ ]
-File Name: ./src/main/java/org/apache/commons/net/imap/IMAPReply.java
-Time Of Creation: 2016-05-05T00:33:16Z
-Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
-Deletion Commit Hash: null
-Time To Complete: Incomplete
-
-Content:  * TODO - needs some work.
-*/
+Specificity: 0.50729
+Content Structure:
+root(ROOT-0, needs-2)
+det(work-4, some-3)
+dobj(needs-2, work-4)
 File Name: ./src/test/java/org/apache/commons/net/ftp/parser/MLSDComparison.java
-Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Creation: 2012-11-28T01:39:49Z
 Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content:  * TODO replace with an enum
-***/
+Type: Incomplete
+Content:
+- perhaps restrict permissions to [RWED]* ?
+Specificity: 0.789151
+Content Structure:
+advmod(restrict-3, perhaps-2)
+root(ROOT-0, restrict-3)
+dobj(restrict-3, permissions-4)
+case(-RSB--8, to-5)
+compound(-RSB--8, -LSB--6)
+compound(-RSB--8, RWED-7)
+nmod:to(permissions-4, -RSB--8)
+dep(permissions-4, *-9)
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/VMSFTPEntryParser.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+- replace with an enum?
+Specificity: 0.535203
+Content Structure:
+root(ROOT-0, replace-2)
+case(enum-5, with-3)
+det(enum-5, an-4)
+nmod:with(replace-2, enum-5)
+File Name: ./src/main/java/org/apache/commons/net/ftp/FTPCommand.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+: is offset still valid if rcvNtpTime=0 || xmitNtpTime=0 ???
+Could always hash origNtpTime (sendTime) but if host doesn't set it
+then it's an malformed ntp host anyway and we don't care?
+If server is in broadcast mode then we never send out a query in first place...
+Specificity: 0.999909
+Content Structure:
+auxpass(offset-3, is-2)
+csubj(hash-18, offset-3)
+advmod(valid-5, still-4)
+xcomp(offset-3, valid-5)
+mark(???-15, if-6)
+amod(xmitNtpTime-12, rcvNtpTime-7)
+compound(xmitNtpTime-12, =-8)
+nummod(xmitNtpTime-12, 0-9)
+compound(xmitNtpTime-12, |-10)
+compound(xmitNtpTime-12, |-11)
+nsubj(???-15, xmitNtpTime-12)
+dep(???-15, =-13)
+nummod(???-15, 0-14)
+advcl(offset-3, ???-15)
+aux(hash-18, Could-16)
+advmod(hash-18, always-17)
+root(ROOT-0, hash-18)
+xcomp(hash-18, origNtpTime-19)
+dep(origNtpTime-19, sendTime-21)
+cc(set-28, but-23)
+mark(set-28, if-24)
+nsubj(set-28, host-25)
+aux(set-28, does-26)
+neg(set-28, n't-27)
+dep(origNtpTime-19, set-28)
+dobj(set-28, it-29)
+advmod(host-36, then-30)
+nsubj(host-36, it-31)
+cop(host-36, 's-32)
+det(host-36, an-33)
+amod(host-36, malformed-34)
+compound(host-36, ntp-35)
+dep(set-28, host-36)
+advmod(host-36, anyway-37)
+cc(host-36, and-38)
+nsubj(care-42, we-39)
+aux(care-42, do-40)
+neg(care-42, n't-41)
+dep(set-28, care-42)
+conj:and(host-36, care-42)
+mark(mode-49, If-44)
+nsubj(mode-49, server-45)
+cop(mode-49, is-46)
+case(mode-49, in-47)
+compound(mode-49, broadcast-48)
+ccomp(origNtpTime-19, mode-49)
+advmod(hash-18, then-50)
+nsubj(send-53, we-51)
+neg(send-53, never-52)
+parataxis(hash-18, send-53)
+compound:prt(send-53, out-54)
+det(query-56, a-55)
+dobj(send-53, query-56)
+case(place-59, in-57)
+amod(place-59, first-58)
+nmod:in(query-56, place-59)
+File Name: ./src/main/java/org/apache/commons/net/ntp/package-info.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+??
+Specificity: 0.308609
+Content Structure:
+root(ROOT-0, ??-1)
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MLSxEntryParser.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+??
+Specificity: 0.308609
+Content Structure:
+root(ROOT-0, ??-1)
+File Name: /src/main/java/examples/ftp/FTPClientExample.java
+Time Of Creation: 2014-12-10T01:07:28Z
+Time Of Deletion: 2014-12-10T13:40:17Z
+Creation Commit Hash: efa533b3a01e42af04770f8c4ccd49fbc369f374
+Deletion Commit Hash: e2c979909b4486962e5fab150e615f66bd46164c
+Time To Complete: P0D; PT12H32M49S
+
+Type: Complete
+Content:
+Auto-generated catch block
+Specificity: 0.458912
+Content Structure:
+amod(block-3, Auto-generated-1)
+compound(block-3, catch-2)
+root(ROOT-0, block-3)
+File Name: /src/main/java/examples/telnet/TelnetClientScript.java
+Time Of Creation: 2014-12-12T00:57:15Z
+Time Of Deletion: 2014-12-12T01:00:25Z
+Creation Commit Hash: c2be3466f161ce090ba100107ae4513d45fc60fe
+Deletion Commit Hash: c0f6da1ece33fea185edb4d08636aecf05a9104c
+Time To Complete: P0D; PT3M10S
+
+Type: Incomplete
+Content:
+Auto-generated method stub
+Specificity: 0.458912
+Content Structure:
+amod(stub-3, Auto-generated-1)
+compound(stub-3, method-2)
+root(ROOT-0, stub-3)
+File Name: /src/test/java/org/apache/commons/net/ftp/parser/MVSFTPEntryParserTest.java
+Time Of Creation: 2014-12-11T17:00:57Z
+Time Of Deletion: null
+Creation Commit Hash: bc21e8bde6b30b563f4e6c7d321adf128855de9f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+Check that this is a good defensive strategy
+
+Specificity: 0.628019
+Content Structure:
+root(ROOT-0, Check-1)
+mark(strategy-8, that-2)
+nsubj(strategy-8, this-3)
+cop(strategy-8, is-4)
+det(strategy-8, a-5)
+amod(strategy-8, good-6)
+amod(strategy-8, defensive-7)
+ccomp(Check-1, strategy-8)
+File Name: ./src/main/java/org/apache/commons/net/util/ListenerList.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+Lower address test
+Specificity: 0.483006
+Content Structure:
+amod(address-2, Lower-1)
+root(ROOT-0, address-2)
+dep(address-2, test-3)
+File Name: ./src/test/java/org/apache/commons/net/SubnetUtilsTest.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+Not sure what dates are parsed
+Specificity: 0.583739
+Content Structure:
+neg(sure-2, Not-1)
+root(ROOT-0, sure-2)
+dobj(parsed-6, what-3)
+nsubjpass(parsed-6, dates-4)
+auxpass(parsed-6, are-5)
+ccomp(sure-2, parsed-6)
+File Name: /src/test/java/org/apache/commons/net/ftp/parser/MVSFTPEntryParserTest.java
+Time Of Creation: 2014-12-11T17:00:57Z
+Time Of Deletion: null
+Creation Commit Hash: bc21e8bde6b30b563f4e6c7d321adf128855de9f
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+String password = userpass[1]; // TODO enable reading this secretly
+Specificity: 0.861563
+Content Structure:
+compound(=-3, String-1)
+compound(=-3, password-2)
+nsubj(userpass-4, =-3)
+root(ROOT-0, userpass-4)
+compound(1-6, -LSB--5)
+nummod(-RSB--7, 1-6)
+dobj(userpass-4, -RSB--7)
+compound(TODO-11, /-9)
+compound(TODO-11, /-10)
+nsubj(enable-12, TODO-11)
+parataxis(userpass-4, enable-12)
+xcomp(enable-12, reading-13)
+dobj(reading-13, this-14)
+advmod(reading-13, secretly-15)
+File Name: /src/main/java/examples/mail/IMAPUtils.java
+Time Of Creation: 2014-04-12T23:24:14Z
+Time Of Deletion: 2016-04-05T14:05:16Z
+Creation Commit Hash: 1e7d8d6f659709d694587261774b03fd93340d0e
+Deletion Commit Hash: 45c80e3aae8710e386a4f7560d45ca1f14e5b5f8
+Time To Complete: P1Y11M24D; PT-9H-18M-58S
+
+Type: Complete
+Content:
+System.err.println("NET-584: ignoring " + e.getMessage()); // TODO remove print before release!
+Specificity: 0.940193
+Content Structure:
+root(ROOT-0, System.err.println-1)
+appos(System.err.println-1, NET-584-4)
+compound(+-8, ignoring-6)
+dep(NET-584-4, +-8)
+amod(-LRB--10, e.getMessage-9)
+dep(+-8, -LRB--10)
+aux(remove-17, /-14)
+compound(TODO-16, /-15)
+nsubj(remove-17, TODO-16)
+parataxis(System.err.println-1, remove-17)
+dobj(remove-17, print-18)
+case(release-20, before-19)
+nmod:before(remove-17, release-20)
+File Name: /src/main/java/org/apache/commons/net/ftp/FTPClient.java
+Time Of Creation: 2017-03-11T12:33:03Z
+Time Of Deletion: 2017-03-20T21:19:54Z
+Creation Commit Hash: ac37d8d64c3f5aeb0032f420ea976712947f2cc6
+Deletion Commit Hash: 1c95a2a5d9e40d1b7d8b4626890ff1babc4f8862
+Time To Complete: P9D; PT8H46M51S
+
+Type: Incomplete
+Content:
+Will be deprecated once the code requires Java 1.6 as a mininmum
+
+Specificity: 0.722717
+Content Structure:
+root(ROOT-0, Will-1)
+auxpass(deprecated-3, be-2)
+dep(Will-1, deprecated-3)
+mark(requires-7, once-4)
+det(code-6, the-5)
+nsubj(requires-7, code-6)
+advcl(deprecated-3, requires-7)
+compound(1.6-9, Java-8)
+dobj(requires-7, 1.6-9)
+case(mininmum-12, as-10)
+det(mininmum-12, a-11)
+nmod:as(1.6-9, mininmum-12)
+File Name: /src/main/java/org/apache/commons/net/DatagramSocketClient.java
+Time Of Creation: 2013-06-04T09:48:36Z
+Time Of Deletion: null
+Creation Commit Hash: fa9fd4b11449dd7a21df0c83732e33c605190b69
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+Will be deprecated once the code requires Java 1.6 as a mininmum
+
+Specificity: 0.722717
+Content Structure:
+root(ROOT-0, Will-1)
+auxpass(deprecated-3, be-2)
+dep(Will-1, deprecated-3)
+mark(requires-7, once-4)
+det(code-6, the-5)
+nsubj(requires-7, code-6)
+advcl(deprecated-3, requires-7)
+compound(1.6-9, Java-8)
+dobj(requires-7, 1.6-9)
+case(mininmum-12, as-10)
+det(mininmum-12, a-11)
+nmod:as(1.6-9, mininmum-12)
+File Name: /src/main/java/org/apache/commons/net/SocketClient.java
+Time Of Creation: 2013-06-04T17:49Z
+Time Of Deletion: null
+Creation Commit Hash: cba5de0c0e66755a36f3cbb3640fe810a4f83e52
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+Will be deprecated once the code requires Java 1.6 as a mininmum
+Specificity: 0.722717
+Content Structure:
+root(ROOT-0, Will-1)
+auxpass(deprecated-3, be-2)
+dep(Will-1, deprecated-3)
+mark(requires-7, once-4)
+det(code-6, the-5)
+nsubj(requires-7, code-6)
+advcl(deprecated-3, requires-7)
+compound(1.6-9, Java-8)
+dobj(requires-7, 1.6-9)
+case(mininmum-12, as-10)
+det(mininmum-12, a-11)
+nmod:as(1.6-9, mininmum-12)
+File Name: /src/main/java/org/apache/commons/net/SocketClient.java
+Time Of Creation: 2013-06-04T09:48:36Z
+Time Of Deletion: 2013-06-04T17:49Z
+Creation Commit Hash: fa9fd4b11449dd7a21df0c83732e33c605190b69
+Deletion Commit Hash: cba5de0c0e66755a36f3cbb3640fe810a4f83e52
+Time To Complete: P0D; PT8H24S
+
+Type: Incomplete
+Content:
+\\d* should be \\d? surely ? Otherwise 01111 is allowed
++ "((?:[012]\\d*)|(?:3[01]))\\s*" // 18 date [012]\d* or 3[01]
+Specificity: 0.999914
+Content Structure:
+dep(-RSB--25, \-1)
+dep(-RSB--25, d-3)
+dep(\-7, *-4)
+aux(\-7, should-5)
+auxpass(\-7, be-6)
+dep(d-3, \-7)
+dep(d-9, \-8)
+ccomp(\-7, d-9)
+dep(Otherwise-13, surely-11)
+dep(01111-14, Otherwise-13)
+dep(d-3, 01111-14)
+auxpass(allowed-16, is-15)
+acl:relcl(01111-14, allowed-16)
+dobj(allowed-16, +-17)
+dep(-RSB--25, -LRB--20)
+compound(-RSB--25, -LSB--23)
+compound(-RSB--25, 012-24)
+root(ROOT-0, -RSB--25)
+dep(d-28, \-27)
+dep(*-29, d-28)
+parataxis(-RSB--25, *-29)
+case(-RSB--51, |-31)
+dep(-RSB--51, ?-33)
+nummod(-RSB--37, :3-34)
+amod(-RSB--37, -LSB--35)
+compound(-RSB--37, 01-36)
+dobj(?-33, -RSB--37)
+dep(*-43, \-41)
+cop(*-43, s-42)
+dep(-RSB--51, *-43)
+nummod(date-48, 18-47)
+nmod:npmod(-LSB--49, date-48)
+dep(-RSB--51, -LSB--49)
+nummod(-RSB--51, 012-50)
+nmod:|(-RSB--25, -RSB--51)
+case(d-53, \-52)
+nmod:\(-RSB--51, d-53)
+dep(d-53, *-54)
+cc(-RSB--51, or-55)
+compound(-LSB--57, 3-56)
+nmod:|(-RSB--25, -LSB--57)
+conj:or(-RSB--51, -LSB--57)
+nummod(-RSB--59, 01-58)
+dep(-LSB--57, -RSB--59)
+File Name: /src/main/java/org/apache/commons/net/ftp/parser/EnterpriseUnixFTPEntryParser.java
+Time Of Creation: 2014-12-05T22:29:47Z
+Time Of Deletion: null
+Creation Commit Hash: 487861257d138ed7b0eedeed48bca28c7d0c4134
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+check this is ok
+return false; // this is a parsing failure too.
+Specificity: 0.753402
+Content Structure:
+root(ROOT-0, check-1)
+nsubjpass(ok-4, this-2)
+auxpass(ok-4, is-3)
+ccomp(check-1, ok-4)
+ccomp(ok-4, return-5)
+xcomp(return-5, false-6)
+dep(ok-4, /-8)
+nsubj(failure-14, this-10)
+cop(failure-14, is-11)
+det(failure-14, a-12)
+amod(failure-14, parsing-13)
+parataxis(/-8, failure-14)
+advmod(failure-14, too-15)
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MVSFTPEntryParser.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+convert this to an iterative function - this can blow the stack
+with very large Threadable trees
+Specificity: 0.816369
+Content Structure:
+root(ROOT-0, convert-1)
+dobj(convert-1, this-2)
+case(function-6, to-3)
+det(function-6, an-4)
+amod(function-6, iterative-5)
+nmod:to(this-2, function-6)
+nsubj(blow-10, this-8)
+aux(blow-10, can-9)
+dep(this-2, blow-10)
+det(stack-12, the-11)
+dobj(blow-10, stack-12)
+case(trees-17, with-13)
+advmod(large-15, very-14)
+amod(trees-17, large-15)
+compound(trees-17, Threadable-16)
+nmod:with(blow-10, trees-17)
+File Name: ./src/main/java/org/apache/commons/net/nntp/ThreadContainer.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+final BufferedReader br = new BufferedReader(new FileReader(file)); // TODO charset?
+Specificity: 0.957843
+Content Structure:
+amod(BufferedReader-6, final-1)
+compound(BufferedReader-6, BufferedReader-2)
+compound(BufferedReader-6, br-3)
+compound(BufferedReader-6, =-4)
+amod(BufferedReader-6, new-5)
+root(ROOT-0, BufferedReader-6)
+amod(FileReader-9, new-8)
+dep(BufferedReader-6, FileReader-9)
+appos(BufferedReader-6, file-11)
+compound(TODO-17, /-15)
+compound(TODO-17, /-16)
+dep(BufferedReader-6, TODO-17)
+acl(TODO-17, charset-18)
+File Name: /src/main/java/examples/mail/IMAPImportMbox.java
+Time Of Creation: 2013-07-31T00:42:18Z
+Time Of Deletion: 2017-04-21T16:30:03Z
+Creation Commit Hash: 5e305c6a2c7d0e3d2dfc9c07a702167f55944373
+Deletion Commit Hash: 7fabd00432b9974240f1df75e1e7fa63ba276589
+Time To Complete: P3Y8M21D; PT15H47M45S
+
+Type: Incomplete
+Content:
+final BufferedReader br = new BufferedReader(new FileReader(file)); // TODO charset?
+Specificity: 0.957843
+Content Structure:
+amod(BufferedReader-6, final-1)
+compound(BufferedReader-6, BufferedReader-2)
+compound(BufferedReader-6, br-3)
+compound(BufferedReader-6, =-4)
+amod(BufferedReader-6, new-5)
+root(ROOT-0, BufferedReader-6)
+amod(FileReader-9, new-8)
+dep(BufferedReader-6, FileReader-9)
+appos(BufferedReader-6, file-11)
+compound(TODO-17, /-15)
+compound(TODO-17, /-16)
+dep(BufferedReader-6, TODO-17)
+acl(TODO-17, charset-18)
+File Name: /src/main/java/org/apache/commons/net/examples/mail/IMAPImportMbox.java
+Time Of Creation: 2017-04-21T16:30:03Z
+Time Of Deletion: null
+Creation Commit Hash: 7fabd00432b9974240f1df75e1e7fa63ba276589
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+if (m.matches()) { // TODO would lookingAt() be more efficient? If so, then drop trailing .* from patterns
+Specificity: 0.986723
+Content Structure:
+mark(?-18, if-1)
+amod(m.matches-3, -LRB--2)
+nsubj(?-18, m.matches-3)
+appos(m.matches-3, -RRB--5)
+compound(TODO-10, /-8)
+compound(TODO-10, /-9)
+nsubj(lookingAt-12, TODO-10)
+aux(lookingAt-12, would-11)
+dep(m.matches-3, lookingAt-12)
+dobj(lookingAt-12, -LRB--13)
+cop(?-18, be-15)
+advmod(efficient-17, more-16)
+amod(?-18, efficient-17)
+root(ROOT-0, ?-18)
+mark(then-22, If-19)
+dep(then-22, so-20)
+dep(?-18, then-22)
+compound(trailing-24, drop-23)
+dep(then-22, trailing-24)
+dep(?-18, *-26)
+case(patterns-28, from-27)
+nmod:from(?-18, patterns-28)
+File Name: ./src/main/java/org/apache/commons/net/imap/IMAPReply.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+if (notAcked > 0) { // TODO remove this before next release!
+Specificity: 0.895819
+Content Structure:
+mark(TODO-10, if-1)
+dep(>-4, notAcked-3)
+dep(TODO-10, >-4)
+dep(>-4, 0-5)
+compound(/-9, /-8)
+nsubj(TODO-10, /-9)
+csubj(remove-11, TODO-10)
+root(ROOT-0, remove-11)
+dobj(remove-11, this-12)
+case(release-15, before-13)
+amod(release-15, next-14)
+nmod:before(remove-11, release-15)
+File Name: /src/main/java/org/apache/commons/net/ftp/FTPClient.java
+Time Of Creation: 2017-03-11T12:33:03Z
+Time Of Deletion: 2017-03-20T21:19:54Z
+Creation Commit Hash: ac37d8d64c3f5aeb0032f420ea976712947f2cc6
+Deletion Commit Hash: 1c95a2a5d9e40d1b7d8b4626890ff1babc4f8862
+Time To Complete: P9D; PT8H46M51S
+
+Type: Incomplete
+Content:
+output.write(connectString.getBytes("UTF-8")); // TODO what is the correct encoding?
+Specificity: 0.934445
+Content Structure:
+root(ROOT-0, output.write-1)
+dep(output.write-1, connectString.getBytes-3)
+appos(output.write-1, UTF-8-6)
+compound(TODO-13, /-11)
+compound(TODO-13, /-12)
+dep(output.write-1, TODO-13)
+nsubj(encoding-18, TODO-13)
+ref(TODO-13, what-14)
+cop(encoding-18, is-15)
+det(encoding-18, the-16)
+amod(encoding-18, correct-17)
+acl:relcl(TODO-13, encoding-18)
+File Name: ./src/main/java/org/apache/commons/net/ftp/FTPHTTPClient.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+private static final String TAGGED_RESPONSE = "^\\w+ (\\S+).*"; // TODO perhaps be less strict on tag match?
+tag cannot contain: + ( ) { SP CTL % * " \ ]
+Specificity: 0.999663
+Content Structure:
+amod(=-6, private-1)
+amod(=-6, static-2)
+amod(=-6, final-3)
+compound(=-6, String-4)
+compound(=-6, TAGGED_RESPONSE-5)
+root(ROOT-0, =-6)
+dep(\-10, ^-8)
+dep(=-6, \-10)
+nmod:npmod(+-12, w-11)
+xcomp(\-10, +-12)
+dep(+-17, \-14)
+compound(+-17, S-16)
+dep(+-12, +-17)
+dep(strict-29, *-20)
+aux(strict-29, ''-21)
+compound(TODO-25, ;-22)
+compound(TODO-25, /-23)
+compound(TODO-25, /-24)
+nsubj(strict-29, TODO-25)
+advmod(strict-29, perhaps-26)
+cop(strict-29, be-27)
+advmod(strict-29, less-28)
+dep(=-6, strict-29)
+case(match-32, on-30)
+compound(match-32, tag-31)
+nmod:on(strict-29, match-32)
+dep(strict-29, tag-34)
+aux(contain-37, can-35)
+neg(contain-37, not-36)
+ccomp(tag-34, contain-37)
+compound(*-46, -RRB--41)
+compound(*-46, SP-43)
+compound(*-46, CTL-44)
+compound(*-46, %-45)
+dobj(contain-37, *-46)
+acl:relcl(*-46, \-48)
+xcomp(\-48, -RSB--49)
+File Name: ./src/main/java/org/apache/commons/net/imap/IMAPReply.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+process first Received: line to determine arrival date?
+Specificity: 0.643552
+Content Structure:
+compound(Received-3, process-1)
+amod(Received-3, first-2)
+root(ROOT-0, Received-3)
+dep(Received-3, line-5)
+mark(determine-7, to-6)
+acl(line-5, determine-7)
+compound(date-9, arrival-8)
+dobj(determine-7, date-9)
+File Name: /src/main/java/examples/mail/IMAPImportMbox.java
+Time Of Creation: 2013-07-31T00:42:18Z
+Time Of Deletion: 2017-04-21T16:30:03Z
+Creation Commit Hash: 5e305c6a2c7d0e3d2dfc9c07a702167f55944373
+Deletion Commit Hash: 7fabd00432b9974240f1df75e1e7fa63ba276589
+Time To Complete: P3Y8M21D; PT15H47M45S
+
+Type: Incomplete
+Content:
+process first Received: line to determine arrival date?
+Specificity: 0.643552
+Content Structure:
+compound(Received-3, process-1)
+amod(Received-3, first-2)
+root(ROOT-0, Received-3)
+dep(Received-3, line-5)
+mark(determine-7, to-6)
+acl(line-5, determine-7)
+compound(date-9, arrival-8)
+dobj(determine-7, date-9)
+File Name: /src/main/java/org/apache/commons/net/examples/mail/IMAPImportMbox.java
+Time Of Creation: 2017-04-21T16:30:03Z
+Time Of Deletion: null
+Creation Commit Hash: 7fabd00432b9974240f1df75e1e7fa63ba276589
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+public void testNET339() { // TODO enable when NET-339 is fixed
+Specificity: 0.934561
+Content Structure:
+amod(TODO-9, public-1)
+compound(TODO-9, void-2)
+compound(TODO-9, testNET339-3)
+compound(TODO-9, -RRB--5)
+compound(TODO-9, /-7)
+compound(TODO-9, /-8)
+nsubj(enable-10, TODO-9)
+root(ROOT-0, enable-10)
+advmod(fixed-14, when-11)
+nsubjpass(fixed-14, NET-339-12)
+auxpass(fixed-14, is-13)
+advcl(enable-10, fixed-14)
+File Name: ./src/test/java/org/apache/commons/net/ftp/parser/NTFTPEntryParserTest.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+remove this
+Need to set a higher priority in case JVM does not use pre-emptive
+threads.  This should prevent scheduler induced deadlock (rather than
+deadlock caused by a bug in this code).
+Specificity: 0.994056
+Content Structure:
+ccomp(prevent-20, remove-1)
+det(Need-3, this-2)
+dobj(remove-1, Need-3)
+nsubj:xsubj(set-5, Need-3)
+mark(set-5, to-4)
+xcomp(remove-1, set-5)
+det(priority-8, a-6)
+amod(priority-8, higher-7)
+dobj(set-5, priority-8)
+case(case-10, in-9)
+nmod:in(set-5, case-10)
+nsubj(use-14, JVM-11)
+aux(use-14, does-12)
+neg(use-14, not-13)
+acl:relcl(case-10, use-14)
+amod(threads-16, pre-emptive-15)
+dobj(use-14, threads-16)
+nsubj(prevent-20, This-18)
+aux(prevent-20, should-19)
+root(ROOT-0, prevent-20)
+compound(deadlock-23, scheduler-21)
+amod(deadlock-23, induced-22)
+dobj(prevent-20, deadlock-23)
+case(deadlock-27, rather-25)
+mwe(rather-25, than-26)
+nmod:rather_than(deadlock-23, deadlock-27)
+acl(deadlock-27, caused-28)
+case(bug-31, by-29)
+det(bug-31, a-30)
+nmod:by(caused-28, bug-31)
+case(code-34, in-32)
+det(code-34, this-33)
+nmod:in(bug-31, code-34)
+File Name: ./src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+replace with an enum
+*
+Specificity: 0.517579
+Content Structure:
+root(ROOT-0, replace-1)
+case(enum-4, with-2)
+det(enum-4, an-3)
+nmod:with(replace-1, enum-4)
+dep(enum-4, *-5)
 File Name: ./src/main/java/org/apache/commons/net/ftp/FTPReply.java
-Time Of Creation: 2016-05-05T00:33:16Z
+Time Of Creation: 2012-11-28T01:39:49Z
 Time Of Deletion: null
-Creation Commit Hash: 1ad6488cc46dc7818effdbe572320004cdbfa253
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: // TODO process first Received: line to determine arrival date?
-File Name: /src/main/java/org/apache/commons/net/examples/mail/IMAPImportMbox.java
-Time Of Creation: 2017-04-21T16:30:03Z
+Type: Incomplete
+Content:
+should these be private enums?
+Specificity: 0.545255
+Content Structure:
+aux(enums-5, should-1)
+nsubj(enums-5, these-2)
+cop(enums-5, be-3)
+amod(enums-5, private-4)
+root(ROOT-0, enums-5)
+File Name: ./src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java
+Time Of Creation: 2012-11-28T01:39:49Z
 Time Of Deletion: null
-Creation Commit Hash: 7fabd00432b9974240f1df75e1e7fa63ba276589
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: System.err.println("NET-584: ignoring " + e.getMessage()); // TODO remove print before release!
-File Name: /src/main/java/org/apache/commons/net/ftp/FTPClient.java
-Time Of Creation: 2017-03-11T12:33:03Z
-Time Of Deletion: 2017-03-20T21:19:54Z
-Creation Commit Hash: ac37d8d64c3f5aeb0032f420ea976712947f2cc6
-Deletion Commit Hash: 1c95a2a5d9e40d1b7d8b4626890ff1babc4f8862
-Time To Complete: P9D; PT8H46M51S
-
-Content: final BufferedReader br = new BufferedReader(new FileReader(file)); // TODO charset?
-File Name: /src/main/java/org/apache/commons/net/examples/mail/IMAPImportMbox.java
-Time Of Creation: 2017-04-21T16:30:03Z
+Type: Incomplete
+Content:
+should this cause failure, or can it be reported somehow?
+Specificity: 0.671237
+Content Structure:
+aux(cause-3, should-1)
+nsubj(cause-3, this-2)
+root(ROOT-0, cause-3)
+dobj(cause-3, failure-4)
+cc(cause-3, or-6)
+aux(reported-10, can-7)
+nsubjpass(reported-10, it-8)
+auxpass(reported-10, be-9)
+conj:or(cause-3, reported-10)
+advmod(reported-10, somehow-11)
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MLSxEntryParser.java
+Time Of Creation: 2012-11-28T01:39:49Z
 Time Of Deletion: null
-Creation Commit Hash: 7fabd00432b9974240f1df75e1e7fa63ba276589
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: if (notAcked > 0) { // TODO remove this before next release!
-File Name: /src/main/java/org/apache/commons/net/ftp/FTPClient.java
-Time Of Creation: 2017-03-11T12:33:03Z
-Time Of Deletion: 2017-03-20T21:19:54Z
-Creation Commit Hash: ac37d8d64c3f5aeb0032f420ea976712947f2cc6
-Deletion Commit Hash: 1c95a2a5d9e40d1b7d8b4626890ff1babc4f8862
-Time To Complete: P9D; PT8H46M51S
+Type: Incomplete
+Content:
+the following setup appears to duplicate that in the super class methods
+Specificity: 0.692684
+Content Structure:
+det(setup-3, the-1)
+amod(setup-3, following-2)
+nsubj(appears-4, setup-3)
+nsubj:xsubj(duplicate-6, setup-3)
+root(ROOT-0, appears-4)
+mark(duplicate-6, to-5)
+xcomp(appears-4, duplicate-6)
+dobj(duplicate-6, that-7)
+case(methods-12, in-8)
+det(methods-12, the-9)
+amod(methods-12, super-10)
+compound(methods-12, class-11)
+nmod:in(that-7, methods-12)
+File Name: /src/main/java/org/apache/commons/net/ftp/FTPSClient.java
+Time Of Creation: 2015-01-08T23:26:38Z
+Time Of Deletion: null
+Creation Commit Hash: 021922ee87667f568d17a94513169e17f3302742
+Deletion Commit Hash: null
+Time To Complete: Incomplete
 
+Type: Incomplete
+Content:
+the following setup appears to duplicate that in the super class methods
+Specificity: 0.692684
+Content Structure:
+det(setup-3, the-1)
+amod(setup-3, following-2)
+nsubj(appears-4, setup-3)
+nsubj:xsubj(duplicate-6, setup-3)
+root(ROOT-0, appears-4)
+mark(duplicate-6, to-5)
+xcomp(appears-4, duplicate-6)
+dobj(duplicate-6, that-7)
+case(methods-12, in-8)
+det(methods-12, the-9)
+amod(methods-12, super-10)
+compound(methods-12, class-11)
+nmod:in(that-7, methods-12)
+File Name: /src/main/java/org/apache/commons/net/imap/IMAPSClient.java
+Time Of Creation: 2015-01-08T23:26:38Z
+Time Of Deletion: null
+Creation Commit Hash: 021922ee87667f568d17a94513169e17f3302742
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+the following setup appears to duplicate that in the super class methods
+Specificity: 0.692684
+Content Structure:
+det(setup-3, the-1)
+amod(setup-3, following-2)
+nsubj(appears-4, setup-3)
+nsubj:xsubj(duplicate-6, setup-3)
+root(ROOT-0, appears-4)
+mark(duplicate-6, to-5)
+xcomp(appears-4, duplicate-6)
+dobj(duplicate-6, that-7)
+case(methods-12, in-8)
+det(methods-12, the-9)
+amod(methods-12, super-10)
+compound(methods-12, class-11)
+nmod:in(that-7, methods-12)
+File Name: /src/main/java/org/apache/commons/net/pop3/POP3SClient.java
+Time Of Creation: 2015-01-08T23:26:38Z
+Time Of Deletion: null
+Creation Commit Hash: 021922ee87667f568d17a94513169e17f3302742
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+the following setup appears to duplicate that in the super class methods
+Specificity: 0.692684
+Content Structure:
+det(setup-3, the-1)
+amod(setup-3, following-2)
+nsubj(appears-4, setup-3)
+nsubj:xsubj(duplicate-6, setup-3)
+root(ROOT-0, appears-4)
+mark(duplicate-6, to-5)
+xcomp(appears-4, duplicate-6)
+dobj(duplicate-6, that-7)
+case(methods-12, in-8)
+det(methods-12, the-9)
+amod(methods-12, super-10)
+compound(methods-12, class-11)
+nmod:in(that-7, methods-12)
+File Name: /src/main/java/org/apache/commons/net/smtp/SMTPSClient.java
+Time Of Creation: 2015-01-08T23:26:38Z
+Time Of Deletion: null
+Creation Commit Hash: 021922ee87667f568d17a94513169e17f3302742
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+there does not appear to be any way to change this value - should it be a ctor parameter?
+Specificity: 0.861255
+Content Structure:
+expl(appear-4, there-1)
+aux(appear-4, does-2)
+neg(appear-4, not-3)
+root(ROOT-0, appear-4)
+mark(way-8, to-5)
+cop(way-8, be-6)
+det(way-8, any-7)
+xcomp(appear-4, way-8)
+mark(change-10, to-9)
+acl(way-8, change-10)
+det(value-12, this-11)
+dobj(change-10, value-12)
+aux(parameter-19, should-14)
+nsubj(parameter-19, it-15)
+cop(parameter-19, be-16)
+det(parameter-19, a-17)
+compound(parameter-19, ctor-18)
+dep(value-12, parameter-19)
+File Name: ./src/main/java/org/apache/commons/net/telnet/TelnetOutputStream.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+these are mostly just guesses at present
+Specificity: 0.581696
+Content Structure:
+nsubj(guesses-5, these-1)
+cop(guesses-5, are-2)
+advmod(guesses-5, mostly-3)
+advmod(guesses-5, just-4)
+root(ROOT-0, guesses-5)
+case(present-7, at-6)
+advcl(guesses-5, present-7)
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MLSxEntryParser.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+this is probably a bug - it should default to the current year
+Specificity: 0.707288
+Content Structure:
+nsubj(bug-5, this-1)
+cop(bug-5, is-2)
+advmod(bug-5, probably-3)
+det(bug-5, a-4)
+root(ROOT-0, bug-5)
+nsubj(default-9, it-7)
+aux(default-9, should-8)
+parataxis(bug-5, default-9)
+case(year-13, to-10)
+det(year-13, the-11)
+amod(year-13, current-12)
+nmod:to(default-9, year-13)
+File Name: ./src/test/java/org/apache/commons/net/ftp/parser/FTPConfigEntryParserTest.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+this won't always work for systems that use short dates +0/-12months
+e.g. if today is Jan 1 2001 and the short date is Feb 29
+Specificity: 0.966843
+Content Structure:
+nsubj(work-5, this-1)
+aux(work-5, wo-2)
+neg(work-5, n't-3)
+advmod(work-5, always-4)
+root(ROOT-0, work-5)
+case(systems-7, for-6)
+nmod:for(work-5, systems-7)
+nsubj(use-9, systems-7)
+ref(systems-7, that-8)
+acl:relcl(systems-7, use-9)
+amod(dates-11, short-10)
+nsubj(Jan-20, dates-11)
+nummod(/-13, +0-12)
+dep(e.g.-16, /-13)
+nummod(months-15, -12-14)
+nmod:tmod(/-13, months-15)
+dep(Jan-20, e.g.-16)
+mark(Jan-20, if-17)
+nsubj(Jan-20, today-18)
+cop(Jan-20, is-19)
+xcomp(use-9, Jan-20)
+nummod(Jan-20, 1-21)
+dep(Jan-20, 2001-22)
+cc(Jan-20, and-23)
+det(date-26, the-24)
+amod(date-26, short-25)
+nsubj(Feb-28, date-26)
+cop(Feb-28, is-27)
+xcomp(use-9, Feb-28)
+conj:and(Jan-20, Feb-28)
+nummod(Feb-28, 29-29)
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/FTPTimestampParserImpl.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+type = FTPFile.FILE_TYPE; // TODO change this if DEVICE_TYPE implemented
+Specificity: 0.97785
+Content Structure:
+root(ROOT-0, type-1)
+compound(TYPE-5, FTPFile.FILE-3)
+compound(TYPE-5, _-4)
+dep(type-1, TYPE-5)
+dep(TYPE-5, /-7)
+dep(type-1, TODO-9)
+ccomp(TODO-9, change-10)
+dobj(change-10, this-11)
+mark(implemented-14, if-12)
+nsubj(implemented-14, DEVICE_TYPE-13)
+advcl(change-10, implemented-14)
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/MacOsPeterFTPEntryParser.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+type = FTPFile.FILE_TYPE; // TODO change this if DEVICE_TYPE implemented
+Specificity: 0.97785
+Content Structure:
+root(ROOT-0, type-1)
+compound(TYPE-5, FTPFile.FILE-3)
+compound(TYPE-5, _-4)
+dep(type-1, TYPE-5)
+dep(TYPE-5, /-7)
+dep(type-1, TODO-9)
+ccomp(TODO-9, change-10)
+dobj(change-10, this-11)
+mark(implemented-14, if-12)
+nsubj(implemented-14, DEVICE_TYPE-13)
+advcl(change-10, implemented-14)
+File Name: ./src/main/java/org/apache/commons/net/ftp/parser/UnixFTPEntryParser.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+use a local server if possible
+Specificity: 0.558206
+Content Structure:
+root(ROOT-0, use-1)
+det(server-4, a-2)
+amod(server-4, local-3)
+dobj(use-1, server-4)
+dep(possible-6, if-5)
+amod(server-4, possible-6)
+File Name: /src/test/java/org/apache/commons/net/ftp/TestConnectTimeout.java
+Time Of Creation: 2014-07-30T20:49:07Z
+Time Of Deletion: null
+Creation Commit Hash: b77ce8229b93b02e7acb48b88f904312348005f9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+use a local server if possible
+Specificity: 0.558206
+Content Structure:
+root(ROOT-0, use-1)
+det(server-4, a-2)
+amod(server-4, local-3)
+dobj(use-1, server-4)
+dep(possible-6, if-5)
+amod(server-4, possible-6)
+File Name: /src/test/java/org/apache/commons/net/ftp/TestConnectTimeout.java
+Time Of Creation: 2014-05-18T23:11:01Z
+Time Of Deletion: 2014-07-30T20:49:07Z
+Creation Commit Hash: 8fe92b712ea7e5041bbbcbfccb32d6b68d6422f6
+Deletion Commit Hash: b77ce8229b93b02e7acb48b88f904312348005f9
+Time To Complete: P2M12D; PT-2H-21M-54S
+
+Type: Complete
+Content:
+use reflection to eliminate non-mail classes?
+Specificity: 0.556854
+Content Structure:
+root(ROOT-0, use-1)
+dobj(use-1, reflection-2)
+mark(eliminate-4, to-3)
+advcl(use-1, eliminate-4)
+amod(classes-6, non-mail-5)
+dobj(eliminate-4, classes-6)
+File Name: /src/main/java/examples/Main.java
+Time Of Creation: 2014-04-12T23:24:14Z
+Time Of Deletion: 2015-01-06T15:21:50Z
+Creation Commit Hash: 1e7d8d6f659709d694587261774b03fd93340d0e
+Deletion Commit Hash: 7caaa91a86e1cf827a6fde2e5a04aed2859ac980
+Time To Complete: P8M25D; PT-8H-2M-24S
+
+Type: Complete
+Content:
+use reflection to eliminate non-main classes?
+Specificity: 0.556854
+Content Structure:
+root(ROOT-0, use-1)
+dobj(use-1, reflection-2)
+mark(eliminate-4, to-3)
+advcl(use-1, eliminate-4)
+amod(classes-6, non-main-5)
+dobj(eliminate-4, classes-6)
+File Name: /src/main/java/examples/Main.java
+Time Of Creation: 2015-01-06T15:21:50Z
+Time Of Deletion: 2015-01-15T23:09:20Z
+Creation Commit Hash: 7caaa91a86e1cf827a6fde2e5a04aed2859ac980
+Deletion Commit Hash: 0a3c3449fe484d17b04516d562226337c1b10255
+Time To Complete: P9D; PT7H47M30S
+
+Type: Incomplete
+Content:
+verify this will avoid rehashing
+Specificity: 0.528621
+Content Structure:
+root(ROOT-0, verify-1)
+nsubj(avoid-4, this-2)
+aux(avoid-4, will-3)
+ccomp(verify-1, avoid-4)
+xcomp(avoid-4, rehashing-5)
+File Name: ./src/main/java/org/apache/commons/net/nntp/Threader.java
+Time Of Creation: 2012-11-28T01:39:49Z
+Time Of Deletion: null
+Creation Commit Hash: 0341376716cde4efc643bf9ff40dd10a2c151cc9
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+
+
+Frequency Table: 
+'%' : 1
+''s' : 1
+'+0' : 1
+'--' : 1
+'-12' : 1
+'...' : 1
+'01111' : 1
+'18' : 1
+'2001' : 1
+'29' : 1
+'3' : 1
+':3' : 1
+'???' : 1
+'CTL' : 1
+'Check' : 1
+'Could' : 1
+'FALL-THROUGH' : 1
+'Feb' : 1
+'JVM' : 1
+'Jan' : 1
+'Lower' : 1
+'NET-339' : 1
+'Need' : 1
+'Not' : 1
+'Otherwise' : 1
+'RWED' : 1
+'S' : 1
+'SP' : 1
+'SocketTimeoutException' : 1
+'System.err.println' : 1
+'TAGGED_RESPONSE' : 1
+'This' : 1
+'Threadable' : 1
+'UTF-8' : 1
+'^' : 1
+'address' : 1
+'allowed' : 1
+'any' : 1
+'anyway' : 1
+'appear' : 1
+'at' : 1
+'avoid' : 1
+'block' : 1
+'blow' : 1
+'broadcast' : 1
+'but' : 1
+'by' : 1
+'care' : 1
+'case' : 1
+'cause' : 1
+'caused' : 1
+'check' : 1
+'connectString.getBytes' : 1
+'contain' : 1
+'convert' : 1
+'correct' : 1
+'ctor' : 1
+'current' : 1
+'default' : 1
+'defensive' : 1
+'delete' : 1
+'device' : 1
+'do' : 1
+'drop' : 1
+'e' : 1
+'e.g.' : 1
+'e.getMessage' : 1
+'efficient' : 1
+'encoding' : 1
+'entail' : 1
+'enums' : 1
+'examples/Main.class' : 1
+'examples/mail/IMAPUtils.class' : 1
+'false' : 1
+'finally' : 1
+'for' : 1
+'from' : 1
+'function' : 1
+'good' : 1
+'guesses' : 1
+'hash' : 1
+'higher' : 1
+'however' : 1
+'ignored' : 1
+'ignoring' : 1
+'induced' : 1
+'introduced' : 1
+'iterative' : 1
+'just' : 1
+'large' : 1
+'less' : 1
+'loading' : 1
+'lookingAt' : 1
+'m.matches' : 1
+'malformed' : 1
+'match' : 1
+'method' : 1
+'mode' : 1
+'months' : 1
+'more' : 1
+'mostly' : 1
+'never' : 1
+'next' : 1
+'non-mail' : 1
+'non-main' : 1
+'now' : 1
+'ntp' : 1
+'offset' : 1
+'ok' : 1
+'on' : 1
+'optional' : 1
+'origNtpTime' : 1
+'ourself' : 1
+'out' : 1
+'output.write' : 1
+'override' : 1
+'parameter' : 1
+'parsed' : 1
+'parsing' : 1
+'password' : 1
+'patterns' : 1
+'permissions' : 1
+'place' : 1
+'pre-emptive' : 1
+'present' : 1
+'prevent' : 1
+'print' : 1
+'priority' : 1
+'probably' : 1
+'public' : 1
+'query' : 1
+'rather' : 1
+'rcvNtpTime' : 1
+'reading' : 1
+'rehashing' : 1
+'reported' : 1
+'restrict' : 1
+'return' : 1
+'scheduler' : 1
+'secretly' : 1
+'send' : 1
+'sendTime' : 1
+'so' : 1
+'some' : 1
+'somehow' : 1
+'space' : 1
+'stack' : 1
+'static' : 1
+'still' : 1
+'strategy' : 1
+'strict' : 1
+'stub' : 1
+'sure' : 1
+'surely' : 1
+'systems' : 1
+'test' : 1
+'testNET339' : 1
+'than' : 1
+'there' : 1
+'threads' : 1
+'today' : 1
+'too' : 1
+'trailing' : 1
+'trees' : 1
+'try' : 1
+'userpass' : 1
+'valid' : 1
+'value' : 1
+'verify' : 1
+'very' : 1
+'void' : 1
+'w' : 1
+'way' : 1
+'when' : 1
+'while' : 1
+'will' : 1
+'wo' : 1
+'xmitNtpTime' : 1
+'year' : 1
+'!' : 2
+'$' : 2
+',' : 2
+'01' : 2
+'012' : 2
+'1' : 2
+'>' : 2
+'Auto-generated' : 2
+'DEVICE_TYPE' : 2
+'FTPFile.FILE' : 2
+'FileReader' : 2
+'If' : 2
+'NET-584' : 2
+'Received' : 2
+'String' : 2
+'TYPE' : 2
+'_' : 2
+'allow' : 2
+'always' : 2
+'and' : 2
+'are' : 2
+'arrival' : 2
+'before' : 2
+'br' : 2
+'bug' : 2
+'catch' : 2
+'charset' : 2
+'classes' : 2
+'dates' : 2
+'deadlock' : 2
+'determine' : 2
+'eliminate' : 2
+'enable' : 2
+'enum' : 2
+'examples/nntp/NNTPUtils.class' : 2
+'examples/util/IOUtil.class' : 2
+'failure' : 2
+'file' : 2
+'fixed' : 2
+'host' : 2
+'implemented' : 2
+'line' : 2
+'local' : 2
+'needs' : 2
+'notAcked' : 2
+'omitted' : 2
+'or' : 2
+'perhaps' : 2
+'possible' : 2
+'private' : 2
+'process' : 2
+'reflection' : 2
+'release' : 2
+'replace' : 2
+'separator' : 2
+'set' : 2
+'short' : 2
+'tag' : 2
+'these' : 2
+'what' : 2
+'why' : 2
+'work' : 2
+'would' : 2
+'1.6' : 3
+'Java' : 3
+'Will' : 3
+'as' : 3
+'change' : 3
+'deprecated' : 3
+'does' : 3
+'final' : 3
+'first' : 3
+'mininmum' : 3
+'n't' : 3
+'not' : 3
+'once' : 3
+'remove' : 3
+'requires' : 3
+'server' : 3
+'then' : 3
+'type' : 3
+'we' : 3
+'with' : 3
+'0' : 4
+'??' : 4
+'BufferedReader' : 4
+'an' : 4
+'appears' : 4
+'can' : 4
+'code' : 4
+'d' : 4
+'date' : 4
+'duplicate' : 4
+'following' : 4
+'methods' : 4
+'new' : 4
+'s' : 4
+'setup' : 4
+'super' : 4
+'-RCB-' : 5
+'main' : 5
+'no' : 5
+'-LSB-' : 6
+':' : 6
+'name.equals' : 6
+'use' : 6
+'-' : 7
+'-RSB-' : 7
+'.' : 7
+'it' : 7
+'should' : 7
+'that' : 7
+'+' : 8
+'=' : 8
+'``' : 8
+'in' : 8
+'-LCB-' : 9
+';' : 9
+'class' : 10
+'if' : 10
+'*' : 12
+'is' : 12
+'a' : 13
+'be' : 14
+'TODO' : 15
+'|' : 15
+'the' : 17
+'to' : 17
+'this' : 18
+'''' : 19
+'\' : 20
+'?' : 21
+'-LRB-' : 28
+'-RRB-' : 29
+'/' : 47

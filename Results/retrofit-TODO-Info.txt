@@ -1,59 +1,936 @@
-Content:           // TODO if 'callbackExecutor' is not null, the 'callback' methods should be executed
-// on that executor by submitting a Runnable. This is left as an exercise for the reader.
-File Name: ./samples/src/main/java/com/example/retrofit/ErrorHandlingAdapter.java
-Time Of Creation: 2016-11-19T15:25:16-05:00
-Time Of Deletion: null
-Creation Commit Hash: bbd8dd0ce73f954431570b00096b9c4eeab4b94c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Number of TODOs: 39
+Average Specificity: 0.5955754871794872Specificites Box Plots: (min, q1, mean, median, q3, max)
+	Incomplete TODO: 0.77379, 0.77379, 0.7932933999999999, 0.866811, 0.875016, 0.98675
+	Completed TODO: 0.320732, 0.353736, 0.5664993235294117, 0.545895, 0.77379, 0.931627
+Completion Rate: 87.17948717948718%
 
-Content:     // TODO figure out how to get Jackson to stop using AnInterface's serializer here.
-File Name: ./retrofit-converters/jackson/src/test/java/retrofit2/converter/jackson/JacksonConverterFactoryTest.java
-Time Of Creation: 2016-11-19T15:25:16-05:00
-Time Of Deletion: null
-Creation Commit Hash: bbd8dd0ce73f954431570b00096b9c4eeab4b94c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
 
-Content:     // TODO handle user response...
-File Name: ./samples/src/main/java/com/example/retrofit/JsonQueryParameters.java
-Time Of Creation: 2016-11-19T15:25:16-05:00
-Time Of Deletion: null
-Creation Commit Hash: bbd8dd0ce73f954431570b00096b9c4eeab4b94c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+TODOs:
 
-Content:     // TODO we shouldn't need to sleep
-Thread.sleep(100); // Ensure the task has started.
-File Name: ./retrofit-mock/src/test/java/retrofit2/mock/BehaviorDelegateTest.java
-Time Of Creation: 2016-11-19T15:25:16-05:00
-Time Of Deletion: null
-Creation Commit Hash: bbd8dd0ce73f954431570b00096b9c4eeab4b94c
-Deletion Commit Hash: null
-Time To Complete: Incomplete
+Type: Complete
+Content:
 
-Content: // TODO else send to plugin as unhandled error
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
+File Name: /retrofit-adapters/rxjava/src/main/java/retrofit/ObservableCallAdapterFactory.java
+Time Of Creation: 2015-12-29T01:37:25-05:00
+Time Of Deletion: 2016-01-25T23:40:08-05:00
+Creation Commit Hash: 04f65ac5b6653ff0f78d8e1d01271709fb7a05b6
+Deletion Commit Hash: b001ff6f4c24c579699ebee9641a1044d888d13d
+Time To Complete: P27D; PT22H2M43S
+
+Type: Complete
+Content:
+
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
+File Name: /retrofit-adapters/rxjava/src/main/java/retrofit/RxJavaCallAdapterFactory.java
+Time Of Creation: 2016-01-25T23:40:08-05:00
+Time Of Deletion: 2016-03-11T14:46:06-05:00
+Creation Commit Hash: b001ff6f4c24c579699ebee9641a1044d888d13d
+Deletion Commit Hash: 61f97fc5856f320f2b7ae52b9a297f9d18591e8f
+Time To Complete: P1M15D; PT-8H-54M-2S
+
+Type: Complete
+Content:
+
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
+File Name: /retrofit-adapters/rxjava/src/main/java/retrofit2/RxJavaCallAdapterFactory.java
+Time Of Creation: 2016-03-11T14:46:06-05:00
+Time Of Deletion: 2016-05-26T15:45:53-04:00
+Creation Commit Hash: 61f97fc5856f320f2b7ae52b9a297f9d18591e8f
+Deletion Commit Hash: 728cb3b669384533adee6446e8d86d34e9b0ea1e
+Time To Complete: P2M15D; PT-13S
+
+Type: Complete
+Content:
+
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
+File Name: /retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/RxJavaCallAdapterFactory.java
+Time Of Creation: 2016-05-26T15:45:53-04:00
+Time Of Deletion: 2016-08-20T21:21:01-04:00
+Creation Commit Hash: 728cb3b669384533adee6446e8d86d34e9b0ea1e
+Deletion Commit Hash: 8737e46f2b3944ca316f2174d1f83e28ed6e66f0
+Time To Complete: P2M25D; PT5H35M8S
+
+Type: Complete
+Content:
+
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
+File Name: /retrofit/src/main/java/retrofit/Response.java
+Time Of Creation: 2015-12-29T01:37:25-05:00
+Time Of Deletion: 2016-03-06T17:33:58-05:00
+Creation Commit Hash: 04f65ac5b6653ff0f78d8e1d01271709fb7a05b6
+Deletion Commit Hash: 6961f57ab97224073743b1f14a0395a493c52985
+Time To Complete: P2M6D; PT15H56M33S
+
+Type: Complete
+Content:
+
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
+File Name: /retrofit/src/main/java/retrofit/RestAdapter.java
+Time Of Creation: 2015-12-29T01:37:25-05:00
+Time Of Deletion: 2016-01-05T12:21:39-05:00
+Creation Commit Hash: 04f65ac5b6653ff0f78d8e1d01271709fb7a05b6
+Deletion Commit Hash: 452004af62ff790ca6d271bc80d36fa5e49dcda5
+Time To Complete: P7D; PT10H44M14S
+
+Type: Complete
+Content:
+
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
+File Name: /retrofit/src/main/java/retrofit/Retrofit.java
+Time Of Creation: 2016-01-05T12:21:39-05:00
+Time Of Deletion: 2016-03-11T14:46:06-05:00
+Creation Commit Hash: 452004af62ff790ca6d271bc80d36fa5e49dcda5
+Deletion Commit Hash: 61f97fc5856f320f2b7ae52b9a297f9d18591e8f
+Time To Complete: P2M6D; PT2H24M27S
+
+Type: Complete
+Content:
+
+Specificity: 0.353736
+Content Structure:
+root(ROOT-0, X-1)
+File Name: /retrofit/src/main/java/retrofit2/Retrofit.java
+Time Of Creation: 2016-03-11T14:46:06-05:00
+Time Of Deletion: 2016-03-30T09:53:27-04:00
+Creation Commit Hash: 61f97fc5856f320f2b7ae52b9a297f9d18591e8f
+Deletion Commit Hash: cb57627bbd2eff6126a66777f00c74e8ca9ec624
+Time To Complete: P19D; PT-5H-52M-39S
+
+Type: Complete
+Content:
+@Ignore // TODO Not currently implemented.
+Specificity: 0.701696
+Content Structure:
+root(ROOT-0, @Ignore-1)
+parataxis(@Ignore-1, TODO-4)
+neg(TODO-4, Not-5)
+advmod(implemented-7, currently-6)
+dep(TODO-4, implemented-7)
+File Name: /retrofit-appengine/src/test/java/retrofit/appengine/UrlFetchClientTest.java
+Time Of Creation: 2015-12-10T10:39:15-05:00
+Time Of Deletion: 2015-12-21T11:00:20-05:00
+Creation Commit Hash: 1a25a28c4cf87d445ff931cc1c44fcb76cee3aa4
+Deletion Commit Hash: 555a0895a795eed642293ee5edc281ed76a4ccf9
+Time To Complete: P11D; PT21M5S
+
+Type: Complete
+Content:
+@Ignore // TODO https://github.com/square/okhttp/issues/229
+Specificity: 0.496788
+Content Structure:
+root(ROOT-0, @Ignore-1)
+parataxis(@Ignore-1, TODO-4)
+dep(TODO-4, https://github.com/square/okhttp/issues/229-5)
+File Name: /retrofit/src/test/java/retrofit/RequestBuilderTest.java
+Time Of Creation: 2015-12-21T20:17:35-05:00
+Time Of Deletion: 2015-12-29T01:37:25-05:00
+Creation Commit Hash: c7090c9cabba95f507cb836a5d00d03e7c4d3a85
+Deletion Commit Hash: 04f65ac5b6653ff0f78d8e1d01271709fb7a05b6
+Time To Complete: P8D; PT-18H-40M-10S
+
+Type: Complete
+Content:
+Better tests here. Why is there no toBlocking() on Single?
+Specificity: 0.851668
+Content Structure:
+nsubj(tests-2, Better-1)
+root(ROOT-0, tests-2)
+advmod(Why-5, here-3)
+advmod(-LRB--10, Why-5)
+cop(-LRB--10, is-6)
+advmod(-LRB--10, there-7)
+neg(-LRB--10, no-8)
+amod(-LRB--10, toBlocking-9)
+advcl(tests-2, -LRB--10)
+case(Single-13, on-12)
+nmod:on(-LRB--10, Single-13)
+File Name: /retrofit-adapters/rxjava/src/test/java/retrofit/RxJavaCallAdapterFactoryTest.java
+Time Of Creation: 2016-01-25T23:40:08-05:00
+Time Of Deletion: 2016-03-11T14:46:06-05:00
+Creation Commit Hash: b001ff6f4c24c579699ebee9641a1044d888d13d
+Deletion Commit Hash: 61f97fc5856f320f2b7ae52b9a297f9d18591e8f
+Time To Complete: P1M15D; PT-8H-54M-2S
+
+Type: Complete
+Content:
+Better tests here. Why is there no toBlocking() on Single?
+Specificity: 0.851668
+Content Structure:
+nsubj(tests-2, Better-1)
+root(ROOT-0, tests-2)
+advmod(Why-5, here-3)
+advmod(-LRB--10, Why-5)
+cop(-LRB--10, is-6)
+advmod(-LRB--10, there-7)
+neg(-LRB--10, no-8)
+amod(-LRB--10, toBlocking-9)
+advcl(tests-2, -LRB--10)
+case(Single-13, on-12)
+nmod:on(-LRB--10, Single-13)
+File Name: /retrofit-adapters/rxjava/src/test/java/retrofit2/RxJavaCallAdapterFactoryTest.java
+Time Of Creation: 2016-03-11T14:46:06-05:00
+Time Of Deletion: 2016-04-03T02:00:28-04:00
+Creation Commit Hash: 61f97fc5856f320f2b7ae52b9a297f9d18591e8f
+Deletion Commit Hash: aa7a79542d6374c05c8bb40b4edafbfc42fdbf81
+Time To Complete: P23D; PT-13H-45M-38S
+
+Type: Complete
+Content:
+assert on some indicator of 404.
+Specificity: 0.570138
+Content Structure:
+root(ROOT-0, assert-1)
+case(indicator-4, on-2)
+det(indicator-4, some-3)
+nmod:on(assert-1, indicator-4)
+case(404-6, of-5)
+nmod:of(indicator-4, 404-6)
+File Name: /retrofit-adapters/rxjava/src/test/java/retrofit/ObservableCallAdapterFactoryTest.java
+Time Of Creation: 2015-12-29T01:37:25-05:00
+Time Of Deletion: 2016-01-25T19:10:51-05:00
+Creation Commit Hash: 04f65ac5b6653ff0f78d8e1d01271709fb7a05b6
+Deletion Commit Hash: 09d430c46890bb6d3dee5308b25c828122cd354a
+Time To Complete: P27D; PT17H33M26S
+
+Type: Complete
+Content:
+bring back form url encoding!
+Specificity: 0.545414
+Content Structure:
+root(ROOT-0, bring-1)
+compound:prt(bring-1, back-2)
+compound(encoding-5, form-3)
+compound(encoding-5, url-4)
+dobj(bring-1, encoding-5)
+File Name: /retrofit/src/main/java/retrofit/RequestBuilder.java
+Time Of Creation: 2015-12-21T20:17:35-05:00
+Time Of Deletion: 2015-12-21T22:51:57-05:00
+Creation Commit Hash: c7090c9cabba95f507cb836a5d00d03e7c4d3a85
+Deletion Commit Hash: fb4c5c800ebed45ca58b43298599802a72e0a4a3
+Time To Complete: P0D; PT2H34M22S
+
+Type: Complete
+Content:
+bring back multipart!
+Specificity: 0.481815
+Content Structure:
+root(ROOT-0, bring-1)
+compound:prt(bring-1, back-2)
+dobj(bring-1, multipart-3)
+File Name: /retrofit/src/main/java/retrofit/RequestBuilder.java
+Time Of Creation: 2015-12-21T20:17:35-05:00
+Time Of Deletion: 2015-12-21T21:55:12-05:00
+Creation Commit Hash: c7090c9cabba95f507cb836a5d00d03e7c4d3a85
+Deletion Commit Hash: a39f7105e58c57272eeff9560ba25c13ed637e1b
+Time To Complete: P0D; PT1H37M37S
+
+Type: Complete
+Content:
+docs
+Specificity: 0.320732
+Content Structure:
+root(ROOT-0, docs-1)
+File Name: /retrofit-adapters/rxjava/src/main/java/retrofit/ObservableCallAdapterFactory.java
+Time Of Creation: 2015-12-29T01:37:25-05:00
+Time Of Deletion: 2016-01-25T23:40:08-05:00
+Creation Commit Hash: 04f65ac5b6653ff0f78d8e1d01271709fb7a05b6
+Deletion Commit Hash: b001ff6f4c24c579699ebee9641a1044d888d13d
+Time To Complete: P27D; PT22H2M43S
+
+Type: Complete
+Content:
+docs
+Specificity: 0.320732
+Content Structure:
+root(ROOT-0, docs-1)
+File Name: /retrofit-adapters/rxjava/src/main/java/retrofit/RxJavaCallAdapterFactory.java
+Time Of Creation: 2016-01-25T23:40:08-05:00
+Time Of Deletion: 2016-03-11T14:46:06-05:00
+Creation Commit Hash: b001ff6f4c24c579699ebee9641a1044d888d13d
+Deletion Commit Hash: 61f97fc5856f320f2b7ae52b9a297f9d18591e8f
+Time To Complete: P1M15D; PT-8H-54M-2S
+
+Type: Complete
+Content:
+docs
+Specificity: 0.320732
+Content Structure:
+root(ROOT-0, docs-1)
+File Name: /retrofit-adapters/rxjava/src/main/java/retrofit2/RxJavaCallAdapterFactory.java
+Time Of Creation: 2016-03-11T14:46:06-05:00
+Time Of Deletion: 2016-05-26T15:45:53-04:00
+Creation Commit Hash: 61f97fc5856f320f2b7ae52b9a297f9d18591e8f
+Deletion Commit Hash: 728cb3b669384533adee6446e8d86d34e9b0ea1e
+Time To Complete: P2M15D; PT-13S
+
+Type: Complete
+Content:
+docs
+Specificity: 0.320732
+Content Structure:
+root(ROOT-0, docs-1)
+File Name: /retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/RxJavaCallAdapterFactory.java
+Time Of Creation: 2016-05-26T15:45:53-04:00
+Time Of Deletion: 2016-08-20T21:21:01-04:00
+Creation Commit Hash: 728cb3b669384533adee6446e8d86d34e9b0ea1e
+Deletion Commit Hash: 8737e46f2b3944ca316f2174d1f83e28ed6e66f0
+Time To Complete: P2M25D; PT5H35M8S
+
+Type: Complete
+Content:
+else send to plugin as unhandled error
+Specificity: 0.582057
+Content Structure:
+advmod(send-2, else-1)
+root(ROOT-0, send-2)
+mark(plugin-4, to-3)
+xcomp(send-2, plugin-4)
+case(error-7, as-5)
+amod(error-7, unhandled-6)
+nmod:as(plugin-4, error-7)
 File Name: /retrofit-adapters/rxjava/src/main/java/retrofit2/adapter/rxjava/BodyOnSubscribe.java
-Time Of Creation: 2017-01-29T23:02:37-05:00
-Time Of Deletion: 2017-01-29T23:10:59-05:00
-Creation Commit Hash: 63b5ff75be32344796c435ffa192c5b3f2b554bd
-Deletion Commit Hash: 5e47946dfb169c2732846034d9b60606edb87c58
-Time To Complete: P0D; PT8M22S
+Time Of Creation: 2017-01-29T23:07:28-05:00
+Time Of Deletion: 2017-01-29T23:13:12-05:00
+Creation Commit Hash: c0a2d6baeb9afb8d7bb4f9546a86ddb6a719f969
+Deletion Commit Hash: fe7280aac7d7e4553c84523e65f66fb9f33a0356
+Time To Complete: P0D; PT5M44S
 
-Content: // TODO if 'callbackExecutor' is not null, the 'callback' methods should be executed
-// on that executor by submitting a Runnable. This is left as an exercise for the reader.
+Type: Complete
+Content:
+figure out how to get Jackson to stop using AnInterface's serializer here.
+Specificity: 0.77379
+Content Structure:
+root(ROOT-0, figure-1)
+compound:prt(figure-1, out-2)
+advmod(get-5, how-3)
+mark(get-5, to-4)
+ccomp(figure-1, get-5)
+dobj(get-5, Jackson-6)
+nsubj:xsubj(stop-8, Jackson-6)
+mark(stop-8, to-7)
+xcomp(get-5, stop-8)
+xcomp(stop-8, using-9)
+nmod:poss(serializer-12, AnInterface-10)
+case(AnInterface-10, 's-11)
+dobj(using-9, serializer-12)
+advmod(using-9, here-13)
+File Name: /retrofit-converters/jackson/src/test/java/retrofit/JacksonConverterFactoryTest.java
+Time Of Creation: 2016-01-25T21:22:18-05:00
+Time Of Deletion: 2016-03-11T14:46:06-05:00
+Creation Commit Hash: 54d0b4eb8814ece558d840a33438d15832534f54
+Deletion Commit Hash: 61f97fc5856f320f2b7ae52b9a297f9d18591e8f
+Time To Complete: P1M15D; PT-6H-36M-12S
+
+Type: Complete
+Content:
+figure out how to get Jackson to stop using AnInterface's serializer here.
+Specificity: 0.77379
+Content Structure:
+root(ROOT-0, figure-1)
+compound:prt(figure-1, out-2)
+advmod(get-5, how-3)
+mark(get-5, to-4)
+ccomp(figure-1, get-5)
+dobj(get-5, Jackson-6)
+nsubj:xsubj(stop-8, Jackson-6)
+mark(stop-8, to-7)
+xcomp(get-5, stop-8)
+xcomp(stop-8, using-9)
+nmod:poss(serializer-12, AnInterface-10)
+case(AnInterface-10, 's-11)
+dobj(using-9, serializer-12)
+advmod(using-9, here-13)
+File Name: /retrofit-converters/jackson/src/test/java/retrofit/JacksonConverterTest.java
+Time Of Creation: 2016-01-13T23:12:45-08:00
+Time Of Deletion: 2016-01-25T21:22:18-05:00
+Creation Commit Hash: bbc64007c33e5e3a78b1b0ce858bc6232443a83b
+Deletion Commit Hash: 54d0b4eb8814ece558d840a33438d15832534f54
+Time To Complete: P12D; PT-4H-50M-27S
+
+Type: Complete
+Content:
+figure out how to get Jackson to stop using AnInterface's serializer here.
+Specificity: 0.77379
+Content Structure:
+root(ROOT-0, figure-1)
+compound:prt(figure-1, out-2)
+advmod(get-5, how-3)
+mark(get-5, to-4)
+ccomp(figure-1, get-5)
+dobj(get-5, Jackson-6)
+nsubj:xsubj(stop-8, Jackson-6)
+mark(stop-8, to-7)
+xcomp(get-5, stop-8)
+xcomp(stop-8, using-9)
+nmod:poss(serializer-12, AnInterface-10)
+case(AnInterface-10, 's-11)
+dobj(using-9, serializer-12)
+advmod(using-9, here-13)
+File Name: /retrofit-converters/jackson/src/test/java/retrofit2/JacksonConverterFactoryTest.java
+Time Of Creation: 2016-03-11T14:46:06-05:00
+Time Of Deletion: 2016-05-25T11:21:19-04:00
+Creation Commit Hash: 61f97fc5856f320f2b7ae52b9a297f9d18591e8f
+Deletion Commit Hash: f85217112348b8c755b9a237cec3d1c7e7dd96af
+Time To Complete: P2M14D; PT-4H-24M-47S
+
+Type: Incomplete
+Content:
+figure out how to get Jackson to stop using AnInterface's serializer here.
+Specificity: 0.77379
+Content Structure:
+root(ROOT-0, figure-1)
+compound:prt(figure-1, out-2)
+advmod(get-5, how-3)
+mark(get-5, to-4)
+ccomp(figure-1, get-5)
+dobj(get-5, Jackson-6)
+nsubj:xsubj(stop-8, Jackson-6)
+mark(stop-8, to-7)
+xcomp(get-5, stop-8)
+xcomp(stop-8, using-9)
+nmod:poss(serializer-12, AnInterface-10)
+case(AnInterface-10, 's-11)
+dobj(using-9, serializer-12)
+advmod(using-9, here-13)
+File Name: /retrofit-converters/jackson/src/test/java/retrofit2/converter/jackson/JacksonConverterFactoryTest.java
+Time Of Creation: 2016-05-25T11:21:19-04:00
+Time Of Deletion: null
+Creation Commit Hash: f85217112348b8c755b9a237cec3d1c7e7dd96af
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Incomplete
+Content:
+handle user response...
+Specificity: 0.4641
+Content Structure:
+root(ROOT-0, handle-1)
+compound(response-3, user-2)
+dobj(handle-1, response-3)
+File Name: /samples/src/main/java/com/example/retrofit/JsonQueryParameters.java
+Time Of Creation: 2016-06-02T17:32:09-04:00
+Time Of Deletion: null
+Creation Commit Hash: 2e4998e0ea144b6f8cb5d7cac27572a77e932dce
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+how can we not special case this? See TODO below, maybe...
+Specificity: 0.779525
+Content Structure:
+advmod(See-9, how-1)
+aux(See-9, can-2)
+nsubj(See-9, we-3)
+neg(case-6, not-4)
+amod(case-6, special-5)
+advcl(See-9, case-6)
+dep(case-6, this-7)
+root(ROOT-0, See-9)
+dobj(See-9, TODO-10)
+nmod(See-9, below-11)
+dep(See-9, maybe-13)
+File Name: /retrofit/src/main/java/retrofit/MethodHandler.java
+Time Of Creation: 2016-01-25T21:22:18-05:00
+Time Of Deletion: 2016-01-29T22:04:36-05:00
+Creation Commit Hash: 54d0b4eb8814ece558d840a33438d15832534f54
+Deletion Commit Hash: 65bea17b8d6558d8ff89f8b4e5df1894a86356c5
+Time To Complete: P4D; PT42M18S
+
+Type: Incomplete
+Content:
+if 'callbackExecutor' is not null, the 'callback' methods should be executed
+on that executor by submitting a Runnable. This is left as an exercise for the reader.
+Specificity: 0.98675
+Content Structure:
+mark(null-7, if-1)
+nsubj(null-7, callbackExecutor-3)
+cop(null-7, is-5)
+neg(null-7, not-6)
+advcl(left-27, null-7)
+det(callback-11, the-9)
+det(executor-19, callback-11)
+nsubjpass(left-27, callback-11)
+nsubjpass(executed-16, methods-13)
+aux(executed-16, should-14)
+auxpass(executed-16, be-15)
+acl:relcl(callback-11, executed-16)
+case(executor-19, on-17)
+ref(callback-11, that-18)
+nmod:on(executed-16, executor-19)
+mark(submitting-21, by-20)
+advcl(executed-16, submitting-21)
+det(Runnable-23, a-22)
+nsubj(This-25, Runnable-23)
+xcomp(submitting-21, This-25)
+auxpass(left-27, is-26)
+root(ROOT-0, left-27)
+case(exercise-30, as-28)
+det(exercise-30, an-29)
+nmod:as(left-27, exercise-30)
+case(reader-33, for-31)
+det(reader-33, the-32)
+nmod:for(exercise-30, reader-33)
 File Name: /samples/src/main/java/com/example/retrofit/ErrorHandlingAdapter.java
-Time Of Creation: 2017-01-30T00:48:22-05:00
+Time Of Creation: 2017-01-30T07:15:47-05:00
 Time Of Deletion: null
-Creation Commit Hash: 22004b2b4221cb7b55844b165979ba4dedd91574
+Creation Commit Hash: 29a44355fa1a83b0994558d4276d8e759a6975a5
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
-Content: // TODO this test doesn't play nice in the IDE because it relies on Java 8 language features.
-File Name: ./retrofit/src/test/java/retrofit2/Java8DefaultMethodsTest.java
-Time Of Creation: 2016-11-19T15:25:16-05:00
+Type: Complete
+Content:
+if 'callbackExecutor' is not null, the 'callback' methods should be executed
+Specificity: 0.757945
+Content Structure:
+mark(null-7, if-1)
+nsubj(null-7, callbackExecutor-3)
+cop(null-7, is-5)
+neg(null-7, not-6)
+advcl(executed-16, null-7)
+det(methods-13, the-9)
+amod(methods-13, callback-11)
+nsubjpass(executed-16, methods-13)
+aux(executed-16, should-14)
+auxpass(executed-16, be-15)
+root(ROOT-0, executed-16)
+File Name: /samples/src/main/java/com/example/retrofit/ErrorHandlingCallAdapter.java
+Time Of Creation: 2016-08-03T01:41:03-04:00
+Time Of Deletion: 2017-01-30T07:15:47-05:00
+Creation Commit Hash: f7a8ba0b448a8643bdb8e989f19468d6c365e8ee
+Deletion Commit Hash: 29a44355fa1a83b0994558d4276d8e759a6975a5
+Time To Complete: P5M27D; PT6H34M44S
+
+Type: Complete
+Content:
+return Observable.error(new IOException()); // TODO non-suck message.
+Specificity: 0.921076
+Content Structure:
+compound(Observable.error-2, return-1)
+root(ROOT-0, Observable.error-2)
+amod(-LRB--6, new-4)
+amod(-LRB--6, IOException-5)
+appos(Observable.error-2, -LRB--6)
+compound(TODO-12, /-10)
+compound(TODO-12, /-11)
+dep(Observable.error-2, TODO-12)
+amod(message-14, non-suck-13)
+dep(TODO-12, message-14)
+File Name: /retrofit-adapters/rxjava/src/main/java/retrofit/ObservableCallAdapterFactory.java
+Time Of Creation: 2015-12-29T01:37:25-05:00
+Time Of Deletion: 2016-01-25T19:10:51-05:00
+Creation Commit Hash: 04f65ac5b6653ff0f78d8e1d01271709fb7a05b6
+Deletion Commit Hash: 09d430c46890bb6d3dee5308b25c828122cd354a
+Time To Complete: P27D; PT17H33M26S
+
+Type: Complete
+Content:
+setException(new IOException()); // TODO something more useful.
+Specificity: 0.931627
+Content Structure:
+root(ROOT-0, setException-1)
+amod(-LRB--5, new-3)
+amod(-LRB--5, IOException-4)
+appos(setException-1, -LRB--5)
+amod(TODO-11, /-9)
+amod(TODO-11, /-10)
+amod(something-12, TODO-11)
+dep(setException-1, something-12)
+advmod(useful-14, more-13)
+amod(something-12, useful-14)
+File Name: /samples/src/main/java/com/example/retrofit/CustomCallAdapter.java
+Time Of Creation: 2015-12-29T01:37:25-05:00
+Time Of Deletion: 2016-05-16T13:46:14-07:00
+Creation Commit Hash: 04f65ac5b6653ff0f78d8e1d01271709fb7a05b6
+Deletion Commit Hash: fa07196e9202b1515b4748a1d8e94571d6f80d61
+Time To Complete: P4M17D; PT14H8M49S
+
+Type: Complete
+Content:
+this should append, not replace.
+Specificity: 0.558566
+Content Structure:
+nsubj(append-3, this-1)
+aux(append-3, should-2)
+root(ROOT-0, append-3)
+neg(replace-6, not-5)
+dep(append-3, replace-6)
+File Name: /retrofit/src/main/java/retrofit/RequestBuilder.java
+Time Of Creation: 2016-01-17T00:36:13-05:00
+Time Of Deletion: 2016-01-17T23:38:18-05:00
+Creation Commit Hash: b3ea768567e9e1fb1ba987bea021dbc0ead4acd4
+Deletion Commit Hash: 6a84e8bddcab818eafeeec7ec52d260402f358b8
+Time To Complete: P0D; PT23H2M5S
+
+Type: Incomplete
+Content:
+this test doesn't play nice in the IDE because it relies on Java 8 language features.
+Specificity: 0.866811
+Content Structure:
+det(test-2, this-1)
+nsubj(play-5, test-2)
+aux(play-5, does-3)
+neg(play-5, n't-4)
+root(ROOT-0, play-5)
+xcomp(play-5, nice-6)
+case(IDE-9, in-7)
+det(IDE-9, the-8)
+nmod:in(nice-6, IDE-9)
+mark(relies-12, because-10)
+nsubj(relies-12, it-11)
+advcl(play-5, relies-12)
+case(features-17, on-13)
+compound(8-15, Java-14)
+nummod(features-17, 8-15)
+compound(features-17, language-16)
+nmod:on(relies-12, features-17)
+File Name: /retrofit/src/test/java/retrofit2/Java8DefaultMethodsTest.java
+Time Of Creation: 2016-05-17T00:34:43-04:00
 Time Of Deletion: null
-Creation Commit Hash: bbd8dd0ce73f954431570b00096b9c4eeab4b94c
+Creation Commit Hash: 28d350d99430c87b4ada7d1aa9e08c96884cb388
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Complete
+Content:
+throw new IllegalStateException(); // TODO
+Specificity: 0.854597
+Content Structure:
+amod(-LRB--4, throw-1)
+amod(-LRB--4, new-2)
+compound(-LRB--4, IllegalStateException-3)
+root(ROOT-0, -LRB--4)
+compound(TODO-9, /-7)
+compound(TODO-9, /-8)
+dep(-LRB--4, TODO-9)
+File Name: /samples/src/main/java/com/example/retrofit/CustomCallAdapter.java
+Time Of Creation: 2015-12-29T01:37:25-05:00
+Time Of Deletion: 2016-03-06T12:45:20-05:00
+Creation Commit Hash: 04f65ac5b6653ff0f78d8e1d01271709fb7a05b6
+Deletion Commit Hash: 7b3a7da04430685462b95aac9b2c769e15a9cbcc
+Time To Complete: P2M6D; PT11H7M55S
+
+Type: Complete
+Content:
+throw new UnsupportedOperationException("Not implemented."); // TODO
+Specificity: 0.855717
+Content Structure:
+root(ROOT-0, throw-1)
+amod(UnsupportedOperationException-3, new-2)
+dobj(throw-1, UnsupportedOperationException-3)
+neg(implemented-7, Not-6)
+dep(throw-1, implemented-7)
+dep(throw-1, /-12)
+compound(TODO-14, /-13)
+dobj(/-12, TODO-14)
+File Name: /retrofit-appengine/src/main/java/retrofit/appengine/UrlFetchClient.java
+Time Of Creation: 2015-12-10T10:39:15-05:00
+Time Of Deletion: 2015-12-21T11:00:20-05:00
+Creation Commit Hash: 1a25a28c4cf87d445ff931cc1c44fcb76cee3aa4
+Deletion Commit Hash: 555a0895a795eed642293ee5edc281ed76a4ccf9
+Time To Complete: P11D; PT21M5S
+
+Type: Complete
+Content:
+warning about generics
+Specificity: 0.448809
+Content Structure:
+root(ROOT-0, warning-1)
+case(generics-3, about-2)
+nmod:about(warning-1, generics-3)
+File Name: /retrofit/src/main/java/retrofit/Response.java
+Time Of Creation: 2015-12-29T01:37:25-05:00
+Time Of Deletion: 2016-01-02T01:19:11-05:00
+Creation Commit Hash: 04f65ac5b6653ff0f78d8e1d01271709fb7a05b6
+Deletion Commit Hash: e53b52f7b5984257e3bb99c61e7a11a1b434861b
+Time To Complete: P4D; PT-18M-14S
+
+Type: Complete
+Content:
+we shouldn't need to sleep
+Specificity: 0.545895
+Content Structure:
+nsubj(need-4, we-1)
+nsubj:xsubj(sleep-6, we-1)
+aux(need-4, should-2)
+neg(need-4, n't-3)
+root(ROOT-0, need-4)
+mark(sleep-6, to-5)
+xcomp(need-4, sleep-6)
+File Name: /retrofit-mock/src/test/java/retrofit/MockRetrofitTest.java
+Time Of Creation: 2016-01-24T12:03:28+05:30
+Time Of Deletion: 2016-01-25T18:25:53-05:00
+Creation Commit Hash: 15f73966ee4e7d355cc0b9839f2103ae9684f72f
+Deletion Commit Hash: 640bac5d67be978d000f312bbadec7211ed0dafd
+Time To Complete: P1D; PT16H52M25S
+
+Type: Complete
+Content:
+we shouldn't need to sleep
+Specificity: 0.545895
+Content Structure:
+nsubj(need-4, we-1)
+nsubj:xsubj(sleep-6, we-1)
+aux(need-4, should-2)
+neg(need-4, n't-3)
+root(ROOT-0, need-4)
+mark(sleep-6, to-5)
+xcomp(need-4, sleep-6)
+File Name: /retrofit-mock/src/test/java/retrofit/mock/MockRetrofitTest.java
+Time Of Creation: 2016-03-10T18:53:26-05:00
+Time Of Deletion: 2016-03-11T14:46:06-05:00
+Creation Commit Hash: 4e1b171943b8bdef8bfc78e0bae17ddcd53052be
+Deletion Commit Hash: 61f97fc5856f320f2b7ae52b9a297f9d18591e8f
+Time To Complete: P1D; PT-4H-7M-20S
+
+Type: Incomplete
+Content:
+we shouldn't need to sleep
+Thread.sleep(100); // Ensure the task has started.
+Specificity: 0.875016
+Content Structure:
+nsubj(need-4, we-1)
+nsubj:xsubj(sleep-6, we-1)
+aux(need-4, should-2)
+neg(need-4, n't-3)
+root(ROOT-0, need-4)
+mark(sleep-6, to-5)
+xcomp(need-4, sleep-6)
+dobj(sleep-6, Thread.sleep-7)
+appos(Thread.sleep-7, 100-9)
+dep(Ensure-14, /-12)
+dep(started-18, Ensure-14)
+det(task-16, the-15)
+nsubj(started-18, task-16)
+aux(started-18, has-17)
+parataxis(need-4, started-18)
+File Name: /retrofit-mock/src/test/java/retrofit2/mock/BehaviorDelegateTest.java
+Time Of Creation: 2016-03-14T02:09:27-04:00
+Time Of Deletion: null
+Creation Commit Hash: 78897005be619c3b63d238bf5d0de0f1580d95d4
+Deletion Commit Hash: null
+Time To Complete: Incomplete
+
+Type: Complete
+Content:
+we shouldn't need to sleep
+Specificity: 0.545895
+Content Structure:
+nsubj(need-4, we-1)
+nsubj:xsubj(sleep-6, we-1)
+aux(need-4, should-2)
+neg(need-4, n't-3)
+root(ROOT-0, need-4)
+mark(sleep-6, to-5)
+xcomp(need-4, sleep-6)
+File Name: /retrofit-mock/src/test/java/retrofit2/mock/MockRetrofitTest.java
+Time Of Creation: 2016-03-11T14:46:06-05:00
+Time Of Deletion: 2016-03-14T02:09:27-04:00
+Creation Commit Hash: 61f97fc5856f320f2b7ae52b9a297f9d18591e8f
+Deletion Commit Hash: 78897005be619c3b63d238bf5d0de0f1580d95d4
+Time To Complete: P3D; PT-13H-36M-39S
+
+
+
+Frequency Table: 
+'0' : 1
+'404' : 1
+'8' : 1
+'<p>' : 1
+'@SuppressWarnings' : 1
+'Array.getLength' : 1
+'Caller' : 1
+'Field.class' : 1
+'FieldMap.class' : 1
+'IDE' : 1
+'IllegalStateException' : 1
+'Java' : 1
+'May' : 1
+'Object' : 1
+'Observable.error' : 1
+'Part.class' : 1
+'PartMap.class' : 1
+'RequestBody' : 1
+'See' : 1
+'TypedOutput' : 1
+'UnsupportedOperationException' : 1
+'about' : 1
+'append' : 1
+'arrayValue' : 1
+'assert' : 1
+'assumes' : 1
+'because' : 1
+'below' : 1
+'can' : 1
+'case' : 1
+'cast' : 1
+'correct' : 1
+'currently' : 1
+'does' : 1
+'encodeNames' : 1
+'encoding' : 1
+'entryKey.toString' : 1
+'entryValue.toString' : 1
+'error' : 1
+'features' : 1
+'form' : 1
+'formBody.addField' : 1
+'generics' : 1
+'handle' : 1
+'https://github.com/square/okhttp/issues/229' : 1
+'in' : 1
+'indicator' : 1
+'int' : 1
+'isArray' : 1
+'it' : 1
+'language' : 1
+'maybe' : 1
+'message' : 1
+'more' : 1
+'multipart' : 1
+'name' : 1
+'nice' : 1
+'non-suck' : 1
+'of' : 1
+'play' : 1
+'plugin' : 1
+'relies' : 1
+'replace' : 1
+'response' : 1
+'responsibility' : 1
+'return' : 1
+'send' : 1
+'setException' : 1
+'some' : 1
+'something' : 1
+'special' : 1
+'test' : 1
+'unchecked' : 1
+'unhandled' : 1
+'url' : 1
+'useful' : 1
+'user' : 1
+'value.getClass' : 1
+'warning' : 1
+'''' : 2
+'+' : 2
+'...' : 2
+'@Ignore' : 2
+'Better' : 2
+'IOException' : 2
+'IllegalArgumentException' : 2
+'Iterable' : 2
+'Map' : 2
+'Map.Entry' : 2
+'Not' : 2
+'Runnable' : 2
+'Single' : 2
+'String' : 2
+'This' : 2
+'Why' : 2
+'``' : 2
+'a' : 2
+'an' : 2
+'arrayLength' : 2
+'back' : 2
+'bring' : 2
+'by' : 2
+'callback' : 2
+'callbackExecutor' : 2
+'entry' : 2
+'entryKey' : 2
+'entryName' : 2
+'entrySet' : 2
+'executed' : 2
+'executor' : 2
+'exercise' : 2
+'implemented' : 2
+'iterableValue' : 2
+'left' : 2
+'methods' : 2
+'no' : 2
+'reader' : 2
+'submitting' : 2
+'tests' : 2
+'that' : 2
+'there' : 2
+'toBlocking' : 2
+':' : 3
+'as' : 3
+'be' : 3
+'multipartBody.addPart' : 3
+'this' : 3
+'transferEncoding' : 3
+'x' : 3
+''' : 4
+''s' : 4
+'100' : 4
+'AnInterface' : 4
+'Ensure' : 4
+'Jackson' : 4
+'Thread.sleep' : 4
+'`' : 4
+'annotationType' : 4
+'docs' : 4
+'entryValue' : 4
+'figure' : 4
+'get' : 4
+'has' : 4
+'need' : 4
+'not' : 4
+'out' : 4
+'serializer' : 4
+'sleep' : 4
+'started' : 4
+'stop' : 4
+'task' : 4
+'throw' : 4
+'using' : 4
+'>' : 5
+'how' : 5
+'instanceof' : 5
+'n't' : 5
+'we' : 5
+'<' : 6
+'==' : 6
+'here' : 6
+'is' : 6
+'new' : 6
+'on' : 6
+'TODO' : 7
+'for' : 7
+'should' : 7
+'Skip' : 8
+'values' : 8
+'the' : 9
+'!' : 10
+';' : 10
+'=' : 10
+'else' : 11
+'value' : 11
+'?' : 12
+'to' : 13
+',' : 18
+'null' : 21
+'if' : 22
+'-LCB-' : 27
+'-RCB-' : 27
+'.' : 34
+'/' : 38
+'-RRB-' : 49
+'-LRB-' : 55

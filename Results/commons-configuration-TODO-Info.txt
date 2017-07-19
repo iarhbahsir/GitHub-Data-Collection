@@ -1,8 +1,192 @@
-Content:     private static Priority traceLevel; // TODO should this be Level?
-File Name: ./src/test/java/org/apache/commons/configuration2/Logging.java
-Time Of Creation: 2016-07-24T19:44:48Z
+Number of TODOs: 8
+Average Specificity: 0.504904Specificites Box Plots: (min, q1, mean, median, q3, max)
+	Incomplete TODO: 0.806262, 0.806262, 0.806262, 0.806262, 0.806262, 0.806262
+	Completed TODO: 0.318764, 0.318764, 0.4618528571428572, 0.318764, 0.562513, 0.832888
+Completion Rate: 87.5%
+
+
+TODOs:
+
+Type: Complete
+Content:
+handle logger.setLogger(config.getLogger())
+Specificity: 0.832888
+Content Structure:
+root(ROOT-0, handle-1)
+compound(config.getLogger-4, logger.setLogger-2)
+dobj(handle-1, config.getLogger-4)
+appos(config.getLogger-4, -RRB--6)
+File Name: /src/main/java/org/apache/commons/configuration2/builder/combined/CombinedConfigurationBuilderProvider.java
+Time Of Creation: 2015-10-22T19:46:07Z
+Time Of Deletion: 2015-10-22T19:46:46Z
+Creation Commit Hash: 07a18aea27165309f0e7c2c3cbfe3c328af52098
+Deletion Commit Hash: 76b15a177b49fd32aeda89bea24090f79d03375a
+Time To Complete: P0D; PT39S
+
+Type: Complete
+Content:
+implementation
+Specificity: 0.318764
+Content Structure:
+root(ROOT-0, implementation-1)
+File Name: /src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java
+Time Of Creation: 2014-11-11T20:44:46Z
+Time Of Deletion: 2014-11-11T20:45:38Z
+Creation Commit Hash: 17eef65fbfd22c6a851c08f23c6e6b10cf41b559
+Deletion Commit Hash: 301e60c29366209467458c4394519aaba6f430d8
+Time To Complete: P0D; PT52S
+
+Type: Complete
+Content:
+implementation
+Specificity: 0.318764
+Content Structure:
+root(ROOT-0, implementation-1)
+File Name: /src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java
+Time Of Creation: 2014-12-08T21:02:26Z
+Time Of Deletion: 2014-12-08T21:02:57Z
+Creation Commit Hash: 0c883a3f6e449ba18b255b9560b7a2be1cb9a6a2
+Deletion Commit Hash: 6bd2ec752406b9ff8160f2f2904ed9a379054536
+Time To Complete: P0D; PT31S
+
+Type: Complete
+Content:
+implementation
+Specificity: 0.318764
+Content Structure:
+root(ROOT-0, implementation-1)
+File Name: /src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java
+Time Of Creation: 2014-12-08T21:02:57Z
+Time Of Deletion: 2014-12-08T21:03:30Z
+Creation Commit Hash: 6bd2ec752406b9ff8160f2f2904ed9a379054536
+Deletion Commit Hash: d68bef420a6d4043f9c63983541e93cd6de2d644
+Time To Complete: P0D; PT33S
+
+Type: Complete
+Content:
+implementation
+Specificity: 0.318764
+Content Structure:
+root(ROOT-0, implementation-1)
+File Name: /src/main/java/org/apache/commons/configuration2/tree/AbstractImmutableNodeHandler.java
+Time Of Creation: 2014-11-01T20:47:47Z
+Time Of Deletion: 2014-11-01T20:48:25Z
+Creation Commit Hash: ab39c78cdbbde1a27176acc50353820540d8bf5f
+Deletion Commit Hash: b38a7411945c7a3d9c907f23671d515bc2a510ab
+Time To Complete: P0D; PT38S
+
+Type: Complete
+Content:
+implementation
+Specificity: 0.318764
+Content Structure:
+root(ROOT-0, implementation-1)
+File Name: /src/main/java/org/apache/commons/configuration2/tree/NodeHandlerDecorator.java
+Time Of Creation: 2014-11-01T20:47:47Z
+Time Of Deletion: 2014-11-01T20:48:25Z
+Creation Commit Hash: ab39c78cdbbde1a27176acc50353820540d8bf5f
+Deletion Commit Hash: b38a7411945c7a3d9c907f23671d515bc2a510ab
+Time To Complete: P0D; PT38S
+
+Type: Complete
+Content:
+private static Priority traceLevel; // TODO should this be Level?
+Specificity: 0.806262
+Content Structure:
+amod(traceLevel-4, private-1)
+amod(traceLevel-4, static-2)
+compound(traceLevel-4, Priority-3)
+root(ROOT-0, traceLevel-4)
+dep(traceLevel-4, /-6)
+nsubj(Level-12, TODO-8)
+aux(Level-12, should-9)
+dep(Level-12, this-10)
+cop(Level-12, be-11)
+parataxis(traceLevel-4, Level-12)
+File Name: /src/test/java/org/apache/commons/configuration/Logging.java
+Time Of Creation: 2014-08-23T16:13:20Z
+Time Of Deletion: 2014-09-13T15:36:51Z
+Creation Commit Hash: df1d7824af0c6e34dff8dc4ec2e9d08ed141c07b
+Deletion Commit Hash: 8542694edb5472bc7537fd43d7d59fb513368f76
+Time To Complete: P21D; PT-36M-29S
+
+Type: Incomplete
+Content:
+private static Priority traceLevel; // TODO should this be Level?
+Specificity: 0.806262
+Content Structure:
+amod(traceLevel-4, private-1)
+amod(traceLevel-4, static-2)
+compound(traceLevel-4, Priority-3)
+root(ROOT-0, traceLevel-4)
+dep(traceLevel-4, /-6)
+nsubj(Level-12, TODO-8)
+aux(Level-12, should-9)
+dep(Level-12, this-10)
+cop(Level-12, be-11)
+parataxis(traceLevel-4, Level-12)
+File Name: /src/test/java/org/apache/commons/configuration2/Logging.java
+Time Of Creation: 2014-09-13T15:36:51Z
 Time Of Deletion: null
-Creation Commit Hash: 6485eb72383b98949f7b943f036a6d27e965661c
+Creation Commit Hash: 8542694edb5472bc7537fd43d7d59fb513368f76
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+
+
+Frequency Table: 
+'a/src/test' : 0
+'b/src/test' : 0
+'commons/configuration2/TestAbstractConfiguration' : 0
+'java' : 0
+'java/org/apache' : 0
+'100644' : 1
+'<T>' : 1
+'@Override' : 1
+'C' : 1
+'List' : 1
+'NodeMatcher' : 1
+'String' : 1
+'config.getLogger' : 1
+'config.isThrowExceptionOnMissing' : 1
+'criterion' : 1
+'diff' : 1
+'fe328a5' : 1
+'ff370a6' : 1
+'getChildren' : 1
+'getMatchingChildrenCount' : 1
+'git' : 1
+'handle' : 1
+'index' : 1
+'int' : 1
+'logger.setLogger' : 1
+'matcher' : 1
+'name' : 1
+'setThrowExceptionOnMissing' : 1
+'+' : 2
+'--' : 2
+'-LCB-' : 2
+';' : 2
+'<C>' : 2
+'?' : 2
+'Level' : 2
+'Priority' : 2
+'T' : 2
+'TODO' : 2
+'a/src/test/java/org/apache/commons/configuration2/TestAbstractConfiguration.java' : 2
+'b/src/test/java/org/apache/commons/configuration2/TestAbstractConfiguration.java' : 2
+'be' : 2
+'node' : 2
+'private' : 2
+'public' : 2
+'should' : 2
+'static' : 2
+'this' : 2
+'traceLevel' : 2
+',' : 3
+'-RCB-' : 3
+'.' : 3
+'/' : 4
+'implementation' : 5
+'-LRB-' : 6
+'-RRB-' : 6

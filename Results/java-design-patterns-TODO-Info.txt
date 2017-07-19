@@ -1,1 +1,90 @@
-No TODOs
+Number of TODOs: 5
+Average Specificity: 0.45891199999999993Specificites Box Plots: (min, q1, mean, median, q3, max)
+	Incomplete TODO: Infinity, NaN, NaN, NaN, NaN, -Infinity
+	Completed TODO: 0.458912, 0.458912, 0.45891199999999993, 0.458912, 0.458912, 0.458912
+Completion Rate: 100.0%
+
+
+TODOs:
+
+Type: Complete
+Content:
+Auto-generated method stub
+Specificity: 0.458912
+Content Structure:
+amod(stub-3, Auto-generated-1)
+compound(stub-3, method-2)
+root(ROOT-0, stub-3)
+File Name: /flux/src/main/java/com/iluwatar/ContentStore.java
+Time Of Creation: 2016-03-26T15:54:40+02:00
+Time Of Deletion: 2016-03-26T21:03:34+02:00
+Creation Commit Hash: ac468bb7e727a56b313992f9d0eb6dfd3ab116ec
+Deletion Commit Hash: d406f0f9c660d1fefadf95cbb1157ef4b4835b63
+Time To Complete: P0D; PT5H8M54S
+
+Type: Complete
+Content:
+Auto-generated method stub
+Specificity: 0.458912
+Content Structure:
+amod(stub-3, Auto-generated-1)
+compound(stub-3, method-2)
+root(ROOT-0, stub-3)
+File Name: /flux/src/main/java/com/iluwatar/ContentView.java
+Time Of Creation: 2016-03-26T15:54:40+02:00
+Time Of Deletion: 2016-03-26T21:03:34+02:00
+Creation Commit Hash: ac468bb7e727a56b313992f9d0eb6dfd3ab116ec
+Deletion Commit Hash: d406f0f9c660d1fefadf95cbb1157ef4b4835b63
+Time To Complete: P0D; PT5H8M54S
+
+Type: Complete
+Content:
+Auto-generated method stub
+Specificity: 0.458912
+Content Structure:
+amod(stub-3, Auto-generated-1)
+compound(stub-3, method-2)
+root(ROOT-0, stub-3)
+File Name: /flux/src/main/java/com/iluwatar/MenuStore.java
+Time Of Creation: 2016-03-26T15:54:40+02:00
+Time Of Deletion: 2016-03-26T21:03:34+02:00
+Creation Commit Hash: ac468bb7e727a56b313992f9d0eb6dfd3ab116ec
+Deletion Commit Hash: d406f0f9c660d1fefadf95cbb1157ef4b4835b63
+Time To Complete: P0D; PT5H8M54S
+
+Type: Complete
+Content:
+Auto-generated method stub
+Specificity: 0.458912
+Content Structure:
+amod(stub-3, Auto-generated-1)
+compound(stub-3, method-2)
+root(ROOT-0, stub-3)
+File Name: /flux/src/main/java/com/iluwatar/MenuView.java
+Time Of Creation: 2016-03-26T15:54:40+02:00
+Time Of Deletion: 2016-03-26T21:03:34+02:00
+Creation Commit Hash: ac468bb7e727a56b313992f9d0eb6dfd3ab116ec
+Deletion Commit Hash: d406f0f9c660d1fefadf95cbb1157ef4b4835b63
+Time To Complete: P0D; PT5H8M54S
+
+Type: Complete
+Content:
+Auto-generated method stub
+Specificity: 0.458912
+Content Structure:
+amod(stub-3, Auto-generated-1)
+compound(stub-3, method-2)
+root(ROOT-0, stub-3)
+File Name: /layers/src/main/java/com/iluwatar/layers/CakeBakingServiceImpl.java
+Time Of Creation: 2016-07-27T15:46:17+03:00
+Time Of Deletion: 2016-07-29T13:01:51+05:30
+Creation Commit Hash: 3001fa4a30adb8fb4d1fbbbfdca1637885386582
+Deletion Commit Hash: 383e4a3a0b7a53ad1968e8a8b0b44f4b110c7fb1
+Time To Complete: P2D; PT-5H-14M-26S
+
+
+
+Frequency Table: 
+'Auto-generated' : 5
+'method' : 5
+'stub' : 5

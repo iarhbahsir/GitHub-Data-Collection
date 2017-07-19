@@ -1,10 +1,13 @@
 Number of TODOs: 33
-Average Specificity: 0.6131836060606062
+Average Specificity: 0.7313116363636365Specificites Box Plots: (min, q1, mean, median, q3, max)
+	Incomplete TODO: 0.405762, 0.5569335, 0.7240795625, 0.693101, 0.885826, 0.999961
+	Completed TODO: 0.962738, 0.962738, 0.962738, 0.962738, 0.962738, 0.962738
 Completion Rate: 3.0303030303030303%
 
 
 TODOs:
 
+Type: Incomplete
 Content:
 :
 - improve user interface
@@ -15,7 +18,7 @@ Content:
 
 @see <a href="http://www.nihilogic.dk/labs/evolving-images/">Evolving Images with JavaScript and canvas (Nihilogic)</a>
 
-Specificity: 1.0
+Specificity: 0.999961
 Content Structure:
 parataxis(make-7, improve-3)
 compound(interface-5, user-4)
@@ -78,12 +81,13 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 :
 - select tolerance level
 - allow editing of the point set
 
-Specificity: 0.659714
+Specificity: 0.659979
 Content Structure:
 case(level-5, --2)
 amod(level-5, select-3)
@@ -102,10 +106,11 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 :  Should have assertRelativelyEquals(double[], double[], eps) in TestUtils
 Should also add RealVector and RealMatrix versions
-Specificity: 0.682364
+Specificity: 0.983789
 Content Structure:
 aux(have-3, Should-2)
 root(ROOT-0, have-3)
@@ -134,9 +139,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 : Exceptions should not be used for flow control.
-Specificity: 0.96452
+Specificity: 0.644739
 Content Structure:
 nsubjpass(used-6, Exceptions-2)
 aux(used-6, should-3)
@@ -153,6 +159,7 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 : add this test in 4.0, as it is not possible to do it in 3.2
 due to incompatibility of the return type in the Dfp class
@@ -161,7 +168,7 @@ public void testLog10() {
 for (double x = -0.9; x < 0.9; x += 0.05) {
 }
 }
-Specificity: 0.693004
+Specificity: 0.999774
 Content Structure:
 root(ROOT-0, add-2)
 det(test-4, this-3)
@@ -215,10 +222,11 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 : for small t (say less than 1), the alternative expansion in part 3 of [1]
 from class javadoc should be used.
-Specificity: 0.693004
+Specificity: 0.975303
 Content Structure:
 case(t-4, for-2)
 amod(t-4, small-3)
@@ -250,9 +258,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 : once MATH-364 is resolved, replace 9 with 30
-Specificity: 0.704099
+Specificity: 0.700343
 Content Structure:
 advmod(MATH-364-3, once-2)
 nsubjpass(resolved-5, MATH-364-3)
@@ -269,9 +278,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 : replace with statistical tests
-Specificity: 0.461157
+Specificity: 0.516021
 Content Structure:
 root(ROOT-0, replace-2)
 case(tests-5, with-3)
@@ -284,11 +294,12 @@ Creation Commit Hash: 55cc560f8a20c183db108dd2136edd3721bd6935
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 : the wrapper around NonLinearConjugateGradientOptimizer is a temporary hack for
 version 3.1 of the library. It should be removed when NonLinearConjugateGradientOptimizer
 will officially be declared as implementing MultivariateDifferentiableOptimizer
-Specificity: 0.461157
+Specificity: 0.985909
 Content Structure:
 det(wrapper-3, the-2)
 nsubj(hack-9, wrapper-3)
@@ -324,10 +335,11 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 : this test is temporarily disabled for 3.2 release as a bug in Cobertura
 makes it run for several hours before completing
-Specificity: 0.495207
+Specificity: 0.902436
 Content Structure:
 det(test-3, this-2)
 nsubj(disabled-6, test-3)
@@ -357,9 +369,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 : user-defined parameter?
-Specificity: 0.942738
+Specificity: 0.463925
 Content Structure:
 amod(parameter-3, user-defined-2)
 root(ROOT-0, parameter-3)
@@ -370,10 +383,11 @@ Creation Commit Hash: 7550cb46417b396fed21f2ec149b465e7d039cef
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 : verify that tolerance this wide is really OK
 
-Specificity: 0.531258
+Specificity: 0.659641
 Content Structure:
 root(ROOT-0, verify-2)
 mark(OK-9, that-3)
@@ -390,9 +404,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 @SuppressWarnings("unchecked") // TODO is the cast OK?
-Specificity: 0.531258
+Specificity: 0.857504
 Content Structure:
 root(ROOT-0, @SuppressWarnings-1)
 dep(/-7, unchecked-4)
@@ -409,9 +424,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 Assert.fail("Expecting MathIllegalArgumentException"); // TODO needs rework since convergence behaviour was changed
-Specificity: 0.559504
+Specificity: 0.91928
 Content Structure:
 root(ROOT-0, Assert.fail-1)
 compound(MathIllegalArgumentException-5, Expecting-4)
@@ -433,9 +449,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 From Wikipedia KS article - TODO: get (and test) more precise values
-Specificity: 0.461157
+Specificity: 0.910843
 Content Structure:
 case(KS-3, From-1)
 compound(KS-3, Wikipedia-2)
@@ -455,9 +472,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 Solution?
-Specificity: 0.461157
+Specificity: 0.405762
 Content Structure:
 root(ROOT-0, Solution-1)
 File Name: ./src/main/java/org/apache/commons/math4/fitting/leastsquares/LeastSquaresOptimizer.java
@@ -467,11 +485,12 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 This test leads to a singular problem with the Gauss-Newton
 optimizer. This should be inquired.
 
-Specificity: 0.495207
+Specificity: 0.840411
 Content Structure:
 det(test-2, This-1)
 nsubj(leads-3, test-2)
@@ -495,11 +514,12 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 This test leads to a singular problem with the Gauss-Newton
 optimizer. This should be inquired.
 
-Specificity: 0.942738
+Specificity: 0.840411
 Content Structure:
 det(test-2, This-1)
 nsubj(leads-3, test-2)
@@ -523,11 +543,12 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 This test leads to a singular problem with the Gauss-Newton
 optimizer. This should be inquired.
 
-Specificity: 0.531258
+Specificity: 0.840411
 Content Structure:
 det(test-2, This-1)
 nsubj(leads-3, test-2)
@@ -551,11 +572,12 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 This test leads to a singular problem with the Gauss-Newton
 optimizer. This should be inquired.
 
-Specificity: 0.531258
+Specificity: 0.840411
 Content Structure:
 det(test-2, This-1)
 nsubj(leads-3, test-2)
@@ -579,9 +601,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 Use more specific error message
-Specificity: 0.559504
+Specificity: 0.555476
 Content Structure:
 root(ROOT-0, Use-1)
 advmod(specific-3, more-2)
@@ -595,9 +618,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Complete
 Content:
 XXX TODO: method cannot be "private" because of its use in "ValueServer" in "DIGEST_MODE".
-Specificity: 0.461157
+Specificity: 0.962738
 Content Structure:
 compound(TODO-2, XXX-1)
 root(ROOT-0, TODO-2)
@@ -621,12 +645,13 @@ Creation Commit Hash: b85d898d2a5c73f1f46c1fab3848c95b05cd8bf1
 Deletion Commit Hash: 55cc560f8a20c183db108dd2136edd3721bd6935
 Time To Complete: P2M30D; PT-15H-49M-28S
 
+Type: Incomplete
 Content:
 cache results?
 
 @since 3.3
 
-Specificity: 0.461157
+Specificity: 0.497741
 Content Structure:
 dep(results-2, cache-1)
 dep(@since-4, results-2)
@@ -639,9 +664,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 check it got the right answer
-Specificity: 0.495207
+Specificity: 0.558391
 Content Structure:
 root(ROOT-0, check-1)
 nsubj(got-3, it-2)
@@ -656,9 +682,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 check that it is a bad fit? Why the extra conditions?
-Specificity: 0.942738
+Specificity: 0.715977
 Content Structure:
 root(ROOT-0, check-1)
 mark(fit-7, that-2)
@@ -678,9 +705,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 get array from RealVector without copying?
-Specificity: 0.531258
+Specificity: 0.616229
 Content Structure:
 root(ROOT-0, get-1)
 dobj(get-1, array-2)
@@ -695,9 +723,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 more efficient implementation
-Specificity: 0.531258
+Specificity: 0.447436
 Content Structure:
 advmod(efficient-2, more-1)
 amod(implementation-3, efficient-2)
@@ -709,9 +738,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 move to builder test
-Specificity: 0.559504
+Specificity: 0.495012
 Content Structure:
 root(ROOT-0, move-1)
 case(test-4, to-2)
@@ -724,9 +754,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 move to linear package and expand options?
-Specificity: 0.461157
+Specificity: 0.591852
 Content Structure:
 root(ROOT-0, move-1)
 case(package-4, to-2)
@@ -742,9 +773,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 public void testJava() {// TODO more debug
-Specificity: 0.461157
+Specificity: 0.869216
 Content Structure:
 amod(testJava-3, public-1)
 compound(testJava-3, void-2)
@@ -762,9 +794,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 what is this actually testing?
-Specificity: 0.495207
+Specificity: 0.545255
 Content Structure:
 dobj(testing-5, what-1)
 aux(testing-5, is-2)
@@ -778,9 +811,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 why is this part here? hasn't it been tested already?
-Specificity: 0.942738
+Specificity: 0.685859
 Content Structure:
 advmod(is-2, why-1)
 dep(has-7, is-2)
@@ -800,9 +834,10 @@ Creation Commit Hash: b2627daccef8f41e83649d085268dc247b3fbb3f
 Deletion Commit Hash: null
 Time To Complete: Incomplete
 
+Type: Incomplete
 Content:
 why should this fail? It uses 15 evaluations.
-Specificity: 0.531258
+Specificity: 0.645249
 Content Structure:
 advmod(fail-4, why-1)
 aux(fail-4, should-2)
@@ -822,255 +857,255 @@ Time To Complete: Incomplete
 
 
 Frequency Table: 
-'``' : 6
-'temporary' : 1
-'been' : 1
-'bad' : 1
-'completing' : 1
-'@see' : 1
-'without' : 1
-'Dfp' : 1
-'fit' : 1
-'n't' : 1
-'because' : 1
-'based' : 1
 '!' : 1
-'cache' : 1
-'15' : 1
-'Images' : 1
 '+' : 1
-',' : 8
-'version' : 1
-'click' : 1
-'-' : 8
-'.' : 14
-'/' : 8
-'1' : 2
-'as' : 3
-'3' : 1
-'selection' : 1
-'9' : 1
-':' : 15
-'singular' : 4
-';' : 3
-'<' : 1
-'conditions' : 1
-'assertRelativelyEquals' : 1
-'=' : 2
-'?' : 12
-'statistical' : 1
-'Should' : 2
-'be' : 11
-'another' : 1
-'javadoc' : 1
-'Exceptions' : 2
-'builder' : 2
-'ValueServer' : 2
-'disabled' : 1
-'after' : 1
-'NonLinearConjugateGradientOptimizer' : 2
-'30' : 1
-'resolved' : 1
-'a' : 8
-'TODO' : 5
-'set' : 1
-'makes' : 1
-'possible' : 1
-'testLog10' : 1
-'right' : 1
-'...' : 1
-'<a href="http://www.nihilogic.dk/labs/evolving-images/">' : 1
-'actually' : 1
-'the' : 15
-'Assert.fail' : 1
-'Expecting' : 1
-'incompatibility' : 1
-'t' : 1
-'testJava' : 1
-'answer' : 1
-'bug' : 1
-'x' : 4
-'Evolving' : 1
-'to' : 10
-'generations' : 1
-'DIGEST_MODE' : 1
-'run' : 1
-'do' : 1
-'got' : 1
-'either' : 1
-'0.05' : 1
-'copying' : 1
-'This' : 8
-'has' : 1
-'results' : 2
-'needs' : 1
-'add' : 4
-'test' : 9
-'unchecked' : 1
-'this' : 6
-'its' : 1
-'check' : 2
-'</a>' : 1
-'article' : 1
-'iterations' : 1
-'inquired' : 4
-'internals' : 1
-'tests' : 1
-'once' : 1
-'leads' : 4
-'-RRB-' : 10
-'fixed' : 1
 '-0.9' : 1
-'parameters' : 1
-'changed' : 1
-'allow' : 2
-'private' : 1
-'for' : 7
-'Wikipedia' : 1
-'interface' : 2
-'button' : 1
-'not' : 5
-'optimizer' : 4
-'RealVector' : 2
-'JavaScript' : 1
-'class' : 3
-'''' : 6
-'hours' : 1
-'evaluations' : 1
-'wide' : 1
-'was' : 1
-'message' : 1
-'editing' : 1
-'with' : 7
-'what' : 1
-'4.0' : 1
-'MultivariateDifferentiableOptimizer' : 1
-'Cobertura' : 1
-'time' : 1
-'configurable' : 1
-'e.g.' : 1
-'-LSB-' : 3
-'select' : 1
-'release' : 1
-'tested' : 1
-'user-defined' : 1
-'type' : 1
-'when' : 1
-'cast' : 1
-'hack' : 1
-'number' : 1
-'-LCB-' : 3
-'problem' : 4
-'options' : 1
-'flow' : 2
-'gallery' : 1
-'algorithm' : 1
-'images' : 1
-'canvas' : 1
-'method' : 1
-'in' : 9
-'double' : 3
-'testing' : 1
-'eps' : 1
-'is' : 9
-'it' : 6
-'loading' : 1
-'fail' : 1
-'versions' : 1
-'3.1' : 1
-'3.2' : 2
-'3.3' : 1
-'logging' : 1
-'Gauss-Newton' : 4
-'other' : 1
-'-LRB-' : 10
-'@since' : 1
-'It' : 2
-'library' : 1
-'get' : 2
-'have' : 1
-'verify' : 1
-'XXX' : 1
-'precise' : 1
-'Solution' : 1
-'@Test' : 1
-'linear' : 1
-'efficient' : 1
-'Use' : 1
-'implementing' : 1
-'more' : 4
-'KS' : 1
-'-RCB-' : 2
-'removed' : 1
-'MathIllegalArgumentException' : 1
-'-RSB-' : 3
-'behaviour' : 1
-'MATH-364' : 1
-'return' : 1
-'small' : 1
-'before' : 1
-'use' : 2
-'several' : 1
-'replace' : 2
-'wrapper' : 1
-'used' : 3
-'rework' : 1
-'@SuppressWarnings' : 1
-'that' : 2
-'TestUtils' : 1
-'than' : 1
-'should' : 10
-'from' : 2
-'tolerance' : 2
-'officially' : 1
-'package' : 1
-'void' : 2
-'already' : 1
-'level' : 1
-'minutes' : 1
-'temporarily' : 1
-'Why' : 1
-'less' : 1
-'expansion' : 1
-'expand' : 1
-'improve' : 1
-'since' : 1
-'here' : 1
-'convergence' : 1
-'part' : 2
-'values' : 1
-'why' : 2
-'error' : 1
-'around' : 1
-'point' : 1
-'can' : 1
-'Nihilogic' : 1
-'public' : 2
-'array' : 1
-'and' : 4
-'extra' : 1
-'parameter' : 1
-'of' : 9
-'OK' : 2
-'make' : 1
-'on' : 1
-'declared' : 1
-'move' : 3
-'debug' : 1
-'or' : 1
-'will' : 1
-'implementation' : 1
-'spent' : 1
-'alternative' : 1
-'automatic' : 1
-'control' : 2
-'say' : 1
-'also' : 1
-'From' : 1
-'specific' : 1
-'really' : 1
-'RealMatrix' : 1
-'due' : 1
-'uses' : 1
+'...' : 1
+'0.05' : 1
 '0.9' : 1
+'15' : 1
+'3' : 1
+'3.1' : 1
+'3.3' : 1
+'30' : 1
+'4.0' : 1
+'9' : 1
+'<' : 1
+'</a>' : 1
+'<a href="http://www.nihilogic.dk/labs/evolving-images/">' : 1
+'@SuppressWarnings' : 1
+'@Test' : 1
+'@see' : 1
+'@since' : 1
+'Assert.fail' : 1
+'Cobertura' : 1
+'DIGEST_MODE' : 1
+'Dfp' : 1
+'Evolving' : 1
+'Expecting' : 1
+'From' : 1
+'Images' : 1
+'JavaScript' : 1
+'KS' : 1
+'MATH-364' : 1
+'MathIllegalArgumentException' : 1
+'MultivariateDifferentiableOptimizer' : 1
+'Nihilogic' : 1
+'RealMatrix' : 1
+'Solution' : 1
+'TestUtils' : 1
+'Use' : 1
+'Why' : 1
+'Wikipedia' : 1
+'XXX' : 1
+'actually' : 1
+'after' : 1
+'algorithm' : 1
+'already' : 1
+'also' : 1
+'alternative' : 1
+'another' : 1
+'answer' : 1
+'around' : 1
+'array' : 1
+'article' : 1
+'assertRelativelyEquals' : 1
+'automatic' : 1
+'bad' : 1
+'based' : 1
+'because' : 1
+'been' : 1
+'before' : 1
+'behaviour' : 1
+'bug' : 1
+'button' : 1
+'cache' : 1
+'can' : 1
+'canvas' : 1
+'cast' : 1
+'changed' : 1
+'click' : 1
+'completing' : 1
+'conditions' : 1
+'configurable' : 1
+'convergence' : 1
+'copying' : 1
+'debug' : 1
+'declared' : 1
+'disabled' : 1
+'do' : 1
+'due' : 1
+'e.g.' : 1
+'editing' : 1
+'efficient' : 1
+'either' : 1
+'eps' : 1
+'error' : 1
+'evaluations' : 1
+'expand' : 1
+'expansion' : 1
+'extra' : 1
+'fail' : 1
+'fit' : 1
+'fixed' : 1
+'gallery' : 1
+'generations' : 1
+'got' : 1
+'hack' : 1
+'has' : 1
+'have' : 1
+'here' : 1
+'hours' : 1
+'images' : 1
+'implementation' : 1
+'implementing' : 1
+'improve' : 1
+'incompatibility' : 1
+'internals' : 1
+'iterations' : 1
+'its' : 1
+'javadoc' : 1
+'less' : 1
+'level' : 1
+'library' : 1
+'linear' : 1
+'loading' : 1
+'logging' : 1
+'make' : 1
+'makes' : 1
+'message' : 1
+'method' : 1
+'minutes' : 1
+'n't' : 1
+'needs' : 1
+'number' : 1
+'officially' : 1
+'on' : 1
+'once' : 1
+'options' : 1
+'or' : 1
+'other' : 1
+'package' : 1
+'parameter' : 1
+'parameters' : 1
+'point' : 1
+'possible' : 1
+'precise' : 1
+'private' : 1
+'really' : 1
+'release' : 1
+'removed' : 1
+'resolved' : 1
+'return' : 1
+'rework' : 1
+'right' : 1
+'run' : 1
+'say' : 1
+'select' : 1
+'selection' : 1
+'set' : 1
+'several' : 1
+'since' : 1
+'small' : 1
+'specific' : 1
+'spent' : 1
+'statistical' : 1
+'t' : 1
+'temporarily' : 1
+'temporary' : 1
+'testJava' : 1
+'testLog10' : 1
+'tested' : 1
+'testing' : 1
+'tests' : 1
+'than' : 1
+'time' : 1
+'type' : 1
+'unchecked' : 1
+'user-defined' : 1
+'uses' : 1
+'values' : 1
+'verify' : 1
+'version' : 1
+'versions' : 1
+'was' : 1
+'what' : 1
+'when' : 1
+'wide' : 1
+'will' : 1
+'without' : 1
+'wrapper' : 1
+'-RCB-' : 2
+'1' : 2
+'3.2' : 2
+'=' : 2
+'Exceptions' : 2
+'It' : 2
+'NonLinearConjugateGradientOptimizer' : 2
+'OK' : 2
+'RealVector' : 2
+'Should' : 2
+'ValueServer' : 2
+'allow' : 2
+'builder' : 2
+'check' : 2
+'control' : 2
+'flow' : 2
+'from' : 2
+'get' : 2
+'interface' : 2
+'part' : 2
+'public' : 2
+'replace' : 2
+'results' : 2
+'that' : 2
+'tolerance' : 2
+'use' : 2
 'user' : 2
+'void' : 2
+'why' : 2
+'-LCB-' : 3
+'-LSB-' : 3
+'-RSB-' : 3
+';' : 3
+'as' : 3
+'class' : 3
+'double' : 3
+'move' : 3
+'used' : 3
+'Gauss-Newton' : 4
+'add' : 4
+'and' : 4
+'inquired' : 4
+'leads' : 4
+'more' : 4
+'optimizer' : 4
+'problem' : 4
+'singular' : 4
+'x' : 4
+'TODO' : 5
+'not' : 5
+'''' : 6
+'``' : 6
+'it' : 6
+'this' : 6
+'for' : 7
+'with' : 7
+',' : 8
+'-' : 8
+'/' : 8
+'This' : 8
+'a' : 8
+'in' : 9
+'is' : 9
+'of' : 9
+'test' : 9
+'-LRB-' : 10
+'-RRB-' : 10
+'should' : 10
+'to' : 10
+'be' : 11
+'?' : 12
+'.' : 14
+':' : 15
+'the' : 15
