@@ -49,11 +49,6 @@ public class TodoReader {
 		boolean continueTODO = false;
 		Todo toContinue = new Todo("new", "todo");
 		
-		/*if(toRead.getAbsolutePath().contains("71")) {
-			System.out.println("found");
-			System.out.println(fileScanner.nextLine());
-		}*/
-		
 		// first line is always the commit time, second is commit hash
 		String commitTime = "";
 		String commitHash = "";
@@ -106,7 +101,6 @@ public class TodoReader {
 						// found Todo
 						if(howToRead == ReadType.INITIALIZE) {
 							// initialize todos for oldest examined commit (looking at all code, not just changes)
-	//clean					
 							toContinue = new Todo(cleanLine(nextLine), fileName, commitHash, commitTime);
 							todoKeeper.add(toContinue);
 							continueTODO = true;
@@ -115,8 +109,6 @@ public class TodoReader {
 
 							if(nextLine.charAt(0) == '+' && nextLine.charAt(1) != '+') {
 								//update addition
-			//clean
-								//nextLine = cleanLine(nextLine);
 								
 								Todo toAdd = new Todo(cleanLine(nextLine), fileName);
 								if(!todoKeeper.contains(toAdd)) {
@@ -130,7 +122,6 @@ public class TodoReader {
 							
 							else if(nextLine.charAt(0) == '-' && nextLine.charAt(1) != '-') {
 								//update deletion				
-		//clean						
 								Todo toDelete = new Todo(cleanLine(nextLine), fileName);
 								if(todoKeeper.contains(toDelete)) {
 									String cHash = todoKeeper.ceiling(toDelete).getCreationCommitHash();
@@ -147,9 +138,7 @@ public class TodoReader {
 					}
 					
 					else if(continueTODO && !nextLine.isEmpty() && !cleanLine(nextLine).endsWith(";")) {
-						//System.out.println("continue with: " + nextLine);
 						todoKeeper.remove(toContinue);
-		//clean
 						toContinue.setFullContent(toContinue.getFullContent() + "\n" + cleanLine(nextLine));
 						todoKeeper.add(toContinue);
 					}
@@ -224,15 +213,10 @@ public class TodoReader {
 		String clonedPath = kb.nextLine();
 		//String clonedPath = args[0];
 		// while testing
-		/*String[] repoNames = {"closure-compiler", "commons-codec", "commons-configuration", "commons-io", "commons-jxpath", 
-				"commons-lang", "commons-math", "commons-net", "commons-pool", "cxf", "empire-db", "guava", "java-design-patterns",
-				"jgit", "okhttp", "orientdb", "retrofit"};*/
-		/*String[] repoNames = {"commons-codec", "commons-configuration", "commons-io", "commons-jxpath", 
-		"commons-lang", "commons-math", "commons-net", "commons-pool", "cxf", "empire-db", "java-design-patterns",
-		"jgit", "okhttp", "orientdb", "retrofit"};*/
-		String[] repoNames = {"commons-math"};
-		
-		//String repoNames[] = {args[1]};
+		String[] repoNames = {"commons-codec", "commons-configuration", "commons-io", "commons-jxpath", 
+				"commons-lang", "commons-math", "commons-net", "commons-pool", "cxf", "empire-db", "java-design-patterns",
+				"jgit", "okhttp", "orientdb", "retrofit", "guava", "closure-compiler"};
+		//String[] repoNames = {args[1]};
 		
 		for(String repoName : repoNames) {
 			System.out.println("Processing " + repoName);

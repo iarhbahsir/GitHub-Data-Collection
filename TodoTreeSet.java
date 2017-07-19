@@ -5,10 +5,15 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 import java.util.TreeSet;
+
+import org.jfree.data.statistics.BoxAndWhiskerCalculator;
+import org.jfree.data.statistics.BoxAndWhiskerItem;
 
 import edu.stanford.nlp.ling.CoreLabel;
 
@@ -21,8 +26,13 @@ public class TodoTreeSet extends TreeSet<Todo> {
 	private int numCompleted = 0;
 	private double totalSpecificity = 0;
 	private HashMap<String, Integer> wordFrequency = new HashMap<String, Integer>();
+	private BoxAndWhiskerItem completeBoxPlot;
+	private BoxAndWhiskerItem incompleteBoxPlot;
 	
 	public void analyze() throws IOException, InterruptedException {
+		ArrayList<Double> completeSpecificities = new ArrayList<Double>();
+		ArrayList<Double> incompleteSpecificities = new ArrayList<Double>();
+		
 		String toWrite = "";
 		for(Todo toAnalyze: this) {
 			toAnalyze.analyzeFullContent();
@@ -31,7 +41,6 @@ public class TodoTreeSet extends TreeSet<Todo> {
 		
 		File currDir = new File("");
 	    
-	    //System.out.println(currDir.getAbsolutePath());
 	    
 	    File specificityIn = new File(currDir.getAbsolutePath() + "/" + "speciteller-master/specificityIn.txt");
 	    if(!specificityIn.exists()) {
@@ -43,10 +52,7 @@ public class TodoTreeSet extends TreeSet<Todo> {
 	    }
 	    
 	    
-	    FileWriter fw = new FileWriter(specificityIn, true);
-	    //System.out.println(tf.toString());
-	    //fw.write(tf.toString());
-	    //System.out.println(getFullContentWords().toString());
+	    FileWriter fw = new FileWriter(specificityIn, false);
 	    fw.write(toWrite);
 	    fw.flush();
 	    fw.close();
@@ -55,14 +61,12 @@ public class TodoTreeSet extends TreeSet<Todo> {
 	    specitellerCommand[5] = "speciteller-master/specificityOut.txt";
 	    Process specitellerCommandProc = new ProcessBuilder(specitellerCommand).start();
 	    BufferedReader br = new BufferedReader(new InputStreamReader(specitellerCommandProc.getErrorStream()));
-	    String read = br.readLine();;
+	    String read = br.readLine();
 	    while(read != null) {
 	    	System.out.println(read);
 	    	read = br.readLine();
 	    }
 	    specitellerCommandProc.waitFor();
-	    //System.out.println(specitellerCommandProc.getOutputStream());
-	    //Runtime.getRuntime().exec(speciTellerCommand);
 	    
 	    Scanner fs = new Scanner(specificityOut);
 	    
@@ -70,8 +74,15 @@ public class TodoTreeSet extends TreeSet<Todo> {
 	    	double specificity = Double.parseDouble(fs.nextLine());
 	    	analyzed.setSpecificity(specificity);
 	    	this.setTotalSpecificity(totalSpecificity + specificity);
+	    	if(analyzed.getDeletionCommitHash() == null) {
+				incompleteSpecificities.add(analyzed.getSpecificity());
+			} else {
+				completeSpecificities.add(analyzed.getSpecificity());
+			}
 	    }
 	    
+	    completeBoxPlot = BoxAndWhiskerCalculator.calculateBoxAndWhiskerStatistics(completeSpecificities);
+	    incompleteBoxPlot = BoxAndWhiskerCalculator.calculateBoxAndWhiskerStatistics(incompleteSpecificities);
 	}
 	
 	public boolean add(Todo toAdd) {
@@ -91,29 +102,24 @@ public class TodoTreeSet extends TreeSet<Todo> {
 	}
 	
 	private void addToFreqTable(Todo toAdd) {
-		//String[] todoWords = toAdd.getFullContent().substring(toAdd.getFullContent().indexOf("TODO")).split("\\s+");
 		List<CoreLabel> todoWords = toAdd.getFullContentWords();
 		Integer currFreq;
 		for(CoreLabel word: todoWords) {
 			if(word != null) {
 				try {
 					currFreq = (Integer) wordFrequency.remove(word.toString());
+					//currFreq = wordFrequency.remove(word.toString());
 					if(currFreq == null) { currFreq = 0;}
 				} catch (java.lang.NullPointerException e) {
 					currFreq = 0;
 				}
-				//System.out.println(currFreq);
 				wordFrequency.put(word.toString(), ++currFreq);
 				
-				/*if(word.toString().equals("TODO")) {
-					System.out.println("Adds:\n" + toAdd.getFullContent());
-				}*/
 			}
 		}
 	}
 	
 	private void removeFromFreqTable(Todo toRemove) {
-		//String[] todoWords = toRemove.getFullContent().substring(toRemove.getFullContent().indexOf("TODO")).split("\\s+");
 		List<CoreLabel> todoWords = toRemove.getFullContentWords();
 		Integer currFreq;
 		for(CoreLabel word: todoWords) {
@@ -126,9 +132,6 @@ public class TodoTreeSet extends TreeSet<Todo> {
 				}
 				
 				wordFrequency.put(word.toString(), --currFreq);
-				/*if(word.toString().equals("TODO")) {
-					System.out.println("Removes:\n" + toRemove.getContent());
-				}*/
 			}	
 		}
 	}
@@ -139,16 +142,28 @@ public class TodoTreeSet extends TreeSet<Todo> {
 			return "No TODOs";
 		}
 		
-		String toReturn = "Number of TODOs: " + size() + "\nAverage Specificity: " + getAvgSpecificity() + "\nCompletion Rate: " + getCompletionRate() + "%\n\n\nTODOs:\n\n";
-		
+		String toReturn = "Number of TODOs: " + size() + "\nAverage Specificity: " + getAvgSpecificity()
+			+ "Specificites Box Plots: (min, q1, mean, median, q3, max)"
+			+ "\n\tIncomplete TODO: " + incompleteBoxPlot.getMinRegularValue() + ", " + incompleteBoxPlot.getQ1() + ", " + incompleteBoxPlot.getMean() + ", " + incompleteBoxPlot.getMedian() + ", " + incompleteBoxPlot.getQ3() + ", " + incompleteBoxPlot.getMaxRegularValue()
+			+ "\n\tCompleted TODO: " + completeBoxPlot.getMinRegularValue() + ", " + completeBoxPlot.getQ1() + ", " + completeBoxPlot.getMean() + ", " + completeBoxPlot.getMedian() + ", " + completeBoxPlot.getQ3() + ", " + completeBoxPlot.getMaxRegularValue()
+			+ "\nCompletion Rate: " + getCompletionRate() + "%\n\n\nTODOs:\n\n";
+	
 		for(Todo toAdd: this) {
 			toReturn += toAdd.toString();
 		}
 		
 		toReturn += "\n\nFrequency Table: \n";
 		
+		//TODO permanently change HashMap to TreeSet
+
+		TreeSet<Word> sortedWordFreq = new TreeSet<Word>(new WordComparator());
 		for(String word: wordFrequency.keySet()) {
-			toReturn += "'" + word + "' : " + wordFrequency.get(word) + "\n";
+			sortedWordFreq.add(new Word(word, wordFrequency.get(word)));
+		}
+		
+		//for(String word: wordFrequency.keySet()) {
+		for(Word word: sortedWordFreq) {
+			toReturn += "'" + word.word + "' : " + word.frequency + "\n";
 		}
 		return toReturn;
 	}
@@ -175,5 +190,23 @@ public class TodoTreeSet extends TreeSet<Todo> {
 		this.wordFrequency = wordFrequency;
 	}
 	
+	private class Word {
+		public String word;
+		public Integer frequency;
+		
+		public Word(String w, Integer f) {
+			word = w;
+			frequency = f;
+		}
+	}
 	
+	private class WordComparator implements Comparator<Word> {
+
+		public int compare(Word a, Word b) {
+			if(a.frequency == b.frequency) {
+				return a.word.compareTo(b.word);
+			}
+			return a.frequency.compareTo(b.frequency);
+		}
+	}
 }

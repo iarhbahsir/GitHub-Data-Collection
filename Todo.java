@@ -61,23 +61,13 @@ public class Todo implements Comparable<Todo>{
 	}
 
 	public void analyzeFullContent() throws IOException, InterruptedException {
-		System.out.println(LocalDateTime.now());
-		System.out.println(this.getFullContent());
+		//System.out.println(LocalDateTime.now());
+		//System.out.println(this.getFullContent());
 		
 		Tree fullContentTree = lp.apply(getFullContentWords());
 	    GrammaticalStructure gs = gsf.newGrammaticalStructure(fullContentTree);
 	    setFullContentStructure(gs.typedDependenciesCCprocessed());
-	    
-	    //String[] toSpeciteller = {"cd", "speciteller-master"};
-	    //Process toSpecitellerProc = new ProcessBuilder(toSpeciteller).start();
-	    //Runtime.getRuntime().exec(toSpeciteller);
-	    
-	    
-	    //String[] fromSpeciteller = {"/bin/bash", "-c", "cd", ".."};
-	    //Process fromSpecitellerProc = new ProcessBuilder(fromSpeciteller).start();
-	    //Runtime.getRuntime().exec(toSpeciteller);
-	    
-	    //System.out.println(getFullContentStructure());
+
 	}
 
 	@Override
@@ -114,7 +104,7 @@ public class Todo implements Comparable<Todo>{
 	}
 	
 	public String toString() {
-		return "Content:\n" + getFullContent() + "\nSpecificity: " + getSpecificity() + "\nContent Structure:" + getFullContentStructureString() +"\nFile Name: " + getFileName()
+		return "Type: " + ((deletionCommitHash == null) ? "Incomplete" : "Complete") + "\nContent:\n" + getFullContent() + "\nSpecificity: " + getSpecificity() + "\nContent Structure:" + getFullContentStructureString() +"\nFile Name: " + getFileName()
 			+ "\nTime Of Creation: " + getTimeOfCreation() + "\nTime Of Deletion: " + getTimeOfDeletion()
 			+ "\nCreation Commit Hash: " + getCreationCommitHash() + "\nDeletion Commit Hash: " + getDeletionCommitHash()
 			+ "\nTime To Complete: " + ((timeOfCreation == null || timeOfDeletion == null) ? "Incomplete":(elapsedTime(timeOfCreation, timeOfDeletion)))
@@ -219,7 +209,6 @@ public class Todo implements Comparable<Todo>{
 		this.fullContent = fullContent;
 		Tokenizer<CoreLabel> t = tf.getTokenizer(new StringReader(getFullContent()));
 		setFullContentWords(t.tokenize());
-		//System.out.println(getFullContentWords());
 	}
 	
 	public double getSpecificity() {
@@ -254,5 +243,9 @@ public class Todo implements Comparable<Todo>{
 		this.fullContentWords = fullContentWords;
 	}
 	
-	
+	public static void main(String[] args) {
+		Todo test = new Todo("", "");
+		test.setFullContent("(b/35451662): restore the @Override once the supertypes are released");
+		System.out.println(test.getFullContentWords());
+	}
 }

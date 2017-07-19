@@ -1,0 +1,25 @@
+#!/bin/bash
+#Run ProcessTODO for a list of repositories
+currPath=$(pwd)
+cd
+
+echo "Enter the path to the username/repository list"
+read repoListFile
+echo "Enter the path to src file containing todoReader package"
+read toolPath
+
+delim="/"
+
+echo $(pwd)
+
+while IFS='' read -r line || [[ -n "$line" ]]; do
+    userName=${line/$delim*/$delim}
+    userLen=${#userName}
+    userName=${line:0:(userLen - 1)}
+    repoName=${line:userLen}
+    cd "$currPath"
+    ./ProcessTODO "$userName" "$repoName" "$toolPath"
+    cd
+done < "$repoListFile"
+
+

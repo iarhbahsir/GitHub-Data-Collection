@@ -7,12 +7,21 @@
 # write all TODO tasks to a .txt file (name based on commit #, new file for every commit, new folder for every repo, create folder if doesn't exist)
 
 cd
-echo "Enter username A"
-read userName
-echo "Enter repo name"
-read repoName
-echo "Enter path to src file containing todoReader package with TodoReader.java and Todo.java"
-read toolPath
+
+#echo started
+
+#if [[$1 == ""]]; then
+    echo "Enter username"
+    read userName
+    echo "Enter repo name"
+    read repoName
+    echo "Enter path to src file containing todoReader package"
+    read toolPath
+#else
+ #   username=$1
+  #  repoName=$2
+   # toolPath=$3
+#fi
 # "workspace/GitHub\ Data\ Collection/src" used as toolPath for testing
 
 CLONED_DIR="Cloned"
@@ -85,12 +94,12 @@ mv $file ${cur}-Info
 echo "Setup done."
 
 # Run TodoReader java tool
-cd
-cd "$toolPath"
-javac -d ../bin -classpath ../bin todoReader/TodoReader.java
-cd ..
-cd bin
-java todoReader/TodoReader "$pathInput" "$repoName"
+#cd
+#cd "$toolPath"
+#javac -d ../bin -classpath ../bin todoReader/TodoReader.java
+#cd ..
+#cd bin
+#java todoReader/TodoReader "$pathInput" "$repoName"
 
 
 echo "Process completed."
