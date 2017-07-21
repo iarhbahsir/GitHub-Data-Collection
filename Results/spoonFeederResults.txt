@@ -1,0 +1,1871 @@
+slow TODO(cpovirk): Maybe just reduce iterations under Android.
+Unit tests for {@link Hashing}.
+
+<p>TODO(b/33919189): Migrate repeated testing methods to {@link #HashTestUtils} and tweak unit
+tests to reference them from there.
+TODO(cpovirk): In an ideal world, we'd check here that we're running on Android.
+slow. TODO(cpovirk): Maybe just reduce iterations under Android.
+TODO: could remove if we got NPT working in GWT somehow
+TODO: could remove if we got NPT working in GWT somehow
+TODO: could remove if we got NPT working in GWT somehow
+TODO(cpovirk): ClassNotFoundException: com.google.common.base.Function
+Tests for Predicates.instanceOf(x).
+TODO: Fix the comment style after fixing annotation stripper to remove
+comments properly.  Currently, all tests before the comments are removed
+as well.
+Tests for Predicates.contains(Pattern) and .containsPattern(String).
+We assume the regex level works, so there are only trivial tests of that
+aspect.
+TODO: Fix comment style once annotation stripper is fixed.
+TODO(cpovirk): ClassNotFoundException: com.google.common.base.Function
+TODO(cpovirk): How significant is this failure?
+All of the infrastructure of split and splitToString is identical, so we
+do one test of splitToString. All other cases should be covered by testing
+of split.
+
+<p>TODO(user): It would be good to make all the relevant tests run on
+both split and splitToString automatically.
+TODO(kevinb): the name of this method suggests it might not actually be testing what it
+TODO(cpovirk): ClassNotFoundException: com.google.common.base.Function
+TODO(cpovirk): why is this slow (>1m/test) under GWT when fully optimized?
+Tests CacheBuilderSpec.
+TODO(user): tests of a few invalid input conditions, boundary conditions.
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(b/35466881): Fix or suppress.
+TODO(b/35466881): Fix or suppress.
+TODO(cgruber): Confirm with fry@ that this is a reasonable substitute.
+TODO(cpovirk): run tests in other thread instead of messing with main thread interrupt status
+Test suite for {@link CacheBuilder}.
+TODO(cpovirk): merge into CacheBuilderTest?
+TODO(cpovirk): Use SourceCodeEscapers if it is added to Guava.
+TODO(benyu): migrate all subtyping tests from TypeTokenTest to this class using SubtypeTester.
+TODO(benyu): This should check equality to an expected value, see discussion in cl/98674873
+TODO(benyu): This should check equality to an expected value, see discussion in cl/98674873
+TODO: can these be moved to MapInterfaceTest?
+TODO(kevinb): replace with Ascii.caseInsensitiveEquivalence() when it
+TODO(b/38490623): reenable after GWT double-to-string conversion is fixed
+TODO(kevinb): switch to importing Truth's assertThat(Stream) if we get that added
+TODO(jlevy): Many more tests needed.
+TODO: Iterate over many array sizes and all possible operation lists,
+performing adds and removes in different ways.
+Utility class for being able to seed a {@link Random} value with a passed
+in seed from a benchmark parameter.
+
+TODO: Remove this class once Caliper has a better way.
+TODO: Figure out why this is failing in GWT.
+TODO: Figure out why this is failing in GWT.
+TODO: verify that this is the best testing strategy.
+TODO: Figure out why this is failing in GWT.
+TODO: Specify different numbers of rows and columns, to detect problems
+TODO(benyu): turn this into a test once all copyOf(Collection) are
+TODO(kevinb): add assertThat(Stream) to Truth?
+TODO: tests that check the weird interplay between expected size,
+TODO(cpovirk): enable when ready
+TODO(cpovirk): eliminate duplication between these tests and those in LegacyMapMakerTests and
+anywhere else
+TODO: test other collections for this problem
+Mockito TODO(kak): Can we remove this?
+TODO: use the ListTestSuiteBuilder
+suite // TODO(cpovirk): set up collect/gwt/suites version
+TODO(cpovirk): some of these are inexplicably slow (20-30s) under GWT
+TODO: Reduce duplication of ImmutableMapTest code
+TODO(lowasser): should we force TreeMultimap to be more thorough about checking nulls?
+TODO: use collection testers on Multimaps.forMap.values
+TODO: use collection testers on Multimaps.forMap.entries
+TODO: use collection testers on Multimaps.forMap.entries
+suite // TODO(cpovirk): set up collect/gwt/suites version
+TODO: test ImmutableMultimap builder and factory methods
+TODO: Figure out why this is failing in GWT.
+TODO: Figure out why this is failing in GWT.
+TODO: verify that the Collection is also synchronized?
+TODO(hhchan): ArrayTable
+TODO(hhchan): ArrayTable
+TODO(hhchan): ArrayTable
+TODO(hhchan): ArrayTable
+suite // TODO(cpovirk): add to collect/gwt/suites
+StandardDescendingMap uses lowerEntry(), and TreeMap.lowerEntry() deliberately
+produces immutable entries.
+
+TODO(cpovirk): Consider making StandardDescendingMap return a ForwardingEntry that
+supports setValue().
+TODO(lowasser): add forwarding-to-ImmutableSortedMap test
+TODO(cpovirk): instead of skipping, use a smaller number of steps
+TODO: verify that the Collection is also synchronized?
+TODO: verify that the Set is also synchronized?
+TODO: verify that the Set is also synchronized?
+TODO: verify that the Collection is also synchronized?
+TODO: verify that the Collection is also synchronized?
+TODO: verify that the Map is also synchronized?
+TODO(cpovirk): move this to c.g.c.testing if we allow for c.g.c.annotations dependencies so
+that it can be GWTified?
+TODO(jlevy): Move shared code of this class and MapsTransformValuesTest
+TODO: the overwhelming number of suppressions below suggests that maybe
+TODO: use Range once it's publicly available
+TODO: can these be moved to MapInterfaceTest?
+TODO: Avoid duplicating code in ImmutableMapTest
+TODO(cpovirk): why is this slow (>1m/test) under GWT when fully optimized?
+TODO(cpovirk): test all of these with the ranges added in the reverse order
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO
+BigIntegerMath // TODO(cpovirk): GWT-enable BigIntegerMath
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO(cpovirk): File BigDecimal.divide() rounding bug.
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+BigIntegerMath // TODO(cpovirk): GWT-enable BigIntegerMath
+BigIntegerMath // TODO(cpovirk): GWT-enable BigIntegerMath
+BigIntegerMath // TODO(cpovirk): GWT-enable BigIntegerMath
+BigIntegerMath // TODO(cpovirk): GWT-enable BigIntegerMath
+BigIntegerMath // TODO(cpovirk): GWT-enable BigIntegerMath
+TODO(cpovirk): does this test fail for only some rounding modes or for all?
+TODO
+TODO
+TODO
+TODO
+TODO(cpovirk): File bug for BigDecimal.doubleValue().
+TODO(kak): Use assertThat(startupTimes.get(a)).isAtLeast(150);
+TODO(kak): Use assertThat(startupTimes.get(b)).isAtLeast(353);
+TODO(kak): Use assertThat(startupTimes.get(a)).isAtLeast(150);
+TODO(cpovirk): It would be great to run all these tests (including class unloading) in an
+environment that forces Futures.getChecked to its fallback WeakSetValidator. One awful way of
+doing so would be to derive a separate test library by using remove_from_jar to strip out
+ClassValueValidator.
+TODO(cpovirk): move ForwardingTestCase somewhere common, and use it to
+test the forwarded methods
+TODO(lukes): assert that the logs are full of errors
+Interruption of the delegate propagates to us only if the delegate was a TrustedFuture.
+TODO(cpovirk): Consider whether to stop copying this information from TrustedFuture so that
+we're consistent.
+TODO(cpovirk): promote to Uninterruptibles, and add untimed version
+TODO: If this test can ever depend on EasyMock or the like, use it instead.
+TODO(cpovirk): automatically fail the test if this thread throws
+TODO(cpovirk): Split this into separate CountDownLatch and IncrementableCountDownLatch classes.
+TODO(cpovirk): automatically fail the test if this thread throws
+TODO(cpovirk): automatically fail the test if this thread throws
+TODO(cpovirk): Test forwarding more extensively.
+TODO(lukes): assert that the logs are full of errors
+TODO(cpovirk): consider adding support for regex to Truth
+TODO: Test enter(long, TimeUnit).
+TODO: Test enterWhen(Guard, long, TimeUnit).
+TODO: Test enterIf(Guard, long, TimeUnit).
+TODO: Test waitFor(Guard, long, TimeUnit).
+TODO: Test getQueueLength().
+TODO: Test hasQueuedThreads().
+TODO: Test getWaitQueueLength(Guard).
+TODO: Test automatic signaling before leave, waitFor, and reentrant enterWhen.
+TODO: Test blocking to re-enter monitor after being signaled.
+TODO: Test interrupts with both interruptible and uninterruptible monitor.
+TODO: Test multiple waiters: If guard is still satisfied, signal next waiter.
+TODO: Test multiple waiters: If guard is no longer satisfied, do not signal next waiter.
+TODO(cpovirk): Catch RuntimeExceptions
+TODO(azana/cpovirk): Should this be merged into UninterruptiblesTest?
+TODO(cpovirk): top-level class?
+TODO(cpovirk): top-level class?
+TODO(cpovirk): maybe pass around TestFuture instances instead of
+ListenableFuture instances
+TODO(cpovirk): Use FutureSubject once it's part of core Truth. But be wary of using it when I'm
+really testing a Future implementation (e.g., in the case of immediate*Future()). But it's OK
+to use in the case of the majority of Futures that are AbstractFutures.
+TODO(cpovirk): implement interruption, updating this test:
+TODO(cpovirk): eliminate use of mocks
+TODO(cpovirk): implement interruption, updating this test:
+TODO(cpovirk: assertTrue(awaitTerminationUninterruptibly(executor, 10, SECONDS));
+TODO(cpovirk): java.lang.IllegalAccessError: superclass not accessible
+TODO: Restore the following line when Monitor.hasWaiters() no longer acquires the lock.
+TODO(user): Expand coverage and move to proper test suite.
+TODO(user): Move these to a more appropiate location in the test suite.
+TODO(cpovirk): Figure out Android JUnit 4 support. Does it work with Gingerbread? @RunWith?
+TODO(cpovirk): Figure out Android JUnit 4 support. Does it work with Gingerbread? @RunWith?
+TODO(user): Consider separating Strings that we've defined here to capture
+TODO(user): Some Strings used in the subclasses can be added as static Strings
+TODO(b/27817069): Consider verifying the edge's incident nodes in the string.
+Abstract base class for testing implementations of {@link Network} interface. Network instances
+created for testing should have Integer node and String edge objects.
+
+<p>Test cases that should be handled similarly in any graph implementation are included in this
+class. For example, testing that {@code nodes()} method returns the set of the nodes in the
+graph. The following test cases are left for the subclasses to handle:
+
+<ul>
+<li>Test cases related to whether the graph is directed, undirected, mutable, or immutable.
+<li>Test cases related to the specific implementation of the {@link Network} interface.
+</ul>
+
+TODO(user): Make this class generic (using <N, E>) for all node and edge types.
+TODO(user): Differentiate between directed and undirected edge strings.
+TODO(cpovirk): Figure out Android JUnit 4 support. Does it work with Gingerbread? @RunWith?
+TODO(user): Consider separating Strings that we've defined here to capture
+TODO(user): Some Strings used in the subclasses can be added as static Strings
+Abstract base class for testing implementations of {@link Graph} interface. Graph instances
+created for testing should have Integer node and String edge objects.
+
+<p>Test cases that should be handled similarly in any graph implementation are included in this
+class. For example, testing that {@code nodes()} method returns the set of the nodes in the
+graph. The following test cases are left for the subclasses to handle:
+
+<ul>
+<li>Test cases related to whether the graph is directed, undirected, mutable, or immutable.
+<li>Test cases related to the specific implementation of the {@link Graph} interface.
+</ul>
+
+TODO(user): Make this class generic (using <N, E>) for all node and edge types.
+TODO(user): Differentiate between directed and undirected edge strings.
+TODO(cpovirk): Figure out Android JUnit 4 support. Does it work with Gingerbread? @RunWith?
+TODO(user): Consider moving this to GraphsTest.
+TODO(user): Consider adding both error messages from here and {@link AbstractNetworkTest}
+TODO(cgdecker): Add CharSource.slice?
+TODO(chrisn): Check in a better resource
+TODO(chrisn): only works if we ensure we have crossed file threshold
+TODO(cpovirk): Inline this.
+TODO(cgdecker): Maybe add a test for this to ByteSourceTester
+TODO(cpovirk): Look up Build.VERSION.SDK_INT reflectively.
+TODO(cpovirk): Look up Build.VERSION.SDK_INT reflectively.
+TODO(kevinb): add 1000000 back when we have the ability to throw
+TODO(kevinb): precompute random #s?
+TODO(kevinb): precompute random #s?
+TODO(kevinb): look at exact (==) hits vs. equals() hits?
+TODO: look at exact (==) hits vs. equals() hits?
+TODO(kevinb): generate better test contents for multisets
+TODO(kevinb): convert to assert once benchmark tests enable asserts by default
+TODO(lukes):  This was copied verbatim from Striped64.java... standardize this?
+TODO(cpovirk): Consider being more strict.
+TODO(hhchan): It's 4 in java.  Figure out why even 3 is too slow in prod mode.
+TODO: Consolidate different copies in one single place.
+TODO: Consolidate different copies in one single place.
+Even though {@link ForwardingImmutableList} cannot be instantiated, we still
+need a custom field serializer. TODO(cpovirk): why?
+Even though {@link ImmutableAsList} cannot be instantiated, we still need
+a custom field serializer. TODO(cpovirk): why?
+Even though {@link ImmutableSortedMap} cannot be instantiated, we still need a custom field
+serializer. TODO(cpovirk): why? Does it help if ensure that the GWT and non-GWT classes have the
+same fields? Is that worth the trouble?
+Even though {@link ForwardingImmutableSet} cannot be instantiated, we still
+need a custom field serializer. TODO(cpovirk): why?
+TODO(cpovirk): why does asSubclass() throw? Is it something about ClassLoaders?
+TODO(kevinb): If we strongly reference the value and aren't loading, we needn't wrap the
+value. This could save ~8 bytes per entry.
+TODO(fry): Separate logic for consistency between emul and nonemul implementation.
+TODO(fry): Look into Maps.KeySet and Maps.Values, which can ideally be reused here but are
+TODO(cpovirk): are we over-wrapping?
+TODO(cpovirk): equals(), as well, in case it's any faster than Sets.equalsImpl?
+TODO: Can we find a way to remove this @SuppressWarnings even for eclipse?
+TODO(cpovirk): split into ImmutableSortedSet/ForwardingImmutableSortedSet?
+TODO(cpovirk): should we be including other methods from the shim here and
+This is messed up. See TODO at top of file.
+TODO: Prove that this cast is safe, even though
+TODO: revisit if it's unbearably slow or when GWT supports
+TODO(cpovirk): avoid redundant unmodifiableList wrapping
+TODO: When given an ImmutableList that's a sublist, copy the referenced
+portion of the array into a new array to save space?
+GWT emulated version of {@link com.google.common.collect.ImmutableList}. TODO(cpovirk): more doc
+TODO(user): Move this logic to a utility class.
+TODO(fry,kak): ConcurrentHashMap never throws a CME when mutating the map during iteration, but
+TODO: Remove "ImmutableSet.<E>" when eclipse bug is fixed.
+GWT emulated version of {@link ImmutableList}.
+TODO(cpovirk): more doc
+TODO: Make this class GWT serializable.
+TODO(cpovirk): chain in a CancellationException created at the cancel() call?
+TODO(lukes): consider adding the StackOverflowError protection from the server version
+TODO(cpovirk): Should we do this at the end of the method, as in the server version?
+TODO(cpovirk): Use maybePropagateCancellation?
+TODO(lukes): consider adding the StackOverflowError protection from the server version
+TODO(cpovirk): consider clearing this.delegate
+TODO: Fix tests not to call this directly and make it throw an error.
+TODO: Is this faster than System.arraycopy() for small arrays?
+TODO(user): evaluate custom implementations, considering package private constructor.
+TODO(user,cpovirk): Rename this something better once refactoring done
+Skeleton implementation of {@link HashFunction} in terms of {@link #newHasher()}.
+
+TODO(lowasser): make public
+TODO(user): Put a warning in the javadoc about tiny fpp values, since the resulting size
+is proportional to -log(p), but there is not much of a point after all, e.g.
+optimalM(1000, 0.0000000000000001) = 76680 which is less than 10kb. Who cares!
+TODO(user): consider ByteString here, when that is available
+TODO(user): Evaluate whether it makes sense to always piggyback the computation of a
+TODO(user): when things stabilize, flesh this out
+TODO(user): when the shortcuts are implemented, update BloomFilterStrategies
+TODO(lowasser): avoid allocation here
+TODO(lowasser): avoid allocation here
+TODO(kevinb): check more preconditions (as bufferSize >= chunkSize) if this is ever public
+TODO(user): benchmark performance difference with longer buffer
+TODO(kevinb): this class still needs some design-and-document-for-inheritance love
+TODO(user): Measure the benefit of delegating this to LittleEndianBytes also.
+TODO(kak): Implement and benchmark the hashFoo() shortcuts.
+TODO(kak): Consider removing this
+TODO(kevinb): throw if a trimmer was already specified!
+TODO(kevinb): decide best return type
+TODO(cpovirk): Say something about the possibility that List access could fail at runtime?
+TODO(cpovirk): Consider making this available under GWT (slow implementation only).
+TODO(cpovirk): Consider optimizing iterator() to catch IOOBE instead of doing bounds checks.
+
+TODO(cpovirk): Consider the UnsignedBytes pattern if it performs faster and doesn't cause
+AOSP grief.
+TODO(kevinb): we shouldn't be checking for a null result at runtime. Assert?
+TODO(kevinb): we shouldn't be checking for a null result at runtime. Assert?
+TODO(kevinb): consider <T> T verifySingleton(Iterable<T>) to take over for
+TODO(cpovirk): maybe remove "defaultValue=" to make this look like the method call does
+TODO(cpovirk): maybe make this look like the method call does ("Functions.compose(...)")
+TODO(cpovirk): maybe make this look like the method call does ("Predicates.compose(...)")
+TODO(kevinb): considering having these implement a VisitablePredicate
+TODO(kevinb): understand why we still get a warning despite @SafeVarargs!
+Static methods pertaining to ASCII characters (those in the range of values {@code 0x00} through
+{@code 0x7F}), and to strings containing such characters.
+
+<p>ASCII utilities also exist in other classes of this package:
+<ul>
+<!-- TODO(kevinb): how can we make this not produce a warning when building gwt javadoc? -->
+<li>{@link Charsets#US_ASCII} specifies the {@code Charset} of ASCII characters.
+<li>{@link CharMatcher#ascii} matches ASCII characters and provides text processing methods which
+operate only on the ASCII characters of a string.
+</ul>
+TODO(kevinb): remove this
+TODO(lowasser): is it potentially worth just going ahead and building a precomputed
+TODO(lowasser): is it worth it to worry about the last character of large matchers?
+TODO(fry): make constructor private and update tests to use newBuilder
+TODO(kevinb): If we strongly reference the value and aren't loading, we needn't wrap the
+value. This could save ~8 bytes per entry.
+TODO(fry): when we link values instead of entries this method can go
+TODO(fry): when we link values instead of entries this method can go
+TODO(fry): Consider copying variables (like evictsBySize) from outer class into this class.
+It will require more memory but will reduce indirection.
+TODO(fry): instead implement this with an eviction head
+TODO(fry): rename get, then extend AbstractFuture instead of containing SettableFuture
+TODO(fry): could also cancel loading if we had a handle on its future
+TODO(fry): empirically optimize this
+TODO(fry): define a new type which creates event objects and automates the clear logic
+TODO(kevinb): use Hashing/move this to Hashing?
+TODO(fry): Lazily create segments?
+TODO(fry): store entry key instead of query key
+TODO(fry): batch by segment
+TODO(fry): record count of loaded entries
+TODO(fry): batch by segment
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): check overflow now?
+TODO(kevinb): evaluate the trade-offs of going bimorphic to save these two fields from most
+instances. Note that the instances that would get smaller are the right set to care about
+optimizing, because the rest have the option of calling `trimmed`.
+TODO(kevinb): go up to 11?
+TODO(kevinb): is there a better way, that's still gwt-safe?
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(lowasser): could be potentially optimized, but only with
+TODO(kevinb): check overflow now?
+TODO(kevinb): evaluate the trade-offs of going bimorphic to save these two fields from most
+instances. Note that the instances that would get smaller are the right set to care about
+optimizing, because the rest have the option of calling `trimmed`.
+TODO(kevinb): go up to 11?
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(lowasser): make this GWT-compatible
+TODO(kevinb): if Ints.compare etc. are ever removed, *maybe* remove this
+TODO(kevinb): how to prevent warning on UnsignedBytes when building GWT
+TODO(kevinb): do it this way when we can (GWT problem):
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(lowasser): could be potentially optimized, but only with
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): how to prevent warning on UnsignedBytes when building GWT
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): check overflow now?
+TODO(kevinb): evaluate the trade-offs of going bimorphic to save these two fields from most
+instances. Note that the instances that would get smaller are the right set to care about
+optimizing, because the rest have the option of calling `trimmed`.
+TODO(kevinb): go up to 11?
+TODO(lowasser): consider caching small values, like Long.valueOf
+TODO(benyu): should we include Object for interface? Also, CharSequence[] and Object[] for
+String[]?
+TODO(benyu): handle ? super T somehow.
+TODO(emcmanus): consider whether to log other failure cases too.
+TODO(benyu): Try java.nio.file.Paths#get() when Guava drops JDK 6 support.
+TODO(benyu): Once behavior is the same for all Java versions we support, delete this.
+TODO(user): This is not the most efficient way to handle generic
+TODO: Make serialization behavior consistent.
+TODO(kevinb): how to omit that last sentence when building GWT javadoc?
+TODO(kevinb): revisit this design choice
+TODO(cpovirk): can we just "return;" here? Or, can we remove this if() entirely? If
+not, add tests to demonstrate the problem with each approach
+TODO(lowasser): identify places where thread safety is actually lost
+A dummy superclass to support GWT serialization of the element types of a {@link HashMultimap}.
+The GWT supersource for this class contains a field for each type.
+
+<p>For details about this hack, see {@link GwtSerializationDependencies}, which takes the same
+approach but with a subclass rather than a superclass.
+
+<p>TODO(cpovirk): Consider applying this subclass approach to our other types.
+TODO(kak): Consider removing this?
+A dummy superclass to support GWT serialization of the element type of a {@link Range}. The GWT
+supersource for this class contains a field of type {@code C}.
+
+<p>For details about this hack, see {@link GwtSerializationDependencies}, which takes the same
+approach but with a subclass rather than a superclass.
+
+<p>TODO(cpovirk): Consider applying this subclass approach to our other types.
+TODO(kevinb): the right way to explain this??
+TODO(kevinb): when the dust settles, see if we still need this or can
+just default to DEFAULT_CAPACITY.
+TODO(kevinb): split the && into two if's and move crossOverUp so it's
+TODO(kevinb): pad?
+Returns {@code true} if the MinMax heap structure holds. This is only used
+in testing.
+
+TODO(kevinb): move to the test class?
+TODO(kevinb): right way to explain this??
+TODO(kevinb): provide replacement
+TODO(kevinb): provide replacement
+TODO(kevinb): copy to Comparators, etc.
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kevinb): see if delegation is hurting performance noticeably
+TODO(kevinb): if we change this implementation, add full unit tests.
+TODO(kevinb): rerun benchmarks including new options
+TODO(kak): Consider removing this
+TODO(kevinb): rerun benchmarks including new options
+TODO(kak): Consider removing this before internal migration
+TODO(jlevy): Create methods that filter a SortedSetMultimap.
+TODO(lowasser): see if any significant optimizations are possible for breadthFirstIterator
+TODO(kak): Consider removing this?
+TODO(kak): Consider removing this?
+TODO(lowasser): identify why this affects GWT tests
+TODO(lowasser): identify places where thread safety is actually lost
+TODO(kevinb): Consider factory methods that reject duplicates
+TODO(benyu): benchmark and optimize all creation paths, which are a mess now
+TODO(lowasser): identify places where thread safety is actually lost
+TODO(lowasser): copy ImmutableSetMultimap by using asList() on the sets
+TODO(lowasser): if we need to make a copy of a BiMap because the
+TODO(kak): Remove this branch
+TODO(kak): Remove this branch
+TODO(kak): Remove this branch
+TODO(fry): empirically optimize this
+TODO(kevinb): use Hashing/move this to Hashing?
+TODO(fry): Lazily create segments?
+TODO(kak/cpovirk): Consider removing @CanIgnoreReturnValue from this class.
+TODO(b/35466881): Fix or suppress.
+A dummy superclass to support GWT serialization of the element types of an {@link
+ArrayListMultimap}. The GWT supersource for this class contains a field for each type.
+
+<p>For details about this hack, see {@link GwtSerializationDependencies}, which takes the same
+approach but with a subclass rather than a superclass.
+
+<p>TODO(cpovirk): Consider applying this subclass approach to our other types.
+TODO(cpovirk): Maybe I should have just one shared superclass for AbstractMultimap itself?
+TODO(kevinb): reconsider if it's really worth making feeble attempts at
+TODO(cpovirk): consider manual binary search under GWT to preserve O(log N) lookup
+TODO(cpovirk): if we start to override indexOf/lastIndexOf under GWT, we'll want some way to
+override subList to return an ImmutableSortedAsList for better performance. Right now, I'm not
+sure there's any performance hit from our failure to override subListUnchecked under GWT
+TODO(kak): Remove this
+TODO(kevinb): Figure out the right behavior, and document it
+TODO(kak): Remove this
+TODO(kak): Remove this
+TODO(lowasser): worth optimizing for RandomAccess?
+TODO(lowasser): identify places where thread safety is actually lost
+TODO(lowasser): consider adding union, in addition to add, that does allow overlap
+TODO(lowasser): figure out if we can convert this to a concurrent AtomicReference-based
+collector without breaking j2cl?
+TODO(lowasser): consider making the entries live views
+TODO(lowasser): consider making the entries live views
+TODO(lowasser): consider making the entries live views
+TODO(lowasser): consider making the entries live views
+TODO(gak): tune this condition based on empirical evidence
+TODO(kevinb): we can probably make these real @Overrides now
+TODO(jlevy): Consider adding headTable, tailTable, and subTable methods,
+which return a Table view with rows keys in a given range. Create a
+RowSortedTable subinterface with the revised methods?
+TODO(jlevy): Decide whether entrySet() should return entries with an equals() method that
+calls the comparator to compare the two keys. If that change is made,
+AbstractMultiset.equals() can simply check whether two multisets have equal entry sets.
+TODO(lowasser): consider using a NonTerminalImmutableMapEntry when nextInKeyBucket is
+nonnull but nextInValueBucket is null.  This may save a few bytes on some platforms, but
+2-morphic call sites are often optimized much better than 3-morphic, so it'd require
+benchmarking.
+TODO(kevinb): Support a concurrently modified collection?
+TODO(kevinb): consider whether this "optimization" is worthwhile. Users with SortedSets tend
+to know they are SortedSets and probably would not call this method.
+TODO(kevinb): add @Nullable?
+TODO(cpovirk): Consider removing this?
+TODO(cpovirk): Consider removing this?
+TODO(lowasser): investigate atomic failure?
+TODO(kevinb): should we copy this javadoc to each concrete class, so that
+classes like LinkedHashMultimap that need to say something different are
+still able to {@inheritDoc} all the way from Multimap?
+TODO(lowasser): identify places where thread safety is actually lost
+TODO(cpovirk): Consider removing this?
+TODO(cpovirk): Consider removing this?
+TODO(cpovirk): Consider removing this?
+TODO(cpovirk): Consider removing this?
+A dummy superclass to support GWT serialization of the element type of an {@link
+ImmutableMultiset}. The GWT supersource for this class contains a field of type {@code E}.
+
+<p>For details about this hack, see {@link GwtSerializationDependencies}, which takes the same
+approach but with a subclass rather than a superclass.
+
+<p>TODO(cpovirk): Consider applying this subclass approach to our other types.
+
+<p>For {@code ImmutableMultiset} in particular, I ran into a problem with the {@code
+GwtSerializationDependencies} approach: When autogenerating a serializer for the new class, GWT
+tries to refer to our dummy serializer for the superclass,
+ImmutableMultiset_CustomFieldSerializer. But that type has no methods (since it's never actually
+used). We could probably fix the problem by adding dummy methods to that class, but that is
+starting to sound harder than taking the superclass approach, which I've been coming to like,
+anyway, since it doesn't require us to declare dummy methods (though occasionally constructors)
+and make types non-final.
+TODO(kevinb): Support a concurrently modified collection?
+TODO(user): Is this the best place for this? Move to fluent functions?
+A dummy superclass to support GWT serialization of the element types of a {@link
+LinkedHashMultimap}. The GWT supersource for this class contains a field for each type.
+
+<p>For details about this hack, see {@link GwtSerializationDependencies}, which takes the same
+approach but with a subclass rather than a superclass.
+
+<p>TODO(cpovirk): Consider applying this subclass approach to our other types.
+TODO(kevinb): the right way to explain this??
+TODO(kak): Should we remove this? Some people are using it to prefetch?
+TODO(kak): Should we remove this?
+TODO(lowasser): GWT compatibility
+TODO(kevinb): Confirm that ImmutableSortedMap is faster to construct and
+uses less memory than TreeMap; then say so in the class Javadoc.
+TODO(kevinb): evaluate whether or not of().comparator() should return null
+TODO(kevinb): Prove that this cast is safe, even though
+TODO(kevinb): Prove that this cast is safe, even though
+TODO(kevinb): the descendingMap is never actually cached at all. Either it should be or the
+TODO(lowasser): benchmark optimizations for equals() and see if they're worthwhile
+TODO(lowasser): consider overhauling this back to Map<E, Integer>
+TODO(lowasser): consider adding default implementations of some of these methods
+TODO(lowasser): consider exposing this
+TODO(kevinb): is this here only for GWT?
+TODO(jlevy): For optimal performance, use a binary search when
+TODO(kevinb): see if we can share code with OrderedIterator after it
+An immutable sorted set with one or more elements. TODO(jlevy): Consider
+separate class for a single-element sorted set.
+TODO(kevinb): I think we should push everything down to "BaseImmutableCollection" or something,
+Returns an array containing all of the elements in the specified
+collection; the runtime type of the returned array is that of the specified
+array. If the collection fits in the specified array, it is returned
+therein. Otherwise, a new array is allocated with the runtime type of the
+specified array and the size of the specified collection.
+
+<p>If the collection fits in the specified array with room to spare (i.e.,
+the array has more elements than the collection), the element in the array
+immediately following the end of the collection is set to {@code null}.
+This is useful in determining the length of the collection <i>only</i> if
+the caller knows that the collection does not contain any null elements.
+
+<p>This method returns the elements in the order they are returned by the
+collection's iterator.
+
+<p>TODO(kevinb): support concurrently modified collections?
+Returns an array containing all of the elements in the specified
+collection. This method returns the elements in the order they are returned
+by the collection's iterator. The returned array is "safe" in that no
+references to it are maintained by the collection. The caller is thus free
+to modify the returned array.
+
+<p>This method assumes that the collection size doesn't change while the
+method is running.
+
+<p>TODO(kevinb): support concurrently modified collections?
+TODO(lowasser): consider an optimized values() implementation
+TODO(jlevy): Add getters returning rowKeyToIndex and columnKeyToIndex?
+TODO(jlevy): Add factory methods taking an Enum class, instead of an
+iterable, to specify the allowed row keys and/or column keys. Note that
+custom serialization logic is needed to support different enum sizes during
+serialization and deserialization.
+TODO(jlevy): Support empty rowKeys or columnKeys? If we do, when
+columnKeys is empty but rowKeys isn't, the table is empty but
+containsRow() can return true and rowKeySet() isn't empty.
+TODO: safe?
+TODO(jlevy): Consider creating a merge() method, similar to putAll() but
+copying non-null values only.
+TODO(jlevy): Add eraseRow and eraseColumn methods?
+TODO(jlevy): Move to StandardRowSortedTable?
+TODO(lowasser): make column return a SortedMap
+TODO(kevinb): check this wrt TreeMultiset?
+TODO(kevinb): caveats about equivalence-relation?
+TODO(lowasser): consider presizing the builder if values is a Collection
+TODO(lowasser): Return a subclass of Maps.FilteredKeyMap for slightly better
+TODO(lowasser): Return a subclass of Maps.FilteredKeyMap for slightly better
+TODO(lowasser): identify places where thread safety is actually lost
+TODO(kevinb): dispense with this after benchmarking
+TODO(cpovirk): try making all copies of this method @GwtIncompatible instead
+TODO(lowasser): consider checking for ImmutableAsList here
+TODO(lowasser): consider checking for Multiset here
+TODO(schmoe): provide a way to use this class with other (possibly arbitrary)
+TODO(cpovirk): remove and removeExactly currently accept null inputs only
+if occurrences == 0. This satisfies both NullPointerTester and
+CollectionRemoveTester.testRemove_nullAllowed, but it's not clear that it's
+a good policy, especially because, in order for the test to pass, the
+parameter must be misleadingly annotated as @Nullable. I suspect that
+we'll want to remove @Nullable, add an eager checkNotNull, and loosen up
+testRemove_nullAllowed.
+TODO(lowasser): benchmark when it's best to do a linear search
+TODO(kevinb): Should build() and the ImmutableBiMap & ImmutableSortedMap
+versions throw an IllegalStateException instead?
+TODO(jlevy): Consider adding methods similar to ConcurrentMap methods.
+TODO(kevinb): how can we omit that Iterables link when building gwt
+TODO(jlevy): Wrap factory to validate that the supplied maps are empty?
+TODO(cpovirk): Consider removing this?
+TODO(lowasser): consider an implementation that can support SUBSIZED
+TODO(lowasser): optimize this later
+TODO(lowasser): optimize this later
+TODO(lowasser): optimize this later
+TODO(kak): Do we want to checkNotNull each element in containsAll, removeAll, and retainAll?
+TODO(kevinb): remove after this warning is disabled globally
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO(kevinb): remove after this warning is disabled globally
+TODO
+TODO
+TODO
+TODO(kevinb): remove after this warning is disabled globally
+TODO
+TODO(kevinb): remove after this warning is disabled globally
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO(cpovirk): Figure out a good name for this variable.
+TODO(user): How should we handle interrupts and shutdowns?
+TODO(cpovirk): Use standard Javadoc form for SimpleForwarding* class and constructor
+TODO(cpovirk): Consider being more strict.
+TODO(cpovirk): Consider being more strict.
+TODO(cpovirk): Consider being more strict.
+TODO(lukes): Consider throwing InterruptedException when appropriate.
+TODO
+TODO
+TODO(lukes): move the UndeclaredThrowable catch block here?
+Static final fields are presumed to be fastest, based on our experience with
+UnsignedBytesBenchmark. TODO(cpovirk): benchmark this
+Static final fields are presumed to be fastest, based on our experience with
+UnsignedBytesBenchmark. TODO(cpovirk): benchmark this
+TODO(cpovirk): if reference has been cleared, remove it?
+TODO(cpovirk): benchmark a version of this method that accepts a GetCheckedTypeValidator
+TODO(cpovirk): change parameter order to match other helper methods (Class, Throwable)?
+TODO(user): FutureChecker interface for these to be static methods on? If so, refer to it in
+the (static-method) Futures.getChecked documentation
+TODO: should this actually throw only ExecutionException?
+TODO: replace with version in common.reflect if and when it's open-sourced
+TODO(user): Use raw LockSupport or AbstractQueuedSynchronizer instead of ReentrantLock.
+TODO(user): "Port" jsr166 tests for ReentrantLock.
+TODO(user): Change API to make it impossible to use a Guard with the "wrong" monitor,
+TODO(user): Implement ReentrantLock features:
+TODO : NOT CORRECT, BUT TESTS PASS ANYWAYS!
+TODO(b/35466881): Fix or suppress.
+TODO(lukes): this stack trace is particularly useless (all it does is point at the
+TODO(cpovirk): Use Standard Javadoc form for SimpleForwarding*
+TODO(cpovirk): Consider being more strict.
+TODO(lukes): investigate using the @Contended annotation on these fields when jdk8 is
+TODO(cpovirk): @ForOverride https://github.com/google/error-prone/issues/342
+TODO(user) move this up into FluentFuture, or parts as a default method on ListenableFuture?
+TODO(cpovirk): Think about whether we could/should use Verify to check this.
+Listeners implicitly keep a reference to {@link RunningState} as they're inner classes, so we
+free resources here as well for the allMustSucceed=true case (i.e. when a future fails, we
+immediately release resources we no longer need); additionally, the future will release its
+reference to {@link RunningState}, which should free all associated memory when all the
+futures complete and the listeners are released.
+
+TODO(user): Write tests for memory retention
+TODO(user): replace with code below when jdk5 support is dropped.
+TODO(cpovirk): Consider being more strict.
+TODO(cpovirk): Test that fallback is not run in this case.
+TODO(lukes): handle RejectedExecutionException
+TODO(cpovirk): Consider being more strict.
+TODO(lukes): why don't we use ListenableFuture to sequence things? Then we could drop the
+TODO(lukes): consider building everything in terms of ListenableScheduledFuture then
+TODO(cpovirk): @ForOverride
+TODO(cpovirk): @ForOverride
+TODO(cpovirk): Consider being more strict.
+TODO(cpovirk): Use standard Javadoc form for SimpleForwarding* class and constructor
+TODO(cpovirk): Consider being more strict.
+TODO(cpovirk): explore ways of making ListenableFutureTask final. There are some valid reasons
+TODO(cpovirk): Consider removing, especially if we provide run(Runnable)
+TODO(cpovirk): Evaluate demand for a run(Runnable) version. Would it allow us to remove
+@CanIgnoreReturnValue from the call() methods above?
+https://github.com/google/guava/issues/2371
+TODO
+TODO(user,lukes): consider adding volatile to all these fields since in current known JVMs
+TODO
+TODO
+TODO
+TODO(kak): @CheckReturnValue
+TODO(kak): @CheckReturnValue
+TODO
+TODO(cpovirk): Consider calling getDone() in our own code.
+TODO
+TODO
+We always hold the mutex when calling this. TODO(cpovirk): Is that important? Perhaps we need
+to guarantee that each call to reserveEarliestAvailable, etc. sees a value >= the previous?
+Also, is it OK that we don't hold the mutex when sleeping?
+TODO(user): "This is equivalent to
+TODO(user): switch to nano precision. A natural unit of cost is "bytes", and a micro precision
+TODO(lukes): if guava ever moves to java7, this would be a good
+TODO: consider supporting a TearDownTestCase-like API
+TODO
+TODO
+TODO
+TODO(user): Cancel "this" if "scheduledDelegate" is cancelled.
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO(lukes): provide overloads for ListeningExecutorService? ListeningScheduledExecutorService?
+TODO(lukes): provide overloads that take constant strings? Function<Runnable, String>s to
+TODO(cpovirk): consider using the logger associated with listener.getClass().
+TODO(chrisn): promote AppendOnlyCollection for use here.
+TODO(user): replace with code below when jdk5 support is dropped.
+TODO(cpovirk): Consider being more strict.
+TODO
+TODO(user): Support Sleeper somehow (wrapper or interface method)?
+TODO(user): Add support for waitUninterruptibly.
+TODO(gak): make these public?
+TODO: why is this public?
+Returns the ancestor of the current domain at the given number of levels "higher" (rightward)
+in the subdomain list. The number of levels must be non-negative, and less than {@code N-1},
+where {@code N} is the number of parts in the domain.
+
+<p>TODO: Reasonable candidate for addition to public API.
+TODO(user): different versions of this for different factories?
+TODO(user): Switch to static factory methods for creation now that class is final.
+TODO(user): Support escapers where alphanumeric chars are not safe.
+TODO(cgdecker): Should check for a generic parameter type and error out
+TODO(b/35456940): Update the documentation to reflect the new interfaces
+TODO(b/31438252): Consider potential optimizations for this algorithm.
+TODO(user): Delete this method.
+TODO(user): Delete this method.
+TODO(user): Delete this method.
+TODO(b/35456940): Update the documentation to reflect the new interfaces
+TODO(b/35456940): Update the documentation to reflect the new interfaces
+TODO(b/35456940): Update the documentation to reflect the new interfaces
+TODO(b/35456940): Update the documentation to reflect the new interfaces
+TODO(lukes): consider allowing callers to pass in a buffer to use, some callers would be able
+TODO(cgdecker): make this public? as a type, or a method in CharStreams?
+TODO(cgdecker): validate the provided options... for example, just WRITE seems wrong
+TODO(cgdecker): validate the provided options... for example, just READ seems wrong
+TODO(cgdecker): Should there be a custom exception type for this?
+TODO(cgdecker): maybe add a better way to check if a resource exists
+TODO(lowasser): provide a useful toString
+TODO(lowasser): consider making encodeTo(Appendable, byte[], int, int) public.
+TODO(lowasser): document the extent of leniency, probably after adding ignore(CharMatcher)
+TODO(chrisn): Consider trying to encode/flush directly to the argument byte
+TODO(cpovirk): should we reject null items, since the tests already check null automatically?
+TODO: when we use @BeforeClass, we can pay the cost of class path scanning only once.
+TODO: Switch to JUnit 4 and use @Parameterized and @BeforeClass
+TODO: add an overload to EqualsTester to print custom error message?
+TODO(user): Consider using
+TODO(user): Consider scaling by number of mutator threads,
+TODO(cpovirk): consider no longer running these equivalent() tests on every Equivalence,
+since the Equivalence base type now implements this logic itself
+TODO(benyu): bake these into ArbitraryInstances.
+TODO(cpovirk): consider higher-level APIs here (say, assertNoRecordsLogged(),
+getOnlyRecordLogged(), getAndClearLogRecords()...)
+
+TODO(cpovirk): consider renaming this method to reflect that it takes a snapshot (and/or return
+an ImmutableList)
+TODO: add VERY_LARGE, noting that we currently assume that the fourth
+sample element is not in any collection
+Reserializes the sets created by another test set generator.
+
+TODO: make CollectionTestSuiteBuilder test reserialized collections
+TODO: Once invariant support is added, supply invariants to each of the
+TODO(lowasser): make this trigger only if the map is a submap
+TODO: expose allow nulls parameter?
+TODO: use this
+TODO: consider making it shuffle the contents to test iteration order.
+TODO: improve this and other implementations and move out of this framework
+for wider use
+
+TODO: could we incorporate the overriding logic from AbstractListTester, by
+examining whether the features include KNOWN_ORDER?
+TODO: if we're testing a list, we could check indexOf(). (Doing it in
+AbstractListTester isn't enough because many tests that run on lists don't
+extends AbstractListTester.) We could also iterate over all elements to
+verify absence
+TODO: Investigate the extent to which, in practice, maps that support
+TODO: Investigate the extent to which, in practice, maps that support
+TODO: decide what to test here.
+TODO: Descriptive assertion messages, with hints as to probable fixes.
+TODO: Add another constructor parameter indicating whether the class under test is ordered, and
+TODO: Refactor to share code with SetTestBuilder etc.
+TODO(cpovirk): it would be nice to create an input Map and use
+the copy constructor here and in the other tests
+TODO: IdentityHashMap, AbstractMap
+TODO: call conversion constructors or factory methods instead of using
+TODO: javadoc.
+TODO(cpovirk): make "too small" and "too large" elements available for better navigation
+testing. At that point, we may be able to eliminate the "hole" tests, which would mean that
+ContiguousSet's tests would no longer need to suppress them.
+TODO(cpovirk): more testing of subSet/headSet/tailSet/descendingSet? and/or generate derived
+suites?
+TODO(cpovirk): or we could make HOLES_FORBIDDEN a feature. Or we could declare that
+implementations are permitted to throw IAE if a hole is requested, and we could update
+test*Hole to permit IAE. (But might this ignore genuine bugs?) But see the TODO above
+testLower, which could make this all unnecessary
+TODO(cpovirk): Consider using EqualsTester from Guava.
+TODO: make this work with MinimalCollection
+TODO: run the iterator through ListIteratorTester
+TODO: perform all List tests on subList(), but beware infinite recursion
+TODO: move this to invariant checks once the appropriate hook exists?
+Base class for map testers.
+
+TODO: see how much of this is actually needed once Map testers are written.
+(It was cloned from AbstractCollectionTester.)
+Reserializes the sets created by another test set generator.
+
+TODO: make CollectionTestSuiteBuilder test reserialized collections
+TODO: replace this with an accessor.
+TODO: dispose of this once collection is encapsulated.
+TODO: with appropriate refactoring of OneSizeGenerator, we can perhaps
+TODO(cpovirk): could something like this be used elsewhere, e.g., ReserializedListGenerator?
+TODO(cpovirk): surely we can find a less ugly solution than a class that accepts 3 parameters,
+exposes as many getters, does work in the constructor, and has both a superclass and a subclass
+TODO: investigate some API changes to SampleElements that would tidy up
+TODO: rename e3, e4 => missing1, missing2
+TODO(cpovirk): better failure messages
+TODO: track seen elements when order isn't guaranteed
+TODO: verify contents afterward
+TODO: something shiny and new instead of Stack
+TODO: test whether null is supported (create a Feature)
+TODO: dispose of this once collection is encapsulated.
+TODO: Remove this once the GWT bug is fixed.
+TODO(cpovirk): consider using this approach (derived suites instead of extension) in
+TODO(cpovirk): the Map tests duplicate most of this effort by using a
+CollectionTestSuiteBuilder on values(). It would be nice to avoid that
+TODO(lowasser): can we eliminate the duplication from MapTestSuiteBuilder here?
+TODO: Once invariant support is added, supply invariants to each of the
+TODO: test that unmodifiable multisets either throw UOE or return false
+when both are valid options. Currently we test the UOE cases and the
+return-false cases but not their intersection
+TODO(lowasser): make a SortedElementSetGenerator
+TODO(cpovirk): This is a bit stronger than super.expectMissing(), which permits a <key,
+someOtherValue> pair.
+TODO: consider adding MultisetFeatures.SUPPORTS_SET_COUNT. Currently we
+assume that using setCount() to increase the count is permitted iff add()
+is permitted and similarly for decrease/remove(). We assume that a
+setCount() no-op is permitted if either add() or remove() is permitted,
+though we also allow it to "succeed" if neither is permitted.
+TODO: test adding element of wrong type
+TODO: throw something else? Do we worry that people's code and tests
+TODO: Use this class to test classes besides ImmutableSortedMap.
+Creates a new container containing the given elements. TODO: would be nice
+to figure out how to use E... or E[] as a parameter type, but this doesn't
+seem to work because Java creates an array of the erased type.
+TODO(kevinb): use a Truth assertion here
+TODO(cpovirk): ClassNotFoundException... ClassSanityTesterTest$AnInterface
+TODO(cpovirk): ClassNotFoundException... ClassSanityTesterTest$AnInterface
+TODO(cpovirk): ClassNotFoundException... ClassSanityTesterTest$AnInterface
+TODO(kevinb): use a Truth assertion here
+TODO(cpovirk): eliminate surprising Object/Class overloading of shouldFail
+TODO: consider being null-hostile in these tests
+TODO: MinimalCollection should perhaps throw
+The entrySet() of ConcurrentHashMap, unlike that of other Map
+implementations, supports add() under JDK8. This seems problematic, but I
+didn't see that discussed in the review, which included many other
+changes: http://goo.gl/okTTdr
+
+TODO(cpovirk): decide what the best long-term action here is: force users
+to suppress (as we do now), stop testing entrySet().add() at all, make
+entrySet().add() tests tolerant of either behavior, introduce a map
+feature for entrySet() that supports add(), or something else
+TODO(cpovirk): consider renaming this class in light of our now running it
+under JDK7
+slow TODO(cpovirk): Maybe just reduce iterations under Android.
+Unit tests for {@link Hashing}.
+
+<p>TODO(b/33919189): Migrate repeated testing methods to {@link #HashTestUtils} and tweak unit
+tests to reference them from there.
+TODO(cpovirk): In an ideal world, we'd check here that we're running on Android.
+slow. TODO(cpovirk): Maybe just reduce iterations under Android.
+TODO: could remove if we got NPT working in GWT somehow
+TODO: could remove if we got NPT working in GWT somehow
+TODO: could remove if we got NPT working in GWT somehow
+TODO(cpovirk): ClassNotFoundException: com.google.common.base.Function
+Tests for Predicates.instanceOf(x).
+TODO: Fix the comment style after fixing annotation stripper to remove
+comments properly.  Currently, all tests before the comments are removed
+as well.
+Tests for Predicates.contains(Pattern) and .containsPattern(String).
+We assume the regex level works, so there are only trivial tests of that
+aspect.
+TODO: Fix comment style once annotation stripper is fixed.
+TODO(cpovirk): ClassNotFoundException: com.google.common.base.Function
+TODO(cpovirk): How significant is this failure?
+All of the infrastructure of split and splitToString is identical, so we
+do one test of splitToString. All other cases should be covered by testing
+of split.
+
+<p>TODO(user): It would be good to make all the relevant tests run on
+both split and splitToString automatically.
+TODO(kevinb): the name of this method suggests it might not actually be testing what it
+TODO(cpovirk): ClassNotFoundException: com.google.common.base.Function
+TODO(cpovirk): why is this slow (>1m/test) under GWT when fully optimized?
+Tests CacheBuilderSpec.
+TODO(user): tests of a few invalid input conditions, boundary conditions.
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(b/35466881): Fix or suppress.
+TODO(b/35466881): Fix or suppress.
+TODO(cgruber): Confirm with fry@ that this is a reasonable substitute.
+TODO(cpovirk): run tests in other thread instead of messing with main thread interrupt status
+Test suite for {@link CacheBuilder}.
+TODO(cpovirk): merge into CacheBuilderTest?
+TODO(cpovirk): Use SourceCodeEscapers if it is added to Guava.
+TODO(benyu): migrate all subtyping tests from TypeTokenTest to this class using SubtypeTester.
+TODO(benyu): This should check equality to an expected value, see discussion in cl/98674873
+TODO(benyu): This should check equality to an expected value, see discussion in cl/98674873
+TODO: can these be moved to MapInterfaceTest?
+TODO(kevinb): replace with Ascii.caseInsensitiveEquivalence() when it
+TODO(jlevy): Many more tests needed.
+TODO: Iterate over many array sizes and all possible operation lists,
+performing adds and removes in different ways.
+Utility class for being able to seed a {@link Random} value with a passed
+in seed from a benchmark parameter.
+
+TODO: Remove this class once Caliper has a better way.
+TODO: Figure out why this is failing in GWT.
+TODO: Figure out why this is failing in GWT.
+TODO: verify that this is the best testing strategy.
+TODO: Figure out why this is failing in GWT.
+TODO: Specify different numbers of rows and columns, to detect problems
+TODO(benyu): turn this into a test once all copyOf(Collection) are
+TODO: tests that check the weird interplay between expected size,
+TODO(cpovirk): enable when ready
+TODO(cpovirk): eliminate duplication between these tests and those in LegacyMapMakerTests and
+anywhere else
+TODO: test other collections for this problem
+Mockito TODO(kak): Can we remove this?
+TODO: use the ListTestSuiteBuilder
+suite // TODO(cpovirk): set up collect/gwt/suites version
+TODO(cpovirk): some of these are inexplicably slow (20-30s) under GWT
+TODO: Reduce duplication of ImmutableMapTest code
+TODO(lowasser): should we force TreeMultimap to be more thorough about checking nulls?
+TODO: use collection testers on Multimaps.forMap.values
+TODO: use collection testers on Multimaps.forMap.entries
+TODO: use collection testers on Multimaps.forMap.entries
+suite // TODO(cpovirk): set up collect/gwt/suites version
+TODO: test ImmutableMultimap builder and factory methods
+TODO: Figure out why this is failing in GWT.
+TODO: Figure out why this is failing in GWT.
+TODO: verify that the Collection is also synchronized?
+TODO(hhchan): ArrayTable
+TODO(hhchan): ArrayTable
+TODO(hhchan): ArrayTable
+TODO(hhchan): ArrayTable
+suite // TODO(cpovirk): add to collect/gwt/suites
+StandardDescendingMap uses lowerEntry(), and TreeMap.lowerEntry() deliberately
+produces immutable entries.
+
+TODO(cpovirk): Consider making StandardDescendingMap return a ForwardingEntry that
+supports setValue().
+TODO(lowasser): add forwarding-to-ImmutableSortedMap test
+TODO(cpovirk): instead of skipping, use a smaller number of steps
+TODO: verify that the Collection is also synchronized?
+TODO: verify that the Set is also synchronized?
+TODO: verify that the Set is also synchronized?
+TODO: verify that the Collection is also synchronized?
+TODO: verify that the Collection is also synchronized?
+TODO: verify that the Map is also synchronized?
+TODO(cpovirk): move this to c.g.c.testing if we allow for c.g.c.annotations dependencies so
+that it can be GWTified?
+TODO(jlevy): Move shared code of this class and MapsTransformValuesTest
+TODO: the overwhelming number of suppressions below suggests that maybe
+TODO: use Range once it's publicly available
+TODO: can these be moved to MapInterfaceTest?
+TODO: Avoid duplicating code in ImmutableMapTest
+TODO(cpovirk): why is this slow (>1m/test) under GWT when fully optimized?
+TODO(cpovirk): test all of these with the ranges added in the reverse order
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO(fry): check recency ordering
+TODO
+BigIntegerMath // TODO(cpovirk): GWT-enable BigIntegerMath
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO(cpovirk): File BigDecimal.divide() rounding bug.
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+BigIntegerMath // TODO(cpovirk): GWT-enable BigIntegerMath
+BigIntegerMath // TODO(cpovirk): GWT-enable BigIntegerMath
+BigIntegerMath // TODO(cpovirk): GWT-enable BigIntegerMath
+BigIntegerMath // TODO(cpovirk): GWT-enable BigIntegerMath
+BigIntegerMath // TODO(cpovirk): GWT-enable BigIntegerMath
+TODO(cpovirk): does this test fail for only some rounding modes or for all?
+TODO
+TODO
+TODO
+TODO
+TODO(cpovirk): File bug for BigDecimal.doubleValue().
+TODO(kak): Use assertThat(startupTimes.get(a)).isAtLeast(150);
+TODO(kak): Use assertThat(startupTimes.get(b)).isAtLeast(353);
+TODO(kak): Use assertThat(startupTimes.get(a)).isAtLeast(150);
+TODO(cpovirk): It would be great to run all these tests (including class unloading) in an
+environment that forces Futures.getChecked to its fallback WeakSetValidator. One awful way of
+doing so would be to derive a separate test library by using remove_from_jar to strip out
+ClassValueValidator.
+TODO(cpovirk): move ForwardingTestCase somewhere common, and use it to
+test the forwarded methods
+TODO(lukes): assert that the logs are full of errors
+Interruption of the delegate propagates to us only if the delegate was a TrustedFuture.
+TODO(cpovirk): Consider whether to stop copying this information from TrustedFuture so that
+we're consistent.
+TODO(cpovirk): promote to Uninterruptibles, and add untimed version
+TODO: If this test can ever depend on EasyMock or the like, use it instead.
+TODO(cpovirk): automatically fail the test if this thread throws
+TODO(cpovirk): Split this into separate CountDownLatch and IncrementableCountDownLatch classes.
+TODO(cpovirk): automatically fail the test if this thread throws
+TODO(cpovirk): automatically fail the test if this thread throws
+TODO(cpovirk): Test forwarding more extensively.
+TODO(lukes): assert that the logs are full of errors
+TODO(cpovirk): consider adding support for regex to Truth
+TODO: Test enter(long, TimeUnit).
+TODO: Test enterWhen(Guard, long, TimeUnit).
+TODO: Test enterIf(Guard, long, TimeUnit).
+TODO: Test waitFor(Guard, long, TimeUnit).
+TODO: Test getQueueLength().
+TODO: Test hasQueuedThreads().
+TODO: Test getWaitQueueLength(Guard).
+TODO: Test automatic signaling before leave, waitFor, and reentrant enterWhen.
+TODO: Test blocking to re-enter monitor after being signaled.
+TODO: Test interrupts with both interruptible and uninterruptible monitor.
+TODO: Test multiple waiters: If guard is still satisfied, signal next waiter.
+TODO: Test multiple waiters: If guard is no longer satisfied, do not signal next waiter.
+TODO(cpovirk): Catch RuntimeExceptions
+TODO(azana/cpovirk): Should this be merged into UninterruptiblesTest?
+TODO(cpovirk): top-level class?
+TODO(cpovirk): top-level class?
+TODO(cpovirk): maybe pass around TestFuture instances instead of
+ListenableFuture instances
+TODO(cpovirk): Use FutureSubject once it's part of core Truth. But be wary of using it when I'm
+really testing a Future implementation (e.g., in the case of immediate*Future()). But it's OK
+to use in the case of the majority of Futures that are AbstractFutures.
+TODO(cpovirk): implement interruption, updating this test:
+TODO(cpovirk): eliminate use of mocks
+TODO(cpovirk): implement interruption, updating this test:
+TODO(cpovirk: assertTrue(awaitTerminationUninterruptibly(executor, 10, SECONDS));
+TODO(cpovirk): java.lang.IllegalAccessError: superclass not accessible
+TODO: Restore the following line when Monitor.hasWaiters() no longer acquires the lock.
+TODO(user): Expand coverage and move to proper test suite.
+TODO(user): Move these to a more appropiate location in the test suite.
+TODO(cpovirk): Figure out Android JUnit 4 support. Does it work with Gingerbread? @RunWith?
+TODO(cpovirk): Figure out Android JUnit 4 support. Does it work with Gingerbread? @RunWith?
+TODO(user): Consider separating Strings that we've defined here to capture
+TODO(user): Some Strings used in the subclasses can be added as static Strings
+TODO(b/27817069): Consider verifying the edge's incident nodes in the string.
+Abstract base class for testing implementations of {@link Network} interface. Network instances
+created for testing should have Integer node and String edge objects.
+
+<p>Test cases that should be handled similarly in any graph implementation are included in this
+class. For example, testing that {@code nodes()} method returns the set of the nodes in the
+graph. The following test cases are left for the subclasses to handle:
+
+<ul>
+<li>Test cases related to whether the graph is directed, undirected, mutable, or immutable.
+<li>Test cases related to the specific implementation of the {@link Network} interface.
+</ul>
+
+TODO(user): Make this class generic (using <N, E>) for all node and edge types.
+TODO(user): Differentiate between directed and undirected edge strings.
+TODO(cpovirk): Figure out Android JUnit 4 support. Does it work with Gingerbread? @RunWith?
+TODO(user): Consider separating Strings that we've defined here to capture
+TODO(user): Some Strings used in the subclasses can be added as static Strings
+Abstract base class for testing implementations of {@link Graph} interface. Graph instances
+created for testing should have Integer node and String edge objects.
+
+<p>Test cases that should be handled similarly in any graph implementation are included in this
+class. For example, testing that {@code nodes()} method returns the set of the nodes in the
+graph. The following test cases are left for the subclasses to handle:
+
+<ul>
+<li>Test cases related to whether the graph is directed, undirected, mutable, or immutable.
+<li>Test cases related to the specific implementation of the {@link Graph} interface.
+</ul>
+
+TODO(user): Make this class generic (using <N, E>) for all node and edge types.
+TODO(user): Differentiate between directed and undirected edge strings.
+TODO(cpovirk): Figure out Android JUnit 4 support. Does it work with Gingerbread? @RunWith?
+TODO(user): Consider moving this to GraphsTest.
+TODO(user): Consider adding both error messages from here and {@link AbstractNetworkTest}
+TODO(cgdecker): Add CharSource.slice?
+TODO(chrisn): Check in a better resource
+TODO(chrisn): only works if we ensure we have crossed file threshold
+TODO(cpovirk): Inline this.
+TODO(cgdecker): Maybe add a test for this to ByteSourceTester
+TODO(cpovirk): Look up Build.VERSION.SDK_INT reflectively.
+TODO(cpovirk): Look up Build.VERSION.SDK_INT reflectively.
+TODO(kevinb): add 1000000 back when we have the ability to throw
+TODO(kevinb): precompute random #s?
+TODO(kevinb): precompute random #s?
+TODO(kevinb): look at exact (==) hits vs. equals() hits?
+TODO: look at exact (==) hits vs. equals() hits?
+TODO(kevinb): generate better test contents for multisets
+TODO(kevinb): convert to assert once benchmark tests enable asserts by default
+TODO(lukes):  This was copied verbatim from Striped64.java... standardize this?
+TODO(cpovirk): Consider being more strict.
+TODO: Fix tests not to call this directly and make it throw an error.
+TODO: Is this faster than System.arraycopy() for small arrays?
+TODO(user): evaluate custom implementations, considering package private constructor.
+TODO(user,cpovirk): Rename this something better once refactoring done
+Skeleton implementation of {@link HashFunction} in terms of {@link #newHasher()}.
+
+TODO(lowasser): make public
+TODO(user): Put a warning in the javadoc about tiny fpp values, since the resulting size
+is proportional to -log(p), but there is not much of a point after all, e.g.
+optimalM(1000, 0.0000000000000001) = 76680 which is less than 10kb. Who cares!
+TODO(user): consider ByteString here, when that is available
+TODO(user): Evaluate whether it makes sense to always piggyback the computation of a
+TODO(user): when things stabilize, flesh this out
+TODO(user): when the shortcuts are implemented, update BloomFilterStrategies
+TODO(lowasser): avoid allocation here
+TODO(lowasser): avoid allocation here
+TODO(kevinb): check more preconditions (as bufferSize >= chunkSize) if this is ever public
+TODO(user): benchmark performance difference with longer buffer
+TODO(kevinb): this class still needs some design-and-document-for-inheritance love
+TODO(user): Measure the benefit of delegating this to LittleEndianBytes also.
+TODO(kak): Implement and benchmark the hashFoo() shortcuts.
+TODO(kak): Consider removing this
+TODO(kevinb): throw if a trimmer was already specified!
+TODO(kevinb): decide best return type
+TODO(cpovirk): Say something about the possibility that List access could fail at runtime?
+TODO(cpovirk): Consider making this available under GWT (slow implementation only).
+TODO(cpovirk): Consider optimizing iterator() to catch IOOBE instead of doing bounds checks.
+
+TODO(cpovirk): Consider the UnsignedBytes pattern if it performs faster and doesn't cause
+AOSP grief.
+TODO(kevinb): we shouldn't be checking for a null result at runtime. Assert?
+TODO(kevinb): we shouldn't be checking for a null result at runtime. Assert?
+TODO(kevinb): consider <T> T verifySingleton(Iterable<T>) to take over for
+TODO(cpovirk): maybe remove "defaultValue=" to make this look like the method call does
+TODO(cpovirk): maybe make this look like the method call does ("Functions.compose(...)")
+TODO(cpovirk): maybe make this look like the method call does ("Predicates.compose(...)")
+TODO(kevinb): considering having these implement a VisitablePredicate
+TODO(kevinb): understand why we still get a warning despite @SafeVarargs!
+Static methods pertaining to ASCII characters (those in the range of values {@code 0x00} through
+{@code 0x7F}), and to strings containing such characters.
+
+<p>ASCII utilities also exist in other classes of this package:
+<ul>
+<!-- TODO(kevinb): how can we make this not produce a warning when building gwt javadoc? -->
+<li>{@link Charsets#US_ASCII} specifies the {@code Charset} of ASCII characters.
+<li>{@link CharMatcher#ascii} matches ASCII characters and provides text processing methods which
+operate only on the ASCII characters of a string.
+</ul>
+TODO(kevinb): remove this
+TODO(lowasser): is it potentially worth just going ahead and building a precomputed
+TODO(lowasser): is it worth it to worry about the last character of large matchers?
+TODO(fry): make constructor private and update tests to use newBuilder
+TODO(kevinb): If we strongly reference the value and aren't loading, we needn't wrap the
+value. This could save ~8 bytes per entry.
+TODO(fry): when we link values instead of entries this method can go
+TODO(fry): when we link values instead of entries this method can go
+TODO(fry): Consider copying variables (like evictsBySize) from outer class into this class.
+It will require more memory but will reduce indirection.
+TODO(fry): instead implement this with an eviction head
+TODO(fry): rename get, then extend AbstractFuture instead of containing SettableFuture
+TODO(fry): could also cancel loading if we had a handle on its future
+TODO(fry): empirically optimize this
+TODO(fry): define a new type which creates event objects and automates the clear logic
+TODO(kevinb): use Hashing/move this to Hashing?
+TODO(fry): Lazily create segments?
+TODO(fry): store entry key instead of query key
+TODO(fry): batch by segment
+TODO(fry): record count of loaded entries
+TODO(fry): batch by segment
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): check overflow now?
+TODO(kevinb): evaluate the trade-offs of going bimorphic to save these two fields from most
+instances. Note that the instances that would get smaller are the right set to care about
+optimizing, because the rest have the option of calling `trimmed`.
+TODO(kevinb): go up to 11?
+TODO(kevinb): is there a better way, that's still gwt-safe?
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(lowasser): could be potentially optimized, but only with
+TODO(kevinb): check overflow now?
+TODO(kevinb): evaluate the trade-offs of going bimorphic to save these two fields from most
+instances. Note that the instances that would get smaller are the right set to care about
+optimizing, because the rest have the option of calling `trimmed`.
+TODO(kevinb): go up to 11?
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(lowasser): make this GWT-compatible
+TODO(kevinb): if Ints.compare etc. are ever removed, *maybe* remove this
+TODO(kevinb): how to prevent warning on UnsignedBytes when building GWT
+TODO(kevinb): do it this way when we can (GWT problem):
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(lowasser): could be potentially optimized, but only with
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): how to prevent warning on UnsignedBytes when building GWT
+TODO(kevinb): consider making this public
+TODO(kevinb): consider making this public
+TODO(kevinb): check overflow now?
+TODO(kevinb): evaluate the trade-offs of going bimorphic to save these two fields from most
+instances. Note that the instances that would get smaller are the right set to care about
+optimizing, because the rest have the option of calling `trimmed`.
+TODO(kevinb): go up to 11?
+TODO(lowasser): consider caching small values, like Long.valueOf
+TODO(benyu): should we include Object for interface? Also, CharSequence[] and Object[] for
+String[]?
+TODO(benyu): handle ? super T somehow.
+TODO(emcmanus): consider whether to log other failure cases too.
+TODO(benyu): Try java.nio.file.Paths#get() when Guava drops JDK 6 support.
+TODO(benyu): Once behavior is the same for all Java versions we support, delete this.
+TODO(user): This is not the most efficient way to handle generic
+TODO: Make serialization behavior consistent.
+TODO(kevinb): how to omit that last sentence when building GWT javadoc?
+TODO(kevinb): revisit this design choice
+TODO(cpovirk): can we just "return;" here? Or, can we remove this if() entirely? If
+not, add tests to demonstrate the problem with each approach
+TODO(lowasser): identify places where thread safety is actually lost
+A dummy superclass to support GWT serialization of the element types of a {@link HashMultimap}.
+The GWT supersource for this class contains a field for each type.
+
+<p>For details about this hack, see {@link GwtSerializationDependencies}, which takes the same
+approach but with a subclass rather than a superclass.
+
+<p>TODO(cpovirk): Consider applying this subclass approach to our other types.
+TODO(kak): Consider removing this?
+A dummy superclass to support GWT serialization of the element type of a {@link Range}. The GWT
+supersource for this class contains a field of type {@code C}.
+
+<p>For details about this hack, see {@link GwtSerializationDependencies}, which takes the same
+approach but with a subclass rather than a superclass.
+
+<p>TODO(cpovirk): Consider applying this subclass approach to our other types.
+TODO(kevinb): the right way to explain this??
+TODO(kevinb): when the dust settles, see if we still need this or can
+just default to DEFAULT_CAPACITY.
+TODO(kevinb): split the && into two if's and move crossOverUp so it's
+TODO(kevinb): pad?
+Returns {@code true} if the MinMax heap structure holds. This is only used
+in testing.
+
+TODO(kevinb): move to the test class?
+TODO(kevinb): right way to explain this??
+TODO(kevinb): provide replacement
+TODO(kevinb): provide replacement
+TODO(kevinb): copy to Comparators, etc.
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kak): Consider removing this
+TODO(kevinb): see if delegation is hurting performance noticeably
+TODO(kevinb): if we change this implementation, add full unit tests.
+TODO(kevinb): rerun benchmarks including new options
+TODO(kak): Consider removing this
+TODO(kevinb): rerun benchmarks including new options
+TODO(kak): Consider removing this before internal migration
+TODO(jlevy): Create methods that filter a SortedSetMultimap.
+TODO(lowasser): see if any significant optimizations are possible for breadthFirstIterator
+TODO(kak): Consider removing this?
+TODO(kak): Consider removing this?
+TODO(lowasser): identify why this affects GWT tests
+TODO(lowasser): identify places where thread safety is actually lost
+TODO(kevinb): Consider factory methods that reject duplicates
+TODO(benyu): benchmark and optimize all creation paths, which are a mess now
+TODO(lowasser): identify places where thread safety is actually lost
+TODO(lowasser): copy ImmutableSetMultimap by using asList() on the sets
+TODO(lowasser): if we need to make a copy of a BiMap because the
+TODO(kak): Remove this branch
+TODO(kak): Remove this branch
+TODO(kak): Remove this branch
+TODO(fry): empirically optimize this
+TODO(kevinb): use Hashing/move this to Hashing?
+TODO(fry): Lazily create segments?
+TODO(kak/cpovirk): Consider removing @CanIgnoreReturnValue from this class.
+TODO(b/35466881): Fix or suppress.
+A dummy superclass to support GWT serialization of the element types of an {@link
+ArrayListMultimap}. The GWT supersource for this class contains a field for each type.
+
+<p>For details about this hack, see {@link GwtSerializationDependencies}, which takes the same
+approach but with a subclass rather than a superclass.
+
+<p>TODO(cpovirk): Consider applying this subclass approach to our other types.
+TODO(cpovirk): Maybe I should have just one shared superclass for AbstractMultimap itself?
+TODO(kak): Remove this
+TODO(kevinb): Figure out the right behavior, and document it
+TODO(kak): Remove this
+TODO(kak): Remove this
+TODO(lowasser): worth optimizing for RandomAccess?
+TODO(lowasser): identify places where thread safety is actually lost
+TODO(lowasser): consider adding union, in addition to add, that does allow overlap
+TODO(lowasser): consider making the entries live views
+TODO(lowasser): consider making the entries live views
+TODO(lowasser): consider making the entries live views
+TODO(lowasser): consider making the entries live views
+TODO(gak): tune this condition based on empirical evidence
+TODO(kevinb): we can probably make these real @Overrides now
+TODO(jlevy): Consider adding headTable, tailTable, and subTable methods,
+which return a Table view with rows keys in a given range. Create a
+RowSortedTable subinterface with the revised methods?
+TODO(jlevy): Decide whether entrySet() should return entries with an equals() method that
+calls the comparator to compare the two keys. If that change is made,
+AbstractMultiset.equals() can simply check whether two multisets have equal entry sets.
+TODO(kevinb): Support a concurrently modified collection?
+TODO(kevinb): consider whether this "optimization" is worthwhile. Users with SortedSets tend
+to know they are SortedSets and probably would not call this method.
+TODO(kevinb): add @Nullable?
+TODO(cpovirk): Consider removing this?
+TODO(cpovirk): Consider removing this?
+TODO(lowasser): investigate atomic failure?
+TODO(kevinb): should we copy this javadoc to each concrete class, so that
+classes like LinkedHashMultimap that need to say something different are
+still able to {@inheritDoc} all the way from Multimap?
+TODO(lowasser): identify places where thread safety is actually lost
+TODO(cpovirk): Consider removing this?
+TODO(cpovirk): Consider removing this?
+TODO(cpovirk): Consider removing this?
+TODO(cpovirk): Consider removing this?
+A dummy superclass to support GWT serialization of the element type of an {@link
+ImmutableMultiset}. The GWT supersource for this class contains a field of type {@code E}.
+
+<p>For details about this hack, see {@link GwtSerializationDependencies}, which takes the same
+approach but with a subclass rather than a superclass.
+
+<p>TODO(cpovirk): Consider applying this subclass approach to our other types.
+
+<p>For {@code ImmutableMultiset} in particular, I ran into a problem with the {@code
+GwtSerializationDependencies} approach: When autogenerating a serializer for the new class, GWT
+tries to refer to our dummy serializer for the superclass,
+ImmutableMultiset_CustomFieldSerializer. But that type has no methods (since it's never actually
+used). We could probably fix the problem by adding dummy methods to that class, but that is
+starting to sound harder than taking the superclass approach, which I've been coming to like,
+anyway, since it doesn't require us to declare dummy methods (though occasionally constructors)
+and make types non-final.
+TODO(kevinb): Support a concurrently modified collection?
+TODO(user): Is this the best place for this? Move to fluent functions?
+A dummy superclass to support GWT serialization of the element types of a {@link
+LinkedHashMultimap}. The GWT supersource for this class contains a field for each type.
+
+<p>For details about this hack, see {@link GwtSerializationDependencies}, which takes the same
+approach but with a subclass rather than a superclass.
+
+<p>TODO(cpovirk): Consider applying this subclass approach to our other types.
+TODO(kevinb): the right way to explain this??
+TODO(kak): Should we remove this? Some people are using it to prefetch?
+TODO(kak): Should we remove this?
+TODO(lowasser): GWT compatibility
+TODO(kevinb): Confirm that ImmutableSortedMap is faster to construct and
+uses less memory than TreeMap; then say so in the class Javadoc.
+TODO(kevinb): evaluate whether or not of().comparator() should return null
+TODO(kevinb): Prove that this cast is safe, even though
+TODO(kevinb): Prove that this cast is safe, even though
+TODO(kevinb): the descendingMap is never actually cached at all. Either it should be or the
+TODO(lowasser): benchmark optimizations for equals() and see if they're worthwhile
+TODO(lowasser): consider exposing this
+TODO(kevinb): is this here only for GWT?
+TODO(jlevy): For optimal performance, use a binary search when
+TODO(kevinb): see if we can share code with OrderedIterator after it
+An immutable sorted set with one or more elements. TODO(jlevy): Consider
+separate class for a single-element sorted set.
+TODO(kevinb): I think we should push everything down to "BaseImmutableCollection" or something,
+Returns an array containing all of the elements in the specified
+collection; the runtime type of the returned array is that of the specified
+array. If the collection fits in the specified array, it is returned
+therein. Otherwise, a new array is allocated with the runtime type of the
+specified array and the size of the specified collection.
+
+<p>If the collection fits in the specified array with room to spare (i.e.,
+the array has more elements than the collection), the element in the array
+immediately following the end of the collection is set to {@code null}.
+This is useful in determining the length of the collection <i>only</i> if
+the caller knows that the collection does not contain any null elements.
+
+<p>This method returns the elements in the order they are returned by the
+collection's iterator.
+
+<p>TODO(kevinb): support concurrently modified collections?
+Returns an array containing all of the elements in the specified
+collection. This method returns the elements in the order they are returned
+by the collection's iterator. The returned array is "safe" in that no
+references to it are maintained by the collection. The caller is thus free
+to modify the returned array.
+
+<p>This method assumes that the collection size doesn't change while the
+method is running.
+
+<p>TODO(kevinb): support concurrently modified collections?
+TODO(lowasser): consider an optimized values() implementation
+TODO(jlevy): Add getters returning rowKeyToIndex and columnKeyToIndex?
+TODO(jlevy): Add factory methods taking an Enum class, instead of an
+iterable, to specify the allowed row keys and/or column keys. Note that
+custom serialization logic is needed to support different enum sizes during
+serialization and deserialization.
+TODO(jlevy): Support empty rowKeys or columnKeys? If we do, when
+columnKeys is empty but rowKeys isn't, the table is empty but
+containsRow() can return true and rowKeySet() isn't empty.
+TODO: safe?
+TODO(jlevy): Consider creating a merge() method, similar to putAll() but
+copying non-null values only.
+TODO(jlevy): Add eraseRow and eraseColumn methods?
+TODO(jlevy): Move to StandardRowSortedTable?
+TODO(lowasser): make column return a SortedMap
+TODO(kevinb): check this wrt TreeMultiset?
+TODO(kevinb): caveats about equivalence-relation?
+TODO(lowasser): consider presizing the builder if values is a Collection
+TODO(lowasser): Return a subclass of Maps.FilteredKeyMap for slightly better
+TODO(lowasser): Return a subclass of Maps.FilteredKeyMap for slightly better
+TODO(lowasser): identify places where thread safety is actually lost
+TODO(kevinb): dispense with this after benchmarking
+TODO(cpovirk): try making all copies of this method @GwtIncompatible instead
+TODO(lowasser): consider checking for ImmutableAsList here
+TODO(lowasser): consider checking for Multiset here
+TODO(schmoe): provide a way to use this class with other (possibly arbitrary)
+TODO(cpovirk): remove and removeExactly currently accept null inputs only
+if occurrences == 0. This satisfies both NullPointerTester and
+CollectionRemoveTester.testRemove_nullAllowed, but it's not clear that it's
+a good policy, especially because, in order for the test to pass, the
+parameter must be misleadingly annotated as @Nullable. I suspect that
+we'll want to remove @Nullable, add an eager checkNotNull, and loosen up
+testRemove_nullAllowed.
+TODO(lowasser): benchmark when it's best to do a linear search
+TODO(kevinb): Should build() and the ImmutableBiMap & ImmutableSortedMap
+versions throw an IllegalStateException instead?
+TODO(jlevy): Consider adding methods similar to ConcurrentMap methods.
+TODO(kevinb): how can we omit that Iterables link when building gwt
+TODO(jlevy): Wrap factory to validate that the supplied maps are empty?
+TODO(cpovirk): Consider removing this?
+TODO(kak): Do we want to checkNotNull each element in containsAll, removeAll, and retainAll?
+TODO(kevinb): remove after this warning is disabled globally
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO(kevinb): remove after this warning is disabled globally
+TODO
+TODO
+TODO
+TODO(kevinb): remove after this warning is disabled globally
+TODO
+TODO(kevinb): remove after this warning is disabled globally
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO(cpovirk): Figure out a good name for this variable.
+TODO(user): How should we handle interrupts and shutdowns?
+TODO(cpovirk): Use standard Javadoc form for SimpleForwarding* class and constructor
+TODO(cpovirk): Consider being more strict.
+TODO(cpovirk): Consider being more strict.
+TODO(cpovirk): Consider being more strict.
+TODO(lukes): Consider throwing InterruptedException when appropriate.
+TODO
+TODO
+TODO(lukes): move the UndeclaredThrowable catch block here?
+Static final fields are presumed to be fastest, based on our experience with
+UnsignedBytesBenchmark. TODO(cpovirk): benchmark this
+Static final fields are presumed to be fastest, based on our experience with
+UnsignedBytesBenchmark. TODO(cpovirk): benchmark this
+TODO(cpovirk): if reference has been cleared, remove it?
+TODO(cpovirk): benchmark a version of this method that accepts a GetCheckedTypeValidator
+TODO(cpovirk): change parameter order to match other helper methods (Class, Throwable)?
+TODO(user): FutureChecker interface for these to be static methods on? If so, refer to it in
+the (static-method) Futures.getChecked documentation
+TODO: should this actually throw only ExecutionException?
+TODO: replace with version in common.reflect if and when it's open-sourced
+TODO(user): Use raw LockSupport or AbstractQueuedSynchronizer instead of ReentrantLock.
+TODO(user): "Port" jsr166 tests for ReentrantLock.
+TODO(user): Change API to make it impossible to use a Guard with the "wrong" monitor,
+TODO(user): Implement ReentrantLock features:
+TODO : NOT CORRECT, BUT TESTS PASS ANYWAYS!
+TODO(b/35466881): Fix or suppress.
+TODO(lukes): this stack trace is particularly useless (all it does is point at the
+TODO(cpovirk): Use Standard Javadoc form for SimpleForwarding*
+TODO(cpovirk): Consider being more strict.
+TODO(lukes): investigate using the @Contended annotation on these fields when jdk8 is
+TODO(cpovirk): @ForOverride https://github.com/google/error-prone/issues/342
+TODO(user) move this up into FluentFuture, or parts as a default method on ListenableFuture?
+TODO(cpovirk): Think about whether we could/should use Verify to check this.
+Listeners implicitly keep a reference to {@link RunningState} as they're inner classes, so we
+free resources here as well for the allMustSucceed=true case (i.e. when a future fails, we
+immediately release resources we no longer need); additionally, the future will release its
+reference to {@link RunningState}, which should free all associated memory when all the
+futures complete and the listeners are released.
+
+TODO(user): Write tests for memory retention
+TODO(user): replace with code below when jdk5 support is dropped.
+TODO(cpovirk): Consider being more strict.
+TODO(cpovirk): Test that fallback is not run in this case.
+TODO(lukes): handle RejectedExecutionException
+TODO(cpovirk): Consider being more strict.
+TODO(lukes): why don't we use ListenableFuture to sequence things? Then we could drop the
+TODO(lukes): consider building everything in terms of ListenableScheduledFuture then
+TODO(cpovirk): @ForOverride
+TODO(cpovirk): @ForOverride
+TODO(cpovirk): Consider being more strict.
+TODO(cpovirk): Use standard Javadoc form for SimpleForwarding* class and constructor
+TODO(cpovirk): Consider being more strict.
+TODO(cpovirk): explore ways of making ListenableFutureTask final. There are some valid reasons
+TODO(cpovirk): Consider removing, especially if we provide run(Runnable)
+TODO(cpovirk): Evaluate demand for a run(Runnable) version. Would it allow us to remove
+@CanIgnoreReturnValue from the call() methods above?
+https://github.com/google/guava/issues/2371
+TODO
+TODO(user,lukes): consider adding volatile to all these fields since in current known JVMs
+TODO
+TODO
+TODO
+TODO(kak): @CheckReturnValue
+TODO(kak): @CheckReturnValue
+TODO
+TODO(cpovirk): Consider calling getDone() in our own code.
+TODO
+TODO
+We always hold the mutex when calling this. TODO(cpovirk): Is that important? Perhaps we need
+to guarantee that each call to reserveEarliestAvailable, etc. sees a value >= the previous?
+Also, is it OK that we don't hold the mutex when sleeping?
+TODO(user): "This is equivalent to
+TODO(user): switch to nano precision. A natural unit of cost is "bytes", and a micro precision
+TODO(lukes): if guava ever moves to java7, this would be a good
+TODO: consider supporting a TearDownTestCase-like API
+TODO
+TODO
+TODO
+TODO(user): Cancel "this" if "scheduledDelegate" is cancelled.
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO
+TODO(lukes): provide overloads for ListeningExecutorService? ListeningScheduledExecutorService?
+TODO(lukes): provide overloads that take constant strings? Function<Runnable, String>s to
+TODO(cpovirk): consider using the logger associated with listener.getClass().
+TODO(chrisn): promote AppendOnlyCollection for use here.
+TODO(user): replace with code below when jdk5 support is dropped.
+TODO(cpovirk): Consider being more strict.
+TODO
+TODO(user): Support Sleeper somehow (wrapper or interface method)?
+TODO(user): Add support for waitUninterruptibly.
+TODO(gak): make these public?
+TODO: why is this public?
+Returns the ancestor of the current domain at the given number of levels "higher" (rightward)
+in the subdomain list. The number of levels must be non-negative, and less than {@code N-1},
+where {@code N} is the number of parts in the domain.
+
+<p>TODO: Reasonable candidate for addition to public API.
+TODO(user): different versions of this for different factories?
+TODO(user): Switch to static factory methods for creation now that class is final.
+TODO(user): Support escapers where alphanumeric chars are not safe.
+TODO(cgdecker): Should check for a generic parameter type and error out
+TODO(b/35456940): Update the documentation to reflect the new interfaces
+TODO(b/31438252): Consider potential optimizations for this algorithm.
+TODO(user): Delete this method.
+TODO(user): Delete this method.
+TODO(user): Delete this method.
+TODO(b/35456940): Update the documentation to reflect the new interfaces
+TODO(b/35456940): Update the documentation to reflect the new interfaces
+TODO(b/35456940): Update the documentation to reflect the new interfaces
+TODO(b/35456940): Update the documentation to reflect the new interfaces
+TODO(lukes): consider allowing callers to pass in a buffer to use, some callers would be able
+TODO(cgdecker): make this public? as a type, or a method in CharStreams?
+TODO(cgdecker): maybe add a better way to check if a resource exists
+TODO(lowasser): provide a useful toString
+TODO(lowasser): consider making encodeTo(Appendable, byte[], int, int) public.
+TODO(lowasser): document the extent of leniency, probably after adding ignore(CharMatcher)
+TODO(chrisn): Consider trying to encode/flush directly to the argument byte
+TODO(cpovirk): should we reject null items, since the tests already check null automatically?
+TODO: when we use @BeforeClass, we can pay the cost of class path scanning only once.
+TODO: Switch to JUnit 4 and use @Parameterized and @BeforeClass
+TODO: add an overload to EqualsTester to print custom error message?
+TODO(user): Consider using
+TODO(user): Consider scaling by number of mutator threads,
+TODO(cpovirk): consider no longer running these equivalent() tests on every Equivalence,
+since the Equivalence base type now implements this logic itself
+TODO(benyu): bake these into ArbitraryInstances.
+TODO(cpovirk): consider higher-level APIs here (say, assertNoRecordsLogged(),
+getOnlyRecordLogged(), getAndClearLogRecords()...)
+
+TODO(cpovirk): consider renaming this method to reflect that it takes a snapshot (and/or return
+an ImmutableList)
+TODO: add VERY_LARGE, noting that we currently assume that the fourth
+sample element is not in any collection
+Reserializes the sets created by another test set generator.
+
+TODO: make CollectionTestSuiteBuilder test reserialized collections
+TODO: Once invariant support is added, supply invariants to each of the
+TODO(lowasser): make this trigger only if the map is a submap
+TODO: expose allow nulls parameter?
+TODO: use this
+TODO: consider making it shuffle the contents to test iteration order.
+TODO: improve this and other implementations and move out of this framework
+for wider use
+
+TODO: could we incorporate the overriding logic from AbstractListTester, by
+examining whether the features include KNOWN_ORDER?
+TODO: if we're testing a list, we could check indexOf(). (Doing it in
+AbstractListTester isn't enough because many tests that run on lists don't
+extends AbstractListTester.) We could also iterate over all elements to
+verify absence
+TODO: Investigate the extent to which, in practice, maps that support
+TODO: Investigate the extent to which, in practice, maps that support
+TODO: decide what to test here.
+TODO: Descriptive assertion messages, with hints as to probable fixes.
+TODO: Add another constructor parameter indicating whether the class under test is ordered, and
+TODO: Refactor to share code with SetTestBuilder etc.
+TODO(cpovirk): it would be nice to create an input Map and use
+the copy constructor here and in the other tests
+TODO: IdentityHashMap, AbstractMap
+TODO: call conversion constructors or factory methods instead of using
+TODO: javadoc.
+TODO(cpovirk): make "too small" and "too large" elements available for better navigation
+testing. At that point, we may be able to eliminate the "hole" tests, which would mean that
+ContiguousSet's tests would no longer need to suppress them.
+TODO(cpovirk): more testing of subSet/headSet/tailSet/descendingSet? and/or generate derived
+suites?
+TODO(cpovirk): or we could make HOLES_FORBIDDEN a feature. Or we could declare that
+implementations are permitted to throw IAE if a hole is requested, and we could update
+test*Hole to permit IAE. (But might this ignore genuine bugs?) But see the TODO above
+testLower, which could make this all unnecessary
+TODO(cpovirk): Consider using EqualsTester from Guava.
+TODO: make this work with MinimalCollection
+TODO: run the iterator through ListIteratorTester
+TODO: perform all List tests on subList(), but beware infinite recursion
+TODO: move this to invariant checks once the appropriate hook exists?
+Base class for map testers.
+
+TODO: see how much of this is actually needed once Map testers are written.
+(It was cloned from AbstractCollectionTester.)
+Reserializes the sets created by another test set generator.
+
+TODO: make CollectionTestSuiteBuilder test reserialized collections
+TODO: replace this with an accessor.
+TODO: dispose of this once collection is encapsulated.
+TODO: with appropriate refactoring of OneSizeGenerator, we can perhaps
+TODO(cpovirk): could something like this be used elsewhere, e.g., ReserializedListGenerator?
+TODO(cpovirk): surely we can find a less ugly solution than a class that accepts 3 parameters,
+exposes as many getters, does work in the constructor, and has both a superclass and a subclass
+TODO: investigate some API changes to SampleElements that would tidy up
+TODO: rename e3, e4 => missing1, missing2
+TODO: track seen elements when order isn't guaranteed
+TODO: verify contents afterward
+TODO: something shiny and new instead of Stack
+TODO: test whether null is supported (create a Feature)
+TODO: dispose of this once collection is encapsulated.
+TODO: Remove this once the GWT bug is fixed.
+TODO(cpovirk): consider using this approach (derived suites instead of extension) in
+TODO(cpovirk): the Map tests duplicate most of this effort by using a
+CollectionTestSuiteBuilder on values(). It would be nice to avoid that
+TODO(lowasser): can we eliminate the duplication from MapTestSuiteBuilder here?
+TODO: Once invariant support is added, supply invariants to each of the
+TODO: test that unmodifiable multisets either throw UOE or return false
+when both are valid options. Currently we test the UOE cases and the
+return-false cases but not their intersection
+TODO(lowasser): make a SortedElementSetGenerator
+TODO(cpovirk): This is a bit stronger than super.expectMissing(), which permits a <key,
+someOtherValue> pair.
+TODO: consider adding MultisetFeatures.SUPPORTS_SET_COUNT. Currently we
+assume that using setCount() to increase the count is permitted iff add()
+is permitted and similarly for decrease/remove(). We assume that a
+setCount() no-op is permitted if either add() or remove() is permitted,
+though we also allow it to "succeed" if neither is permitted.
+TODO: test adding element of wrong type
+TODO: throw something else? Do we worry that people's code and tests
+TODO: Use this class to test classes besides ImmutableSortedMap.
+Creates a new container containing the given elements. TODO: would be nice
+to figure out how to use E... or E[] as a parameter type, but this doesn't
+seem to work because Java creates an array of the erased type.
+TODO(kevinb): use a Truth assertion here
+TODO(cpovirk): ClassNotFoundException... ClassSanityTesterTest$AnInterface
+TODO(cpovirk): ClassNotFoundException... ClassSanityTesterTest$AnInterface
+TODO(cpovirk): ClassNotFoundException... ClassSanityTesterTest$AnInterface
+TODO(kevinb): use a Truth assertion here
+TODO(cpovirk): eliminate surprising Object/Class overloading of shouldFail
+TODO: consider being null-hostile in these tests
+TODO: MinimalCollection should perhaps throw
+The entrySet() of ConcurrentHashMap, unlike that of other Map
+implementations, supports add() under JDK8. This seems problematic, but I
+didn't see that discussed in the review, which included many other
+changes: http://goo.gl/okTTdr
+
+TODO(cpovirk): decide what the best long-term action here is: force users
+to suppress (as we do now), stop testing entrySet().add() at all, make
+entrySet().add() tests tolerant of either behavior, introduce a map
+feature for entrySet() that supports add(), or something else
+TODO(cpovirk): consider renaming this class in light of our now running it
+under JDK7
