@@ -1,0 +1,34 @@
+#!/bin/bash
+cd
+#echo "Enter the path to the bin folder of the files"
+#read binPath
+#echo "Enter the path to the Spoon JAR"
+#read spoonPath
+#echo "Enter the path to the src folder of the files"
+#read srcPath
+
+binPath="workspace/GitHub Data Collection/bin"
+spoonPath="JAR/spoon-core-5.8.0-jar-with-dependencies.jar"
+#srcPath="workspace/GitHub Data Collection/src"
+#srcPath="Cloned/guava/guava-tests/test/com/google/common/util/concurrent/UninterruptibleFutureTest.java"
+srcPath="Cloned/guava"
+resultsFile="spoonFeederResults.txt"
+javaFiles="Cloned/guava-Info/guava-JavaFiles.txt"
+
+if test -f $resultsFile; then
+    rm -rf $resultsFile
+    echo "old results deleted"
+fi
+
+touch $resultsFile
+
+while IFS='' read -r line || [[ -n "$line" ]]; do
+    javaFilePath=${line:1}
+    java -classpath "$binPath":$spoonPath spoon.Launcher -i "$srcPath$javaFilePath" -p spoonTestPackage.FirstProcessor --noclasspath -c >> $resultsFile
+    echo "$javaFilePath"
+done < "$javaFiles"
+#/guava-tests/test/com/google/common/reflect/TypeTokenTest.java
+#/android/guava/src/com/google/common/collect/MapMakerInternalMap.java
+#/android/guava-tests/test/com/google/common/reflect/TypeTokenTest.java
+#/guava/src/com/google/common/collect/MapMakerInternalMap.java
+#/android/guava/src/com/google/common/collect/HashBiMap.java
